@@ -210,6 +210,7 @@ body.portfolio-page {
     color: var(--cor-texto-primario);
     text-align: justify;
     background-color: transparent;
+    flex-grow: 1;
 }
 
 body.portfolio-page::before {
@@ -218,13 +219,13 @@ body.portfolio-page::before {
     left: 0;
     top: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     z-index: -1;
-    background-image: url("../Assets/circuitos2.png");
+    background-image: url("../Assets/circuitoscdk.png");
     background-color: var(--cor-fundo);
     background-size: cover;
     background-position: center;
-    filter: blur(3px);
+    filter: blur(5px);
 }
 
 body[data-theme='light'].portfolio-page::before {
@@ -475,6 +476,24 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.rodape {
+    flex-shrink: 0;
+    padding: 20px;
+    background-color: var(--cor-container);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    border-top: 1px solid var(--cor-borda);
+    position: absolute;
+    bottom: 0;
 }
 
 body.pagina-inicial {

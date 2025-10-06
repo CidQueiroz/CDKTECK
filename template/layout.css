@@ -1,0 +1,61 @@
+/* ======================================================= */
+/* ARQUIVO: layout.css - A ESPINHA DORSAL DO PROJETO */
+/* ======================================================= */
+
+/* --- RESET E BASE --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+/* --- ARQUITETURA DE PÁGINA (STICKY FOOTER) --- */
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.conteudo-principal { /* ou 'main' */
+    flex-grow: 1;
+}
+.cabecalho, .rodape {
+    flex-shrink: 0;
+}
+
+/* --- CONTÊINER DE CONTEÚDO CENTRAL --- */
+.page-content-wrapper {
+    width: 100%;
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* --- LAYOUT ESPECÍFICO DAS SEÇÕES --- */
+.cabecalho {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+.cabecalho .page-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; /* Altura fixa para o cabeçalho */
+}
+
+.rodape {
+    width: 100%;
+}
+.rodape .page-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
