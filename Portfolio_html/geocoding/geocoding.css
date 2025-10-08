@@ -29,16 +29,6 @@ body.geocoding::before {
     transform: none;
 }
 
-main.pagina-jogo {
-    flex-grow: 1;
-    width: 100%;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
 .container__informacoes_geocoding {
     flex: 1; 
     max-width: 800px;
@@ -66,17 +56,17 @@ main.pagina-jogo {
     text-align: center;
 }
 
+.modal .modal-content {
+    transform: scale(0.95);
+    transition: transform 0.4s ease;
+}
+
 @media screen and (max-width: 900px) {
     .geocoding body {
         padding-top: 2rem;
         padding-bottom: 2rem;
         height: auto;
         min-height: 100vh;
-    }
-
-    main.pagina-jogo {
-        flex-direction: column;
-        padding: 1rem;
     }
 
     .container__imagem_geocoding {

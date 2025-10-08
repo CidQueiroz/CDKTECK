@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link rel="icon" type="image/png" href="../Assets/favicon.png">
+        <link rel="icon" type="image/png" href="../assets/favicon.png">
 
         <link rel="stylesheet" href="../styles/style_global.css">
 
@@ -18,16 +18,12 @@
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJG10ZYPBS"></script>
         
-        <script>
-            
+<script>
             window.dataLayer = window.dataLayer || [];
-            
             function gtag(){dataLayer.push(arguments);}
-            
             gtag('js', new Date());
 
             gtag('config', 'G-PJG10ZYPBS');
-
         </script>
 
     </head>
@@ -37,7 +33,7 @@
         <header class="cabecalho">
     
             <a href="/" class="cabecalho-logo" title="Voltar ao Início">
-                <img src="/Assets/favicon2.png" alt="CDK TECK - Início">
+                <img src="/assets/favicon2.png" alt="CDK TECK - Início">
                 <span>CDK TECK</span>
             </a>
             <nav class="main-nav">
@@ -51,75 +47,80 @@
         </header>
 
         <main>
+            <div class="content-wrapper">
 
-            <div>
-                <h1 class="titulo">Laboratório de Projetos</h1>
-                <p class="subtitulo">Uma coleção de estudos e aplicações práticas desenvolvidas para aprimorar e demonstrar novas habilidades.</p>
-            </div>
-
-            <div class="gallery-container" id="gallery"></div>
-        
-            <div id="infoModal" class="modal">
-            
-                <div class="modal-content info-modal-content">
-                    
-                    <span class="close-button">&times;</span>
-                    
-                    <h2 id="info-modal-title"></h2>
-                    
-                    <div class="info-section">
-                        <h3>O Desafio</h3>
-                        <p id="info-modal-desafio"></p>
-                    </div>
-                    
-                    <div class="info-section">
-                        <h3>A Solução</h3>
-                        <p id="info-modal-solucao"></p>
-                    </div>
-
-                    <div class="info-section">
-                        <h3>Ferramentas Utilizadas</h3>
-                        <p id="info-modal-ferramentas"></p>
-                    </div>
-
-                    <div class="modal-actions">
-                        <button id="view-project-btn" class="modal-button primary">
-                            <i class="fas fa-eye"></i> Ver Projeto
-                        </button>
-                        <button id="info-modal-close-btn" class="modal-button secondary">
-                            Fechar
-                        </button>
-                    </div>
-                
+                <div  class="titulo-wrapper">
+                    <h1 class="titulo">Laboratório de Projetos</h1>
+                    <p class="subtitulo">Uma coleção de estudos e aplicações práticas desenvolvidas para aprimorar e demonstrar novas habilidades.</p>
                 </div>
-            
-            </div>
-            
-            <div id="projectModal" class="modal">
-                        
-                <div class="modal-content dashboard-modal-content">
-                    
-                    <span class="close-button">&times;</span>
-                    
-                    <h2 id="modal-title"></h2>
-                    
-                    <p id="modal-description"></p>
-                    
-                    <div class="responsive-iframe" id="modal-iframe-container"></div>
 
-                    <div class="modal-actions">
+                <div class="gallery-container" id="gallery"></div>
+            
+                <div id="infoModal" class="modal">
+                
+                    <div class="modal-content info-modal-content">
                         
-                        <button id="modal-close-btn" class="modal-button secondary">
-                            Fechar
-                        </button>
+                        <span class="close-button">&times;</span>
+                        
+                        <h2 id="info-modal-title"></h2>
+                        
+                        <div class="info-section">
+                            <h3>O Desafio</h3>
+                            <p id="info-modal-desafio"></p>
+                        </div>
+                        
+                        <div class="info-section">
+                            <h3>A Solução</h3>
+                            <p id="info-modal-solucao"></p>
+                        </div>
+
+                        <div class="info-section">
+                            <h3>Ferramentas Utilizadas</h3>
+                            <p id="info-modal-ferramentas"></p>
+                        </div>
+
+                        <div class="btn">
+                            <button id="view-project-btn" class="modal-button primary">
+                                <i class="fas fa-eye"></i> Ver Projeto
+                            </button>
+                            <button id="info-modal-close-btn" class="modal-button secondary">
+                                Fechar
+                            </button>
+                        </div>
                     
                     </div>
                 
                 </div>
                 
-            </div>
-        
+                <div id="projectModal" class="modal">
+                            
+                    <div class="modal-content dashboard-modal-content">
+                        
+                        <span class="close-button">&times;</span>
+                        
+                        <h2 id="modal-title"></h2>
+                        
+                        <p id="modal-description"></p>
+                        
+                        <div class="responsive-iframe" id="modal-iframe-container"></div>
+
+                        <div class="modal-actions">
+                            
+                            <button id="modal-close-btn" class="modal-button secondary">
+                                Fechar
+                            </button>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>   
         </main>
+        
+        <a href="#" id="back-to-top-btn" class="back-to-top-btn" title="Voltar ao topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
         
         <footer class="rodape">
             <p class="rodape_texto">© 2025 <b>CDK TECK</b>. Todos os direitos reservados.</p>
@@ -130,9 +131,6 @@
             </div>
         </footer>
 
-        <a href="#" id="back-to-top-btn" class="back-to-top-btn" title="Voltar ao topo">
-            <i class="fas fa-arrow-up"></i>
-        </a>
 
         <script>
 
@@ -140,7 +138,7 @@
                 const projects = [
                     {
                         title: "Jogo do Númereo Secreto",
-                        thumbnail:"../Assets/adivinha_numero.png",
+                        thumbnail:"../assets/adivinha_numero.png",
                         description: "Um jogo interativo de adivinhação de números construído com lógica de JavaScript pura.",
                         desafio: "Criar um jogo de adivinhação de números que seja interativo e divertido para o usuário, utilizando apenas HTML, CSS e JavaScript.",
                         solucao: "Desenvolvi um jogo onde o usuário precisa adivinhar um número secreto. O jogo dá dicas se o número é maior ou menor, e o usuário tem um número limitado de tentativas.",
@@ -162,7 +160,7 @@
                     },
                     {
                         title: "Unicornio CSS",
-                        thumbnail: "../Assets/ia.png",
+                        thumbnail: "../assets/ia.png",
                         description: "Um projeto front-end que dá vida a um universo mágico de unicórnios através de estilização CSS e uma pitada de carinho.",
                         desafio: "Construir uma página web com total liberdade criativa, explorando o potencial do CSS para criar uma atmosfera lúdica e encantadora.",
                         solucao: "Criei esta página de unicórnio em homenagem à minha pequena princesa. Foi a oportunidade perfeita para unir técnica e afeto, resultando em uma interface alegre que reflete essa inspiração.",

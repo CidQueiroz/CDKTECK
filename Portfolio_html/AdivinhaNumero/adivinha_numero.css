@@ -29,16 +29,6 @@ body.jogar::before {
     transform: none;
 }
 
-main.pagina-jogo {
-    flex-grow: 1;
-    width: 100%;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
 .container__informacoes_jogar {
     flex: 1; 
     max-width: 800px;
@@ -75,11 +65,6 @@ main.pagina-jogo {
         padding-bottom: 2rem;
         height: auto;
         min-height: 100vh;
-    }
-
-    main.pagina-jogo {
-        flex-direction: column;
-        padding: 1rem;
     }
 
     .container__imagem_jogar {

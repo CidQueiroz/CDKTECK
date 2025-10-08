@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "senseidb-rebranding"
+  },
+  "targets": {
+    "senseidb-rebranding": {
+      "hosting": {
+        "cdkteck": [
+          "cdkteck"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
