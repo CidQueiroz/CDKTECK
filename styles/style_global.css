@@ -461,9 +461,6 @@ _______________BACK TO TOP__________________
     background-color: var(--cor-hover);
     transform: scale(1.1);
 }
-/*##########################################
-_______________BACK TO TOP__________________
-###########################################*/
 
 
 /*##########################################
@@ -494,9 +491,6 @@ _______________BOTÃO TEMA__________________
     font-size: 1.5rem;
     cursor: pointer;
 }
-/*##########################################
-_______________BOTÃO TEMA__________________
-###########################################*/
 
 /*##########################################
 _______________PADRÃO__________________
@@ -693,79 +687,6 @@ body.pagina-inicial {
 }
 
 /*##########################################
-__________________MODAL_____________________
-###########################################*/
-.modal {
-    display: none;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    height: 100%;
-    z-index: 2001;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(8px);
-    opacity: 0;
-    transition: opacity 0.4s ease;
-
-    align-items: center;
-    justify-content: center;
-}
-
-.modal-content {
-    position: relative;
-    margin: 8vh auto;
-    background: linear-gradient(135deg, #1a1a2e, #16213e, #2c3e50);
-    padding: 40px;
-    border-radius: 25px;
-    border: 2px solid var(--cor-terciaria);
-    width: 95%;
-    max-width: 650px;
-    text-align: center;
-    box-shadow: 
-        0 0 60px rgba(78, 205, 196, 0.3),
-        inset 0 0 50px rgba(0, 0, 0, 0.5);
-    transform: scale(0.95);
-    transition: transform 0.4s ease;
-}
-
-.modal.show {
-    opacity: 1;
-}
-
-.modal.show .modal-content {
-    transform: scale(1);
-}
-
-.modal.show .modal-content .contact-modal-content{
-    transform: scale(1);
-}
-
-.modal h2 {
-    color: var(--cor-terciaria);
-    margin-bottom: 20px;
-    font-size: 28px;
-    text-shadow: 0 0 10px rgba(78, 205, 196, 0.5);
-}
-
-.modal p {
-    color: #ffffff;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    font-size: 16px;
-}
-
-@keyframes initialPulse {
-    0% { box-shadow: 0 0 10px rgba(78, 205, 196, 0.5); }
-    50% { box-shadow: 0 0 50px rgba(78, 205, 196, 0.8); }
-    100% { box-shadow: 0 0 10px rgba(78, 205, 196, 0.5); }
-}
-/*##########################################
-__________________MODAL_____________________
-###########################################*/
-
-
-/*##########################################
 ________________GALLERY CARDS____________
 ###########################################*/
 .gallery-container {
@@ -894,6 +815,72 @@ ________________CARDS DASHBOARD____________
 /*##########################################
 _____________________MODAIS_________________
 ###########################################*/
+.modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 2001;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    position: relative;
+    margin: 8vh auto;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #2c3e50);
+    padding: 40px;
+    border-radius: 25px;
+    border: 2px solid var(--cor-terciaria);
+    width: 95%;
+    max-width: 650px;
+    text-align: center;
+    box-shadow: 
+        0 0 60px rgba(78, 205, 196, 0.3),
+        inset 0 0 50px rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+    transition: transform 0.4s ease;
+}
+
+.modal.show {
+    opacity: 1;
+}
+
+.modal.show .modal-content {
+    transform: scale(1);
+}
+
+.modal.show .modal-content .contact-modal-content{
+    transform: scale(1);
+}
+
+.modal h2 {
+    color: var(--cor-terciaria);
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(78, 205, 196, 0.5);
+}
+
+.modal p {
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+@keyframes initialPulse {
+    0% { box-shadow: 0 0 10px rgba(78, 205, 196, 0.5); }
+    50% { box-shadow: 0 0 50px rgba(78, 205, 196, 0.8); }
+    100% { box-shadow: 0 0 10px rgba(78, 205, 196, 0.5); }
+}
+
 #modal-description {
     text-align: center;
     margin: 10px;
@@ -1017,9 +1004,6 @@ _____________________MODAIS_________________
     line-height: 1.6;
     color: #cccccc;
 }
-/*##########################################
-________________GALLERY CARDS____________
-###########################################*/
 
 /*##########################################
 ____________________BOTÕES__________________
@@ -1122,10 +1106,6 @@ body[data-theme='light'] .close-button:focus {
     margin-top: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
-/*##########################################
-____________________BOTÕES__________________
-###########################################*/
-
 
 /*##########################################
 _______________BARRA DE ROLAGEM_____________
@@ -1154,10 +1134,6 @@ _______________BARRA DE ROLAGEM_____________
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, var(--cor-acao-primaria), var(--cor6));
 }
-/*##########################################
-_______________BARRA DE ROLAGEM_____________
-###########################################*/
-
 
 /*##########################################
 _______________ANIMAÇÃO CENTRAL_____________
@@ -1298,10 +1274,6 @@ body.loaded .animated-logo {
 .search-toggle-btn {
     display: none;
 }
-/*##########################################
-_______________ANIMAÇÃO CENTRAL_____________
-###########################################*/
-
 
 /*##########################################
 _____________NÃO SEI EXATAMENTE_____________
@@ -1352,10 +1324,6 @@ main.pagina-jogo {
     padding: 5px 10px;
     border-radius: 20px;
 }
-/*##########################################
-_____________NÃO SEI EXATAMENTE_____________
-###########################################*/
-
 
 /*##########################################
 _______________FORMULÁRIOS__________________
@@ -1373,21 +1341,18 @@ _______________FORMULÁRIOS__________________
     transition: all 0.3s ease;
 }
 
-/* Adaptação para o Tema Claro (Magic) */
 body[data-theme='light'] .form-input {
-    background: rgba(255, 255, 255, 0.55); /* Fundo claro translúcido */
+    background: rgba(255, 255, 255, 0.55);
     border-color: var(--cor-borda);
     color: var(--cor-texto-secundario);
 }
 
-/* Efeito de Foco para ambos os temas */
 .form-input:focus {
     border-color: var(--cor-terciaria);
-    box-shadow: var(--borda-form-shadow); /* Usando sua variável de sombra de formulário */
+    box-shadow: var(--borda-form-shadow);
     transform: scale(1.02);
 }
 
-/* Estilização do Placeholder */
 .form-input::placeholder {
     color: var(--cor-texto-primario);
     opacity: 0.8;
@@ -1465,6 +1430,103 @@ _______________MENU DROPDOWN________________
     padding: 12px 20px;
     margin: 0;
     text-align: left;
+}
+
+
+/*##########################################
+_______MODAL FILOSOFIA DA MARCA_________
+###########################################*/
+.filosofia-title {
+    font-size: 2rem;
+    background: linear-gradient(90deg, var(--cor-terciaria) 0%, var(--cor-acao-primaria) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    margin-bottom: 25px;
+}
+
+.filosofia-narrative {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--cor-texto-secundario);
+    max-width: 90%;
+    margin: 0 auto 30px auto;
+    line-height: 1.7;
+}
+
+.filosofia-ratings {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    border-top: 1px solid var(--cor-borda);
+    border-bottom: 1px solid var(--cor-borda);
+    padding: 20px 0;
+}
+
+.rating-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    font-family: var(--fonte-secundaria);
+    font-size: 0.9rem;
+    color: var(--cor-texto-primario);
+}
+
+.rating-score {
+    font-weight: bold;
+    color: var(--cor-terciaria);
+}
+
+.filosofia-quote {
+    font-family: var(--fonte-primaria);
+    font-size: 1.2rem;
+    color: var(--cor-acao-primaria);
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+
+/*##########################################
+_______ANIMAÇÃO MODAL FILOSOFIA_________
+###########################################*/
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal.show .rating-item {
+    opacity: 0;
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.modal.show .rating-item:nth-child(1) {
+    animation-delay: 0.3s;
+}
+.modal.show .rating-item:nth-child(2) {
+    animation-delay: 0.45s;
+}
+.modal.show .rating-item:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.modal.show .rating-item:nth-child(4) {
+    animation-delay: 0.75s;
+}
+.modal.show .rating-item:nth-child(5) {
+    animation-delay: 0.9s;
+}
+.modal.show .rating-item:nth-child(6) {
+    animation-delay: 1.05s;
 }
 
 /*##########################################
@@ -1554,9 +1616,6 @@ _______________TELAS MENORES________________
     }
 
 }
-/*##########################################
-_______________TELAS MENORES________________
-###########################################*/
 
 
 /*

@@ -50,7 +50,7 @@
                 
                 <div class="brain-core">
                     
-                    <img class="logo-image" src="/assets/logo_metalico_sem_fundo.png" alt="CDK TECK Logo" title="CDK TECK" />
+                    <img class="logo-image" id="marca-filosofia-gatilho" src="/assets/logo_metalico_sem_fundo.png" alt="CDK TECK Logo" title="CDK TECK" />
 
                 </div>
 
@@ -97,6 +97,59 @@
         <!-- Modal de Contato -->
         <div class="modal" id="contact-modal">
         </div>
+
+        <div class="modal" id="marca-filosofia-modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                
+                <h2 class="filosofia-title">A Alma da CDK TECK</h2>
+                
+                <p class="filosofia-narrative">
+                    CDK TECK não é só sobre tecnologia — é sobre a união entre o humano e o digital, 
+                    entre a magia e o raciocínio lógico, entre o coração e o circuito.
+                </p>
+                
+                <div class="filosofia-ratings">
+                    
+                    <div class="rating-item">
+                        <span>Hierarquia de layout</span>
+                        <span class="rating-score">⭐ 8.5 / 10</span>
+                    </div>
+
+                    <div class="rating-item">
+                        <span>UX e Legibilidade</span>
+                        <span class="rating-score">⭐ 8.5 / 10</span>
+                    </div>
+                    
+                    <div class="rating-item">
+                        <span>Coerência entre temas</span>
+                        <span class="rating-score">⭐ 9 / 10</span>
+                    </div>
+                    
+                    <div class="rating-item">
+                        <span>Estilo Visual</span>
+                        <span class="rating-score">⭐ 9 / 10</span>
+                    </div>
+                    
+                    <div class="rating-item">
+                        <span>Identidade visual</span>
+                        <span class="rating-score">⭐ 9.5 / 10</span>
+                    </div>
+                    
+                    <div class="rating-item">
+                        <span>Potencial de Marca</span>
+                        <span class="rating-score">⭐ 10 / 10</span>
+                    </div>
+                
+                </div>
+
+                <blockquote class="filosofia-quote">
+                “Onde a lógica encontra o encantamento.”
+                </blockquote>
+            </div>
+        </div>
+
+        <script src="/scripts/global.js"></script>
 
         <script>
 
@@ -274,6 +327,22 @@
 
             // Lógica de Inicialização da Página
             document.addEventListener('DOMContentLoaded', function() {
+
+                // Lógica para o Modal Secreto da Filosofia da Marca
+                const filosofiagatilho = document.getElementById('marca-filosofia-gatilho');
+                const filosofiaModal = document.getElementById('marca-filosofia-modal');
+
+                if (filosofiagatilho && filosofiaModal) {
+                    
+                    // Adiciona um cursor de ponteiro para indicar que é clicável
+                    filosofiagatilho.style.cursor = 'pointer';
+
+                    filosofiagatilho.addEventListener('click', () => {
+                        // Reutiliza a função openModal() do seu global.js!
+                        openModal(filosofiaModal);
+                    });
+                }
+
                 // Partículas de fundo
                 const particles = document.getElementById('particles');
                 for (let i = 0; i < 60; i++) {
@@ -309,12 +378,12 @@
             // =======================================================
             document.addEventListener('click', function(event) {
                 // Lógica para fechar com o "X" (classe .close-button) ou botão "Fechar" (classe .close-modal)
-                const closeTrigger = event.target.closest('.close-button, .close-modal');
-                if (closeTrigger) {
+                const closegatilho = event.target.closest('.close-button, .close-modal');
+                if (closegatilho) {
                     const modalToClose = event.target.closest('.modal');
                     if (modalToClose) {
                         // Não fecha o modal principal se o botão de ação for clicado e não for "Fechar"
-                        if (modalToClose.id === 'modal' && closeTrigger.id === 'modal-action-button' && closeTrigger.textContent !== 'Fechar') {
+                        if (modalToClose.id === 'modal' && closegatilho.id === 'modal-action-button' && closegatilho.textContent !== 'Fechar') {
                             return;
                         }
                         closeModal(modalToClose);
