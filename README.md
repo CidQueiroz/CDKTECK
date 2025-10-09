@@ -27,7 +27,7 @@ Esta é a landing page principal do projeto CDK TECK, servindo como um hub centr
 ├── styles/                 # Arquivos de estilo CSS
 ├── scripts/                # Arquivos de script JavaScript
 ├── Assets/                 # Imagens, logos e outros recursos
-├── comum/                  # Componentes HTML reutilizáveis (ex: modal de contato)
+├── components/                  # Componentes HTML reutilizáveis (ex: modal de contato)
 └── PBI/                    # Páginas relacionadas a Power BI
 └── Portfolio_html/         # Outras páginas do portfólio
 ```

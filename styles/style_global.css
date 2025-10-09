@@ -224,7 +224,7 @@ body.portfolio-page::before {
     width: calc(100% + 20px);
     height: calc(100% + 20px);
     z-index: -1;
-    background-image: url("../Assets/circuitoscdk.png");
+    background-image: url("/assets/circuitoscdk.png");
     background-color: var(--cor-fundo);
     background-size: cover;
     background-position: center;
@@ -235,7 +235,7 @@ body.portfolio-page::before {
 }
 
 body[data-theme='light'].portfolio-page::before {
-    background-image: url("../assets/ia.png");
+    background-image: url("/assets/ia.png");
     background-color: var(--cor-fundo);
     background-size: 150px;
     background-repeat: repeat;
@@ -857,7 +857,7 @@ ________________CARDS DASHBOARD____________
 }
 
 .dashboard-modal-content #modal-title {
-    padding: 30px 40px;
+    padding: 20px 20px;
     flex-shrink: 0;
     text-align: center;
     color: var(--cor-terciaria);
@@ -896,8 +896,10 @@ _____________________MODAIS_________________
 ###########################################*/
 #modal-description {
     text-align: center;
-    margin-bottom: 5px;
-    color: #c0c0d0;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    color: var(--cor-acao-primaria);
 }
 
 .modal-actions {
@@ -1353,6 +1355,117 @@ main.pagina-jogo {
 /*##########################################
 _____________NÃO SEI EXATAMENTE_____________
 ###########################################*/
+
+
+/*##########################################
+_______________FORMULÁRIOS__________________
+###########################################*/
+.form-input {
+    width: 100%; /* Ocupa o espaço do container pai */
+    padding: 12px 20px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 25px; /* Mantendo o estilo do search-input */
+    background: rgba(10, 26, 62, 0.5); /* Fundo translúcido do tema escuro */
+    color: var(--cor-texto-secundario);
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Adaptação para o Tema Claro (Magic) */
+body[data-theme='light'] .form-input {
+    background: rgba(255, 255, 255, 0.55); /* Fundo claro translúcido */
+    border-color: var(--cor-borda);
+    color: var(--cor-texto-secundario);
+}
+
+/* Efeito de Foco para ambos os temas */
+.form-input:focus {
+    border-color: var(--cor-terciaria);
+    box-shadow: var(--borda-form-shadow); /* Usando sua variável de sombra de formulário */
+    transform: scale(1.02);
+}
+
+/* Estilização do Placeholder */
+.form-input::placeholder {
+    color: var(--cor-texto-primario);
+    opacity: 0.8;
+}
+
+
+/*##########################################
+_______________MENU DROPDOWN________________
+###########################################*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--cor-acao-secundaria);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+    color: var(--cor-terciaria);
+    text-shadow: 0 0 15px rgba(78, 205, 196, 0.8);
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    min-width: 200px;
+    background-color: var(--cor-container);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--cor-borda);
+    border-radius: 10px;
+    box-shadow: var(--sombra-padrao);
+    z-index: 2001;
+    padding: 10px 0;
+    margin-top: 10px;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+}
+
+.dropdown::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: transparent; 
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto; 
+    transform: translateX(-50%) translateY(0);
+}
+
+.dropdown-menu a {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    text-align: left;
+}
 
 /*##########################################
 _______________TELAS MENORES________________

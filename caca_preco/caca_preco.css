@@ -13,7 +13,7 @@ body.preco::before {
 }
 
 body[data-theme='light'].preco::before {
-    background: url('../../Portfolio_html/assets/ia.png') repeat;
+    background: url('/assets/ia.png') repeat;
     background-size: 150px;
     opacity: 0.25;
     filter: none;
@@ -21,7 +21,7 @@ body[data-theme='light'].preco::before {
 }
 
 body[data-theme='dark'].preco::before {
-    background: linear-gradient(rgba(8, 50, 102, 0.8), rgba(4, 24, 50, 0.8)), url('../../Portfolio_html/assets/code.png');
+    background: linear-gradient(rgba(8, 50, 102, 0.8), rgba(4, 24, 50, 0.8)), url('/assets/code.png');
     background-size: cover;
     background-position: center;
     filter: blur(2px);

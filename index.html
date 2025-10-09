@@ -15,7 +15,7 @@
 
         <link rel="stylesheet" href="./styles/style_global.css">
         
-        <link rel="icon" type="image/png" href="./assets/favicon.png">        
+        <link rel="icon" type="image/png" href="/assets/favicon.png">        
         
         <title>CDK TECK - Soluções Tecnológicas</title>
         
@@ -50,7 +50,7 @@
                 
                 <div class="brain-core">
                     
-                    <img class="logo-image" src="./assets/logo_metalico_sem_fundo.png" alt="CDK TECK Logo" title="CDK TECK" />
+                    <img class="logo-image" src="/assets/logo_metalico_sem_fundo.png" alt="CDK TECK Logo" title="CDK TECK" />
 
                 </div>
 
@@ -286,7 +286,7 @@
                 }
 
                 // Carrega o modal de contato
-                fetch("comum/modal_contato.html")
+                fetch("components/modal_contato.html")
                     .then(response => response.text())
                     .then(data => { document.getElementById('contact-modal').innerHTML = data; });
 
