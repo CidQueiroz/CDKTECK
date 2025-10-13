@@ -1,0 +1,36 @@
+{
+  "name": "cdkteck",
+  "version": "1.0.0",
+  "description": "Esta é a landing page principal do projeto CDK TECK, servindo como um hub central e portfólio para diversas aplicações e soluções tecnológicas. A página foi projetada para ser uma vitrine interativa, apresentando as principais áreas de atuação e direcionando os usuários para os projetos específicos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cz": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CidQueiroz/CDKTECK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CidQueiroz/CDKTECK/issues"
+  },
+  "homepage": "https://github.com/CidQueiroz/CDKTECK#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^7.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^24.2.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
