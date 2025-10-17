@@ -1,4 +1,4 @@
-name: Release
+name: Release and Deploy
 
 on:
   push:
@@ -6,14 +6,13 @@ on:
       - main
 
 jobs:
-  release:
-    name: Create Release
+  release-and-deploy:
+    name: Release and Deploy
     runs-on: ubuntu-latest
     permissions:
       contents: write
       issues: write
       pull-requests: write
-      actions: write
 
     steps:
       - name: Checkout code
@@ -36,7 +35,8 @@ jobs:
         run: |
           node -e "const pkg = require('./package.json'); require('fs').writeFileSync('./version.json', JSON.stringify({ version: pkg.version }));"
 
-      - name: Trigger Deploy Workflow
-        run: gh workflow run firebase-deploy.yml
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install Firebase CLI
+        run: npm install -g firebase-tools
+
+      - name: Deploy to Firebase Hosting
+        run: firebase deploy --only hosting:cdkteck --token "${{ secrets.FIREBASE_TOKEN }}"
