@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/CidQueiroz/CDKTECK/compare/v1.1.1...v1.1.2) (2025-10-17)
+
+
+### Bug Fixes
+
+* **ci:** delegate version.json creation to semantic-release ([6a438c8](https://github.com/CidQueiroz/CDKTECK/commit/6a438c8062aa5ab2ef929365ee16e73b4ad36355))
+
 ## [1.1.1](https://github.com/CidQueiroz/CDKTECK/compare/v1.1.0...v1.1.1) (2025-10-17)
 
 
