@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CidQueiroz/CDKTECK/compare/v1.1.0...v1.1.1) (2025-10-17)
+
+
+### Bug Fixes
+
+* **component deploy:** corrigindo deploy ([5e8db4c](https://github.com/CidQueiroz/CDKTECK/commit/5e8db4cfc42ace831e2db18e3458721e26cf50cb))
+
 # [1.1.0](https://github.com/CidQueiroz/CDKTECK/compare/v1.0.0...v1.1.0) (2025-10-17)
 
 
