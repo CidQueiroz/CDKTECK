@@ -31,6 +31,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Checkout latest code
+        uses: actions/checkout@v3
+
 
 
       - name: Install Firebase CLI
