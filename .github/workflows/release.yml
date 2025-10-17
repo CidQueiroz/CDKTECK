@@ -33,7 +33,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create version.json
-        run: node -e "const pkg = require('./package.json'); require('fs').writeFileSync('./version.json', JSON.stringify({ version: pkg.version }));"
+        run: |
+          node -e "const pkg = require('./package.json'); require('fs').writeFileSync('./version.json', JSON.stringify({ version: pkg.version }));"
 
       - name: Trigger Deploy Workflow
         run: gh workflow run firebase-deploy.yml
