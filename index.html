@@ -146,6 +146,7 @@
                 <blockquote class="filosofia-quote">
                 “Onde a lógica encontra o encantamento.”
                 </blockquote>
+                <p id="app-version"></p>
             </div>
         </div>
 
@@ -343,6 +344,28 @@
                     });
                 }
 
+                // Fetch and display version
+                fetch("/version.json")
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('version.json not found');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        const versionElement = document.getElementById('app-version');
+                        if (versionElement) {
+                            versionElement.textContent = `Versão: ${data.version}`;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching version:', error);
+                        const versionElement = document.getElementById('app-version');
+                        if (versionElement) {
+                            versionElement.textContent = 'Versão: N/A';
+                        }
+                    });
+
                 // Partículas de fundo
                 const particles = document.getElementById('particles');
                 for (let i = 0; i < 60; i++) {
@@ -398,6 +421,7 @@
 
         </script>
 
+        <!-- Version: 0.0.0 -->
     </body>
 
 </html>
