@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/CidQueiroz/CDKTECK/compare/v1.0.0...v1.1.0) (2025-10-17)
+
+
+### Bug Fixes
+
+* **ci:** correct syntax in release workflow ([a9fbc55](https://github.com/CidQueiroz/CDKTECK/commit/a9fbc5538d4911ed6da39c9faf8f059ac5ba5466))
+
+
+### Features
+
+* **component version index.html:** adicionando versao ao cdkteck ([42eae61](https://github.com/CidQueiroz/CDKTECK/commit/42eae61d9e6040bab7b4661108226303ce83a605))
+
 # 1.0.0 (2025-10-13)
 
 
