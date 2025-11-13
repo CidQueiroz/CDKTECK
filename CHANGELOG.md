@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/CidQueiroz/CDKTECK/compare/v1.1.2...v1.1.3) (2025-10-17)
+
+
+### Bug Fixes
+
+* **ci:** add checkout step to ensure version.json is deployed ([e728ccf](https://github.com/CidQueiroz/CDKTECK/commit/e728ccf3e64860a83668f9364f70fdb2c0645d21))
+
 ## [1.1.2](https://github.com/CidQueiroz/CDKTECK/compare/v1.1.1...v1.1.2) (2025-10-17)
 
 
