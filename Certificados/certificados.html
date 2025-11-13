@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <link rel="stylesheet" href="/styles/style_global.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <title>Certificações & Badges - CDK TECK</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJG10ZYPBS"></script>
+        
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-PJG10ZYPBS');
+    </script>
+</head>
+<body class="portfolio-page">
+
+    <div id="header-placeholder"></div>
+
+    <main>
+        <div class="titulo-wrapper">
+            <h1 class="titulo">Certificações & Badges</h1>
+            <p class="subtitulo">Comprovação de Expertise Técnica e Desenvolvimento Contínuo</p>
+        </div>
+
+        <div class="cert-page-wrapper">
+            <!-- Certificações Oficiais -->
+            <section class="cert-section">
+                <h2 class="cert-section-title">🎓 Certificações Oficiais</h2>
+                <div class="cert-grid" id="official-certs"></div>
+            </section>
+
+            <!-- Badges e Cursos -->
+            <section class="cert-section">
+                <h2 class="cert-section-title">🏆 Badges & Conquistas</h2>
+                <div class="badge-grid" id="badges"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape_texto">© 2025 <b>CDK TECK</b>. Todos os direitos reservados.</p>
+        <div class="rodape_links">
+            <a href="/privacidade" class="rodape_link">Privacidade</a>
+            <a href="/termos" class="rodape_link">Termos</a>
+            <a href="/contato" class="rodape_link">Contato</a>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top-btn" class="back-to-top-btn" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Modal de Detalhes da Certificação -->
+    <div class="modal cert-modal" id="certModal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            
+            <div class="modal-cert-header">
+                <div class="modal-cert-icon" id="modal-cert-icon"></div>
+                <div class="modal-cert-provider" id="modal-cert-provider"></div>
+                <h2 class="modal-cert-name" id="modal-cert-name"></h2>
+                <div class="modal-cert-date" id="modal-cert-date"></div>
+            </div>
+
+            <div class="modal-cert-body">
+                <div class="modal-cert-description" id="modal-cert-description"></div>
+                
+                <div class="modal-cert-skills" id="modal-cert-skills-container">
+                    <h3>Competências Desenvolvidas</h3>
+                    <ul id="modal-cert-skills"></ul>
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <a id="modal-cert-link" href="#" target="_blank" rel="noopener noreferrer" class="modal-button primary">
+                    <i class="fas fa-external-link-alt"></i> Ver Credencial
+                </a>
+                <button id="modal-cert-close" class="modal-button secondary">
+                    Fechar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts/global.js"  defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Dados das certificações oficiais
+            const officialCerts = [
+                {
+                    provider: 'Oracle Cloud',
+                    name: 'Oracle Cloud Infrastructure Foundations',
+                    icon: '☁️',
+                    date: '2024',
+                    status: 'Ativa',
+                    description: 'Certificação que valida conhecimentos fundamentais em Oracle Cloud Infrastructure, incluindo computação, armazenamento, rede e serviços de banco de dados.',
+                    skills: [
+                        'Conceitos de cloud computing e arquitetura OCI',
+                        'Serviços de computação, armazenamento e rede',
+                        'Segurança e gerenciamento de identidade',
+                        'Banco de dados e serviços de aplicação',
+                        'Pricing e modelos de cobrança'
+                    ],
+                    link: '#'
+                },
+                {
+                    provider: 'AWS',
+                    name: 'AWS Certified Cloud Practitioner',
+                    icon: '☁️',
+                    date: '2024',
+                    status: 'Ativa',
+                    description: 'Certificação de nível fundamental que demonstra compreensão geral da nuvem AWS, serviços principais, segurança e arquitetura.',
+                    skills: [
+                        'Conceitos e propostas de valor da AWS Cloud',
+                        'Serviços principais: EC2, S3, RDS, Lambda',
+                        'Segurança e conformidade na AWS',
+                        'Modelos de precificação e suporte',
+                        'Shared Responsibility Model'
+                    ],
+                    link: '#'
+                }
+            ];
+
+            // Dados dos badges
+            const badges = [
+                { platform: 'DIO', name: 'Desenvolvedor Python', icon: '🐍' },
+                { platform: 'DIO', name: 'Análise de Dados', icon: '📊' },
+                { platform: 'EY', name: 'Data Analytics', icon: '📈' },
+                { platform: 'EY', name: 'Digital Transformation', icon: '🔄' },
+                { platform: 'DSA', name: 'Data Science', icon: '🔬' },
+                { platform: 'DSA', name: 'Machine Learning', icon: '🤖' }
+            ];
+
+            // Renderizar certificações oficiais
+            const officialCertsContainer = document.getElementById('official-certs');
+            const certModal = document.getElementById('certModal');
+            
+            officialCerts.forEach((cert, index) => {
+                const card = document.createElement('div');
+                card.className = 'cert-card';
+                card.dataset.index = index;
+                card.innerHTML = `
+                    <span class="cert-status">${cert.status}</span>
+                    <div class="cert-icon">${cert.icon}</div>
+                    <div class="cert-provider">${cert.provider}</div>
+                    <div class="cert-name">${cert.name}</div>
+                    <div class="cert-date">Emitida em: ${cert.date}</div>
+                    <div class="cert-description">${cert.description}</div>
+                    <a href="#" class="cert-link" data-cert-index="${index}">
+                        <i class="fas fa-info-circle"></i>
+                        Ver Detalhes
+                    </a>
+                `;
+                officialCertsContainer.appendChild(card);
+            });
+
+            // Event listener para abrir modal de certificação
+            officialCertsContainer.addEventListener('click', (e) => {
+                e.preventDefault();
+                const link = e.target.closest('.cert-link');
+                if (link) {
+                    const index = parseInt(link.dataset.certIndex);
+                    const cert = officialCerts[index];
+                    
+                    document.getElementById('modal-cert-icon').textContent = cert.icon;
+                    document.getElementById('modal-cert-provider').textContent = cert.provider;
+                    document.getElementById('modal-cert-name').textContent = cert.name;
+                    document.getElementById('modal-cert-date').textContent = `Emitida em: ${cert.date} • ${cert.status}`;
+                    document.getElementById('modal-cert-description').textContent = cert.description;
+                    document.getElementById('modal-cert-link').href = cert.link;
+                    
+                    const skillsList = document.getElementById('modal-cert-skills');
+                    skillsList.innerHTML = '';
+                    cert.skills.forEach(skill => {
+                        const li = document.createElement('li');
+                        li.textContent = skill;
+                        skillsList.appendChild(li);
+                    });
+                    
+                    openModal(certModal);
+                }
+            });
+
+            // Renderizar badges
+            const badgesContainer = document.getElementById('badges');
+            badges.forEach(badge => {
+                const card = document.createElement('div');
+                card.className = 'badge-card';
+                card.innerHTML = `
+                    <div class="badge-icon">${badge.icon}</div>
+                    <div class="badge-name">${badge.name}</div>
+                    <div class="badge-platform">${badge.platform}</div>
+                `;
+                badgesContainer.appendChild(card);
+            });
+
+            // Fechar modal
+            document.getElementById('modal-cert-close').addEventListener('click', () => {
+                closeModal(certModal);
+            });
+
+            // Event listener universal para fechar modais
+            document.addEventListener('click', function(event) {
+                const closeTrigger = event.target.closest('.close-button');
+                if (closeTrigger) {
+                    const modalToClose = event.target.closest('.modal');
+                    if (modalToClose) {
+                        closeModal(modalToClose);
+                    }
+                }
+
+                if (event.target.classList.contains('modal')) {
+                    closeModal(event.target);
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>
