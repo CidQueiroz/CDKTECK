@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CidQueiroz/CDKTECK/compare/v1.1.3...v1.2.0) (2025-11-13)
+
+
+### Features
+
+* **component:** adição de novas funcionalidades ([9e124cb](https://github.com/CidQueiroz/CDKTECK/commit/9e124cb8fead3793d849c7b76dc441797b6b3cd9))
+
 ## [1.1.3](https://github.com/CidQueiroz/CDKTECK/compare/v1.1.2...v1.1.3) (2025-10-17)
 
 
