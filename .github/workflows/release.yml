@@ -23,7 +23,18 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Cache node modules
+        id: cache-npm
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+
       - name: Install dependencies
+        # 'if' previne a reinstalação se o cache for encontrado
+        if: steps.cache-npm.outputs.cache-hit != 'true'
         run: npm ci
 
       - name: Build Next.js project
