@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CDK TECK - Landing Page e Portfólio (Next.js)
 
-## Getting Started
+## Visão Geral
 
-First, run the development server:
+Esta é a landing page principal do projeto CDK TECK, agora reimplementada utilizando Next.js. Ela serve como um hub central e portfólio para diversas aplicações e soluções tecnológicas. A página foi projetada para ser uma vitrine interativa, apresentando as principais áreas de atuação e direcionando os usuários para os projetos específicos, com os benefícios de performance e desenvolvimento de uma aplicação Next.js.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Funcionalidades
+
+*   **Navegação Interativa:** A página utiliza uma animação de "cérebro de circuitos" com pontos clicáveis que representam as diferentes áreas de expertise.
+*   **Modais de Informação:** Ao clicar em um ponto, um modal exibe informações detalhadas sobre a área, como "Análise de Dados", "Automação RPA", "Python/Django", "Business Intelligence", "SenseiDB" e "Certificações".
+*   **Busca Integrada:** Uma funcionalidade de busca permite que os usuários encontrem rapidamente a área de interesse.
+*   **Design Responsivo:** A página é projetada para ser acessível em diferentes dispositivos.
+*   **Gerenciamento de Tema:** Alternância entre tema claro e escuro.
+
+## Arquitetura e Tecnologias
+
+| Componente | Tecnologia | Propósito |
+| :--- | :--- | :--- |
+| **Framework** | **Next.js (React)** | Construção da interface de usuário com renderização otimizada e roteamento. |
+| **Linguagem** | **TypeScript** | Adiciona tipagem estática para maior robustez e manutenibilidade do código. |
+| **Estilização** | **CSS Modules / Global CSS** | Estilização e animações, com foco em modularidade e escopo local para componentes. |
+| **Implantação** | **Firebase Hosting** | Hospedagem estática e rápida da aplicação. |
+
+## Estrutura do Projeto
+
+```
+/
+├── public/                   # Arquivos estáticos (imagens, favicon, certificados)
+├── src/
+│   ├── app/                  # Rotas e páginas da aplicação (ex: /, /portfolio, /certificados)
+│   │   ├── globals.css       # Estilos globais
+│   │   ├── layout.tsx        # Layout principal da aplicação
+│   │   └── page.tsx          # Página inicial
+│   ├── components/           # Componentes React reutilizáveis (Header, Footer, Modals, CircuitPoint)
+│   └── data/                 # Dados em JSON (ex: modalData)
+├── next.config.ts            # Configuração do Next.js (incluindo exportação estática)
+├── firebase.json             # Configuração do Firebase Hosting
+├── package.json              # Dependências e scripts do projeto
+└── README.md                 # Este arquivo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como Rodar Localmente
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Instale as dependências**:
+    ```bash
+    npm install
+    ```
+2.  **Inicie o servidor de desenvolvimento**:
+    ```bash
+    npm run dev
+    ```
+    Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Implantação (Deployment)
 
-## Learn More
+Este projeto está configurado para implantação estática no Firebase Hosting.
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Construa o projeto**:
+    ```bash
+    npm run build
+    ```
+    Isso gerará os arquivos estáticos na pasta `out/`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  **Implante no Firebase Hosting**:
+    Certifique-se de que o Firebase CLI está configurado para o projeto correto (`senseidb-rebranding`) e que o `firebase.json` aponta para o `target` correto (`cdkteck`).
+    ```bash
+    firebase deploy --only hosting
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Automação CI/CD (GitHub Actions)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O projeto inclui um workflow de GitHub Actions (`.github/workflows/release.yml`) para automatizar o processo de build e deploy no Firebase Hosting a cada `git push` na branch `main`. Certifique-se de configurar o `FIREBASE_SERVICE_ACCOUNT_CDKTECK` como um segredo no seu repositório GitHub.

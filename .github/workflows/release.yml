@@ -33,7 +33,6 @@ jobs:
             ${{ runner.os }}-build-
 
       - name: Install dependencies
-        # 'if' previne a reinstalação se o cache for encontrado
         if: steps.cache-npm.outputs.cache-hit != 'true'
         run: npm ci
 
@@ -49,4 +48,4 @@ jobs:
         run: npm install -g firebase-tools
 
       - name: Deploy to Firebase Hosting
-        run: firebase deploy --only hosting:cdkteck --token "${{ secrets.FIREBASE_TOKEN }}"
+        run: firebase deploy --project cdkteck-hub --only hosting:cdkteck --token "${{ secrets.FIREBASE_TOKEN }}"
