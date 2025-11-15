@@ -1,0 +1,33 @@
+.circuit_point {
+    position: relative; /* Adicionado para corrigir o clique */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #00ffff, var(--cor-terciaria), #2980b9);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 
+        0 0 15px rgba(0, 255, 255, 0.6),
+        inset 0 2px 4px rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid rgba(0, 255, 255, 0.5);
+    z-index: 30;
+}
+
+.circuit_point:hover {
+    transform: scale(1.4);
+    box-shadow: 
+        0 0 30px rgba(0, 255, 255, 1),
+        inset 0 2px 8px rgba(255, 255, 255, 0.3);
+    background: radial-gradient(circle, #ffffff, #00ffff, var(--cor-terciaria));
+}
+
+.circuit_point:active {
+    transform: scale(1.2);
+}

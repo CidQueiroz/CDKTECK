@@ -1,0 +1,59 @@
+{
+  "gestaorpd-button": {
+      "id": "gestaorpd-button",
+      "title": "Gestão RPD",
+      "description": "Aplicação de gestão e desenvolvimento pessoal, incluindo Registro de Pensamentos Disfuncionais (RPD), controle de hábitos e gestão de vendas/estoque, desenvolvida com Python e Django.",
+      "keywords": ["gestao", "rpd", "desenvolvimento pessoal", "habitos", "vendas", "estoque", "python", "django"],
+      "redirectUrl": "https://gestao.cdkteck.com.br/"
+  },
+  "papodados-button": {
+      "id": "papodados-button",
+      "title": "PapoDados",
+      "description": "Converse com seus dados! Faça upload de planilhas (CSV/Excel) e pergunte em linguagem natural. O PapoDados usa IA Generativa (RAG) para traduzir suas perguntas em análises, gráficos e insights proativos. É o seu analista de dados pessoal, 24/7, sem precisar de SQL ou Power BI.",
+      "keywords": ["papodados", "ia", "inteligencia artificial", "chatbot", "dados", "analise", "csv", "excel", "bi", "dashboard", "graficos", "rag"],
+      "redirectUrl": "https://papodados.cdkteck.com.br/ "
+  },
+  "automacao-button": {
+      "id": "automacao-button",
+      "title": "Automação RPA",
+      "description": "Automatize tarefas repetitivas e ganhe produtividade! Desenvolvemos soluções de RPA (Automação Robótica de Processos) que integram sistemas, executam rotinas administrativas, extraem dados de sites e preenchem formulários automaticamente. Nossos bots são projetados para reduzir erros, liberar sua equipe para atividades estratégicas e acelerar fluxos de trabalho em qualquer área do seu negócio.",
+      "keywords": ["automacao", "rpa", "robô", "bot", "processos", "produtividade", "automatizar"],
+      "redirectUrl": "https://cacapreco.cdkteck.com.br"
+  },
+  "suporte-button": {
+      "id": "suporte-button",
+      "title": "Suporte Técnico",
+      "description": "Conte com suporte técnico especializado para manter sua infraestrutura de TI sempre disponível e segura. Oferecemos atendimento ágil para resolução de problemas, manutenção preventiva, atualização de sistemas e consultoria em tecnologia. Nossa equipe está pronta para garantir o funcionamento contínuo dos seus sistemas, minimizando riscos e paradas inesperadas.",
+      "keywords": ["suporte", "tecnico", "manutencao", "helpdesk", "infraestrutura", "atendimento", "problemas"],
+      "redirectUrl": ""
+  },
+  "senseidb-button": {
+      "id": "senseidb-button",
+      "title": "SenseiDB: Seu Mentor Estratégico Pessoal",
+      "description": "Um assistente de IA revolucionário que utilizando a técnica de RAG, aprende com seus contextos e dados para fornecer orientação hiper-personalizada. Com o poder dos modelos de linguagem de ponta, como Llama 3.1 via Groq para respostas ultrarrápidas e Gemini 2.5 como fallback robusto, o SenseiDB oferece insights profundos, planos de ação práticos e uma visão holística para seu desenvolvimento pessoal e profissional.",
+      "keywords": ["senseidb", "ia", "inteligencia artificial", "mentor", "estrategia", "rag", "groq", "gemini", "llama", "desenvolvimento pessoal", "chatbot", "assistente"],
+      "redirectUrl": "https://sensei.cdkteck.com.br"
+  },
+  "integracao-button": {
+      "id": "integracao-button",
+      "title": "Integrações",
+      "description": "Conecte sistemas e potencialize seus processos! Desenvolvemos integrações entre plataformas, APIs e bancos de dados, promovendo a troca automática de informações entre diferentes aplicações. Automatize fluxos, evite retrabalho e garanta que seus dados estejam sempre sincronizados, independentemente das tecnologias utilizadas.",
+      "keywords": ["integracao", "api", "sistemas", "conexao", "automatizacao", "plataformas"],
+      "redirectUrl": "/portfolio"
+  },
+  "BI-button": {
+      "id": "BI-button",
+      "title": "Business Intelligence",
+      "description": "Transforme dados em estratégia com soluções de Business Intelligence! Desenvolvemos dashboards executivos, relatórios dinâmicos e análises avançadas utilizando Power BI e outras ferramentas líderes de mercado. Auxiliamos sua empresa a monitorar indicadores-chave, identificar tendências e tomar decisões baseadas em dados confiáveis e atualizados.",
+      "keywords": ["bi", "business", "powerbi", "inteligencia", "dashboard", "analise", "estrategia"],
+      "redirectUrl": "/pbi"
+  },
+  "contato-button": {
+      "id": "contato-button",
+      "title": "Consultoria",
+      "description": "Olá! 👋 Sou Cidirclay Queiroz, especialista em soluções tecnológicas, análise de dados e automação. Com formação em Ciências da Computação e experiência em projetos de transformação digital, ajudo empresas a inovar, otimizar processos e extrair valor dos dados. Entre em contato para uma consultoria personalizada e descubra como a tecnologia pode impulsionar o seu negócio!",
+      "keywords": ["consultoria", "contato", "falar", "orcamento", "ajuda", "tecnologia", "especialista"],
+      "isContact": true,
+      "redirectUrl": ""
+    }
+}

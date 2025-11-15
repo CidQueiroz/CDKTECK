@@ -1,0 +1,38 @@
+.container_informacoes_geocoding {
+    flex: 1; 
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+    align-items: center;
+    text-align: center;
+}
+
+.container_imagem_geocoding {
+    max-width: 350px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.container_botoes_geocoding {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    width: 100%;
+    gap: 10rem;
+    font-family: 'Montserrat, sans-serif';
+    font-size: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .container_imagem_geocoding {
+        order: -1;
+        max-width: 200px;
+    }
+
+    .container_informacoes_geocoding {
+        padding: 1rem;
+        width: 100%;
+    }
+}
