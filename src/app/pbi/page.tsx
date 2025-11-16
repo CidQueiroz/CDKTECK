@@ -5,11 +5,7 @@ import Image from 'next/image';
 import InfoModal from '@/components/InfoModal';
 import DashboardModal from '@/components/DashboardModal';
 import pbiProjects from '@/data/pbiProjects.json';
-
-type Project = (typeof pbiProjects)[0];
-
 import Layout from '@/components/Layout';
-import pbiProjects from '@/data/pbiProjects.json';
 
 type Project = (typeof pbiProjects)[0];
 

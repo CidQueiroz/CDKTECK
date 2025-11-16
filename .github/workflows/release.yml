@@ -35,8 +35,11 @@ jobs:
       - name: Install dependencies
         if: steps.cache-npm.outputs.cache-hit != 'true'
         run: npm ci
-
-      - name: Build Next.js project
+      
+      - name: Install Poppler
+        run: sudo dnf update && sudo dnf install -y poppler-utils
+      
+      - name: Build Project
         run: npm run build
 
       - name: Run semantic-release
