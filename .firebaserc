@@ -1,17 +1,14 @@
 {
-  "hosting": {
-    "target": "cdkteck",
-    "public": "out",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
+  "projects": {
+    "default": "senseidb-rebranding"
+  },
+  "targets": {
+    "senseidb-rebranding": {
+      "hosting": {
+        "cdkteck": [
+          "cdkteck"
+        ]
       }
-    ]
+    }
   }
 }
