@@ -2,9 +2,9 @@
   "gestaorpd-button": {
       "id": "gestaorpd-button",
       "title": "Gestão RPD",
-      "description": "Aplicação de gestão e desenvolvimento pessoal, incluindo Registro de Pensamentos Disfuncionais (RPD), controle de hábitos e gestão de vendas/estoque, desenvolvida com Python e Django.",
+      "description": "Uma aplicação de gestão dupla: de um lado, um ERP para controle de vendas e estoque. Do outro, uma ferramenta de desenvolvimento pessoal para Terapia Cognitivo-Comportamental (RPD) e controle de hábitos.",
       "keywords": ["gestao", "rpd", "desenvolvimento pessoal", "habitos", "vendas", "estoque", "python", "django"],
-      "redirectUrl": "https://gestao.cdkteck.com.br/"
+      "redirectUrl": "https://gestaorpd.cdkteck.com.br/"
   },
   "papodados-button": {
       "id": "papodados-button",
@@ -14,10 +14,10 @@
       "redirectUrl": "https://papodados.cdkteck.com.br/ "
   },
   "automacao-button": {
-      "id": "automacao-button",
-      "title": "Automação RPA",
-      "description": "Automatize tarefas repetitivas e ganhe produtividade! Desenvolvemos soluções de RPA (Automação Robótica de Processos) que integram sistemas, executam rotinas administrativas, extraem dados de sites e preenchem formulários automaticamente. Nossos bots são projetados para reduzir erros, liberar sua equipe para atividades estratégicas e acelerar fluxos de trabalho em qualquer área do seu negócio.",
-      "keywords": ["automacao", "rpa", "robô", "bot", "processos", "produtividade", "automatizar"],
+      "id": "cacapreco-button",
+      "title": "Caça-Preço",
+      "description": "Um marketplace inteligente com precificação dinâmica. O Caça-Preço usa análise preditiva para otimizar margens de venda e se conecta a um app React/React Native, demonstrando uma solução de e-commerce completa.",
+      "keywords": ["automacao", "cacapreco", "economia", "bot", "processos", "produtividade", "automatizar"],
       "redirectUrl": "https://cacapreco.cdkteck.com.br"
   },
   "suporte-button": {

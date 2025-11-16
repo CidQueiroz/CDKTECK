@@ -20,6 +20,15 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<ModalInfo[]>([]);
 
+  // Efeito para adicionar/remover a classe 'pagina-inicial' do body
+  useEffect(() => {
+    document.body.classList.add('pagina-inicial');
+    // Cleanup function para remover a classe ao sair da página
+    return () => {
+      document.body.classList.remove('pagina-inicial');
+    };
+  }, []); // Array vazio garante que rode apenas uma vez (montagem/desmontagem)
+
   // Efeito para forçar o tema escuro na página inicial
   useEffect(() => {
     const originalTheme = document.body.getAttribute('data-theme');
@@ -40,7 +49,7 @@ export default function Home() {
     const particlesContainer = document.getElementById('particles');
     if (particlesContainer) {
       particlesContainer.innerHTML = '';
-      for (let i = 0; i < 60; i++) {
+      for (let i = 0; i < 100; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
         particle.style.left = Math.random() * 100 + '%';
@@ -57,6 +66,20 @@ export default function Home() {
     if (isLoaded) document.body.classList.add('loaded');
     else document.body.classList.remove('loaded');
   }, [isLoaded]);
+
+  // Efeito para gerenciar a classe 'modal-open' no body
+  useEffect(() => {
+    const isAnyModalOpen = !!modalContent || isFilosofiaModalOpen || isContactModalOpen;
+    if (isAnyModalOpen) {
+      document.body.classList.add('modal-open');
+    } else {
+      document.body.classList.remove('modal-open');
+    }
+    // Cleanup function para garantir que a classe seja removida ao desmontar o componente
+    return () => {
+      document.body.classList.remove('modal-open');
+    };
+  }, [modalContent, isFilosofiaModalOpen, isContactModalOpen]);
 
   // Efeito para a lógica de busca
   useEffect(() => {
@@ -135,7 +158,7 @@ export default function Home() {
             const point = modalData[id];
             const originalPoints: { [id: string]: { top: string, left: string, emoji: string } } = {
               'automacao-button': { top: '12%', left: '50%', emoji: '🤖' },
-              'dados-button': { top: '24%', left: '84%', emoji: '📊' },
+              'papodados-button': { top: '24%', left: '84%', emoji: '📊' },
               'gestaorpd-button': { top: '42%', left: '91%', emoji: '📝' },
               'contato-button': { top: '70%', left: '85%', emoji: '👤' },
               'BI-button': { top: '89%', left: '53%', emoji: '📊' },

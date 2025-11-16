@@ -26,7 +26,7 @@ const Header = ({ openContactModal }: { openContactModal: () => void }) => {
     <header className="cabecalho">
 
       <Link href="/" className="cabecalho-logo">
-        <Image src="/assets/favicon.png" alt="CDK TECK Logo" width={60} height={60} />
+        <Image src="/assets/logo_header.png" alt="CDK TECK Logo" width={60} height={60} />
         <span>CDK TECK</span>
       </Link>
 

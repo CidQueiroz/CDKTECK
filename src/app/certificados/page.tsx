@@ -1,33 +1,74 @@
-import fs from 'fs';
-import path from 'path';
-import Link from 'next/link';
+'use client';
+
+import Layout from '@/components/Layout';
+import CertificateCard from '@/components/CertificateCard';
+import Modal from '@/components/Modal';
+import { useState, useEffect } from 'react';
+import certificatesData from '@/data/certificates.json';
+
+type Certificate = (typeof certificatesData)[0];
 
 export default function CertificadosPage() {
-  const certsDirectory = path.join(process.cwd(), 'public', 'certificados');
-  const filenames = fs.readdirSync(certsDirectory);
+  const [selectedCert, setSelectedCert] = useState<Certificate | null>(null);
 
-  const certificates = filenames.filter(filename => filename.endsWith('.pdf'));
+  // Efeito para gerenciar a classe 'modal-open' no body
+  useEffect(() => {
+    if (selectedCert) {
+      document.body.classList.add('modal-open');
+    } else {
+      document.body.classList.remove('modal-open');
+    }
+    return () => {
+      document.body.classList.remove('modal-open');
+    };
+  }, [selectedCert]);
 
   return (
-    <div className="content-wrapper">
-      <div className="titulo-wrapper">
-        <h1 className="titulo">Certificações & Badges</h1>
-        <p className="subtitulo">Comprovação de Expertise Técnica e Desenvolvimento Contínuo</p>
-      </div>
+    <Layout>
+      <>
+        <div className="titulo-wrapper">
+          <h1 className="titulo">Certificações & Badges</h1>
+          <p className="subtitulo">Comprovação de Expertise Técnica e Desenvolvimento Contínuo</p>
+        </div>
 
-      <div className="gallery-container">
-        {certificates.map((filename, index) => (
-          <Link key={index} href={`/certificados/${filename}`} passHref legacyBehavior>
-            <a target="_blank" rel="noopener noreferrer" className="project-card">
-              <div className="card-content">
-                <div className="project-info">
-                  <p>{filename.replace('.pdf', '')}</p>
-                </div>
+        <div className="gallery-container">
+          {certificatesData.map((cert) => (
+            <CertificateCard
+              key={cert.id}
+              title={cert.title}
+              imageUrl={cert.image_url}
+              onClick={() => setSelectedCert(cert)}
+            />
+          ))}
+        </div>
+
+        {selectedCert && (
+          <Modal isOpen={!!selectedCert} onClose={() => setSelectedCert(null)}>
+            <div className="info-modal-content">
+              <h2 id="info-modal-title">{selectedCert.title}</h2>
+              
+              <div className="info-section">
+                <h3>Descrição</h3>
+                <p>{selectedCert.description}</p>
               </div>
-            </a>
-          </Link>
-        ))}
-      </div>
-    </div>
+
+              <div className="modal-actions">
+                <a 
+                  href={selectedCert.pdf_url} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="modal-button primary"
+                >
+                  Ver Certificado (PDF)
+                </a>
+                <button onClick={() => setSelectedCert(null)} className="modal-button secondary">
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </Modal>
+        )}
+      </>
+    </Layout>
   );
 }

@@ -210,50 +210,15 @@ ___________________RODAPÉ___________________
 }
 
 /*##########################################
-___________________CORPO____________________
+_______________MODAL PADRAO_________________
 ###########################################*/
-
-
-body[data-theme='light'] .modal {
-    background: rgba(255, 255, 255, 0.8);
-}
-
 #contact-modal .contact-modal-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    padding-top: 90px; /* Adjusted padding-top */
+    padding-top: 90px;
     position: relative;
-    max-height: calc(100vh - 150px);
-    overflow-y: auto;
-}
-
-body[data-theme='light'] .modal-content {
-    background: linear-gradient(135deg, var(--cor-card-fundo), var(--cor-superficie-neutra));
-    border: 2px solid var(--cor-terciaria);
-    box-shadow:
-        0 0 60px rgba(161, 214, 203, 0.3),
-        inset 0 0 50px rgba(255, 255, 255, 0.5);
-}
-
-body[data-theme='light'] .card-content {
-    background: linear-gradient(145deg, #8282a8, #A19AD3);
-    color: var(--cor-res);
-}
-
-body[data-theme='dark'] .card-content {
-    background: linear-gradient(145deg, #1a1a2e, #16213e);
-    color: var(--cor-res);
-}
-
-body[data-theme='light'] .modal h2 {
-    color: var(--cor-titulo);
-    text-shadow: 0 0 10px rgba(255, 131, 131, 0.5);
-}
-
-body[data-theme='light'] .modal p {
-    color: var(--cor-texto-primario);
 }
 
 .contact-modal-content .profile-pic {
@@ -265,24 +230,16 @@ body[data-theme='light'] .modal p {
     position: absolute;
     top: -50px;
     left: 50%;
+    z-index: 1; 
     transform: translateX(-50%);
     object-fit: contain;
     background-color: #16213e;
 }
 
-body[data-theme='light'] .contact-modal-content .profile-pic {
-    border: 4px solid var(--cor-terciaria);
-    box-shadow: 0 0 20px rgba(161, 214, 203, 0.5);
-}
-
 .contact-modal-content #contact-title {
     margin: 10px;
-    color: var(--cor-terciaria);
+    color: var(--cor-destaque);
     font-size: 28px;
-}
-
-body[data-theme='light'] .contact-modal-content #contact-title {
-    color: var(--cor-titulo);
 }
 
 .contact-modal-content #contact-description {
@@ -292,10 +249,6 @@ body[data-theme='light'] .contact-modal-content #contact-title {
     margin: 10px;
     color: #E0E0E0;
     font-size: 16px;
-}
-
-body[data-theme='light'] .contact-modal-content #contact-description {
-    color: var(--cor-texto-secundario);
 }
 
 .contact-modal-content .social-links {
@@ -335,8 +288,52 @@ body[data-theme='light'] .contact-modal-content #contact-description {
 
 .social-link-item:hover i,
 .social-link-item:hover span {
-    color: var(--cor-acao-primaria);
+    color: var(--cor-destaque);
     transform: scale(1.1);
+}
+
+body[data-theme='light'] .modal {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+body[data-theme='light'] .modal-content {
+    background: linear-gradient(135deg, var(--cor-card-fundo), var(--cor-superficie-neutra));
+    border: 2px solid var(--cor-terciaria);
+    box-shadow:
+        0 0 60px rgba(161, 214, 203, 0.3),
+        inset 0 0 50px rgba(255, 255, 255, 0.5);
+}
+
+body[data-theme='light'] .card-content {
+    background: linear-gradient(145deg, #8282a8, #A19AD3);
+    color: var(--cor-res);
+}
+
+body[data-theme='dark'] .card-content {
+    background: linear-gradient(145deg, #1a1a2e, #16213e);
+    color: var(--cor-res);
+}
+
+body[data-theme='light'] .modal h2 {
+    color: var(--cor-titulo);
+    text-shadow: 0 0 10px rgba(255, 131, 131, 0.5);
+}
+
+body[data-theme='light'] .modal p {
+    color: var(--cor-texto-primario);
+}
+
+body[data-theme='light'] .contact-modal-content .profile-pic {
+    border: 4px solid var(--cor-terciaria);
+    box-shadow: 0 0 20px rgba(161, 214, 203, 0.5);
+}
+
+body[data-theme='light'] .contact-modal-content #contact-title {
+    color: var(--cor-titulo);
+}
+
+body[data-theme='light'] .contact-modal-content #contact-description {
+    color: var(--cor-texto-secundario);
 }
 
 body[data-theme='light'] .contact-modal-content .social-link-item i,
@@ -476,16 +473,19 @@ _______________PADRÃO__________________
 
 html {
     box-sizing: border-box;
+    height: 100%;
 }
 
 body {
     margin: 0;
     padding: 0;
-    overflow-x: clip;
-    overflow: auto !important;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+body.modal-open {
+    overflow: hidden;
 }
 
 main {
@@ -493,10 +493,12 @@ main {
     position: relative;
     z-index: 1;
     flex: 1;
+    /* overflow-y: auto; */
 }
 
 .main-landing {
     padding-top: 0 !important;
+    overflow: hidden; /* Previne barras de rolagem causadas por animações */
 }
 
 #app-version {
@@ -787,43 +789,44 @@ _____________________MODAIS_________________
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(8px);
     opacity: 0;
+    pointer-events: none; /* Impede cliques quando invisível */
     transition: opacity 0.4s ease;
 
-    align-items: center;
+    align-items: center; /* Centraliza verticalmente */
     justify-content: center;
-}
-
-.modal-content {
-    position: relative;
-    margin-top: 120px;
-    margin-bottom: 30px;
-    background: linear-gradient(135deg, #1a1a2e, #16213e, #2c3e50);
-    padding: 30px;
-    border-radius: 25px;
-    border: 2px solid var(--cor-terciaria);
-    width: 95%;
-    max-width: 650px;
-    text-align: center;
-    box-shadow: 
-        0 0 60px rgba(78, 205, 196, 0.3),
-        inset 0 0 50px rgba(0, 0, 0, 0.5);
-    transform: scale(0.95);
-    transition: transform 0.4s ease;
-    max-height: calc(100vh - 150px);
-    overflow-y: auto;
+    overflow-y: hidden;      /* Garante que o overlay não tenha rolagem */
+    padding: 20px;    /* Adiciona um padding pequeno para segurança em telas menores */
 }
 
 .modal.show {
     opacity: 1;
+    pointer-events: auto; /* Reativa cliques quando visível */
+}
+
+/* Estilos base para o conteúdo de todos os modais */
+.modal-content {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #2c3e50);
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 0 60px rgba(78, 205, 196, 0.3), inset 0 0 50px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: 40 auto; 
+    max-width: 800px;
+    width: 95%;
+    max-height: none; 
+    overflow-y: visible;
+    transform: scale(0.95);
+    opacity: 0;
+    transition: transform 0.4s ease;
+    text-align: center;
 }
 
 .modal.show .modal-content {
     transform: scale(1);
+    opacity: 1;
 }
 
-.modal.show .modal-content .contact-modal-content{
-    transform: scale(1);
-}
 
 .modal h2 {
     color: var(--cor-terciaria);
@@ -857,7 +860,7 @@ _____________________MODAIS_________________
     flex-shrink: 0;
     display: flex;
     justify-content: center;
-    margin-top: 1px;
+    margin-top: 20px; /* Aumenta o espaço acima dos botões */
     gap: 20px;
 }
 
@@ -1019,14 +1022,14 @@ ________________BOTAO FECHAR____________
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: linear-gradient(45deg, var(--cor-acao-primaria), var(--cor-terciaria));
+    background-color: var(--cor-acao-secundaria);
+    color: var(--cor-texto-secundario);
     border: 1px solid #A66100;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     padding: 12px 25px;
     border-radius: 25px;
     cursor: pointer;
     font-weight: bold;
-    color: white;
     transition: all 0.3s ease;
     font-size: 20px;
     text-decoration: none;
@@ -1114,7 +1117,7 @@ _______________ANIMAÇÃO CENTRAL_____________
 }
 
 .cdk-logo {
-    left: 10%;
+    left: 5%; 
     transform: translateX(-300%) translateY(-50%);
     
     /* ESTILO "CDK" (Laranja/Dourado) */
@@ -1129,7 +1132,7 @@ _______________ANIMAÇÃO CENTRAL_____________
 }
 
 .teck-logo {
-    right: 10%;
+    right: 5%;
     transform: translateX(300%) translateY(-50%);
 
     /* ESTILO "TECK" (Ciano/Azul) */
@@ -1780,4 +1783,14 @@ body[data-theme='light'] main.portfolio-page::before {
 
 body[data-theme='light'] .rodape {
     background-color: #fdeff2;
+}
+
+/*
+  Correção Específica: Remove a barra de rolagem interna dos modais de Contato
+  e Filosofia, que têm conteúdo mais curto e devem caber na tela.
+*/
+#contact-modal .modal-content,
+#marca-filosofia-modal .modal-content {
+  overflow-y: visible;
+  max-height: fit-content;
 }

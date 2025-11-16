@@ -2,8 +2,6 @@
 
 import React, { useState } from 'react';
 import { usePathname } from 'next/navigation';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ContactModal from '@/components/ContactModal';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -17,9 +15,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <>
-      <Header openContactModal={openContactModal} />
       <main className={isUnicornPage ? '' : 'portfolio-page'}>{children}</main>
-      <Footer openContactModal={openContactModal} />
       <ContactModal isOpen={isContactModalOpen} onClose={closeContactModal} />
       <button 
         className="fixed-contact-button" 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Orbitron, Montserrat } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import ClientLayout from "@/components/ClientLayout";
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -37,7 +38,7 @@ export default function RootLayout({
         />
         <link rel="icon" type="image/png" href="/assets/favicon.png" />
       </head>
-      <body className={`${orbitron.variable} ${montserrat.variable} antialiased pagina-inicial`}>
+      <body className={`${orbitron.variable} ${montserrat.variable} antialiased`}>
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-PJG10ZYPBS"
@@ -50,7 +51,7 @@ export default function RootLayout({
             gtag('config', 'G-PJG10ZYPBS');
           `}
         </Script>
-        {children}
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );
