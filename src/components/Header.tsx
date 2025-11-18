@@ -42,8 +42,8 @@ const Header = ({ openContactModal }: { openContactModal: () => void }) => {
             <button className="dropdown-toggle">Universo CDK TECK</button>
             <div className="dropdown-menu">
               {pathname !== '/' && <Link href="/">Página Inicial</Link>}
-              <a href="https://papodados.cdkteck.com.br" target="_blank" rel="noopener noreferrer">PapoDados</a>
-              <a href="https://cacapreco.cdkteck.com.br" target="_blank" rel="noopener noreferrer">Caça-Preço</a>
+              <span className="disabled-link" title="Em desenvolvimento">PapoDados</span>
+              <span className="disabled-link" title="Em desenvolvimento">Caça-Preço</span>
               <a href="https://sensei.cdkteck.com.br" target="_blank" rel="noopener noreferrer">SenseiDB</a>
               <a href="https://gestao.cdkteck.com.br" target="_blank" rel="noopener noreferrer">Gestão RPD</a>
             </div>

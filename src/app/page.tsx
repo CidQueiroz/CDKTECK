@@ -189,7 +189,7 @@ export default function Home() {
         onClose={() => setModalContent(null)}
       >
         <h2>{modalContent?.title}</h2>
-        <p>{modalContent?.description}</p>
+        <div dangerouslySetInnerHTML={{ __html: modalContent?.description || '' }} />
         {modalContent?.redirectUrl && (
           <a href={modalContent.redirectUrl} target="_blank" rel="noopener noreferrer" className="modal-button primary">
             Visitar Página

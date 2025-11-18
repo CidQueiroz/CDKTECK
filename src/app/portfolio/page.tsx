@@ -4,6 +4,7 @@ import Layout from '@/components/Layout';
 import InfoModal from '@/components/InfoModal';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import PageHeader from '@/components/PageHeader';
 
 const projects = [
   {
@@ -79,16 +80,16 @@ export default function PortfolioPage() {
   return (
     <Layout>
       <>
-        <div className="titulo-wrapper">
-          <h1 className="titulo">Laboratório de Projetos</h1>
-          <p className="subtitulo">Uma coleção de estudos e aplicações práticas desenvolvidas para aprimorar e demonstrar novas habilidades.</p>
-        </div>
+        <PageHeader
+          title="Laboratório de Projetos"
+          description="Uma coleção de estudos e aplicações práticas desenvolvidas para aprimorar e demonstrar novas habilidades."
+        />
 
         <div className="gallery-container">
           {projects.map((project) => (
             <div key={project.id} className="project-card" onClick={() => handleCardClick(project)}>
               <div className="card-content">
-                <Image src={project.thumbnail} alt={`Thumbnail do projeto ${project.title}`} width={400} height={300} style={{ objectFit: 'cover' }} />
+                <Image src={project.thumbnail} alt={`Thumbnail do projeto ${project.title}`} width={150} height={200} style={{ objectFit: 'cover' }} />
                 <div className="project-info">
                   <p>{project.description}</p>
                 </div>

@@ -5,6 +5,7 @@ import CertificateCard from '@/components/CertificateCard';
 import Modal from '@/components/Modal';
 import { useState, useEffect } from 'react';
 import certificatesData from '@/data/certificates.json';
+import PageHeader from '@/components/PageHeader';
 
 type Certificate = (typeof certificatesData)[0];
 
@@ -26,10 +27,10 @@ export default function CertificadosPage() {
   return (
     <Layout>
       <>
-        <div className="titulo-wrapper">
-          <h1 className="titulo">Certificações & Badges</h1>
-          <p className="subtitulo">Comprovação de Expertise Técnica e Desenvolvimento Contínuo</p>
-        </div>
+        <PageHeader
+          title="Certificações & Badges"
+          description="Comprovação de Expertise Técnica e Desenvolvimento Contínuo"
+        />
 
         <div className="gallery-container">
           {certificatesData.map((cert) => (

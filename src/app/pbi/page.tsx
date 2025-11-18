@@ -6,6 +6,7 @@ import InfoModal from '@/components/InfoModal';
 import DashboardModal from '@/components/DashboardModal';
 import pbiProjects from '@/data/pbiProjects.json';
 import Layout from '@/components/Layout';
+import PageHeader from '@/components/PageHeader';
 
 type Project = (typeof pbiProjects)[0];
 
@@ -48,10 +49,10 @@ export default function PbiPage() {
   return (
     <Layout>
       <>
-        <div className="titulo-wrapper">
-          <h1 className="titulo">Portfólio de Dashboards</h1>
-          <p className="subtitulo">Explore projetos interativos de Business Intelligence e Análise de Dados.</p>
-        </div>
+        <PageHeader
+          title="Portfólio de Dashboards"
+          description="Explore projetos interativos de Business Intelligence e Análise de Dados."
+        />
 
         <div className="gallery-container">
           {pbiProjects.map((project) => (

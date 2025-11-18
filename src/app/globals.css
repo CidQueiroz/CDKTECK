@@ -47,7 +47,7 @@ body[data-theme='light'] {
     --cor-acao-secundaria: #A19AD3;
     --cor-terciaria: #A1D6CB;
     --cor-hover: #A0E7E5;
-    --cor-fundo: #fdeff2;
+    --cor-fundo: #F7F9FC;
     --cor-container: #fdeff2;
     --cor-texto-primario: #2D3748;
     --cor-texto-secundario: #4A5568;
@@ -369,6 +369,36 @@ ___________________TITULO____________________
 body[data-theme='light'] .titulo-wrapper {
     background: rgba(255, 255, 255, 0.55);
     box-shadow: 0 0 25px rgba(150, 150, 150, 0.25);
+}
+
+
+main.portfolio-page::before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("/assets/circuitoscdk.png");
+    background-color: var(--cor-fundo);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(8px);
+    transform: scale(1.05);
+    transform-origin: center;
+}
+
+body[data-theme='light'] main.portfolio-page::before {
+    background-image: url("/assets/ia.png");
+    background-color: var(--cor-fundo);
+    background-size: 150px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    filter: blur(2px);
+    opacity: 0.7;
 }
 
 .portfolio-page .titulo {
@@ -825,6 +855,7 @@ _____________________MODAIS_________________
 .modal.show .modal-content {
     transform: scale(1);
     opacity: 1;
+    color: #E0E0E0;
 }
 
 
@@ -1513,6 +1544,28 @@ _______ANIMAÇÃO MODAL FILOSOFIA_________
 _______________TELAS MENORES________________
 ###########################################*/
 @media (max-width: 900px) {
+    .page-header {
+        flex-direction: column; /* Empilha em telas muito pequenas */
+        text-align: center;
+        padding: 20px;
+    }
+
+    .header-text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .page-header .titulo,
+    .page-header .subtitulo {
+        text-align: center; /* Centraliza o texto no celular */
+    }
+    
+    /* Ajusta o tamanho da imagem no celular */
+    .mascot-img {
+        width: 140px !important; 
+        height: 140px !important;
+    }
+
     .logo-container {
         width: 95vw;
         max-width: 450px;
@@ -1597,7 +1650,6 @@ _______________TELAS MENORES________________
 
 }
 
-
 /*
 :root {
   --cor-acao-primaria: #00e5ff; 
@@ -1663,6 +1715,69 @@ body[data-theme='light'] {
     gap: 20px;
 }
 
+.page-header {
+    display: flex;
+    flex-direction: row; /* Garante que fiquem lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza o bloco na tela */
+    gap: 20px;
+
+    background: rgba(0, 0, 0, 0.45); /* Fundo escuro translúcido */
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--cor-borda);
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 20px auto 40px;
+    width: 95%; 
+    max-width: 1400px;
+    text-align: left;
+}
+
+body[data-theme='light'] .page-header {
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 0 25px rgba(150, 150, 150, 0.25);
+}
+
+/* Estilo das Imagens */
+.mascot-img {
+    width: 300px !important; /* Força um tamanho pequeno de ícone */
+    height: 300px !important;
+    object-fit: contain;
+    /* filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2)); */
+    flex-shrink: 0; /* Impede que a imagem seja esmagada */
+    animation: float 6s ease-in-out infinite; /* Flutuação suave */
+}
+
+/* Animação de flutuação para dar vida */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha texto à esquerda */
+    text-align: left;
+}
+
+.page-header .titulo {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.page-header .subtitulo {
+    text-align: left;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Controle de exibição por tema */
+[data-theme='dark'] .mascot-light { display: none; }
+[data-theme='light'] .mascot-dark { display: none; }
+
+
 .contato-btn {
     background: none;
     border: none;
@@ -1685,8 +1800,6 @@ body[data-theme='light'] {
     transform: scale(1.1);
 
 }
-
-
 
 .fixed-contact-button {
 
@@ -1728,8 +1841,6 @@ body[data-theme='light'] {
 
 }
 
-
-
 .fixed-contact-button:hover {
 
     background-color: var(--cor-hover);
@@ -1746,43 +1857,9 @@ body.pagina-inicial {
     overflow: hidden;
 }
 
-main.portfolio-page::before {
-    content: '';
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-image: url("/assets/circuitoscdk.png");
-    background-color: var(--cor-fundo);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    filter: blur(8px);
-    transform: scale(1.05);
-    transform-origin: center;
-}
-
-body[data-theme='light'] main.portfolio-page::before {
-    background-image: url("/assets/ia.png");
-    background-color: var(--cor-fundo);
-    background-size: 150px;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    filter: blur(2px);
-    opacity: 0.7;
-}
-
-
-
-
-
-
-
 body[data-theme='light'] .rodape {
     background-color: #fdeff2;
+    display: none
 }
 
 /*
@@ -1793,4 +1870,176 @@ body[data-theme='light'] .rodape {
 #marca-filosofia-modal .modal-content {
   overflow-y: visible;
   max-height: fit-content;
+}
+
+/* Styling for disabled links/spans in header dropdown */
+.disabled-link {
+    color: #888; /* Grey out the text */
+    cursor: not-allowed; /* Change cursor to 'not-allowed' */
+    opacity: 0.6; /* Slightly fade it out */
+    display: block; /* Ensure it takes full width in dropdown */
+    width: 100%; /* Make it take full width like the original links */
+    padding: 12px 20px; /* Match padding of original links */
+    margin: 0;
+    text-align: left; /* Match text alignment */
+    transition: none; /* Remove transitions */
+}
+
+/* Ensure hover effect does not apply to disabled links */
+.dropdown-menu .disabled-link:hover {
+    color: #888; /* Keep it grey */
+    text-shadow: none; /* Remove text shadow */
+    transform: none; /* Prevent scale transform */
+    background: none;
+}
+
+
+/* ======================================================= */
+/* ESTILOS PARA CASE STUDIES (MODAIS) */
+/* ======================================================= */
+
+/* Container Principal */
+.case-study-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.case-study-container p, .case-study-container h3 {
+    margin-bottom: 0; /* Reset margin from default modal p and h2 */
+}
+
+/* Cabeçalho com Badge */
+.case-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid;
+}
+
+.status-badge.warning {
+    background-color: rgba(255, 140, 0, 0.15); 
+    color: var(--cor-acao-primaria);
+    border-color: var(--cor-acao-primaria);
+}
+
+.status-badge.success {
+    background-color: rgba(40, 167, 69, 0.15);
+    color: var(--cor-sucesso);
+    border-color: var(--cor-sucesso);
+}
+
+.status-badge.beta {
+    background-color: rgba(81, 105, 211, 0.15);
+    color: var(--cor-info);
+    border-color: var(--cor-info);
+}
+
+.status-badge.info {
+    background-color: rgba(78, 205, 196, 0.15);
+    color: var(--cor-terciaria);
+    border-color: var(--cor-terciaria);
+}
+
+
+/* Seções de Texto */
+.case-section h3 {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria); /* Ciano */
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid var(--cor-borda);
+    padding-bottom: 5px;
+}
+
+.case-section p {
+    color: var(--cor-texto-secundario);
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.case-section strong {
+    color: var(--cor-destaque);
+}
+
+/* Grid de Tecnologias (Tech Chips) */
+.tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--cor-superficie-neutra);
+    border: 1px solid var(--cor-borda);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: var(--cor-texto-secundario);
+    transition: all 0.3s ease;
+}
+
+/* Tema Claro para os chips */
+body[data-theme='light'] .tech-item {
+    background-color: var(--cor-superficie-neutra);
+    border-color: var(--cor-borda);
+    color: var(--cor-texto-secundario);
+}
+
+.tech-item:hover {
+    border-color: var(--cor-destaque);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tech-item i {
+    font-size: 1.1rem;
+    color: var(--cor-destaque);
+}
+
+/* Estilo para tecnologia futura/em dev */
+.tech-item.future {
+    opacity: 0.7;
+    border-style: dashed;
+}
+
+/* Rodapé do Case */
+.case-footer {
+    border-top: 1px solid var(--cor-borda);
+    margin-top: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.case-footer p {
+    font-size: 0.9rem;
+    color: var(--cor-texto-primario);
+    font-style: italic;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
