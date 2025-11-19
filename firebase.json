@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "cdkteck",
-      "public": "cdkteck/out",
+      "public": "out",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -41,21 +41,6 @@
           "source": "/portfolio/unicorn",
           "destination": "/portfolio/unicorn.html"
         },
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
-    },
-    {
-      "target": "gestaorpd",
-      "public": "GestaoRPD/dist",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
         {
           "source": "**",
           "destination": "/index.html"
