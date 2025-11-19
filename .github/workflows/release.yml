@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -41,6 +43,36 @@ jobs:
       
       - name: Build Project
         run: npm run build
+      
+      - name: Verify Firebase config
+        run: |
+          echo "Verificando configuração do Firebase..."
+          if [ ! -f "firebase.json" ]; then
+            echo "❌ Erro: firebase.json não encontrado!"
+            exit 1
+          fi
+          if [ ! -f ".firebaserc" ]; then
+            echo "❌ Erro: .firebaserc não encontrado!"
+            exit 1
+          fi
+          echo "✅ Arquivos Firebase encontrados"
+          echo "Conteúdo do firebase.json:"
+          cat firebase.json
+          echo ""
+          echo "Conteúdo do .firebaserc:"
+          cat .firebaserc
+
+      - name: Verify build output
+        run: |
+          if [ ! -d "out" ]; then
+            echo "❌ Erro: Diretório out/ não encontrado!"
+            echo "Conteúdo atual:"
+            ls -la
+            exit 1
+          fi
+          echo "✅ Diretório out/ encontrado"
+          echo "Conteúdo do out/:"
+          ls -la out/
 
       - name: Run semantic-release
         run: npx semantic-release
