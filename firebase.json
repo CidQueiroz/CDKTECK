@@ -1,0 +1,66 @@
+{
+  "hosting": [
+    {
+      "target": "cdkteck",
+      "public": "cdkteck/out",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "/pbi",
+          "destination": "/pbi.html"
+        },
+        {
+          "source": "/portfolio",
+          "destination": "/portfolio.html"
+        },
+        {
+          "source": "/certificados",
+          "destination": "/certificados.html"
+        },
+        {
+          "source": "/privacidade",
+          "destination": "/privacidade.html"
+        },
+        {
+          "source": "/termos",
+          "destination": "/termos.html"
+        },
+        {
+          "source": "/portfolio/adivinha-numero",
+          "destination": "/portfolio/adivinha-numero.html"
+        },
+        {
+          "source": "/portfolio/geocoding",
+          "destination": "/portfolio/geocoding.html"
+        },
+        {
+          "source": "/portfolio/unicorn",
+          "destination": "/portfolio/unicorn.html"
+        },
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "gestaorpd",
+      "public": "GestaoRPD/dist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
