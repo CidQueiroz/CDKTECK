@@ -145,5 +145,19 @@
     "description": "Comprovação de conhecimento em Redes de Computadores, parte do programa de formação intensiva TIC-Hub.",
     "image_url": "/certificados/images/TIC-Hub---TIC-12-(Redes-de-Computadores).png",
     "pdf_url": "/certificados/TIC-Hub - TIC-12 (Redes de Computadores).pdf"
+  },
+  {
+    "id": "dsa-python-fundamentals",
+    "title": "Fundamentos de Linguagem Python Para Análise de Dados, Data Science e Machine Learning",
+    "description": "Certificação de 64 horas que valida o domínio completo de Python, desde a sintaxe até a aplicação em algoritmos de Machine Learning e análise de dados.",
+    "image_url": "/certificados/images/certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia-68f6fc1a9f4ceb0a650689b4.png",
+    "pdf_url": "/certificados/certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia-68f6fc1a9f4ceb0a650689b4.pdf"
+  },
+  {
+    "id": "ey-empodera",
+    "title": "Programa EY Empodera - Tecnologia e Liderança",
+    "description": "Formação intensiva de 75 horas abrangendo Python, Engenharia de Dados, DevOps, Agile e Governança de Dados, combinada com desenvolvimento de liderança.",
+    "image_url": "/certificados/images/Ey_Empodera_programaeucapacito.png",
+    "pdf_url": "/certificados/Ey_Empodera_programaeucapacito.pdf"
   }
 ]

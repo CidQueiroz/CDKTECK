@@ -148,9 +148,14 @@ export default function Home() {
               title="CDK TECK"
               width={600} height={600}
               priority
-              onClick={handleLogoClick}
+              // onClick={handleLogoClick}
               style={{ cursor: 'pointer' }}
             />
+            <div 
+              className="logo-hitbox" 
+              onClick={handleLogoClick}
+              title="Descubra o DNA da CDK TECK"
+            ></div>
           </div>
 
           {Object.keys(modalData).map((key) => {

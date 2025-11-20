@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "senseidb-rebranding"
+    "default": "cdkteck-hub"
   },
   "targets": {
     "senseidb-rebranding": {
