@@ -1,72 +1,125 @@
-# CDK TECK - Landing Page e Portfólio (Next.js)
+<div align="center">
 
-## Visão Geral
+# 🌐 CDK TECK - Landing Page e Portfólio
+### Sua Jornada Pelo Universo da Inovação Tecnológica
 
-Esta é a landing page principal do projeto CDK TECK, agora reimplementada utilizando Next.js. Ela serve como um hub central e portfólio para diversas aplicações e soluções tecnológicas. A página foi projetada para ser uma vitrine interativa, apresentando as principais áreas de atuação e direcionando os usuários para os projetos específicos, com os benefícios de performance e desenvolvimento de uma aplicação Next.js.
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-## Funcionalidades
+[**Portfólio CDKTeck**](https://www.cdkteck.com.br) | [**LinkedIn do Autor**](https://www.linkedin.com/in/ciddy-queiroz/)
 
-*   **Navegação Interativa:** A página utiliza uma animação de "cérebro de circuitos" com pontos clicáveis que representam as diferentes áreas de expertise.
-*   **Modais de Informação:** Ao clicar em um ponto, um modal exibe informações detalhadas sobre a área, como "Análise de Dados", "Automação RPA", "Python/Django", "Business Intelligence", "SenseiDB" e "Certificações".
-*   **Busca Integrada:** Uma funcionalidade de busca permite que os usuários encontrem rapidamente a área de interesse.
-*   **Design Responsivo:** A página é projetada para ser acessível em diferentes dispositivos.
-*   **Gerenciamento de Tema:** Alternância entre tema claro e escuro.
+<br />
+</div>
 
-## Arquitetura e Tecnologias
+---
 
-| Componente | Tecnologia | Propósito |
+## 🚀 Visão Geral
+
+Esta é a landing page principal do projeto CDK TECK, reimplementada com **Next.js** para oferecer performance e experiência de usuário de ponta. Ela serve como um hub central e portfólio, apresentando as diversas aplicações e soluções tecnológicas desenvolvidas. A página é uma vitrine interativa que destaca as principais áreas de atuação e direciona os visitantes para projetos específicos, tudo com a agilidade e os benefícios de desenvolvimento do Next.js.
+
+---
+
+## 🧠 Arquitetura & Tecnologias
+
+Este projeto adota uma arquitetura moderna para garantir alta performance, escalabilidade e manutenibilidade.
+
+| Camada | Tecnologias | Propósito |
 | :--- | :--- | :--- |
-| **Framework** | **Next.js (React)** | Construção da interface de usuário com renderização otimizada e roteamento. |
-| **Linguagem** | **TypeScript** | Adiciona tipagem estática para maior robustez e manutenibilidade do código. |
-| **Estilização** | **CSS Modules / Global CSS** | Estilização e animações, com foco em modularidade e escopo local para componentes. |
-| **Implantação** | **Firebase Hosting** | Hospedagem estática e rápida da aplicação. |
+| **Framework** | **Next.js (React)** | Construção da interface de usuário com renderização otimizada, roteamento e funcionalidades de servidor. |
+| **Linguagem** | **TypeScript** | Garante tipagem estática, maior robustez e facilita a manutenção do código. |
+| **Estilização** | **Tailwind CSS / CSS Modules** | Estilização rápida e responsiva com foco em utilitários e modularidade. |
+| **Implantação** | **Firebase Hosting** | Hospedagem estática e escalável para entrega rápida de conteúdo globalmente. |
+| **Automação** | **GitHub Actions** | CI/CD para automação de builds e deploys. |
 
-## Estrutura do Projeto
+---
 
+## ✨ Funcionalidades Chave
+
+- [x] **Navegação Interativa:** Uma animação de "cérebro de circuitos" com pontos clicáveis representa as áreas de expertise da CDK TECK.
+- [x] **Modais de Informação:** Detalhes sobre "Análise de Dados", "Automação RPA", "Python/Django", "Business Intelligence", "SenseiDB" e "Certificações" são exibidos em modais.
+- [x] **Busca Integrada:** Permite aos usuários encontrar rapidamente informações sobre áreas de interesse.
+- [x] **Design Responsivo:** Acessibilidade garantida em diversos dispositivos e tamanhos de tela.
+- [x] **Gerenciamento de Tema:** Alternância fluida entre temas claro e escuro para personalização da experiência.
+
+---
+
+## 🛠️ Como Executar Localmente
+
+### Pré-requisitos
+* Node.js 18+
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/CidQueiroz/cdkteck.git
+cd cdkteck
 ```
-/
-├── public/                   # Arquivos estáticos (imagens, favicon, certificados)
-├── src/
-│   ├── app/                  # Rotas e páginas da aplicação (ex: /, /portfolio, /certificados)
-│   │   ├── globals.css       # Estilos globais
-│   │   ├── layout.tsx        # Layout principal da aplicação
-│   │   └── page.tsx          # Página inicial
-│   ├── components/           # Componentes React reutilizáveis (Header, Footer, Modals, CircuitPoint)
-│   └── data/                 # Dados em JSON (ex: modalData)
-├── next.config.ts            # Configuração do Next.js (incluindo exportação estática)
-├── firebase.json             # Configuração do Firebase Hosting
-├── package.json              # Dependências e scripts do projeto
-└── README.md                 # Este arquivo
+
+### 2. Instale as dependências
+
+```bash
+npm install
 ```
 
-## Como Rodar Localmente
+### 3. Inicie o servidor de desenvolvimento
 
-1.  **Instale as dependências**:
-    ```bash
-    npm install
-    ```
-2.  **Inicie o servidor de desenvolvimento**:
-    ```bash
-    npm run dev
-    ```
-    Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+```bash
+npm run dev
+```
 
-## Implantação (Deployment)
+A aplicação estará disponível em `http://localhost:3000`.
 
-Este projeto está configurado para implantação estática no Firebase Hosting.
+---
 
-1.  **Construa o projeto**:
-    ```bash
-    npm run build
-    ```
-    Isso gerará os arquivos estáticos na pasta `out/`.
+## 🚀 Implantação (Deployment)
 
-2.  **Implante no Firebase Hosting**:
-    Certifique-se de que o Firebase CLI está configurado para o projeto correto (`senseidb-rebranding`) e que o `firebase.json` aponta para o `target` correto (`cdkteck`).
-    ```bash
-    firebase deploy --only hosting
-    ```
+Este projeto está configurado para implantação estática no **Firebase Hosting** e automatizado via **GitHub Actions**.
 
-## Automação CI/CD (GitHub Actions)
+### Build do Projeto
+```bash
+npm run build
+```
+Isso gerará os arquivos estáticos na pasta `out/`.
 
-O projeto inclui um workflow de GitHub Actions (`.github/workflows/release.yml`) para automatizar o processo de build e deploy no Firebase Hosting a cada `git push` na branch `main`. Certifique-se de configurar o `FIREBASE_SERVICE_ACCOUNT_CDKTECK` como um segredo no seu repositório GitHub.
+### Deploy Manual (Firebase CLI)
+Certifique-se de que o Firebase CLI está configurado corretamente e que o `firebase.json` aponta para o `target` adequado (`cdkteck`).
+```bash
+firebase deploy --only hosting
+```
+
+### Automação CI/CD (GitHub Actions)
+Um workflow de GitHub Actions (`.github/workflows/release.yml`) automatiza o build e deploy no Firebase Hosting a cada `git push` na branch `main`. Configure `FIREBASE_SERVICE_ACCOUNT_CDKTECK` como um segredo no seu repositório GitHub.
+
+---
+
+## 🛣️ Roadmap
+
+- [ ] **Otimização SEO:** Melhorar a indexação e visibilidade nos mecanismos de busca.
+- [ ] **Integração com Blog:** Adicionar uma seção de blog para artigos e notícias.
+- [ ] **Multi-idioma:** Suporte para diferentes idiomas.
+- [ ] **Dashboard de Analytics:** Integração com ferramentas de análise para monitoramento de tráfego e comportamento do usuário.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 👨‍💻 Autor
+
+<img src="https://github.com/CidQueiroz.png" width="100px;" alt="Foto de Cidirclay"/>
+**Cidirclay Queiroz** <br>
+Solutions Architect AI | MLOps Engineer | OCI Specialist
+
+[LinkedIn](https://www.linkedin.com/in/ciddy-queiroz/) | [Website](https://cdkteck.com.br/) | [Email](mailto:cydy.queiroz@cdkteck.com.br) | [Instagram](https://www.instagram.com/ciddyqueiroz/)
+
+Especialista em transformar problemas de negócio complexos em soluções escaláveis na nuvem. Focado em Arquitetura Multi-Cloud e Engenharia de IA Generativa.
+
+---
+
+<div align="center"> <sub>Built with ☕ and 💡</sub> </div>
