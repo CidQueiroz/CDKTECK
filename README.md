@@ -38,11 +38,17 @@ Este projeto adota uma arquitetura moderna para garantir alta performance, escal
 
 ## ✨ Funcionalidades Chave
 
-- [x] **Navegação Interativa:** Uma animação de "cérebro de circuitos" com pontos clicáveis representa as áreas de expertise da CDK TECK.
-- [x] **Modais de Informação:** Detalhes sobre "Análise de Dados", "Automação RPA", "Python/Django", "Business Intelligence", "SenseiDB" e "Certificações" são exibidos em modais.
-- [x] **Busca Integrada:** Permite aos usuários encontrar rapidamente informações sobre áreas de interesse.
-- [x] **Design Responsivo:** Acessibilidade garantida em diversos dispositivos e tamanhos de tela.
-- [x] **Gerenciamento de Tema:** Alternância fluida entre temas claro e escuro para personalização da experiência.
+- 🗺️ **Navegação Interativa:** Uma animação de "cérebro de circuitos" com pontos clicáveis representa as áreas de expertise da CDK TECK.
+- ℹ️ **Modais de Informação:** Detalhes sobre "Análise de Dados", "Automação RPA", "Python/Django", "Business Intelligence", "SenseiDB" e "Certificações" são exibidos em modais.
+- 🔎 **Busca Integrada:** Permite aos usuários encontrar rapidamente informações sobre áreas de interesse.
+- 📱 **Design Responsivo:** Acessibilidade garantida em diversos dispositivos e tamanhos de tela.
+- 🎨 **Gerenciamento de Tema:** Alternância fluida entre temas claro e escuro para personalização da experiência.
+- 🧠 **RAG Inteligente:** Sistema de busca semântica com embeddings.
+- 🚀 **Groq AI:** Respostas ultra-rápidas com Llama 3.
+- 🌐 **Google AI:** Fallback automático com Gemini 1.5.
+- 🔐 **Segurança:** Autenticação Firebase + dados protegidos.
+- 🐳 **Containerizado:** Ambiente de desenvolvimento e produção 100% em Docker.
+- 🤖 **Versionamento Automático:** Releases e changelogs automáticos com semantic-release.
 
 ---
 
