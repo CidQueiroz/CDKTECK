@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import styles from './geocoding.module.css';
 import Image from 'next/image';
-import Modal from '@/components/Modal';
+import { Modal } from '@cidqueiroz/cdkteck-ui';
 
 export default function GeocodingPage() {
   const [rua, setRua] = useState('');

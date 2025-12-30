@@ -1,0 +1,6 @@
+# Permitir acesso a todos os robôs
+User-agent: *
+Allow: /
+
+# Indicar onde está o mapa do site
+Sitemap: https://www.cdkteck.com.br/sitemap.xml

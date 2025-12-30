@@ -1,26 +1,41 @@
 'use client';
 
 import React, { useState } from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import ContactModal from '@/components/ContactModal';
-import { usePathname } from 'next/navigation'; // Importar usePathname
+import { Header, Footer, ContactModal, ThemeProvider } from '@cidqueiroz/cdkteck-ui';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+  const pathname = usePathname();
+
   const openContactModal = () => setIsContactModalOpen(true);
   const closeContactModal = () => setIsContactModalOpen(false);
-  const pathname = usePathname(); // Obter o pathname atual
+  
+  // Componente Link compatível com Next.js
+  const NextLink = ({ href, className, children, ...props }: any) => (
+    <Link href={href} className={className} {...props}>{children}</Link>
+  );
 
-  const isHomePage = pathname === '/'; // Verificar se é a página inicial
+  const isHomePage = pathname === '/';
 
   return (
-    <>
-      {!isHomePage && <Header openContactModal={openContactModal} />} {/* Renderiza Header condicionalmente */}
-      {children}
-      <Footer openContactModal={openContactModal} />
+    <ThemeProvider>
+      {!isHomePage && <Header 
+        LinkComponent={NextLink}
+        usePathname={() => pathname}
+        />}
+      
+      <main>{children}</main>
+
+       {!isHomePage && <Footer
+          openContactModal={openContactModal}
+          LinkComponent={NextLink}
+        />}
+
       <ContactModal isOpen={isContactModalOpen} onClose={closeContactModal} />
-      {!isHomePage && ( // Renderiza o botão condicionalmente
+      
+      {!isHomePage && (
         <button 
           className="fixed-contact-button" 
           onClick={openContactModal}
@@ -29,6 +44,6 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
           <i className="fas fa-envelope"></i>
         </button>
       )}
-    </>
+    </ThemeProvider>
   );
 }

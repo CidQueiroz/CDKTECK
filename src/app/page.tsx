@@ -2,11 +2,10 @@
 
 import Image from "next/image";
 import { useEffect, useState } from 'react';
-import Modal from '@/components/Modal';
+import { Modal, ContactModal, FilosofiaModal } from '@cidqueiroz/cdkteck-ui';
 import CircuitPoint from '@/components/CircuitPoint';
-import FilosofiaModal from "@/components/FilosofiaModal";
-import ContactModal from "@/components/ContactModal";
 import modalData from '@/data/modalData.json';
+import ParticlesBackground from '@/components/ParticlesBackground';
 
 type ModalId = keyof typeof modalData;
 type ModalInfo = (typeof modalData)[ModalId] & { isContact?: boolean };
@@ -19,7 +18,7 @@ export default function Home() {
   
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<ModalInfo[]>([]);
-
+  
   // Efeito para adicionar/remover a classe 'pagina-inicial' do body
   useEffect(() => {
     document.body.classList.add('pagina-inicial');
@@ -29,12 +28,21 @@ export default function Home() {
     };
   }, []); // Array vazio garante que rode apenas uma vez (montagem/desmontagem)
 
-  // Efeito para forçar o tema escuro na página inicial
+  // Efeito para forçar o tema escuro na página inicial com soberania
   useEffect(() => {
     const originalTheme = document.body.getAttribute('data-theme');
-    document.body.setAttribute('data-theme', 'dark');
+    
+    const forceDark = () => {
+      if (document.body.getAttribute('data-theme') !== 'dark') {
+        document.body.setAttribute('data-theme', 'dark');
+      }
+    };
+
+    forceDark();
+    const interval = setInterval(forceDark, 100);
 
     return () => {
+      clearInterval(interval);
       if (originalTheme) {
         document.body.setAttribute('data-theme', originalTheme);
       } else {
@@ -43,21 +51,25 @@ export default function Home() {
     };
   }, []);
 
-  // Efeito para animação de entrada e partículas
   useEffect(() => {
     const timer = setTimeout(() => setIsLoaded(true), 500);
+    
     const particlesContainer = document.getElementById('particles');
+    
     if (particlesContainer) {
       particlesContainer.innerHTML = '';
+      
+      // EXATAMENTE como o HTML original
       for (let i = 0; i < 100; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
+        particle.style.left = Math.random() * 110 + '%';
         particle.style.animationDelay = Math.random() * 6 + 's';
-        particle.style.animationDuration = `${Math.random() * 4 + 4}s`;
+        particle.style.animationDuration = (Math.random() * 4 + 4) + 's';
         particlesContainer.appendChild(particle);
       }
     }
+    
     return () => clearTimeout(timer);
   }, []);
 
@@ -168,8 +180,8 @@ export default function Home() {
               'contato-button': { top: '70%', left: '85%', emoji: '👤' },
               'BI-button': { top: '89%', left: '53%', emoji: '📊' },
               'integracao-button': { top: '80%', left: '23%', emoji: '🔗' },
-              'senseidb-button': { top: '48%', left: '11%', emoji: '🧠' },
-              'suporte-button': { top: '30%', left: '18%', emoji: '🛠️' },
+              'senseidb-button': { top: '48%', left: '10%', emoji: '🧠' },
+              'suporte-button': { top: '31%', left: '18%', emoji: '🛠️' },
             };
             const style = originalPoints[id];
             if (!style) return null;
@@ -196,7 +208,12 @@ export default function Home() {
         <h2>{modalContent?.title}</h2>
         <div dangerouslySetInnerHTML={{ __html: modalContent?.description || '' }} />
         {modalContent?.redirectUrl && (
-          <a href={modalContent.redirectUrl} target="_blank" rel="noopener noreferrer" className="modal-button primary">
+          <a 
+            href={modalContent.redirectUrl} 
+            target={modalContent.external ? "_blank" : "_self"} 
+            rel={modalContent.external ? "noopener noreferrer" : ""} 
+            className="modal-button primary"
+          >
             Visitar Página
           </a>
         )}

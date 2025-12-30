@@ -6,7 +6,7 @@ def sanitize_filename(filename):
     """Remove a extensão e caracteres especiais para criar um nome de arquivo seguro."""
     name_without_ext = Path(filename).stem
     # Substitui qualquer coisa que não seja letra, número ou hífen por um hífen
-    sanitized_name = re.sub(r'[^a-zA-Z0-9-]', '-', name_without_ext)
+    sanitized_name = re.sub(r'[^a-zA-Z0-9-]', ' ', name_without_ext)
     return sanitized_name
 
 def generate_images():

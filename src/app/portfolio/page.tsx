@@ -1,10 +1,9 @@
 'use client';
 
-import Layout from '@/components/Layout';
-import InfoModal from '@/components/InfoModal';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import PageHeader from '@/components/PageHeader';
+import { InfoModal, PageHeader } from '@cidqueiroz/cdkteck-ui';
+
 
 const projects = [
   {
@@ -78,33 +77,31 @@ export default function PortfolioPage() {
   };
 
   return (
-    <Layout>
-      <>
-        <PageHeader
-          title="Laboratório de Projetos"
-          description="Uma coleção de estudos e aplicações práticas desenvolvidas para aprimorar e demonstrar novas habilidades."
-        />
+    <div className="portfolio-page">
+      <PageHeader
+        title="Laboratório de Projetos"
+        description="Uma coleção de estudos e aplicações práticas desenvolvidas para aprimorar e demonstrar novas habilidades."
+      />
 
-        <div className="gallery-container">
-          {projects.map((project) => (
-            <div key={project.id} className="project-card" onClick={() => handleCardClick(project)}>
-              <div className="card-content">
-                <Image src={project.thumbnail} alt={`Thumbnail do projeto ${project.title}`} width={150} height={200} style={{ objectFit: 'cover' }} />
-                <div className="project-info">
-                  <p>{project.description}</p>
-                </div>
+      <div className="gallery-container">
+        {projects.map((project) => (
+          <div key={project.id} className="project-card" onClick={() => handleCardClick(project)}>
+            <div className="card-content">
+              <Image src={project.thumbnail} alt={`Thumbnail do projeto ${project.title}`} width={150} height={200} style={{ objectFit: 'cover' }} />
+              <div className="project-info">
+                <p>{project.description}</p>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
+      </div>
 
-        <InfoModal
-          isOpen={!!selectedProject}
-          onClose={handleCloseModal}
-          onViewProject={handleViewProject}
-          project={selectedProject}
-        />
-      </>
-    </Layout>
+      <InfoModal
+        isOpen={!!selectedProject}
+        onClose={handleCloseModal}
+        onViewProject={handleViewProject}
+        project={selectedProject}
+      />
+    </div>
   );
 }

@@ -1,0 +1,365 @@
+.
+├── cdkteck
+│   └── package-lock.json
+├── eslint.config.mjs
+├── estrutura_do_projeto.txt
+├── .firebase
+│   └── hosting.b3V0.cache
+├── firebase.json
+├── .firebaserc
+├── gemini.md
+├── .github
+│   └── workflows
+│       └── release.yml
+├── .gitignore
+├── LICENSE
+├── .next
+│   └── dev
+│       ├── build-manifest.json
+│       ├── cache
+│       │   ├── next-devtools-config.json
+│       │   └── .rscinfo
+│       ├── fallback-build-manifest.json
+│       ├── lock
+│       ├── logs
+│       │   └── next-development.log
+│       ├── package.json
+│       ├── prerender-manifest.json
+│       ├── routes-manifest.json
+│       ├── server
+│       │   ├── app
+│       │   │   ├── page
+│       │   │   │   ├── app-paths-manifest.json
+│       │   │   │   ├── build-manifest.json
+│       │   │   │   ├── next-font-manifest.json
+│       │   │   │   ├── react-loadable-manifest.json
+│       │   │   │   └── server-reference-manifest.json
+│       │   │   ├── page_client-reference-manifest.js
+│       │   │   ├── page.js
+│       │   │   └── page.js.map
+│       │   ├── app-paths-manifest.json
+│       │   ├── chunks
+│       │   │   └── ssr
+│       │   │       ├── [externals]_next_dist_shared_lib_no-fallback-error_external_59b92b38.js
+│       │   │       ├── [externals]_next_dist_shared_lib_no-fallback-error_external_59b92b38.js.map
+│       │   │       ├── _next-internal_server_app_page_actions_39d4fc33.js
+│       │   │       ├── _next-internal_server_app_page_actions_39d4fc33.js.map
+│       │   │       ├── node_modules_186c80ea._.js
+│       │   │       ├── node_modules_186c80ea._.js.map
+│       │   │       ├── node_modules_473cc24e._.js
+│       │   │       ├── node_modules_473cc24e._.js.map
+│       │   │       ├── node_modules_c69ae102._.js
+│       │   │       ├── node_modules_c69ae102._.js.map
+│       │   │       ├── node_modules_next_32f3f503._.js
+│       │   │       ├── node_modules_next_32f3f503._.js.map
+│       │   │       ├── node_modules_next_dist_3a203ced._.js
+│       │   │       ├── node_modules_next_dist_3a203ced._.js.map
+│       │   │       ├── node_modules_next_dist_95f1ca52._.js
+│       │   │       ├── node_modules_next_dist_95f1ca52._.js.map
+│       │   │       ├── node_modules_next_dist_client_components_9774470f._.js
+│       │   │       ├── node_modules_next_dist_client_components_9774470f._.js.map
+│       │   │       ├── node_modules_next_dist_client_components_builtin_forbidden_45780354.js
+│       │   │       ├── node_modules_next_dist_client_components_builtin_forbidden_45780354.js.map
+│       │   │       ├── node_modules_next_dist_client_components_builtin_global-error_ece394eb.js
+│       │   │       ├── node_modules_next_dist_client_components_builtin_global-error_ece394eb.js.map
+│       │   │       ├── node_modules_next_dist_client_components_builtin_unauthorized_15817684.js
+│       │   │       ├── node_modules_next_dist_client_components_builtin_unauthorized_15817684.js.map
+│       │   │       ├── node_modules_next_f71b9665._.js
+│       │   │       ├── node_modules_next_f71b9665._.js.map
+│       │   │       ├── [root-of-the-server]__1e1d6738._.js
+│       │   │       ├── [root-of-the-server]__1e1d6738._.js.map
+│       │   │       ├── [root-of-the-server]__70a73b34._.js
+│       │   │       ├── [root-of-the-server]__70a73b34._.js.map
+│       │   │       ├── [root-of-the-server]__a8ab9a0d._.js
+│       │   │       ├── [root-of-the-server]__a8ab9a0d._.js.map
+│       │   │       ├── [root-of-the-server]__b103be15._.js
+│       │   │       ├── [root-of-the-server]__b103be15._.js.map
+│       │   │       ├── [root-of-the-server]__c80f7c8f._.js
+│       │   │       ├── [root-of-the-server]__c80f7c8f._.js.map
+│       │   │       ├── [root-of-the-server]__e1417407._.js
+│       │   │       ├── [root-of-the-server]__e1417407._.js.map
+│       │   │       ├── [root-of-the-server]__e6a4d965._.js
+│       │   │       ├── [root-of-the-server]__e6a4d965._.js.map
+│       │   │       ├── [root-of-the-server]__e8a2741f._.js
+│       │   │       ├── [root-of-the-server]__e8a2741f._.js.map
+│       │   │       ├── src_app_5b2047f8._.js
+│       │   │       ├── src_app_5b2047f8._.js.map
+│       │   │       ├── src_db7e3258._.js
+│       │   │       ├── src_db7e3258._.js.map
+│       │   │       ├── [turbopack]_runtime.js
+│       │   │       └── [turbopack]_runtime.js.map
+│       │   ├── interception-route-rewrite-manifest.js
+│       │   ├── middleware-build-manifest.js
+│       │   ├── middleware-manifest.json
+│       │   ├── next-font-manifest.js
+│       │   ├── next-font-manifest.json
+│       │   ├── pages
+│       │   │   ├── _app
+│       │   │   │   ├── build-manifest.json
+│       │   │   │   ├── client-build-manifest.json
+│       │   │   │   ├── next-font-manifest.json
+│       │   │   │   ├── pages-manifest.json
+│       │   │   │   └── react-loadable-manifest.json
+│       │   │   ├── _app.js
+│       │   │   ├── _app.js.map
+│       │   │   ├── _document
+│       │   │   │   ├── next-font-manifest.json
+│       │   │   │   ├── pages-manifest.json
+│       │   │   │   └── react-loadable-manifest.json
+│       │   │   ├── _document.js
+│       │   │   ├── _document.js.map
+│       │   │   ├── _error
+│       │   │   │   ├── build-manifest.json
+│       │   │   │   ├── client-build-manifest.json
+│       │   │   │   ├── next-font-manifest.json
+│       │   │   │   ├── pages-manifest.json
+│       │   │   │   └── react-loadable-manifest.json
+│       │   │   ├── _error.js
+│       │   │   └── _error.js.map
+│       │   ├── pages-manifest.json
+│       │   ├── server-reference-manifest.js
+│       │   └── server-reference-manifest.json
+│       ├── static
+│       │   ├── chunks
+│       │   │   ├── _45210fd5._.js.map
+│       │   │   ├── _a0ff3932._.js
+│       │   │   ├── _a445b9f0._.js
+│       │   │   ├── _a445b9f0._.js.map
+│       │   │   ├── [next]_entry_page-loader_ts_43b523b5._.js
+│       │   │   ├── [next]_entry_page-loader_ts_43b523b5._.js.map
+│       │   │   ├── [next]_entry_page-loader_ts_742e4b53._.js
+│       │   │   ├── [next]_entry_page-loader_ts_742e4b53._.js.map
+│       │   │   ├── [next]_internal_font_google_montserrat_890666b0_module_css_bad6b30c._.single.css
+│       │   │   ├── [next]_internal_font_google_montserrat_890666b0_module_css_bad6b30c._.single.css.map
+│       │   │   ├── [next]_internal_font_google_orbitron_fc5469d8_module_css_bad6b30c._.single.css
+│       │   │   ├── [next]_internal_font_google_orbitron_fc5469d8_module_css_bad6b30c._.single.css.map
+│       │   │   ├── node_modules_7f09fef0._.js
+│       │   │   ├── node_modules_7f09fef0._.js.map
+│       │   │   ├── node_modules_next_71e330a9._.js
+│       │   │   ├── node_modules_next_71e330a9._.js.map
+│       │   │   ├── node_modules_next_app_72f3d36f.js
+│       │   │   ├── node_modules_next_app_72f3d36f.js.map
+│       │   │   ├── node_modules_next_dist_094231d7._.js
+│       │   │   ├── node_modules_next_dist_094231d7._.js.map
+│       │   │   ├── node_modules_next_dist_19fd0646._.js
+│       │   │   ├── node_modules_next_dist_19fd0646._.js.map
+│       │   │   ├── node_modules_next_dist_7a8122d0._.js
+│       │   │   ├── node_modules_next_dist_7a8122d0._.js.map
+│       │   │   ├── node_modules_next_dist_b0a279d5._.js
+│       │   │   ├── node_modules_next_dist_b0a279d5._.js.map
+│       │   │   ├── node_modules_next_dist_build_polyfills_polyfill-nomodule.js
+│       │   │   ├── node_modules_next_dist_client_aaee43fe._.js
+│       │   │   ├── node_modules_next_dist_client_aaee43fe._.js.map
+│       │   │   ├── node_modules_next_dist_client_components_builtin_global-error_78cdd4a3.js
+│       │   │   ├── node_modules_next_dist_client_d0aa886c._.js
+│       │   │   ├── node_modules_next_dist_client_d0aa886c._.js.map
+│       │   │   ├── node_modules_next_dist_compiled_8ca6b690._.js
+│       │   │   ├── node_modules_next_dist_compiled_8ca6b690._.js.map
+│       │   │   ├── node_modules_next_dist_compiled_a0e4c7b4._.js
+│       │   │   ├── node_modules_next_dist_compiled_a0e4c7b4._.js.map
+│       │   │   ├── node_modules_next_dist_compiled_next-devtools_index_1dd7fb59.js
+│       │   │   ├── node_modules_next_dist_compiled_next-devtools_index_1dd7fb59.js.map
+│       │   │   ├── node_modules_next_dist_compiled_react-dom_1e674e59._.js
+│       │   │   ├── node_modules_next_dist_compiled_react-dom_1e674e59._.js.map
+│       │   │   ├── node_modules_next_dist_compiled_react-server-dom-turbopack_9212ccad._.js
+│       │   │   ├── node_modules_next_dist_compiled_react-server-dom-turbopack_9212ccad._.js.map
+│       │   │   ├── node_modules_next_dist_shared_lib_82dc2e9d._.js
+│       │   │   ├── node_modules_next_dist_shared_lib_82dc2e9d._.js.map
+│       │   │   ├── node_modules_next_dist_shared_lib_cf5b50a6._.js
+│       │   │   ├── node_modules_next_dist_shared_lib_cf5b50a6._.js.map
+│       │   │   ├── node_modules_next_error_1cfbb379.js
+│       │   │   ├── node_modules_next_error_1cfbb379.js.map
+│       │   │   ├── node_modules_react-dom_4411d9bd._.js
+│       │   │   ├── node_modules_react-dom_4411d9bd._.js.map
+│       │   │   ├── node_modules_@swc_helpers_cjs_d80fb378._.js
+│       │   │   ├── node_modules_@swc_helpers_cjs_d80fb378._.js.map
+│       │   │   ├── pages
+│       │   │   │   ├── _app.js
+│       │   │   │   └── _error.js
+│       │   │   ├── pages__app_2da965e7._.js
+│       │   │   ├── pages__app_5d693f93._.js.map
+│       │   │   ├── pages__error_2da965e7._.js
+│       │   │   ├── pages__error_9f8f7792._.js.map
+│       │   │   ├── [root-of-the-server]__092393de._.js
+│       │   │   ├── [root-of-the-server]__092393de._.js.map
+│       │   │   ├── [root-of-the-server]__45f039c3._.js
+│       │   │   ├── [root-of-the-server]__45f039c3._.js.map
+│       │   │   ├── [root-of-the-server]__c2b1f37f._.css
+│       │   │   ├── [root-of-the-server]__c2b1f37f._.css.map
+│       │   │   ├── src_87827300._.js
+│       │   │   ├── src_87827300._.js.map
+│       │   │   ├── src_app_favicon_ico_mjs_a4dcd48c._.js
+│       │   │   ├── src_app_globals_css_bad6b30c._.single.css
+│       │   │   ├── src_app_globals_css_bad6b30c._.single.css.map
+│       │   │   ├── src_app_layout_tsx_78cdd4a3._.js
+│       │   │   ├── src_app_page_tsx_566c63f9._.js
+│       │   │   ├── src_components_CircuitPoint_module_fd255f18.css
+│       │   │   ├── src_components_CircuitPoint_module_fd255f18.css.map
+│       │   │   ├── turbopack-_45210fd5._.js
+│       │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_bae88007._.js
+│       │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_bae88007._.js.map
+│       │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js
+│       │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js.map
+│       │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_f26f265a._.js
+│       │   │   ├── turbopack-pages__app_5d693f93._.js
+│       │   │   └── turbopack-pages__error_9f8f7792._.js
+│       │   ├── development
+│       │   │   ├── _buildManifest.js
+│       │   │   ├── _clientMiddlewareManifest.json
+│       │   │   └── _ssgManifest.js
+│       │   └── media
+│       │       ├── 0acc7fdf55eb3220-s.p.532ccaa1.woff2
+│       │       ├── 2b402d8aebffd579-s.ec7e94a5.woff2
+│       │       ├── 44fac91e6f2d2b1b-s.0a39a854.woff2
+│       │       ├── 8298327da6d5bcce-s.fb2d5852.woff2
+│       │       ├── a88409fdd7dc121c-s.62b55a98.woff2
+│       │       ├── e8f2fbee2754df70-s.p.9b7a96b4.woff2
+│       │       └── favicon.866c094a.ico
+│       ├── trace
+│       └── types
+│           ├── cache-life.d.ts
+│           ├── routes.d.ts
+│           └── validator.ts
+├── next.config.ts
+├── next-env.d.ts
+├── .npmrc
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── public
+│   ├── assets
+│   │   ├── adivinha_numero.png
+│   │   ├── animacao_logo.gif
+│   │   ├── circuitos2.png
+│   │   ├── circuitoscdk.png
+│   │   ├── curriculo.pdf
+│   │   ├── favicon.png
+│   │   ├── foto.jpg
+│   │   ├── ia3.png
+│   │   ├── ia_tech.png
+│   │   ├── logo_claro.png
+│   │   ├── logo_escuro.png
+│   │   ├── logo_header.png
+│   │   ├── logo_metalico_sem_fundo.png
+│   │   ├── maps_api.png
+│   │   └── Ruido.png
+│   ├── certificados
+│   │   ├── certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia.pdf
+│   │   ├── Cidirclay Santos De Lima Queiroz - Programa -.pdf
+│   │   ├── Engenharia de Prompt_ criando prompts eficazes para IA Generativa - Alura.pdf
+│   │   ├── Ey_Empodera_programaeucapacito.pdf
+│   │   ├── images
+│   │   │   ├── certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia-68f6fc1a9f4ceb0a650689b4.png
+│   │   │   ├── certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia.png
+│   │   │   ├── Cidirclay-Santos-De-Lima-Queiroz---Programa--.png
+│   │   │   ├── Engenharia-de-Prompt--criando-prompts-eficazes-para-IA-Generativa---Alura.png
+│   │   │   ├── Ey-Empodera-programaeucapacito.png
+│   │   │   ├── JornadaPython-HashTag.png
+│   │   │   ├── Microsoft-Power-BI-Para-Business-Intelligence---DSA.png
+│   │   │   ├── Oracle-AI-Vector-Search-Certified-Professional.png
+│   │   │   ├── Oracle-Analytics-Cloud-2025-Certified-Professional.png
+│   │   │   ├── Oracle-Autonomous-Database-Cloud-2025-Certified-Professional.png
+│   │   │   ├── Oracle-Cloud-Infrastructure-2025-Certified-Architect-Associate.png
+│   │   │   ├── Oracle-Cloud-Infrastructure-2025-Certified-Data-Science-Professional.png
+│   │   │   ├── Oracle-Cloud-Infrastructure-2025-Certified-DevOps-Professional.png
+│   │   │   ├── Oracle-Cloud-Infrastructure-2025-Certified-Foundations-Associate.png
+│   │   │   ├── Oracle-Cloud-Infrastructure-2025-Certified-Generative-AI-Professional.png
+│   │   │   ├── Oracle-Cloud-Infrastructure-2025-Certified-Multicloud-Architect-Professional.png
+│   │   │   ├── Oracle-Database-AWS-Certified-Architect-Professional.png
+│   │   │   ├── Oracle-Data-Platform-2025-Certified-Foundations-Associate.png
+│   │   │   ├── Oracle-Fusion-AI-Agent-Studio-Certified-Foundations-Associate---Rel-1.png
+│   │   │   ├── TIC-Hub---TIC-12--Banco-de-Dados-.png
+│   │   │   ├── TIC-Hub---TIC-12--Estrutura-de-Dados-.png
+│   │   │   ├── TIC-Hub---TIC-12--POO-.png
+│   │   │   ├── TIC-Hub---TIC-12--Prog-Paralela-e-Distribuida-.png
+│   │   │   └── TIC-Hub---TIC-12--Redes-de-Computadores-.png
+│   │   ├── JornadaPython-HashTag.pdf
+│   │   ├── Microsoft Power BI Para Business Intelligence - DSA.pdf
+│   │   ├── Oracle AI Vector Search Certified Professional.pdf
+│   │   ├── Oracle Analytics Cloud 2025 Certified Professional.pdf
+│   │   ├── Oracle Autonomous Database Cloud 2025 Certified Professional.pdf
+│   │   ├── Oracle Cloud Infrastructure 2025 Certified Architect Associate.pdf
+│   │   ├── Oracle Cloud Infrastructure 2025 Certified Data Science Professional.pdf
+│   │   ├── Oracle Cloud Infrastructure 2025 Certified DevOps Professional.pdf
+│   │   ├── Oracle Cloud Infrastructure 2025 Certified Foundations Associate.pdf
+│   │   ├── Oracle Cloud Infrastructure 2025 Certified Generative AI Professional.pdf
+│   │   ├── Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional.pdf
+│   │   ├── Oracle Database@AWS Certified Architect Professional.pdf
+│   │   ├── Oracle Data Platform 2025 Certified Foundations Associate.pdf
+│   │   ├── Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1.pdf
+│   │   ├── TIC-Hub - TIC-12 (Banco de Dados).pdf
+│   │   ├── TIC-Hub - TIC-12 (Estrutura de Dados).pdf
+│   │   ├── TIC-Hub - TIC-12 (POO).pdf
+│   │   ├── TIC-Hub - TIC-12 (Prog Paralela e Distribuida).pdf
+│   │   └── TIC-Hub - TIC-12 (Redes de Computadores).pdf
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── pbi
+│   │   └── PBI_Portfolio
+│   │       ├── thumb_acidentes.png
+│   │       ├── thumb_balanco_patrimonial.png
+│   │       ├── thumb_comercial.png
+│   │       ├── thumb_engenharia_producao.png
+│   │       ├── thumb_estatisticas.png
+│   │       ├── thumb_financeiro.png
+│   │       ├── thumb_limpeza.png
+│   │       ├── thumb_linguagem_r.png
+│   │       ├── thumb_logistica.png
+│   │       ├── thumb_marketing.png
+│   │       ├── thumb_mercadoacoes.png
+│   │       ├── thumb_ml.png
+│   │       ├── thumb_rh.png
+│   │       ├── thumb_vendas01.png
+│   │       └── thumb_vendas02.png
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   ├── vercel.svg
+│   └── window.svg
+├── README_backup.md
+├── README.md
+├── requirements.txt
+├── scripts
+│   └── generate_cert_images.py
+├── src
+│   ├── app
+│   │   ├── certificados
+│   │   │   └── page.tsx
+│   │   ├── favicon2.ico
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── pbi
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx
+│   │   ├── portfolio
+│   │   │   ├── adivinha-numero
+│   │   │   │   ├── adivinha-numero.module.css
+│   │   │   │   └── page.tsx
+│   │   │   ├── geocoding
+│   │   │   │   ├── geocoding.module.css
+│   │   │   │   └── page.tsx
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx
+│   │   │   └── unicorn
+│   │   │       ├── page.tsx
+│   │   │       └── unicorn.module.css
+│   │   ├── privacidade
+│   │   │   └── page.tsx
+│   │   └── termos
+│   │       └── page.tsx
+│   ├── components
+│   │   ├── CircuitPoint.module.css
+│   │   ├── CircuitPoint.tsx
+│   │   ├── ClientLayout.tsx
+│   │   ├── DashboardModal.tsx
+│   │   └── Layout.tsx
+│   ├── context
+│   └── data
+│       ├── certificates.json
+│       ├── modalData.json
+│       └── pbiProjects.json
+└── tsconfig.json
+
+43 directories, 319 files

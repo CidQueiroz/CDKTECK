@@ -2,11 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import InfoModal from '@/components/InfoModal';
-import DashboardModal from '@/components/DashboardModal';
+import { InfoModal, PageHeader, Modal } from '@cidqueiroz/cdkteck-ui';
 import pbiProjects from '@/data/pbiProjects.json';
-import Layout from '@/components/Layout';
-import PageHeader from '@/components/PageHeader';
 
 type Project = (typeof pbiProjects)[0];
 
@@ -47,51 +44,59 @@ export default function PbiPage() {
   };
 
   return (
-    <Layout>
-      <>
-        <PageHeader
-          title="Portfólio de Dashboards"
-          description="Explore projetos interativos de Business Intelligence e Análise de Dados."
-        />
+    <div className="portfolio-page">
+      <PageHeader
+        title="Portfólio de Dashboards"
+        description="Explore projetos interativos de Business Intelligence e Análise de Dados."
+      />
 
-        <div className="gallery-container">
-          {pbiProjects.map((project) => (
-            <div key={project.id} className="project-card" onClick={() => handleCardClick(project)}>
-              <div className="card-content">
-                <Image 
-                  src={project.thumbnail} 
-                  alt={`Thumbnail do projeto ${project.title}`} 
-                  width={400} 
-                  height={300} 
-                  style={{ objectFit: 'cover' }} 
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjM0Q0ODU1IiAvPgogIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjRkZGIiBmb250LXNpemU9IjI0IiBmb250LWZhbWlseT0iQXJpYWwiPkltYWdlbSBOb3QgRm91bmQ8L3RleHQ+Cjwvc3ZnPg==';
-                    target.alt = 'Placeholder para o dashboard';
-                  }}
-                />
-                <div className="project-info">
-                  <p>{project.description}</p>
-                </div>
+      <div className="gallery-container">
+        {pbiProjects.map((project) => (
+          <div key={project.id} className="project-card" onClick={() => handleCardClick(project)}>
+            <div className="card-content">
+              <Image 
+                src={project.thumbnail} 
+                alt={`Thumbnail do projeto ${project.title}`} 
+                width={400} 
+                height={300} 
+                style={{ objectFit: 'cover' }} 
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjM0Q0ODU1IiAvPgogIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjRkZGIiBmb250LXNpemU9IjI0IiBmb250LWZhbWlseT0iQXJpYWwiPkltYWdlbSBOb3QgRm91bmQ8L3RleHQ+Cjwvc3ZnPg==';
+                  target.alt = 'Placeholder para o dashboard';
+                }}
+              />
+              <div className="project-info">
+                <p>{project.description}</p>
               </div>
             </div>
-          ))}
+          </div>
+        ))}
+      </div>
+
+      <InfoModal
+        isOpen={!!selectedProject}
+        onClose={handleCloseInfoModal}
+        onViewProject={handleViewDashboard}
+        project={selectedProject}
+      />
+
+      <Modal
+        isOpen={!!dashboardProject}
+        onClose={handleCloseDashboardModal}
+      >
+        <h2>{dashboardProject?.title}</h2>
+        <div className="responsive-iframe">
+          {dashboardProject?.iframeUrl && (
+            <iframe
+              title={dashboardProject.title}
+              src={dashboardProject.iframeUrl}
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
+          )}
         </div>
-
-        <InfoModal
-          isOpen={!!selectedProject}
-          onClose={handleCloseInfoModal}
-          onViewProject={handleViewDashboard}
-          project={selectedProject}
-        />
-
-        <DashboardModal
-          isOpen={!!dashboardProject}
-          onClose={handleCloseDashboardModal}
-          title={dashboardProject?.title}
-          iframeUrl={dashboardProject?.iframeUrl}
-        />
-      </>
-    </Layout>
+      </Modal>
+    </div>
   );
 }

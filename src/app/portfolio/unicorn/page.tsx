@@ -1,9 +1,49 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './unicorn.module.css';
 
 export default function UnicornPage() {
+  useEffect(() => {
+    // 1. Salvar estado original (Tema e Botão)
+    const originalTheme = document.body.getAttribute('data-theme');
+    const themeBtn = document.querySelector('.theme-toggle-btn') as HTMLElement;
+    const originalBtnDisplay = themeBtn ? themeBtn.style.display : '';
+
+    // 2. Aplicar estado da página (Forçar Dark e Esconder Botão)
+    document.body.setAttribute('data-theme', 'dark');
+    if (themeBtn) themeBtn.style.display = 'none';
+
+    // 3. Configurar o Observador (Vigia eficiente)
+    const observer = new MutationObserver((mutations) => {
+      for (const mutation of mutations) {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+          if (document.body.getAttribute('data-theme') !== 'dark') {
+            document.body.setAttribute('data-theme', 'dark'); // Corrige instantaneamente
+          }
+        }
+      }
+    });
+
+    // Iniciar vigilância no body apenas para mudanças de atributos
+    observer.observe(document.body, { attributes: true, attributeFilter: ['data-theme'] });
+
+    // 4. Cleanup (Restaurar tudo ao sair)
+    return () => {
+      observer.disconnect(); // Dispensa o vigia
+      
+      // Restaura o botão
+      if (themeBtn) themeBtn.style.display = originalBtnDisplay;
+
+      // Restaura o tema original
+      if (originalTheme) {
+        document.body.setAttribute('data-theme', originalTheme);
+      } else {
+        document.body.removeAttribute('data-theme');
+      }
+    };
+  }, []);
+
   return (
     <div className={styles.bg}>
       <div className={styles.clouds}>
