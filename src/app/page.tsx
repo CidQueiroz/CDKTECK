@@ -210,7 +210,7 @@ export default function Home() {
             href={modalContent.redirectUrl} 
             target={modalContent.external ? "_blank" : "_self"} 
             rel={modalContent.external ? "noopener noreferrer" : ""} 
-            className="modal-button primary"
+            className="close-modal"
           >
             Visitar Página
           </a>

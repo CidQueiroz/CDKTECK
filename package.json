@@ -5,16 +5,16 @@
   "scripts": {
     "dev": "next dev --webpack",
     "dev:turbo": "next dev",
-    "build": "next build --webpack",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "prebuild": "npm install @cidqueiroz/cdkteck-ui@latest"
   },
   "dependencies": {
     "@cidqueiroz/cdkteck-ui": "^2.2.0",
-    "next": "15.1.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "^16.1.1",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
     "responsivevoice": "^0.4.1"
   },
   "devDependencies": {

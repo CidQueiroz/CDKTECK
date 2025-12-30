@@ -1,10 +1,7 @@
+'use client';
 import React from 'react';
+import { TermsOfUse } from '@cidqueiroz/cdkteck-ui';
 
 export default function TermosPage() {
-  return (
-    <div>
-      <h1>Termos de Uso</h1>
-      <p>Em construção...</p>
-    </div>
-  );
+  return <TermsOfUse />;
 }

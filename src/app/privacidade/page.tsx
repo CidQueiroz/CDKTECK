@@ -1,10 +1,7 @@
+'use client';
 import React from 'react';
+import { PrivacyPolicy } from '@cidqueiroz/cdkteck-ui';
 
 export default function PrivacidadePage() {
-  return (
-    <div>
-      <h1>Política de Privacidade</h1>
-      <p>Em construção...</p>
-    </div>
-  );
+  return <PrivacyPolicy />;
 }
