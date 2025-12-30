@@ -19,7 +19,6 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<ModalInfo[]>([]);
   
-  // Efeito para adicionar/remover a classe 'pagina-inicial' do body
   useEffect(() => {
     document.body.classList.add('pagina-inicial');
     return () => {
