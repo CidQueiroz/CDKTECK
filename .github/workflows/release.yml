@@ -47,6 +47,8 @@ jobs:
       
       - name: Build Project
         run: npm run build
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }}
       
       - name: Verify Firebase config
         run: |
