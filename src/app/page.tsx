@@ -8,7 +8,7 @@ import modalData from '@/data/modalData.json';
 import ParticlesBackground from '@/components/ParticlesBackground';
 
 type ModalId = keyof typeof modalData;
-type ModalInfo = (typeof modalData)[ModalId] & { isContact?: boolean };
+type ModalInfo = (typeof modalData)[ModalId] & { isContact?: boolean; external?: boolean };
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
