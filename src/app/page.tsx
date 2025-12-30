@@ -22,7 +22,6 @@ export default function Home() {
   // Efeito para adicionar/remover a classe 'pagina-inicial' do body
   useEffect(() => {
     document.body.classList.add('pagina-inicial');
-    // Cleanup function para remover a classe ao sair da página
     return () => {
       document.body.classList.remove('pagina-inicial');
     };
