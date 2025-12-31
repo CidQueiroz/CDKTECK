@@ -2,10 +2,9 @@
 
 import Image from "next/image";
 import { useEffect, useState } from 'react';
-import { Modal, ContactModal, FilosofiaModal } from '@cidqueiroz/cdkteck-ui';
+import { Modal, ContactModal, FilosofiaModal, useTheme, ThemeToggle } from '@cidqueiroz/cdkteck-ui';
 import CircuitPoint from '@/components/CircuitPoint';
 import modalData from '@/data/modalData.json';
-import ParticlesBackground from '@/components/ParticlesBackground';
 
 type ModalId = keyof typeof modalData;
 type ModalInfo = (typeof modalData)[ModalId] & { isContact?: boolean; external?: boolean };
@@ -24,10 +23,10 @@ export default function Home() {
     return () => {
       document.body.classList.remove('pagina-inicial');
     };
-  }, []); // Array vazio garante que rode apenas uma vez (montagem/desmontagem)
+  }, []);
 
-  // Efeito para forçar o tema escuro na página inicial com soberania
   useEffect(() => {
+    // Efeito para forçar o tema escuro na página inicial com soberania
     const originalTheme = document.body.getAttribute('data-theme');
     
     const forceDark = () => {
@@ -56,8 +55,6 @@ export default function Home() {
     
     if (particlesContainer) {
       particlesContainer.innerHTML = '';
-      
-      // EXATAMENTE como o HTML original
       for (let i = 0; i < 100; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
@@ -71,13 +68,11 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Efeito para adicionar/remover classe 'loaded' do body
   useEffect(() => {
     if (isLoaded) document.body.classList.add('loaded');
     else document.body.classList.remove('loaded');
   }, [isLoaded]);
 
-  // Efeito para gerenciar a classe 'modal-open' no body
   useEffect(() => {
     const isAnyModalOpen = !!modalContent || isFilosofiaModalOpen || isContactModalOpen;
     if (isAnyModalOpen) {
@@ -85,13 +80,11 @@ export default function Home() {
     } else {
       document.body.classList.remove('modal-open');
     }
-    // Cleanup function para garantir que a classe seja removida ao desmontar o componente
     return () => {
       document.body.classList.remove('modal-open');
     };
   }, [modalContent, isFilosofiaModalOpen, isContactModalOpen]);
 
-  // Efeito para a lógica de busca
   useEffect(() => {
     if (searchQuery.length > 0) {
       const filtered = Object.values(modalData).filter(item => {
@@ -106,7 +99,6 @@ export default function Home() {
   }, [searchQuery]);
 
   const openModal = (data: ModalInfo) => {
-    console.log("openModal called with:", data); // Log de diagnóstico
     if (data.isContact) {
       setIsContactModalOpen(true);
     } else {
@@ -116,16 +108,14 @@ export default function Home() {
   };
 
   const handleLogoClick = () => {
-    console.log("Logo clicked, opening FilosofiaModal"); // Log de diagnóstico
     setIsFilosofiaModalOpen(true);
   };
 
   return (
     <main className="main-landing">
       <div className="particles" id="particles"></div>
-
+      
       <div className="search-container">
-        {/* A lógica de busca será implementada a seguir */}
         <button id="search-toggle" className="search-toggle-btn"><i className="fas fa-search"></i></button>
         <input 
           type="text" 
@@ -158,7 +148,6 @@ export default function Home() {
               title="CDK TECK"
               width={600} height={600}
               priority
-              // onClick={handleLogoClick}
               style={{ cursor: 'pointer' }}
             />
             <div 
@@ -208,8 +197,8 @@ export default function Home() {
         {modalContent?.redirectUrl && (
           <a 
             href={modalContent.redirectUrl} 
-            target={modalContent.external ? "_blank" : "_self"} 
-            rel={modalContent.external ? "noopener noreferrer" : ""} 
+            target={modalContent?.external ? "_blank" : "_self"} 
+            rel={modalContent?.external ? "noopener noreferrer" : ""} 
             className="close-modal"
           >
             Visitar Página

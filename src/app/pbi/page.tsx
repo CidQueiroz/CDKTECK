@@ -47,7 +47,7 @@ export default function PbiPage() {
     <div className="portfolio-page">
       <PageHeader
         title="Portfólio de Dashboards"
-        description="Explore projetos interativos de Business Intelligence e Análise de Dados."
+        description="Explore projetos onde dados ganham forma, sentido e propósito."
       />
 
       <div className="gallery-container">

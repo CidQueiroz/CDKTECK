@@ -3,29 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
+    "dev": "next dev",
     "dev:turbo": "next dev",
-    "build": "next build --webpack",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "prebuild": "npm install @cidqueiroz/cdkteck-ui@latest"
   },
   "dependencies": {
-    "@cidqueiroz/cdkteck-ui": "^2.2.0",
-    "next": "^16.1.1",
-    "react": ">=18.0.0",
-    "react-dom": ">=18.0.0",
+    "@cidqueiroz/cdkteck-ui": "^2.4.0",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "responsivevoice": "^0.4.1"
   },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.20",
-    "baseline-browser-mapping": "^2.9.11",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.35",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
