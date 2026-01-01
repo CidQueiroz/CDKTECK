@@ -1,48 +1,51 @@
 {
-  "hosting": {
-    "public": "out",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "/pbi",
-        "destination": "/pbi.html"
-      },
-      {
-        "source": "/portfolio",
-        "destination": "/portfolio.html"
-      },
-      {
-        "source": "/certificados",
-        "destination": "/certificados.html"
-      },
-      {
-        "source": "/privacidade",
-        "destination": "/privacidade.html"
-      },
-      {
-        "source": "/termos",
-        "destination": "/termos.html"
-      },
-      {
-        "source": "/portfolio/adivinha-numero",
-        "destination": "/portfolio/adivinha-numero.html"
-      },
-      {
-        "source": "/portfolio/geocoding",
-        "destination": "/portfolio/geocoding.html"
-      },
-      {
-        "source": "/portfolio/unicorn",
-        "destination": "/portfolio/unicorn.html"
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
+  "hosting": [
+    {
+      "site": "cdkteck-hub",
+      "public": "out",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "/pbi",
+          "destination": "/pbi.html"
+        },
+        {
+          "source": "/portfolio",
+          "destination": "/portfolio.html"
+        },
+        {
+          "source": "/certificados",
+          "destination": "/certificados.html"
+        },
+        {
+          "source": "/privacidade",
+          "destination": "/privacidade.html"
+        },
+        {
+          "source": "/termos",
+          "destination": "/termos.html"
+        },
+        {
+          "source": "/portfolio/adivinha-numero",
+          "destination": "/portfolio/adivinha-numero.html"
+        },
+        {
+          "source": "/portfolio/geocoding",
+          "destination": "/portfolio/geocoding.html"
+        },
+        {
+          "source": "/portfolio/unicorn",
+          "destination": "/portfolio/unicorn.html"
+        },
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
 }
