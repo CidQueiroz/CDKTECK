@@ -5,7 +5,7 @@ import { PageHeader, NarrativeCard } from '@cidqueiroz/cdkteck-ui';
 
 export default function SobrePage() {
   return (
-    <div className="min-h-screen bg-vitrine flex flex-col items-center justify-center p-4">
+    <div className="portfolio-page">
       <PageHeader 
         title="A ESSÊNCIA CDK TECK" 
         description={

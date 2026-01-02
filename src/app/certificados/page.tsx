@@ -1,25 +1,39 @@
 'use client';
 
-import { CertificateCard, Modal, PageHeader } from '@cidqueiroz/cdkteck-ui';
-import { useState, useEffect } from 'react';
+import { CertificateCard, PageHeader, useModal } from '@cidqueiroz/cdkteck-ui';
 import certificatesData from '@/data/certificates.json';
 
 type Certificate = (typeof certificatesData)[0];
 
-export default function CertificadosPage() {
-  const [selectedCert, setSelectedCert] = useState<Certificate | null>(null);
+const CertificateInfoContent = ({ certificate }: { certificate: Certificate }) => (
+  <>
+    <div className="info-section">
+      <h3>Descrição</h3>
+      <p>{certificate.description}</p>
+    </div>
+    <div className="info-section">
+      <h3>Emissor</h3>
+      <p>{certificate.issuer}</p>
+    </div>
+    <div className="modal-actions">
+      <a 
+        href={certificate.pdf_url} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="modal-button primary"
+      >
+        Ver Certificado (PDF)
+      </a>
+    </div>
+  </>
+);
 
-  // Efeito para gerenciar a classe 'modal-open' no body
-  useEffect(() => {
-    if (selectedCert) {
-      document.body.classList.add('modal-open');
-    } else {
-      document.body.classList.remove('modal-open');
-    }
-    return () => {
-      document.body.classList.remove('modal-open');
-    };
-  }, [selectedCert]);
+export default function CertificadosPage() {
+  const { showModal } = useModal();
+
+  const handleCardClick = (cert: Certificate) => {
+    showModal(<CertificateInfoContent certificate={cert} />, cert.title);
+  };
 
   return (
     <div className="portfolio-page">
@@ -28,43 +42,16 @@ export default function CertificadosPage() {
         description="Comprovação de Expertise Técnica e Desenvolvimento Contínuo"
       />
 
-      <div className="gallery-container">
+      <div className="card-grid">
         {certificatesData.map((cert) => (
           <CertificateCard
             key={cert.id}
             title={cert.title}
             imageUrl={cert.image_url}
-            onClick={() => setSelectedCert(cert)}
+            onClick={() => handleCardClick(cert)}
           />
         ))}
       </div>
-
-      {selectedCert && (
-        <Modal isOpen={!!selectedCert} onClose={() => setSelectedCert(null)}>
-          <div className="info-modal-content">
-            <h2 id="info-modal-title">{selectedCert.title}</h2>
-            
-            <div className="info-section">
-              <h3>Descrição</h3>
-              <p>{selectedCert.description}</p>
-            </div>
-
-            <div className="modal-actions">
-              <a 
-                href={selectedCert.pdf_url} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="modal-button primary"
-              >
-                Ver Certificado (PDF)
-              </a>
-              <button onClick={() => setSelectedCert(null)} className="modal-button secondary">
-                Fechar
-              </button>
-            </div>
-          </div>
-        </Modal>
-      )}
     </div>
   );
 }

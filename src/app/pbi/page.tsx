@@ -1,46 +1,61 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Image from 'next/image';
-import { InfoModal, PageHeader, Modal } from '@cidqueiroz/cdkteck-ui';
+import { PageHeader, useModal } from '@cidqueiroz/cdkteck-ui';
 import pbiProjects from '@/data/pbiProjects.json';
 
 type Project = (typeof pbiProjects)[0];
 
-export default function PbiPage() {
-  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-  const [dashboardProject, setDashboardProject] = useState<Project | null>(null);
+const PbiInfoContent = ({ project, onViewDashboard }: { project: Project, onViewDashboard: () => void }) => (
+  <>
+    <div className="info-section">
+      <h3>O Desafio</h3>
+      <p>{project.desafio}</p>
+    </div>
+    <div className="info-section">
+      <h3>A Solução</h3>
+      <p>{project.solucao}</p>
+    </div>
+    <div className="info-section">
+      <h3>Ferramentas Utilizadas</h3>
+      <p>{project.ferramentas}</p>
+    </div>
+    <div className="modal-actions">
+      <button onClick={onViewDashboard} className="modal-button primary">
+        <i className="fas fa-eye"></i> Visualizar Dashboard
+      </button>
+    </div>
+  </>
+);
 
-  // Efeito para gerenciar a classe 'modal-open' no body
-  useEffect(() => {
-    const isAnyModalOpen = !!selectedProject || !!dashboardProject;
-    if (isAnyModalOpen) {
-      document.body.classList.add('modal-open');
-    } else {
-      document.body.classList.remove('modal-open');
-    }
-    return () => {
-      document.body.classList.remove('modal-open');
-    };
-  }, [selectedProject, dashboardProject]);
+const DashboardContent = ({ project }: { project: Project }) => (
+  <>
+    <h2>{project.title}</h2>
+    <div className="responsive-iframe">
+      {project.iframeUrl && (
+        <iframe
+          title={project.title}
+          src={project.iframeUrl}
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+      )}
+    </div>
+  </>
+);
+
+export default function PbiPage() {
+  const { showModal, hideModal } = useModal();
 
   const handleCardClick = (project: Project) => {
-    setSelectedProject(project);
-  };
+    const handleViewDashboard = () => {
+      // Ao clicar em 'Visualizar Dashboard', abre um novo modal com o iframe
+      showModal(<DashboardContent project={project} />, project.title);
+    };
 
-  const handleCloseInfoModal = () => {
-    setSelectedProject(null);
-  };
-
-  const handleViewDashboard = () => {
-    if (selectedProject) {
-      setDashboardProject(selectedProject);
-      setSelectedProject(null); // Fecha o modal de info
-    }
-  };
-
-  const handleCloseDashboardModal = () => {
-    setDashboardProject(null);
+    // Primeiro, abre o modal de informações
+    showModal(<PbiInfoContent project={project} onViewDashboard={handleViewDashboard} />, project.title);
   };
 
   return (
@@ -50,9 +65,9 @@ export default function PbiPage() {
         description="Explore projetos onde dados ganham forma, sentido e propósito."
       />
 
-      <div className="gallery-container">
+      <div className="card-grid">
         {pbiProjects.map((project) => (
-          <div key={project.id} className="project-card" onClick={() => handleCardClick(project)}>
+          <div key={project.id} className="card project-card" onClick={() => handleCardClick(project)}>
             <div className="card-content">
               <Image 
                 src={project.thumbnail} 
@@ -73,30 +88,6 @@ export default function PbiPage() {
           </div>
         ))}
       </div>
-
-      <InfoModal
-        isOpen={!!selectedProject}
-        onClose={handleCloseInfoModal}
-        onViewProject={handleViewDashboard}
-        project={selectedProject}
-      />
-
-      <Modal
-        isOpen={!!dashboardProject}
-        onClose={handleCloseDashboardModal}
-      >
-        <h2>{dashboardProject?.title}</h2>
-        <div className="responsive-iframe">
-          {dashboardProject?.iframeUrl && (
-            <iframe
-              title={dashboardProject.title}
-              src={dashboardProject.iframeUrl}
-              frameBorder="0"
-              allowFullScreen
-            ></iframe>
-          )}
-        </div>
-      </Modal>
     </div>
   );
 }

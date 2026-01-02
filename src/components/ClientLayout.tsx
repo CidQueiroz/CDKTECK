@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Header, Footer, ContactModal, ThemeProvider } from '@cidqueiroz/cdkteck-ui';
+import { Header, Footer, ContactModal, ThemeProvider, ModalProvider } from '@cidqueiroz/cdkteck-ui';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -12,7 +12,6 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
   const openContactModal = () => setIsContactModalOpen(true);
   const closeContactModal = () => setIsContactModalOpen(false);
   
-  // Componente Link compatível com Next.js
   const NextLink = ({ href, className, children, ...props }: any) => (
     <Link href={href} className={className} {...props}>{children}</Link>
   );
@@ -21,29 +20,32 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
 
   return (
     <ThemeProvider>
-      {!isHomePage && <Header 
-        LinkComponent={NextLink}
-        usePathname={() => pathname}
-        />}
-      
-      <main>{children}</main>
-
-       {!isHomePage && <Footer
-          openContactModal={openContactModal}
+      <ModalProvider> {/* Provider para os modais das páginas filhas */}
+        {!isHomePage && <Header 
           LinkComponent={NextLink}
-        />}
+          usePathname={() => pathname}
+          />}
+        
+        <main>{children}</main>
 
-      <ContactModal isOpen={isContactModalOpen} onClose={closeContactModal} />
-      
-      {!isHomePage && (
-        <button 
-          className="fixed-contact-button" 
-          onClick={openContactModal}
-          aria-label="Abrir formulário de contato"
-        >
-          <i className="fas fa-envelope"></i>
-        </button>
-      )}
+         {!isHomePage && <Footer
+            openContactModal={openContactModal}
+            LinkComponent={NextLink}
+          />}
+        
+        {/* O ContactModal é gerenciado de forma independente */}
+        <ContactModal isOpen={isContactModalOpen} onClose={closeContactModal} />
+        
+        {!isHomePage && (
+          <button 
+            className="fixed-contact-button" 
+            onClick={openContactModal}
+            aria-label="Abrir formulário de contato"
+          >
+            <i className="fas fa-envelope"></i>
+          </button>
+        )}
+      </ModalProvider>
     </ThemeProvider>
   );
 }

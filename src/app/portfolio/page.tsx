@@ -1,8 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
-import { InfoModal, PageHeader } from '@cidqueiroz/cdkteck-ui';
+import { useModal, PageHeader } from '@cidqueiroz/cdkteck-ui';
 
 
 const projects = [
@@ -40,40 +39,44 @@ const projects = [
 
 type Project = typeof projects[0];
 
+const ProjectInfoContent = ({ project, onViewProject }: { project: Project, onViewProject: () => void }) => (
+  <>
+    <div className="info-section">
+      <h3>O Desafio</h3>
+      <p>{project.desafio}</p>
+    </div>
+    <div className="info-section">
+      <h3>A Solução</h3>
+      <p>{project.solucao}</p>
+    </div>
+    <div className="info-section">
+      <h3>Ferramentas Utilizadas</h3>
+      <p>{project.ferramentas}</p>
+    </div>
+    <div className="modal-actions">
+      <button onClick={onViewProject} className="modal-button primary">
+        <i className="fas fa-eye"></i> Visualizar Projeto
+      </button>
+    </div>
+  </>
+);
+
+
 export default function PortfolioPage() {
-  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-
-  // Efeito para gerenciar a classe 'modal-open' no body
-  useEffect(() => {
-    if (selectedProject) {
-      document.body.classList.add('modal-open');
-    } else {
-      document.body.classList.remove('modal-open');
-    }
-    return () => {
-      document.body.classList.remove('modal-open');
-    };
-  }, [selectedProject]);
-
+  const { showModal } = useModal();
 
   const handleCardClick = (project: Project) => {
-    setSelectedProject(project);
-  };
-
-  const handleCloseModal = () => {
-    setSelectedProject(null);
-  };
-
-  const handleViewProject = () => {
-    if (selectedProject?.projectUrl) {
-      // Abrir em nova aba se for link externo, ou navegar se for interno
-      if (selectedProject.projectUrl.startsWith('http')) {
-        window.open(selectedProject.projectUrl, '_blank');
-      } else {
-        window.location.href = selectedProject.projectUrl;
+    const handleViewProject = () => {
+      if (project?.projectUrl) {
+        if (project.projectUrl.startsWith('http')) {
+          window.open(project.projectUrl, '_blank');
+        } else {
+          window.location.href = project.projectUrl;
+        }
       }
-      handleCloseModal();
-    }
+    };
+
+    showModal(<ProjectInfoContent project={project} onViewProject={handleViewProject} />, project.title);
   };
 
   return (
@@ -83,9 +86,9 @@ export default function PortfolioPage() {
         description="Uma coleção de estudos e aplicações práticas desenvolvidas para aprimorar e demonstrar novas habilidades."
       />
 
-      <div className="gallery-container">
+      <div className="card-grid">
         {projects.map((project) => (
-          <div key={project.id} className="project-card" onClick={() => handleCardClick(project)}>
+          <div key={project.id} className="card project-card" onClick={() => handleCardClick(project)}>
             <div className="card-content">
               <Image src={project.thumbnail} alt={`Thumbnail do projeto ${project.title}`} width={150} height={200} style={{ objectFit: 'cover' }} />
               <div className="project-info">
@@ -95,13 +98,6 @@ export default function PortfolioPage() {
           </div>
         ))}
       </div>
-
-      <InfoModal
-        isOpen={!!selectedProject}
-        onClose={handleCloseModal}
-        onViewProject={handleViewProject}
-        project={selectedProject}
-      />
     </div>
   );
 }

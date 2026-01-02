@@ -2,57 +2,51 @@
 
 import Image from "next/image";
 import { useEffect, useState } from 'react';
-import { Modal, ContactModal, FilosofiaModal, useTheme, ThemeToggle } from '@cidqueiroz/cdkteck-ui';
+import { useModal, ContactModal, FilosofiaModal, useTheme } from '@cidqueiroz/cdkteck-ui';
 import CircuitPoint from '@/components/CircuitPoint';
 import modalData from '@/data/modalData.json';
 
 type ModalId = keyof typeof modalData;
 type ModalInfo = (typeof modalData)[ModalId] & { isContact?: boolean; external?: boolean };
 
+// Componente de conteúdo para o modal genérico
+const GenericModalContent = ({ modalContent }: { modalContent: ModalInfo | null }) => {
+  if (!modalContent) return null;
+  return (
+    <>
+      <div dangerouslySetInnerHTML={{ __html: modalContent.description || '' }} />
+      {modalContent.redirectUrl && (
+        <div className="modal-actions">
+          <a 
+            href={modalContent.redirectUrl} 
+            target={modalContent?.external ? "_blank" : "_self"} 
+            rel={modalContent?.external ? "noopener noreferrer" : ""} 
+            className="modal-button primary"
+          >
+            Visitar Página
+          </a>
+        </div>
+      )}
+    </>
+  );
+};
+
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
-  const [modalContent, setModalContent] = useState<ModalInfo | null>(null);
+  // Estados locais para os modais específicos
   const [isFilosofiaModalOpen, setIsFilosofiaModalOpen] = useState(false);
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
   
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<ModalInfo[]>([]);
+  const { showModal } = useModal(); // Apenas para os modais genéricos
   
   useEffect(() => {
     document.body.classList.add('pagina-inicial');
-    return () => {
-      document.body.classList.remove('pagina-inicial');
-    };
-  }, []);
-
-  useEffect(() => {
-    // Efeito para forçar o tema escuro na página inicial com soberania
-    const originalTheme = document.body.getAttribute('data-theme');
+    document.body.setAttribute('data-theme', 'dark');
     
-    const forceDark = () => {
-      if (document.body.getAttribute('data-theme') !== 'dark') {
-        document.body.setAttribute('data-theme', 'dark');
-      }
-    };
-
-    forceDark();
-    const interval = setInterval(forceDark, 100);
-
-    return () => {
-      clearInterval(interval);
-      if (originalTheme) {
-        document.body.setAttribute('data-theme', originalTheme);
-      } else {
-        document.body.removeAttribute('data-theme');
-      }
-    };
-  }, []);
-
-  useEffect(() => {
     const timer = setTimeout(() => setIsLoaded(true), 500);
-    
     const particlesContainer = document.getElementById('particles');
-    
     if (particlesContainer) {
       particlesContainer.innerHTML = '';
       for (let i = 0; i < 100; i++) {
@@ -65,25 +59,15 @@ export default function Home() {
       }
     }
     
-    return () => clearTimeout(timer);
+    return () => {
+      document.body.classList.remove('pagina-inicial');
+      clearTimeout(timer);
+    };
   }, []);
 
   useEffect(() => {
     if (isLoaded) document.body.classList.add('loaded');
-    else document.body.classList.remove('loaded');
   }, [isLoaded]);
-
-  useEffect(() => {
-    const isAnyModalOpen = !!modalContent || isFilosofiaModalOpen || isContactModalOpen;
-    if (isAnyModalOpen) {
-      document.body.classList.add('modal-open');
-    } else {
-      document.body.classList.remove('modal-open');
-    }
-    return () => {
-      document.body.classList.remove('modal-open');
-    };
-  }, [modalContent, isFilosofiaModalOpen, isContactModalOpen]);
 
   useEffect(() => {
     if (searchQuery.length > 0) {
@@ -99,16 +83,17 @@ export default function Home() {
   }, [searchQuery]);
 
   const openModal = (data: ModalInfo) => {
-    if (data.isContact) {
-      setIsContactModalOpen(true);
-    } else {
-      setModalContent(data);
-    }
     setSearchQuery('');
+    if (data.isContact) {
+      setIsContactModalOpen(true); // Usa o estado local
+    } else {
+      // Usa o sistema global para os outros
+      showModal(<GenericModalContent modalContent={data} />, data.title);
+    }
   };
 
   const handleLogoClick = () => {
-    setIsFilosofiaModalOpen(true);
+    setIsFilosofiaModalOpen(true); // Usa o estado local
   };
 
   return (
@@ -188,24 +173,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Modal 
-        isOpen={!!modalContent}
-        onClose={() => setModalContent(null)}
-      >
-        <h2>{modalContent?.title}</h2>
-        <div dangerouslySetInnerHTML={{ __html: modalContent?.description || '' }} />
-        {modalContent?.redirectUrl && (
-          <a 
-            href={modalContent.redirectUrl} 
-            target={modalContent?.external ? "_blank" : "_self"} 
-            rel={modalContent?.external ? "noopener noreferrer" : ""} 
-            className="close-modal"
-          >
-            Visitar Página
-          </a>
-        )}
-      </Modal>
-
+      {/* Renderiza os modais específicos com seu estado local */}
       <FilosofiaModal 
         isOpen={isFilosofiaModalOpen}
         onClose={() => setIsFilosofiaModalOpen(false)}
