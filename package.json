@@ -11,7 +11,7 @@
     "prebuild": "npm install @cidqueiroz/cdkteck-ui@latest"
   },
   "dependencies": {
-    "@cidqueiroz/cdkteck-ui": "^2.4.0",
+    "@cidqueiroz/cdkteck-ui": "^2.5.2",
     "next": "^14.2.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
