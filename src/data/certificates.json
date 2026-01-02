@@ -1,149 +1,218 @@
 [
   {
-    "id": "oci-gen-ai-pro",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
-    "description": "Esta certificação valida a expertise em serviços de IA Generativa da OCI, incluindo o uso de modelos de linguagem grandes (LLMs) e a plataforma de IA para criar soluções inovadoras.",
-    "image_url": "/certificados/images/Oracle Cloud Infrastructure 2025 Certified Generative AI Professional.png",
-    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Generative AI Professional.pdf"
+    "id": "oracle-databaseaws-certified-architect-professional",
+    "title": "Oracle Database@Aws Certified Architect Professional",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-databaseaws-certified-architect-professional.png",
+    "pdf_url": "/certificados/Oracle Database@AWS Certified Architect Professional.pdf",
+    "issue_date": "2026-01-02"
   },
   {
-    "id": "oci-arch-assoc",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Architect Associate",
-    "description": "Demonstra um forte conhecimento fundamental na arquitetura de soluções na OCI, cobrindo tópicos como VCN, computação, armazenamento, segurança e melhores práticas de nuvem.",
-    "image_url": "/certificados/images/Oracle Cloud Infrastructure 2025 Certified Architect Associate.png",
-    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Architect Associate.pdf"
-  },
-  {
-    "id": "oci-data-science-pro",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
-    "description": "Comprova a habilidade de usar os serviços de Data Science da OCI para construir, treinar e implantar modelos de machine learning em escala, utilizando notebooks, AutoML e MLOps.",
-    "image_url": "/certificados/images/Oracle Cloud Infrastructure 2025 Certified Data Science Professional.png",
-    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Data Science Professional.pdf"
-  },
-  {
-    "id": "oci-devops-pro",
-    "title": "Oracle Cloud Infrastructure 2025 Certified DevOps Professional",
-    "description": "Valida as habilidades para automatizar o ciclo de vida de desenvolvimento de software na OCI, utilizando serviços de CI/CD, Infrastructure as Code (IaC) e monitoramento.",
-    "image_url": "/certificados/images/Oracle Cloud Infrastructure 2025 Certified DevOps Professional.png",
-    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified DevOps Professional.pdf"
-  },
-  {
-    "id": "power-bi-dsa",
-    "title": "Microsoft Power BI Para Business Intelligence",
-    "description": "Certificação da Data Science Academy que cobre as habilidades essenciais para a criação de dashboards e relatórios interativos com o Power BI, da modelagem de dados à publicação.",
-    "image_url": "/certificados/images/Microsoft Power BI Para Business Intelligence - DSA.png",
-    "pdf_url": "/certificados/Microsoft Power BI Para Business Intelligence - DSA.pdf"
-  },
-  {
-    "id": "jornada-python",
-    "title": "Jornada Python - HashTag",
-    "description": "Certificação de conclusão que abrange uma vasta gama de tópicos em Python, desde a lógica de programação e automação de tarefas até a criação de APIs e projetos de ciência de dados.",
-    "image_url": "/certificados/images/JornadaPython-HashTag.png",
-    "pdf_url": "/certificados/JornadaPython-HashTag.pdf"
-  },
-  {
-    "id": "python-fundamentos-ia",
-    "title": "Fundamentos de Linguagem Python para IA",
-    "description": "Valida o conhecimento fundamental da linguagem Python, desde a sintaxe básica até a aplicação em projetos de Inteligência Artificial.",
-    "image_url": "/certificados/images/certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia.png",
-    "pdf_url": "/certificados/certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia.pdf"
-  },
-  {
-    "id": "oci-ai-vector-search-pro",
-    "title": "Oracle AI Vector Search Certified Professional",
-    "description": "Certificação especializada em busca vetorial na OCI, essencial para a construção de sistemas de busca semântica e aplicações de IA Generativa como RAG.",
-    "image_url": "/certificados/images/Oracle AI Vector Search Certified Professional.png",
-    "pdf_url": "/certificados/Oracle AI Vector Search Certified Professional.pdf"
-  },
-  {
-    "id": "oci-analytics-cloud-pro",
-    "title": "Oracle Analytics Cloud 2025 Certified Professional",
-    "description": "Valida a proficiência na utilização do Oracle Analytics Cloud para criar análises, dashboards e visualizações de dados complexas.",
-    "image_url": "/certificados/images/Oracle Analytics Cloud 2025 Certified Professional.png",
-    "pdf_url": "/certificados/Oracle Analytics Cloud 2025 Certified Professional.pdf"
-  },
-  {
-    "id": "oci-adb-pro",
-    "title": "Oracle Autonomous Database Cloud 2025 Certified Professional",
-    "description": "Comprova a habilidade de provisionar, gerenciar e otimizar o Oracle Autonomous Database, o banco de dados autônomo da Oracle Cloud.",
-    "image_url": "/certificados/images/Oracle Autonomous Database Cloud 2025 Certified Professional.png",
-    "pdf_url": "/certificados/Oracle Autonomous Database Cloud 2025 Certified Professional.pdf"
-  },
-  {
-    "id": "oci-multicloud-pro",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional",
-    "description": "Certificação avançada para arquitetos que projetam soluções que integram a OCI com outras nuvens públicas, como AWS e Azure.",
-    "image_url": "/certificados/images/Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional.png",
-    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional.pdf"
-  },
-  {
-    "id": "oci-db-aws-pro",
-    "title": "Oracle Database@AWS Certified Architect Professional",
-    "description": "Valida a expertise em arquitetar e implantar soluções de banco de dados Oracle em um ambiente AWS, utilizando os serviços integrados.",
-    "image_url": "/certificados/images/Oracle Database@AWS Certified Architect Professional.png",
-    "pdf_url": "/certificados/Oracle Database@AWS Certified Architect Professional.pdf"
-  },
-  {
-    "id": "oci-foundations-assoc",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
-    "description": "Certificação de nível de entrada que valida o conhecimento dos principais serviços e conceitos da Oracle Cloud Infrastructure.",
-    "image_url": "/certificados/images/Oracle Cloud Infrastructure 2025 Certified Foundations Associate.png",
-    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Foundations Associate.pdf"
-  },
-  {
-    "id": "oci-data-platform-foundations",
+    "id": "oracle-data-platform-2025-certified-foundations-associate",
     "title": "Oracle Data Platform 2025 Certified Foundations Associate",
-    "description": "Valida o conhecimento fundamental da plataforma de dados da Oracle, incluindo bancos de dados e serviços de análise.",
-    "image_url": "/certificados/images/Oracle Data Platform 2025 Certified Foundations Associate.png",
-    "pdf_url": "/certificados/Oracle Data Platform 2025 Certified Foundations Associate.pdf"
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-data-platform-2025-certified-foundations-associate.png",
+    "pdf_url": "/certificados/Oracle Data Platform 2025 Certified Foundations Associate.pdf",
+    "issue_date": "2026-01-02"
   },
   {
-    "id": "oci-fusion-ai-agent",
-    "title": "Oracle Fusion AI Agent Studio Certified Foundations Associate",
-    "description": "Certificação de nível fundamental para o uso do AI Agent Studio no Oracle Fusion, para criar e personalizar agentes de IA.",
-    "image_url": "/certificados/images/Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1.png",
-    "pdf_url": "/certificados/Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1.pdf"
+    "id": "oracle-cloud-infrastructure-2025-certified-multicloud-architect-professional",
+    "title": "Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-multicloud-architect-professional.png",
+    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional.pdf",
+    "issue_date": "2026-01-02"
   },
   {
-    "id": "tic-hub-db",
-    "title": "TIC-Hub - Banco de Dados",
-    "description": "Comprovação de conhecimento em Banco de Dados, parte do programa de formação intensiva TIC-Hub.",
-    "image_url": "/certificados/images/TIC-Hub - TIC-12 Banco de Dados.png",
-    "pdf_url": "/certificados/TIC-Hub - TIC-12 (Banco de Dados).pdf"
+    "id": "oracle-cloud-infrastructure-2025-certified-devops-professional",
+    "title": "Oracle Cloud Infrastructure 2025 Certified Devops Professional",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-devops-professional.png",
+    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified DevOps Professional.pdf",
+    "issue_date": "2026-01-02"
   },
   {
-    "id": "tic-hub-ds",
-    "title": "TIC-Hub - Estrutura de Dados",
-    "description": "Comprovação de conhecimento em Estrutura de Dados, parte do programa de formação intensiva TIC-Hub.",
-    "image_url": "/certificados/images/TIC-Hub - TIC-12 Estrutura de Dados.png",
-    "pdf_url": "/certificados/TIC-Hub - TIC-12 (Estrutura de Dados).pdf"
+    "id": "tic-hub---tic-12-prog-paralela-e-distribuida",
+    "title": "Tic Hub   Tic 12 (Prog Paralela E Distribuida)",
+    "issuer": "TIC HUB",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/tic-hub---tic-12-prog-paralela-e-distribuida.png",
+    "pdf_url": "/certificados/TIC-Hub - TIC-12 (Prog Paralela e Distribuida).pdf",
+    "issue_date": "2026-01-02"
   },
   {
-    "id": "tic-hub-poo",
-    "title": "TIC-Hub - Programação Orientada a Objetos",
-    "description": "Comprovação de conhecimento em Programação Orientada a Objetos, parte do programa de formação intensiva TIC-Hub.",
-    "image_url": "/certificados/images/TIC-Hub - TIC-12 POO.png",
-    "pdf_url": "/certificados/TIC-Hub - TIC-12 (POO).pdf"
+    "id": "tech-advanced---one-oracle-next-education",
+    "title": "Tech Advanced - One Oracle Next Education",
+    "issuer": "ONE Oracle Next Education",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/tech-advanced---one-oracle-next-education.png",
+    "pdf_url": "/certificados/Tech Advanced - ONE Oracle Next Education.pdf",
+    "issue_date": "2026-01-02"
   },
   {
-    "id": "tic-hub-parallel",
-    "title": "TIC-Hub - Programação Paralela e Distribuída",
-    "description": "Comprovação de conhecimento em Programação Paralela e Distribuída, parte do programa de formação intensiva TIC-Hub.",
-    "image_url": "/certificados/images/TIC-Hub - TIC-12 Prog Paralela e Distribuida.png",
-    "pdf_url": "/certificados/TIC-Hub - TIC-12 (Prog Paralela e Distribuida).pdf"
+    "id": "tic-hub---tic-12-redes-de-computadores",
+    "title": "Tic Hub   Tic 12 (Redes De Computadores)",
+    "issuer": "TIC HUB",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/tic-hub---tic-12-redes-de-computadores.png",
+    "pdf_url": "/certificados/TIC-Hub - TIC-12 (Redes de Computadores).pdf",
+    "issue_date": "2026-01-02"
   },
   {
-    "id": "tic-hub-networks",
-    "title": "TIC-Hub - Redes de Computadores",
-    "description": "Comprovação de conhecimento em Redes de Computadores, parte do programa de formação intensiva TIC-Hub.",
-    "image_url": "/certificados/images/TIC-Hub - TIC-12 Redes de Computadores.png",
-    "pdf_url": "/certificados/TIC-Hub - TIC-12 (Redes de Computadores).pdf"
+    "id": "microsoft-power-bi-para-business-intelligence---dsa",
+    "title": "Microsoft Power Bi Para Business Intelligence   Dsa",
+    "issuer": "Data Science Academy",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/microsoft-power-bi-para-business-intelligence---dsa.png",
+    "pdf_url": "/certificados/Microsoft Power BI Para Business Intelligence - DSA.pdf",
+    "issue_date": "2026-01-02"
   },
   {
-    "id": "ey-empodera",
-    "title": "Programa EY Empodera - Tecnologia e Liderança",
-    "description": "Formação intensiva de 75 horas abrangendo Python, Engenharia de Dados, DevOps, Agile e Governança de Dados, combinada com desenvolvimento de liderança.",
-    "image_url": "/certificados/images/Ey_Empodera_programaeucapacito.png",
-    "pdf_url": "/certificados/Ey_Empodera_programaeucapacito.pdf"
+    "id": "engenharia-de-prompt-criando-prompts-eficazes-para-ia-generativa---alura",
+    "title": "Engenharia De Prompt_ Criando Prompts Eficazes Para Ia Generativa   Alura",
+    "issuer": "ALURA",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/engenharia-de-prompt-criando-prompts-eficazes-para-ia-generativa---alura.png",
+    "pdf_url": "/certificados/Engenharia de Prompt_ criando prompts eficazes para IA Generativa - Alura.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "oracle-cloud-infrastructure-2025-certified-foundations-associate",
+    "title": "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-foundations-associate.png",
+    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Foundations Associate.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "oracle-cloud-infrastructure-2025-certified-generative-ai-professional",
+    "title": "Oracle Cloud Infrastructure 2025 Certified Generative Ai Professional",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-generative-ai-professional.png",
+    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Generative AI Professional.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "ey-empodera-programaeucapacito",
+    "title": "Ey_Empodera_Programaeucapacito",
+    "issuer": "EY Empodera",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/ey-empodera-programaeucapacito.png",
+    "pdf_url": "/certificados/Ey_Empodera_programaeucapacito.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "jornadapython-hashtag",
+    "title": "JornadaPython Hashtag",
+    "issuer": "Hashtag Treinamentos",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/jornadapython-hashtag.png",
+    "pdf_url": "/certificados/JornadaPython-HashTag.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia",
+    "title": "Certificate Fundamentos De Linguagem Python Do Basico A Aplicacoes De Ia",
+    "issuer": "Data Science Academy",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia.png",
+    "pdf_url": "/certificados/certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "tic-hub---tic-12-poo",
+    "title": "Tic Hub - Tic 12 (Poo)",
+    "issuer": "TIC HUB",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/tic-hub---tic-12-poo.png",
+    "pdf_url": "/certificados/TIC-Hub - TIC-12 (POO).pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "nexa---fundamentos-de-ia-generativa-com-bedrock",
+    "title": "Nexa - Fundamentos De Ia Generativa Com Bedrock",
+    "issuer": "DIO",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/nexa---fundamentos-de-ia-generativa-com-bedrock.png",
+    "pdf_url": "/certificados/Nexa - Fundamentos de IA Generativa com Bedrock.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "oracle-cloud-infrastructure-2025-certified-data-science-professional",
+    "title": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-data-science-professional.png",
+    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Data Science Professional.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "oracle-cloud-infrastructure-2025-certified-architect-associate",
+    "title": "Oracle Cloud Infrastructure 2025 Certified Architect Associate",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-architect-associate.png",
+    "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Architect Associate.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "tic-hub---tic-12-estrutura-de-dados",
+    "title": "Tic Hub - Tic 12 (Estrutura De Dados)",
+    "issuer": "TIC HUB",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/tic-hub---tic-12-estrutura-de-dados.png",
+    "pdf_url": "/certificados/TIC-Hub - TIC-12 (Estrutura de Dados).pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "oracle-autonomous-database-cloud-2025-certified-professional",
+    "title": "Oracle Autonomous Database Cloud 2025 Certified Professional",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-autonomous-database-cloud-2025-certified-professional.png",
+    "pdf_url": "/certificados/Oracle Autonomous Database Cloud 2025 Certified Professional.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "oracle-ai-vector-search-certified-professional",
+    "title": "Oracle Ai Vector Search Certified Professional",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-ai-vector-search-certified-professional.png",
+    "pdf_url": "/certificados/Oracle AI Vector Search Certified Professional.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "tic-hub---tic-12-banco-de-dados",
+    "title": "Tic Hub   Tic 12 (Banco De Dados)",
+    "issuer": "TIC HUB",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/tic-hub---tic-12-banco-de-dados.png",
+    "pdf_url": "/certificados/TIC-Hub - TIC-12 (Banco de Dados).pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "oracle-analytics-cloud-2025-certified-professional",
+    "title": "Oracle Analytics Cloud 2025 Certified Professional",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-analytics-cloud-2025-certified-professional.png",
+    "pdf_url": "/certificados/Oracle Analytics Cloud 2025 Certified Professional.pdf",
+    "issue_date": "2026-01-02"
+  },
+  {
+    "id": "oracle-fusion-ai-agent-studio-certified-foundations-associate---rel-1",
+    "title": "Oracle Fusion Ai Agent Studio Certified Foundations Associate   Rel 1",
+    "issuer": "Oracle",
+    "description": "Certificado de conclusão.",
+    "image_url": "/certificados/images/oracle-fusion-ai-agent-studio-certified-foundations-associate---rel-1.png",
+    "pdf_url": "/certificados/Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1.pdf",
+    "issue_date": "2026-01-02"
   }
 ]

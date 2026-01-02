@@ -3,7 +3,15 @@
 import { CertificateCard, PageHeader, useModal } from '@cidqueiroz/cdkteck-ui';
 import certificatesData from '@/data/certificates.json';
 
-type Certificate = (typeof certificatesData)[0];
+interface Certificate {
+  id: string;
+  title: string;
+  issuer: string;
+  description: string;
+  image_url: string;
+  pdf_url: string;
+  issue_date: string;
+}
 
 const CertificateInfoContent = ({ certificate }: { certificate: Certificate }) => (
   <>
@@ -43,7 +51,7 @@ export default function CertificadosPage() {
       />
 
       <div className="card-grid">
-        {certificatesData.map((cert) => (
+        {(certificatesData as Certificate[]).map((cert) => (
           <CertificateCard
             key={cert.id}
             title={cert.title}
