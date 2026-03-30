@@ -11,8 +11,10 @@ const nextConfig = {
   },
   // Mantendo a transpilação do UI Kit
   transpilePackages: ['@cidqueiroz/cdkteck-ui'],
-  // Mantendo a configuração do WEBPACK que você exige
+  // Configuração EXCLUSIVA para Webpack para garantir Singleton do React
   webpack: (config) => {
+    config.resolve.alias['react'] = path.resolve(__dirname, 'node_modules', 'react');
+    config.resolve.alias['react-dom'] = path.resolve(__dirname, 'node_modules', 'react-dom');
     return config;
   },
 };

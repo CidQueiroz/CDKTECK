@@ -19,47 +19,27 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL('https://cdkteck.com.br'),
   title: "CDK TECK - Soluções Tecnológicas",
-  description: "Soluções especializadas em Engenharia de IA, Arquitetura Cloud (AWS/OCI/AZ/GCP), Automação de Processos e Business Intelligence. Transformamos dados em estratégia.",
-  keywords: ["Engenharia de IA", "Consultoria Cloud", "Power BI", "Automação", "Machine Learning", "CDK TECK", "Cidirclay Queiroz"],
-  openGraph: {
-    title: "CDK TECK - Onde a Lógica encontra o Unicórnio",
-    description: "Soluções de alta performance em IA e Cloud Computing.",
-    url: 'https://www.cdkteck.com.br',
-    siteName: 'CDK TECK',
-    images: [
-      {
-        url: '/assets/logo_metalico_sem_fundo.png',
-        width: 800,
-        height: 600,
-      },
-    ],
-    locale: 'pt_BR',
-    type: 'website',
-  },
+  description: "Soluções especializadas em Engenharia de IA, Arquitetura Cloud (AWS/OCI/AZ/GCP), Automação de Processos e Business Intelligence.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="pt-BR">
       <head>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-          integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
         <link rel="icon" type="image/png" href="/assets/favicon.png" />
       </head>
       <body className={`${orbitron.variable} ${montserrat.variable} antialiased`}>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-PJG10ZYPBS"
-        ></Script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PJG10ZYPBS"></Script>
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];

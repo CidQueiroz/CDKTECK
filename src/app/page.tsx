@@ -44,6 +44,7 @@ export default function Home() {
   useEffect(() => {
     document.body.classList.add('pagina-inicial');
     document.body.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
     
     const timer = setTimeout(() => setIsLoaded(true), 500);
     const particlesContainer = document.getElementById('particles');

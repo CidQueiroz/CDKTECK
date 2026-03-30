@@ -1,0 +1,13 @@
+services:
+  cdkteck-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NODE_AUTH_TOKEN=${NODE_AUTH_TOKEN}
+    container_name: cdkteck-local-test
+    ports:
+      - "8080:80"
+    volumes:
+      - ./.env:/app/.env
+    restart: unless-stopped

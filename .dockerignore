@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+.git
+.github
+*.log
+.firebase
+dist
+# .npmrc deve ser incluído para o npm install funcionar no Docker
+# .env será passado via docker-compose ou COPY . .
