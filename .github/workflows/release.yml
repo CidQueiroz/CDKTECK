@@ -83,7 +83,7 @@ jobs:
       - name: Run semantic-release
         run: npx semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+          GH_PACKAGES_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
 
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
