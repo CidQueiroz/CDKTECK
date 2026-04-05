@@ -3,7 +3,17 @@
     "id": "gestaorpd-button",
     "title": "Gestão RPD",
     "description": "<div class='case-study-container'><div class='case-header'><span class='status-badge beta'><i class='fas fa-flask'></i> Versão MVP (Beta)</span></div><div class='case-section'><h3><i class='fas fa-rocket'></i> O Projeto</h3><p>Aplicação de gestão dupla: um ERP para vendas/estoque e uma ferramenta de TCC para desenvolvimento pessoal. A UI está em refatoração.</p></div><div class='case-section'><h3><i class='fas fa-layer-group'></i> Tech Stack</h3><div class='tech-grid'><div class='tech-item'><i class='fab fa-python'></i><span>Python/Django</span></div><div class='tech-item'><i class='fab fa-react'></i><span>React + Vite</span></div><div class='tech-item'><i class='fas fa-database'></i><span>PostgreSQL</span></div><div class='tech-item'><i class='fab fa-docker'></i><span>Docker</span></div></div></div><div class='case-footer'><p><i class='fas fa-info-circle'></i> Aplicação funcional hospedada na OCI.</p></div></div>",
-    "keywords": ["gestao", "rpd", "desenvolvimento pessoal", "habitos", "vendas", "estoque", "python", "django", "react"],
+    "keywords": [
+      "gestao",
+      "rpd",
+      "desenvolvimento pessoal",
+      "habitos",
+      "vendas",
+      "estoque",
+      "python",
+      "django",
+      "react"
+    ],
     "redirectUrl": "https://gestaorpd.cdkteck.com.br/",
     "external": true
   },
@@ -11,36 +21,88 @@
     "id": "papodados-button",
     "title": "PapoDados (Case Study)",
     "description": "<div class='case-study-container'><div class='case-header'><span class='status-badge warning'><i class='fas fa-tools'></i> Em Desenvolvimento (Backend Ready)</span></div><div class='case-section'><h3><i class='fas fa-comments'></i> O Desafio</h3><p>Converter planilhas em insights via chat em linguagem natural, eliminando a necessidade de SQL.</p></div><div class='case-section'><h3><i class='fas fa-layer-group'></i> Tech Stack</h3><div class='tech-grid'><div class='tech-item'><i class='fab fa-python'></i><span>Django + Pandas</span></div><div class='tech-item'><i class='fas fa-brain'></i><span>RAG Architecture</span></div><div class='tech-item'><i class='fas fa-database'></i><span>Oracle Autonomous DB</span></div><div class='tech-item'><i class='fas fa-vector-square'></i><span>AI Vector Search</span></div></div></div><div class='case-footer'><p><i class='fas fa-check-circle'></i> API e motor de IA funcionais. Frontend em construção.</p></div></div>",
-    "keywords": ["papodados", "ia", "inteligencia artificial", "chatbot", "dados", "analise", "rag", "case study"],
+    "keywords": [
+      "papodados",
+      "ia",
+      "inteligencia artificial",
+      "chatbot",
+      "dados",
+      "analise",
+      "rag",
+      "case study"
+    ],
     "redirectUrl": ""
   },
   "automacao-button": {
     "id": "cacapreco-button",
     "title": "Caça-Preço (Case Study)",
     "description": "<div class='case-study-container'><div class='case-header'><span class='status-badge warning'><i class='fas fa-tools'></i> Em Desenvolvimento (Backend Ready)</span></div><div class='case-section'><h3><i class='fas fa-bullseye'></i> O Desafio</h3><p>Criar um <strong>scraper distribuído</strong> e uma plataforma de marketplace para monitoramento de preços da concorrência em tempo real.</p></div><div class='case-section'><h3><i class='fas fa-layer-group'></i> Tech Stack</h3><div class='tech-grid'><div class='tech-item'><i class='fab fa-python'></i><span>Django REST</span></div><div class='tech-item'><i class='fas fa-database'></i><span>PostgreSQL</span></div><div class='tech-item'><i class='fab fa-google'></i><span>Google Cloud Run</span></div><div class='tech-item'><i class='fab fa-docker'></i><span>Docker</span></div><div class='tech-item future'><i class='fab fa-react'></i><span>React / Native</span></div></div></div><div class='case-footer'><p><i class='fas fa-info-circle'></i> Foco em engenharia de backend e sistemas distribuídos.</p></div></div>",
-    "keywords": ["automacao", "cacapreco", "economia", "bot", "processos", "produtividade", "automatizar", "case study", "marketplace"],
+    "keywords": [
+      "automacao",
+      "cacapreco",
+      "economia",
+      "bot",
+      "processos",
+      "produtividade",
+      "automatizar",
+      "case study",
+      "marketplace"
+    ],
     "redirectUrl": ""
   },
   "suporte-button": {
     "id": "suporte-button",
     "title": "Suporte e Infraestrutura",
     "description": "<div class='case-study-container'><div class='case-header'><span class='status-badge info'><i class='fas fa-concierge-bell'></i> Serviço</span></div><div class='case-section'><h3><i class='fas fa-question-circle'></i> O Que eu Faço</h3><p>Garanto a disponibilidade e segurança da sua infraestrutura de TI com atendimento ágil, manutenção preventiva e consultoria especializada.</p></div><div class='case-section'><h3><i class='fas fa-layer-group'></i> Ferramentas e Metodologias</h3><div class='tech-grid'><div class='tech-item'><i class='fab fa-linux'></i><span>Linux</span></div><div class='tech-item'><i class='fas fa-server'></i><span>Nginx</span></div><div class='tech-item'><i class='fab fa-docker'></i><span>Docker</span></div><div class='tech-item'><i class='fab fa-ansible'></i><span>Ansible</span></div><div class='tech-item'><i class='fas fa-chart-line'></i><span>Zabbix/Grafana</span></div></div></div><div class='case-footer'><p><i class='fas fa-shield-alt'></i> Foco em minimizar riscos e paradas inesperadas.</p></div></div>",
-    "keywords": ["suporte", "tecnico", "manutencao", "helpdesk", "infraestrutura", "atendimento", "problemas", "ansible", "docker", "zabbix"],
+    "keywords": [
+      "suporte",
+      "tecnico",
+      "manutencao",
+      "helpdesk",
+      "infraestrutura",
+      "atendimento",
+      "problemas",
+      "ansible",
+      "docker",
+      "zabbix"
+    ],
     "redirectUrl": ""
   },
   "senseidb-button": {
     "id": "senseidb-button",
     "title": "SenseiDB: Mentor com IA",
     "description": "<div class='case-study-container'><div class='case-header'><span class='status-badge success'><i class='fas fa-check'></i> Funcional</span></div><div class='case-section'><h3><i class='fas fa-lightbulb'></i> O Produto</h3><p>Assistente de IA que aprende com seus dados para fornecer orientação hiper-personalizada usando RAG (Retrieval-Augmented Generation).</p></div><div class='case-section'><h3><i class='fas fa-layer-group'></i> Tech Stack</h3><div class='tech-grid'><div class='tech-item'><i class='fab fa-python'></i><span>Python/Django</span></div><div class='tech-item'><i class='fas fa-brain'></i><span>Groq/Gemini</span></div><div class='tech-item'><i class='fas fa-server'></i><span>OCI</span></div><div class='tech-item'><i class='fab fa-html5'></i><span>HTML5</span></div></div></div><div class='case-footer'><p><i class='fas fa-star'></i> A estrela do portfólio, demonstrando IA de ponta.</p></div></div>",
-    "keywords": ["senseidb", "ia", "inteligencia artificial", "mentor", "estrategia", "rag", "groq", "gemini", "llama", "desenvolvimento pessoal", "chatbot", "assistente"],
-    "redirectUrl": "https://sensei.cdkteck.com.br",
+    "keywords": [
+      "senseidb",
+      "ia",
+      "inteligencia artificial",
+      "mentor",
+      "estrategia",
+      "rag",
+      "groq",
+      "gemini",
+      "llama",
+      "desenvolvimento pessoal",
+      "chatbot",
+      "assistente"
+    ],
+    "redirectUrl": "https://senseidb.cdkteck.com.br",
     "external": true
   },
   "integracao-button": {
     "id": "integracao-button",
     "title": "Integração de Sistemas",
     "description": "<div class='case-study-container'><div class='case-header'><span class='status-badge info'><i class='fas fa-concierge-bell'></i> Serviço</span></div><div class='case-section'><h3><i class='fas fa-code-branch'></i> O Serviço</h3><p>Desenvolvimento de integrações entre plataformas, APIs e bancos de dados para automatizar fluxos e sincronizar informações.</p></div><div class='case-section'><h3><i class='fas fa-layer-group'></i> Tecnologias Comuns</h3><div class='tech-grid'><div class='tech-item'><i class='fas fa-exchange-alt'></i><span>REST & SOAP</span></div><div class='tech-item'><i class='fas fa-project-diagram'></i><span>GraphQL</span></div><div class='tech-item'><i class='fas fa-envelope'></i><span>Webhooks</span></div><div class='tech-item'><i class='fab fa-python'></i><span>Python</span></div><div class='tech-item'><i class='fab fa-node-js'></i><span>Node.js</span></div></div></div><div class='case-footer'><p><i class='fas fa-sync-alt'></i> Foco em evitar retrabalho e garantir dados consistentes.</p></div></div>",
-    "keywords": ["integracao", "api", "sistemas", "conexao", "automatizacao", "plataformas", "rest", "graphql"],
+    "keywords": [
+      "integracao",
+      "api",
+      "sistemas",
+      "conexao",
+      "automatizacao",
+      "plataformas",
+      "rest",
+      "graphql"
+    ],
     "redirectUrl": "/portfolio",
     "external": false
   },
@@ -48,7 +110,17 @@
     "id": "BI-button",
     "title": "Business Intelligence",
     "description": "<div class='case-study-container'><div class='case-header'><span class='status-badge info'><i class='fas fa-concierge-bell'></i> Serviço</span></div><div class='case-section'><h3><i class='fas fa-chart-pie'></i> O Serviço</h3><p>Transformação de dados brutos em estratégia através de dashboards executivos, relatórios dinâmicos e análises avançadas.</p></div><div class='case-section'><h3><i class='fas fa-layer-group'></i> Ferramentas e Processos</h3><div class='tech-grid'><div class='tech-item'><i class='fas fa-file-excel'></i><span>Power BI / DAX</span></div><div class='tech-item'><i class='fas fa-database'></i><span>SQL Server</span></div><div class='tech-item'><i class='fab fa-python'></i><span>Python/Pandas</span></div><div class='tech-item'><i class='fab fa-windows'></i><span>Azure Data Factory</span></div></div></div><div class='case-footer'><p><i class='fas fa-lightbulb'></i> Foco em monitorar KPIs e suportar decisões com dados.</p></div></div>",
-    "keywords": ["bi", "business", "powerbi", "inteligencia", "dashboard", "analise", "estrategia", "dax", "azure"],
+    "keywords": [
+      "bi",
+      "business",
+      "powerbi",
+      "inteligencia",
+      "dashboard",
+      "analise",
+      "estrategia",
+      "dax",
+      "azure"
+    ],
     "redirectUrl": "/pbi",
     "external": false
   },
@@ -56,7 +128,15 @@
     "id": "contato-button",
     "title": "Consultoria",
     "description": "Olá! 👋 Sou Cidirclay Queiroz, especialista em soluções tecnológicas, análise de dados e automação. Com formação em Ciências da Computação e experiência em projetos de transformação digital, ajudo empresas a inovar, otimizar processos e extrair valor dos dados. Entre em contato para uma consultoria personalizada e descubra como a tecnologia pode impulsionar o seu negócio!",
-    "keywords": ["consultoria", "contato", "falar", "orcamento", "ajuda", "tecnologia", "especialista"],
+    "keywords": [
+      "consultoria",
+      "contato",
+      "falar",
+      "orcamento",
+      "ajuda",
+      "tecnologia",
+      "especialista"
+    ],
     "isContact": true,
     "redirectUrl": ""
   }
