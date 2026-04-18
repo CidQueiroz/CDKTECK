@@ -1,14 +1,24 @@
+import json
+import base64
+import re
+import datetime
+import unicodedata
 from pathlib import Path
 from pdf2image import convert_from_path
 from pypdf import PdfReader
-import re
-import json
-import datetime
+
+# =============================================================================
+# UTILITÁRIOS
+# =============================================================================
 
 def sanitize_filename(filename):
-    """Remove a extensão e caracteres especiais para criar um nome de arquivo seguro."""
+    """Remove a extensão, acentos e caracteres especiais para criar um nome de arquivo seguro."""
     name_without_ext = Path(filename).stem
-    sanitized_name = re.sub(r'[^\w\s-]', '', name_without_ext).strip()
+    # Normaliza para remover acentos
+    nfkd_form = unicodedata.normalize('NFKD', name_without_ext)
+    text_without_accents = "".join([c for c in nfkd_form if not unicodedata.combining(c)])
+    
+    sanitized_name = re.sub(r'[^\w\s-]', '', text_without_accents).strip()
     sanitized_name = re.sub(r'[\s_]+', '-', sanitized_name)
     return sanitized_name.lower()
 
@@ -21,8 +31,7 @@ def extract_details_from_pdf(pdf_path):
         for page in reader.pages:
             text += page.extract_text() or ""
         
-        # Heurística para encontrar o emissor
-        known_issuers = ["Oracle", "Google", "Microsoft", "Alura", "Udemy", "Coursera", "Dataquest", "Udacity"]
+        known_issuers = ["Oracle", "Google", "Microsoft", "Alura", "Udemy", "Coursera", "Dataquest", "Udacity", "IBM", "AWS"]
         for known in known_issuers:
             if re.search(r'\b' + re.escape(known) + r'\b', text, re.IGNORECASE):
                 issuer = known
@@ -32,19 +41,58 @@ def extract_details_from_pdf(pdf_path):
     
     return issuer
 
+def classify_certificate(title, issuer):
+    """Classifica o certificado na categoria correta baseado no título e emissor."""
+    title_lower = title.lower()
+    issuer_lower = issuer.lower()
+
+    # PRIORIDADE 1: CYBERSECURITY
+    cyber_keywords = ["seguran", "security", "cyber", "network", "redes", "protect", "defense", "defesa", "hacking", "pentest", "identity", "identidade", "entra", "defender"]
+    if any(k in title_lower for k in cyber_keywords):
+        return "Cybersecurity"
+
+    # PRIORIDADE 2: AI & LLMs (Destaque do PapoDados)
+    ai_keywords = ["ai", "ia", "intelligence", "inteligencia", "generative", "generativa", "rag", "llm", "foundry", "agent", "agente", "machine-learning", "vertex", "gemini"]
+    if any(k in title_lower for k in ai_keywords):
+        return "Cloud_AI"
+
+    # PRIORIDADE 3: ELITE (Alta senioridade/Arquitetura)
+    elite_keywords = ["professional", "profissional", "architect", "arquiteto", "expert", "especialista", "specialist"]
+    if any(k in title_lower for k in elite_keywords):
+        return "Elite"
+    
+    # PRIORIDADE 4: DATA INTELLIGENCE
+    data_keywords = ["bigquery", "data", "dados", "sql", "analysis", "analise", "dashboard", "power-bi", "fabric", "excel", "python", "looker"]
+    if any(k in title_lower for k in data_keywords) or "data" in issuer_lower:
+        return "Data_Intelligence"
+
+    # PRIORIDADE 5: CLOUD (Generic)
+    cloud_vendors = ["oracle", "google", "microsoft", "aws", "ibm", "azure", "cloud"]
+    if any(v in issuer_lower for v in cloud_vendors) or any(v in title_lower for v in cloud_vendors):
+        return "Cloud_AI"
+    
+    # PADRÃO
+    return "Tools_Courses"
+
+# =============================================================================
+# ORQUESTRADOR PRINCIPAL
+# =============================================================================
+
 def generate_images_and_update_json():
-    """
-    Converte a primeira página de todos os arquivos PDF em um diretório para imagens PNG
-    e atualiza o arquivo certificates.json com dados extraídos.
-    """
-    project_root = Path(__file__).parent.parent
+    """Converte PDFs em imagens e sincroniza o certificates.json."""
+    script_dir = Path(__file__).resolve().parent
+    
+    if script_dir.name == "scripts" and script_dir.parent.name == "CDKTECK":
+        project_root = script_dir.parent / "cdkteck"
+    else:
+        project_root = script_dir.parent
+
     pdfs_dir = project_root / "public" / "certificados"
     output_image_dir = pdfs_dir / "images"
     json_path = project_root / "src" / "data" / "certificates.json"
 
-    print("Iniciando a geração de thumbnails e atualização do JSON dos certificados...")
+    print("🛠️  Iniciando atualização do ecossistema de certificados...")
     output_image_dir.mkdir(parents=True, exist_ok=True)
-    print(f"Diretório de saída das imagens: {output_image_dir}")
 
     certificates_data = []
     if json_path.exists():
@@ -52,19 +100,13 @@ def generate_images_and_update_json():
             with open(json_path, 'r', encoding='utf-8') as f:
                 certificates_data = json.load(f)
         except json.JSONDecodeError:
-            print(f"Aviso: JSON em '{json_path}' corrompido ou vazio. Começando do zero.")
             certificates_data = []
     
-    print(f"Certificados existentes no JSON: {len(certificates_data)}")
-    
+    # 1. Processar PDFs
     pdf_files = list(pdfs_dir.glob("*.pdf"))
-    if not pdf_files:
-        print(f"Nenhum arquivo PDF encontrado em {pdfs_dir}.")
-        return
+    processed_pdf_ids = set()
 
-    print(f"Encontrados {len(pdf_files)} arquivos PDF. Processando...")
-
-    processed_ids = set()
+    print(f"📄 Encontrados {len(pdf_files)} arquivos PDF para processar.")
 
     for pdf_path in pdf_files:
         cert_id = sanitize_filename(pdf_path.name)
@@ -72,67 +114,64 @@ def generate_images_and_update_json():
         image_output_path = output_image_dir / image_filename
         thumbnail_url = f"/certificados/images/{image_filename}"
 
-        existing_cert_index = next((i for i, c in enumerate(certificates_data) if c["id"] == cert_id), None)
+        existing_index = next((i for i, c in enumerate(certificates_data) if c["id"] == cert_id), None)
 
-        if existing_cert_index is not None:
-            print(f"- Certificado '{cert_id}' já existe. Verificando...")
-            cert = certificates_data[existing_cert_index]
-            # Atualiza a URL da imagem se necessário
-            if cert.get("image_url") != thumbnail_url:
-                print(f"  -> Atualizando image_url para '{thumbnail_url}'")
-                cert["image_url"] = thumbnail_url
-            
-            # Se o emissor for "Desconhecido", tenta extrair novamente
-            if cert.get("issuer", "Desconhecido") == "Desconhecido":
-                print(f"  -> Tentando re-extrair emissor para '{cert_id}'...")
-                issuer = extract_details_from_pdf(pdf_path)
-                if issuer != "Desconhecido":
-                    print(f"  -> Emissor encontrado: '{issuer}'")
-                    cert["issuer"] = issuer
-
+        if existing_index is not None:
+            cert = certificates_data[existing_index]
+            cert["image_url"] = thumbnail_url
+            cert["type"] = "pdf"
+            if "verify_url" not in cert:
+                cert["verify_url"] = f"/certificados/{pdf_path.name}"
         else:
-            print(f"- Novo certificado '{cert_id}'. Extraindo dados e adicionando.")
-            
             title = pdf_path.stem.replace('-', ' ').replace('_', ' ').title()
             issuer = extract_details_from_pdf(pdf_path)
-            description = f"Certificado de conclusão para o curso '{title}'."
-
-            new_cert = {
+            certificates_data.append({
                 "id": cert_id,
                 "title": title,
                 "issuer": issuer,
-                "description": description,
+                "category_tier": classify_certificate(title, issuer),
+                "type": "pdf",
                 "image_url": thumbnail_url,
-                "pdf_url": f"/certificados/{pdf_path.name}",
-                "issue_date": datetime.date.today().isoformat()
-            }
-            certificates_data.append(new_cert)
+                "verify_url": f"/certificados/{pdf_path.name}"
+            })
         
-        processed_ids.add(cert_id)
+        processed_pdf_ids.add(cert_id)
 
+        # Gera miniatura se não existir ou se for forçada (ex: para GCP coloridos novos)
         if not image_output_path.exists():
             try:
-                print(f"  - Convertendo '{pdf_path.name}' para imagem...")
-                images = convert_from_path(pdf_path, first_page=1, last_page=1, fmt='png', size=(600, None), thread_count=1)
+                images = convert_from_path(pdf_path, first_page=1, last_page=1, fmt='png', size=(600, None))
                 if images:
                     images[0].save(image_output_path, "PNG")
-                    print(f"    -> Imagem salva como '{image_output_path.name}'")
+                    print(f"  📸 Imagem gerada: {image_filename}")
             except Exception as e:
-                print(f"    !! Erro ao converter '{pdf_path.name}': {e}")
-        else:
-            print(f"- Imagem para '{pdf_path.name}' já existe.")
+                print(f"  !! Erro ao converter PDF '{pdf_path.name}': {e}")
 
-    # Remove certificados do JSON se o PDF não existe mais
+    # 2. Finalização e Deduplicação (SOBERANIA PDF)
+    # Removemos qualquer registro que NÃO tenha um PDF físico correspondente ou que seja do tipo antigo 'badge'
     initial_count = len(certificates_data)
-    certificates_data = [c for c in certificates_data if c["id"] in processed_ids]
-    if len(certificates_data) < initial_count:
-        print(f"Removidos {initial_count - len(certificates_data)} certificados órfãos do JSON.")
+    certificates_data = [
+        c for c in certificates_data 
+        if c["id"] in processed_pdf_ids and c.get("type") == "pdf"
+    ]
+    
+    removed = initial_count - len(certificates_data)
+    if removed > 0:
+        print(f"🧹 Limpeza concluída: {removed} cards duplicados/legado removidos.")
 
+    # Re-classificar tudo para garantir integridade e emissores corretos
+    for cert in certificates_data:
+        cert["category_tier"] = classify_certificate(cert["title"], cert["issuer"])
+        if cert["issuer"] == "Google":
+            cert["issuer"] = "Google Cloud"
+        if cert["issuer"] == "Desconhecido" and any(k in cert["title"].lower() for k in ["microsoft", "azure", "az-"]):
+            cert["issuer"] = "Microsoft"
+
+    # Salva o resultado final
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(certificates_data, f, indent=2, ensure_ascii=False)
-    
-    print(f"\nArquivo JSON atualizado em '{json_path}'.")
-    print("Processo concluído.")
+
+    print(f"✨ Sincronização concluída! {len(certificates_data)} registros no portfólio.")
 
 if __name__ == "__main__":
     generate_images_and_update_json()

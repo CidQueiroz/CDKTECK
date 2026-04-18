@@ -114,3 +114,11 @@ venv/
 # Arquivos de IDEs
 .vscode/
 .idea/
+# Scraper / Auth Secrets (CDKTECK Nuclear)
+scripts/ms_auth.json
+scripts/ms_badges_export.json
+scripts/raw_badges.json
+scripts/gcp_profile.html
+scripts/gcp_badge_detail.html
+**/ms_auth.json
+**/raw_badges.json

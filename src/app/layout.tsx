@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Orbitron, Montserrat } from "next/font/google";
 import Script from "next/script";
 import "@cidqueiroz/cdkteck-ui/global.css";
+import "./globals.css";
 import ClientLayout from "@/components/ClientLayout";
 
 const orbitron = Orbitron({
