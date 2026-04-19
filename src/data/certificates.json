@@ -2050,5 +2050,32 @@
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-gen-ai-navigate-the-landscape-2026-04-16.png",
     "verify_url": "/certificados/google-cloud-gen-ai-navigate-the-landscape-2026-04-16.pdf"
+  },
+  {
+    "id": "sap-s-4hana",
+    "title": "Sap S 4Hana",
+    "issuer": "Desconhecido",
+    "category_tier": "Tools_Courses",
+    "type": "pdf",
+    "image_url": "/certificados/images/sap-s-4hana.png",
+    "verify_url": "/certificados/SAP-S-4HANA.pdf"
+  },
+  {
+    "id": "google-cybersecurity-professional-certificate-v2",
+    "title": "Google Cybersecurity Professional Certificate V2",
+    "issuer": "Desconhecido",
+    "category_tier": "Cybersecurity",
+    "type": "pdf",
+    "image_url": "/certificados/images/google-cybersecurity-professional-certificate-v2.png",
+    "verify_url": "/certificados/Google-Cybersecurity-Professional-Certificate-V2.pdf"
+  },
+  {
+    "id": "cyberessentials",
+    "title": "Cyberessentials",
+    "issuer": "Desconhecido",
+    "category_tier": "Cybersecurity",
+    "type": "pdf",
+    "image_url": "/certificados/images/cyberessentials.png",
+    "verify_url": "/certificados/CyberEssentials.pdf"
   }
 ]
