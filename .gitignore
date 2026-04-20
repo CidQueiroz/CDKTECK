@@ -122,3 +122,6 @@ scripts/gcp_profile.html
 scripts/gcp_badge_detail.html
 **/ms_auth.json
 **/raw_badges.json
+
+scripts/sanitize-certificates.js
+scripts/convert-dates.js

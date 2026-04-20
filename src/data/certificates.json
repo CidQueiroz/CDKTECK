@@ -1,60 +1,60 @@
 [
   {
     "id": "oracle-databaseaws-certified-architect-professional",
-    "title": "Oracle Database@Aws Certified Architect Professional",
+    "title": "Oracle Database@AWS Certified Architect Professional",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Completou o curso Oracle Database@AWS Certified Architect Professional, desenvolvendo habilidades em arquitetura de dados e integração com AWS.",
     "image_url": "/certificados/images/oracle-databaseaws-certified-architect-professional.png",
     "pdf_url": "/certificados/Oracle Database@AWS Certified Architect Professional.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "28/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Database@AWS Certified Architect Professional.pdf",
     "category_tier": "Elite"
   },
   {
     "id": "oracle-data-platform-2025-certified-foundations-associate",
-    "title": "Oracle Data Platform 2025 Certified Foundations Associate",
+    "title": "Oracle Data Platform Certified Foundations Associate",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Completando este curso, você adquiriu habilidades essenciais para trabalhar com a plataforma de dados da Oracle, incluindo análise e visualização de dados, manipulação de grandes conjuntos de dados e integração com outras tecnologias.",
     "image_url": "/certificados/images/oracle-data-platform-2025-certified-foundations-associate.png",
     "pdf_url": "/certificados/Oracle Data Platform 2025 Certified Foundations Associate.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "19/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Data Platform 2025 Certified Foundations Associate.pdf",
     "category_tier": "Cloud_AI"
   },
   {
     "id": "oracle-cloud-infrastructure-2025-certified-multicloud-architect-professional",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional",
+    "title": "Oracle Cloud Infrastructure Certified Multicloud Architect Professional",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Este certificado testemunha minha habilidade em projetar e implementar soluções de cloud computing escaláveis, flexíveis e seguras, utilizando a infraestrutura do Oracle Cloud.",
     "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-multicloud-architect-professional.png",
     "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "24/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional.pdf",
     "category_tier": "Elite"
   },
   {
     "id": "oracle-cloud-infrastructure-2025-certified-devops-professional",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Devops Professional",
+    "title": "Oracle Cloud Infrastructure Certified DevOps Professional",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Completou o curso de Desenvolvimento de Operações para Infraestrutura da Oracle, demonstrando habilidades avançadas em gerenciamento de infraestrutura e integração de aplicações.",
     "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-devops-professional.png",
     "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified DevOps Professional.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "25/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified DevOps Professional.pdf",
     "category_tier": "Elite"
   },
   {
     "id": "tic-hub---tic-12-prog-paralela-e-distribuida",
-    "title": "Tic Hub   Tic 12 (Prog Paralela E Distribuida)",
+    "title": "Programação Paralela e Distribuída",
     "issuer": "TIC HUB",
-    "description": "Certificado de conclusão.",
+    "description": "O curso de Programação Paralela e Distribuída do TIC-Hub abriu portas para o desenvolvimento de habilidades em programação eficiente, permitindo que os alunos aprendessem a melhorar a performance e escalabilidade de seus sistemas.",
     "image_url": "/certificados/images/tic-hub---tic-12-prog-paralela-e-distribuida.png",
     "pdf_url": "/certificados/TIC-Hub - TIC-12 (Prog Paralela e Distribuida).pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "19/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/TIC-Hub - TIC-12 (Prog Paralela e Distribuida).pdf",
     "category_tier": "Tools_Courses"
@@ -62,227 +62,227 @@
   {
     "id": "tech-advanced---one-oracle-next-education",
     "title": "Tech Advanced - One Oracle Next Education",
-    "issuer": "ONE Oracle Next Education",
-    "description": "Certificado de conclusão.",
+    "issuer": "Oracle Brasil",
+    "description": "O certificado demonstra que Cidirclay Santos de Lima Queiroz desenvolveu habilidades avançadas em tecnologia com a Oracle Brasil.",
     "image_url": "/certificados/images/tech-advanced---one-oracle-next-education.png",
     "pdf_url": "/certificados/Tech Advanced - ONE Oracle Next Education.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "03/08/2025",
     "type": "pdf",
     "verify_url": "/certificados/Tech Advanced - ONE Oracle Next Education.pdf",
     "category_tier": "Cloud_AI"
   },
   {
     "id": "tic-hub---tic-12-redes-de-computadores",
-    "title": "Tic Hub   Tic 12 (Redes De Computadores)",
+    "title": "TIC Hub - Redes de Computadores",
     "issuer": "TIC HUB",
-    "description": "Certificado de conclusão.",
+    "description": "O curso de Redes de Computadores do TIC Hub permitiu que Cidirclay Santos de Lima Queiroz desenvolvesse habilidades avançadas em projetos de rede, garantindo uma melhor compreensão e aplicação dos conceitos aprendidos.",
     "image_url": "/certificados/images/tic-hub---tic-12-redes-de-computadores.png",
     "pdf_url": "/certificados/TIC-Hub - TIC-12 (Redes de Computadores).pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "30/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/TIC-Hub - TIC-12 (Redes de Computadores).pdf",
     "category_tier": "Cybersecurity"
   },
   {
     "id": "microsoft-power-bi-para-business-intelligence---dsa",
-    "title": "Microsoft Power Bi Para Business Intelligence   Dsa",
+    "title": "Microsoft Power BI Para Business Intelligence e Data Science",
     "issuer": "Data Science Academy",
-    "description": "Certificado de conclusão.",
+    "description": "Completou o curso de formação on-line, desenvolvendo habilidades em Microsoft Power BI para negócios e ciência de dados.",
     "image_url": "/certificados/images/microsoft-power-bi-para-business-intelligence---dsa.png",
     "pdf_url": "/certificados/Microsoft Power BI Para Business Intelligence - DSA.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "06/08/2025",
     "type": "pdf",
     "verify_url": "/certificados/Microsoft Power BI Para Business Intelligence - DSA.pdf",
     "category_tier": "Cloud_AI"
   },
   {
     "id": "engenharia-de-prompt-criando-prompts-eficazes-para-ia-generativa---alura",
-    "title": "Engenharia De Prompt_ Criando Prompts Eficazes Para Ia Generativa   Alura",
-    "issuer": "ALURA",
-    "description": "Certificado de conclusão.",
+    "title": "Engenharia de Prompt: Criando Prompts Eficazes para IA Generativa",
+    "issuer": "Alura",
+    "description": "Desenvolvido habilidades em criação de prompts eficazes para a geração de inteligência artificial, permitindo melhorar a interação entre usuários e sistemas.",
     "image_url": "/certificados/images/engenharia-de-prompt-criando-prompts-eficazes-para-ia-generativa---alura.png",
     "pdf_url": "/certificados/Engenharia de Prompt_ criando prompts eficazes para IA Generativa - Alura.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "15/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Engenharia de Prompt_ criando prompts eficazes para IA Generativa - Alura.pdf",
     "category_tier": "Cloud_AI"
   },
   {
     "id": "oracle-cloud-infrastructure-2025-certified-foundations-associate",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+    "title": "Oracle Cloud Infrastructure Certified Foundations Associate",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Aqui, você desenvolveu habilidades essenciais em Oracle Cloud Infrastructure, incluindo gerenciamento de recursos, segurança e otimização de desempenho.",
     "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-foundations-associate.png",
     "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Foundations Associate.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "21/09/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Foundations Associate.pdf",
     "category_tier": "Cloud_AI"
   },
   {
     "id": "oracle-cloud-infrastructure-2025-certified-generative-ai-professional",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Generative Ai Professional",
+    "title": "Oracle Cloud Infrastructure Certified Generative AI Professional",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Completou o curso Oracle Cloud Infrastructure, desenvolvendo habilidades em Inteligência Artificial Gerativa para impulsionar projetos e soluções inovadoras.",
     "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-generative-ai-professional.png",
     "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Generative AI Professional.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "23/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Generative AI Professional.pdf",
     "category_tier": "Cloud_AI"
   },
   {
     "id": "ey-empodera-programaeucapacito",
-    "title": "Ey_Empodera_Programaeucapacito",
+    "title": "Ey Empodera Programa Eucapacito Certification",
     "issuer": "EY Empodera",
-    "description": "Certificado de conclusão.",
+    "description": "O programa Eucapacito, oferecido pela EY Empodera, visa capacitar profissionais em habilidades técnicas relacionadas à arquitetura de dados.",
     "image_url": "/certificados/images/ey-empodera-programaeucapacito.png",
     "pdf_url": "/certificados/Ey_Empodera_programaeucapacito.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "02/01/2026",
     "type": "pdf",
     "verify_url": "/certificados/Ey_Empodera_programaeucapacito.pdf",
     "category_tier": "Tools_Courses"
   },
   {
     "id": "jornadapython-hashtag",
-    "title": "JornadaPython Hashtag",
+    "title": "Certificado de Conclusão do Evento Jornada Python",
     "issuer": "Hashtag Treinamentos",
-    "description": "Certificado de conclusão.",
+    "description": "Conquistou habilidades em programação com Python, demonstrando capacidade para resolver problemas e trabalhar efetivamente com a linguagem.",
     "image_url": "/certificados/images/jornadapython-hashtag.png",
     "pdf_url": "/certificados/JornadaPython-HashTag.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "05/06/2025",
     "type": "pdf",
     "verify_url": "/certificados/JornadaPython-HashTag.pdf",
     "category_tier": "Data_Intelligence"
   },
   {
     "id": "certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia",
-    "title": "Certificate Fundamentos De Linguagem Python Do Basico A Aplicacoes De Ia",
+    "title": "Fundamentos de Linguagem Python",
     "issuer": "Data Science Academy",
-    "description": "Certificado de conclusão.",
+    "description": "O certificado é uma demonstração da habilidade em aprender as fundações da linguagem Python, bem como suas aplicações para análise de dados, ciência de dados e aprendizado de máquina.",
     "image_url": "/certificados/images/certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia.png",
     "pdf_url": "/certificados/certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "13/11/2025",
     "type": "pdf",
     "verify_url": "/certificados/certificate-fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia.pdf",
-    "category_tier": "Cloud_AI"
+    "category_tier": "Data_Intelligence"
   },
   {
     "id": "tic-hub---tic-12-poo",
-    "title": "Tic Hub - Tic 12 (Poo)",
+    "title": "Programação Orientada a Objetos",
     "issuer": "TIC HUB",
-    "description": "Certificado de conclusão.",
+    "description": "O curso de Programação Orientada a Objetos do TIC-Hub desenvolve habilidades em análise de problemas, design de soluções e implementação de algoritmos orientados por objetos.",
     "image_url": "/certificados/images/tic-hub---tic-12-poo.png",
     "pdf_url": "/certificados/TIC-Hub - TIC-12 (POO).pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "24/09/2025",
     "type": "pdf",
     "verify_url": "/certificados/TIC-Hub - TIC-12 (POO).pdf",
     "category_tier": "Tools_Courses"
   },
   {
     "id": "nexa---fundamentos-de-ia-generativa-com-bedrock",
-    "title": "Nexa - Fundamentos De Ia Generativa Com Bedrock",
+    "title": "Fundamentos de Intelligência Artificial Generativa com Bedrock",
     "issuer": "DIO",
-    "description": "Certificado de conclusão.",
+    "description": "Desenvolvimento de habilidades em inteligência artificial generativa utilizando a plataforma Bedrock, promovendo a capacitação em tecnologias emergentes.",
     "image_url": "/certificados/images/nexa---fundamentos-de-ia-generativa-com-bedrock.png",
     "pdf_url": "/certificados/Nexa - Fundamentos de IA Generativa com Bedrock.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "02/01/2026",
     "type": "pdf",
     "verify_url": "/certificados/Nexa - Fundamentos de IA Generativa com Bedrock.pdf",
     "category_tier": "Cloud_AI"
   },
   {
     "id": "oracle-cloud-infrastructure-2025-certified-data-science-professional",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+    "title": "Oracle Cloud Infrastructure Certified Data Science Professional",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Aprendeu a aplicar técnicas de ciência de dados para resolver problemas complexos na infraestrutura da nuvem Oracle, desenvolvendo habilidades em análise de dados e visão geral.",
     "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-data-science-professional.png",
     "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Data Science Professional.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "06/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Data Science Professional.pdf",
     "category_tier": "Elite"
   },
   {
     "id": "oracle-cloud-infrastructure-2025-certified-architect-associate",
-    "title": "Oracle Cloud Infrastructure 2025 Certified Architect Associate",
+    "title": "Oracle Cloud Infrastructure Certified Architect Associate",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Completou um curso de arquitetura de infraestrutura na Oracle Cloud, aprendendo habilidades para projetar e implementar soluções escaláveis e seguras.",
     "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-architect-associate.png",
     "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Architect Associate.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "22/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Architect Associate.pdf",
     "category_tier": "Cloud_AI"
   },
   {
     "id": "tic-hub---tic-12-estrutura-de-dados",
-    "title": "Tic Hub - Tic 12 (Estrutura De Dados)",
+    "title": "Estruturas de Dados do Programa TIC-Hub",
     "issuer": "TIC HUB",
-    "description": "Certificado de conclusão.",
+    "description": "O certificado confirma a conclusão com êxito do curso de Estruturas de Dados, habilitando o titular para aplicar conhecimentos em análise de dados e desenvolvimento de soluções eficientes.",
     "image_url": "/certificados/images/tic-hub---tic-12-estrutura-de-dados.png",
     "pdf_url": "/certificados/TIC-Hub - TIC-12 (Estrutura de Dados).pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "10/09/2025",
     "type": "pdf",
     "verify_url": "/certificados/TIC-Hub - TIC-12 (Estrutura de Dados).pdf",
     "category_tier": "Data_Intelligence"
   },
   {
     "id": "oracle-autonomous-database-cloud-2025-certified-professional",
-    "title": "Oracle Autonomous Database Cloud 2025 Certified Professional",
+    "title": "Oracle Autonomous Database Cloud Certified Professional",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Completando este curso, você adquiriu habilidades em Oracle Autonomous Database Cloud, incluindo gerenciamento de bases de dados, armazenamento de dados e integração com outras tecnologias.",
     "image_url": "/certificados/images/oracle-autonomous-database-cloud-2025-certified-professional.png",
     "pdf_url": "/certificados/Oracle Autonomous Database Cloud 2025 Certified Professional.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "29/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Autonomous Database Cloud 2025 Certified Professional.pdf",
     "category_tier": "Elite"
   },
   {
     "id": "oracle-ai-vector-search-certified-professional",
-    "title": "Oracle Ai Vector Search Certified Professional",
+    "title": "Oracle AI Vector Search Certified Professional",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Com certificado profissional, você demonstrou habilidades avançadas em busca de vetores e integração com inteligência artificial, utilizando tecnologias Oracle.",
     "image_url": "/certificados/images/oracle-ai-vector-search-certified-professional.png",
     "pdf_url": "/certificados/Oracle AI Vector Search Certified Professional.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "22/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle AI Vector Search Certified Professional.pdf",
     "category_tier": "Cloud_AI"
   },
   {
     "id": "tic-hub---tic-12-banco-de-dados",
-    "title": "Tic Hub   Tic 12 (Banco De Dados)",
+    "title": "Tic Hub - Banco de Dados",
     "issuer": "TIC HUB",
-    "description": "Certificado de conclusão.",
+    "description": "O curso de Banco de Dados do Programa TIC-Hub contribuiu para o aprimoramento das habilidades em análise e gestão de bancos de dados, permitindo à Cidirclay Santos de Lima Queiroz melhorar sua capacidade de gerenciar e analisar grandes quantidades de dados.",
     "image_url": "/certificados/images/tic-hub---tic-12-banco-de-dados.png",
     "pdf_url": "/certificados/TIC-Hub - TIC-12 (Banco de Dados).pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "25/09/2025",
     "type": "pdf",
     "verify_url": "/certificados/TIC-Hub - TIC-12 (Banco de Dados).pdf",
     "category_tier": "Data_Intelligence"
   },
   {
     "id": "oracle-analytics-cloud-2025-certified-professional",
-    "title": "Oracle Analytics Cloud 2025 Certified Professional",
+    "title": "Oracle Analytics Cloud Certified Professional",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Completou o curso de Especialização em Análise de Dados com Oracle, desenvolvendo habilidades avançadas para analisar e visualizar dados.",
     "image_url": "/certificados/images/oracle-analytics-cloud-2025-certified-professional.png",
     "pdf_url": "/certificados/Oracle Analytics Cloud 2025 Certified Professional.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "27/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Analytics Cloud 2025 Certified Professional.pdf",
     "category_tier": "Elite"
   },
   {
     "id": "oracle-fusion-ai-agent-studio-certified-foundations-associate---rel-1",
-    "title": "Oracle Fusion Ai Agent Studio Certified Foundations Associate   Rel 1",
+    "title": "Oracle Fusion AI Agent Studio Certified Foundations Associate",
     "issuer": "Oracle",
-    "description": "Certificado de conclusão.",
+    "description": "Completou o curso de agentes de inteligência artificial da Oracle, desenvolvendo habilidades em inteligência artificial, machine learning e análise de dados.",
     "image_url": "/certificados/images/oracle-fusion-ai-agent-studio-certified-foundations-associate---rel-1.png",
     "pdf_url": "/certificados/Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1.pdf",
-    "issue_date": "2026-01-02",
+    "issue_date": "18/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1.pdf",
     "category_tier": "Cloud_AI"
@@ -290,74 +290,90 @@
   {
     "id": "hackathon-alura-2026",
     "title": "Hackathon Alura 2026",
-    "issuer": "Microsoft",
-    "category_tier": "Cloud_AI",
+    "issuer": "Alura",
+    "category_tier": "Tools_Courses",
     "type": "pdf",
     "image_url": "/certificados/images/hackathon-alura-2026.png",
-    "verify_url": "/certificados/Hackathon-Alura-2026.pdf"
+    "verify_url": "/certificados/Hackathon-Alura-2026.pdf",
+    "issue_date": "26/02/2026",
+    "description": "Desenvolvimento de soluções inovadoras em parceria com a comunidade de desenvolvedores durante o evento Hackathon Alura 2026."
   },
   {
     "id": "certificado-de-partipacao-pep",
-    "title": "Certificado De Partipação Pep",
-    "issuer": "Microsoft",
-    "category_tier": "Cloud_AI",
+    "title": "Certificado de Partipação PEP",
+    "issuer": "EY Institute",
+    "category_tier": "Tools_Courses",
     "type": "pdf",
     "image_url": "/certificados/images/certificado-de-partipacao-pep.png",
-    "verify_url": "/certificados/Certificado de Partipação PEP.pdf"
+    "verify_url": "/certificados/Certificado de Partipação PEP.pdf",
+    "issue_date": "30/01/2026",
+    "description": "O certificado refere-se à participação no Projeto de Empoderamento Pessoal (PEP), que incluiu mentorias individuais realizadas durante o período de Outubro a Dezembro de 2025."
   },
   {
     "id": "caixa---inteligencia-artificial-na-pratica",
-    "title": "Caixa   Inteligência Artificial Na Prática",
+    "title": "Inteligência Artificial na Prática",
     "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/caixa---inteligencia-artificial-na-pratica.png",
-    "verify_url": "/certificados/CAIXA - Inteligência Artificial na Prática.pdf"
+    "verify_url": "/certificados/CAIXA - Inteligência Artificial na Prática.pdf",
+    "description": "Desenvolvimento de soluções utilizando Inteligência Artificial com a plataforma Google Cloud, abordando conceitos e técnicas para implementação prática.",
+    "issue_date": "03/02/2025"
   },
   {
     "id": "gerar-imagens-com-ia",
-    "title": "Gerar Imagens Com Ia",
+    "title": "Gerar Imagens com Intelligência Artificial (IA)",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/gerar-imagens-com-ia.png",
-    "verify_url": "/certificados/gerar-imagens-com-ia.pdf"
+    "verify_url": "/certificados/gerar-imagens-com-ia.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidades em gerar imagens com o uso de inteligência artificial, tecnologia essencial para a geração de conteúdo visual de alta qualidade e aplicações relacionadas à visão computacional."
   },
   {
     "id": "projetar-integracao-de-dados",
-    "title": "Projetar Integracao De Dados",
+    "title": "Projetar Integração de Dados",
     "issuer": "Microsoft",
     "category_tier": "Data_Intelligence",
     "type": "pdf",
     "image_url": "/certificados/images/projetar-integracao-de-dados.png",
-    "verify_url": "/certificados/projetar-integracao-de-dados.pdf"
+    "verify_url": "/certificados/projetar-integracao-de-dados.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de habilidades para projetar e integrar dados de forma eficaz, utilizando as ferramentas e tecnologias mais recentes."
   },
   {
     "id": "desenvolver-solucoes-que-usam-o-armazenamento-de-blobs",
-    "title": "Desenvolver Solucoes Que Usam O Armazenamento De Blobs",
+    "title": "Desenvolver Soluções que Usam o Armazenamento de Blobs",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-solucoes-que-usam-o-armazenamento-de-blobs.png",
-    "verify_url": "/certificados/desenvolver-solucoes-que-usam-o-armazenamento-de-blobs.pdf"
+    "verify_url": "/certificados/desenvolver-solucoes-que-usam-o-armazenamento-de-blobs.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Demonstrou habilidades em desenvolver soluções que utilizam o armazenamento de blobs, um recurso fundamental na arquitetura de dados."
   },
   {
     "id": "implementar-aplicativos-web-do-servico-de-aplicativo-do-azure",
-    "title": "Implementar Aplicativos Web Do Servico De Aplicativo Do Azure",
+    "title": "Implementar Aplicativos Web do Serviço de Aplicativo do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-aplicativos-web-do-servico-de-aplicativo-do-azure.png",
-    "verify_url": "/certificados/implementar-aplicativos-web-do-servico-de-aplicativo-do-azure.pdf"
+    "verify_url": "/certificados/implementar-aplicativos-web-do-servico-de-aplicativo-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolver e implementar aplicativos web utilizando o Serviço de Aplicativo do Azure, garantindo escalabilidade e segurança para soluções online."
   },
   {
     "id": "descobrir-agentes-de-ia-do-azure-com-a-a2a",
-    "title": "Descobrir Agentes De Ia Do Azure Com A A2A",
+    "title": "Descobrir Agentes de IA do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/descobrir-agentes-de-ia-do-azure-com-a-a2a.png",
-    "verify_url": "/certificados/descobrir-agentes-de-ia-do-azure-com-a-a2a.pdf"
+    "verify_url": "/certificados/descobrir-agentes-de-ia-do-azure-com-a-a2a.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolver habilidades em agentes de inteligência artificial (IA) no ambiente Microsoft Azure, utilizando a A2A como plataforma."
   },
   {
     "id": "desenvolver-solucoes-de-ia-no-azure",
@@ -366,16 +382,20 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-solucoes-de-ia-no-azure.png",
-    "verify_url": "/certificados/desenvolver-solucoes-de-ia-no-azure.pdf"
+    "verify_url": "/certificados/desenvolver-solucoes-de-ia-no-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Aprender a desenvolver soluções de Inteligência Artificial no ambiente do Microsoft Azure, demonstrando habilidades e conhecimentos para implementar projetos eficazes e escaláveis."
   },
   {
     "id": "introducao-ao-observador-de-rede-do-azure",
-    "title": "Introducao Ao Observador De Rede Do Azure",
+    "title": "Introdução ao Observador de Rede do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-ao-observador-de-rede-do-azure.png",
-    "verify_url": "/certificados/introducao-ao-observador-de-rede-do-azure.pdf"
+    "verify_url": "/certificados/introducao-ao-observador-de-rede-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra conhecimento técnico em introduzir e configurar o Observador de Rede do Azure, plataforma cloud líder para monitoramento e gerenciamento de rede."
   },
   {
     "id": "implementar-identidades-gerenciadas",
@@ -384,196 +404,240 @@
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-identidades-gerenciadas.png",
-    "verify_url": "/certificados/implementar-identidades-gerenciadas.pdf"
+    "verify_url": "/certificados/implementar-identidades-gerenciadas.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de soluções para gerenciamento de identidades e autenticação em ambientes empresariais."
   },
   {
     "id": "az-305-criar-solucoes-de-identidade-governanca-e-monitoramento",
-    "title": "Az 305 Criar Solucoes De Identidade Governanca E Monitoramento",
+    "title": "Criar soluções de identidade, governança e monitoramento",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/az-305-criar-solucoes-de-identidade-governanca-e-monitoramento.png",
-    "verify_url": "/certificados/az-305-criar-solucoes-de-identidade-governanca-e-monitoramento.pdf"
+    "verify_url": "/certificados/az-305-criar-solucoes-de-identidade-governanca-e-monitoramento.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de soluções que garantam a segurança e governança de identidades, assim como o monitoramento eficaz dos processos."
   },
   {
     "id": "desenvolver-agentes-de-ia-com-a-extensao-microsoft-foundry-no-visual-studio-code",
-    "title": "Desenvolver Agentes De Ia Com A Extensao Microsoft Foundry No Visual Studio Code",
+    "title": "Desenvolvimento de Agentes de Intellligência Artificial com a Extensão Microsoft Foundry no Visual Studio Code",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-agentes-de-ia-com-a-extensao-microsoft-foundry-no-visual-studio-code.png",
-    "verify_url": "/certificados/desenvolver-agentes-de-ia-com-a-extensao-microsoft-foundry-no-visual-studio-code.pdf"
+    "verify_url": "/certificados/desenvolver-agentes-de-ia-com-a-extensao-microsoft-foundry-no-visual-studio-code.pdf",
+    "description": "Este certificado atesta o meu conhecimento em desenvolver agentes de inteligência artificial utilizando a extensão Microsoft Foundry no ambiente do Visual Studio Code.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "analisar-video",
-    "title": "Analisar Video",
+    "title": "Analisar Video Certification",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/analisar-video.png",
-    "verify_url": "/certificados/analisar-video.pdf"
+    "verify_url": "/certificados/analisar-video.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a competência de Cidirclay Santos de Lima Queiroz em analisar vídeos com êxito, habilidade desenvolvida após conclusão do treinamento."
   },
   {
     "id": "configurar-a-seguranca-do-armazenamento-do-microsoft-azure",
-    "title": "Configurar A Seguranca Do Armazenamento Do Microsoft Azure",
+    "title": "Configurar a Segurança do Armazenamento do Microsoft Azure",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-a-seguranca-do-armazenamento-do-microsoft-azure.png",
-    "verify_url": "/certificados/configurar-a-seguranca-do-armazenamento-do-microsoft-azure.pdf"
+    "verify_url": "/certificados/configurar-a-seguranca-do-armazenamento-do-microsoft-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidades em configuração de segurança para o armazenamento do Microsoft Azure, uma solução integral para gerenciamento de dados e aplicativos."
   },
   {
     "id": "introducao-as-maquinas-virtuais-do-azure",
-    "title": "Introducao As Maquinas Virtuais Do Azure",
+    "title": "Introdução às Máquinas Virtuais do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-as-maquinas-virtuais-do-azure.png",
-    "verify_url": "/certificados/introducao-as-maquinas-virtuais-do-azure.pdf"
+    "verify_url": "/certificados/introducao-as-maquinas-virtuais-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a compreensão técnica da plataforma de máquinas virtuais do Azure, permitindo a criação e gestão eficazes de ambientes computacionais virtualizados."
   },
   {
     "id": "introducao-a-estrutura-bem-arquitetada-do-microsoft-azure",
-    "title": "Introducao A Estrutura Bem Arquitetada Do Microsoft Azure",
+    "title": "Introdução à estrutura bem arquitetada do Microsoft Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-a-estrutura-bem-arquitetada-do-microsoft-azure.png",
-    "verify_url": "/certificados/introducao-a-estrutura-bem-arquitetada-do-microsoft-azure.pdf"
+    "verify_url": "/certificados/introducao-a-estrutura-bem-arquitetada-do-microsoft-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de habilidades em arquitetura de soluções no Microsoft Azure, com foco em planejamento e implantação de infraestruturas eficientes."
   },
   {
     "id": "criar-modelos-de-visao-com-a-visao-personalizada-da-ia-do-azure",
-    "title": "Criar Modelos De Visao Com A Visao Personalizada Da Ia Do Azure",
+    "title": "Criar Modelos de Visão com Visão Personalizada da IA do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-modelos-de-visao-com-a-visao-personalizada-da-ia-do-azure.png",
-    "verify_url": "/certificados/criar-modelos-de-visao-com-a-visao-personalizada-da-ia-do-azure.pdf"
+    "verify_url": "/certificados/criar-modelos-de-visao-com-a-visao-personalizada-da-ia-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvido modelo de visão com a visão personalizada da Inteligência Artificial (IA) do Azure, demonstrando habilidades avançadas em machine learning e análise de dados."
   },
   {
     "id": "ajustar-um-modelo-de-linguagem-com-o-microsoft-foundry",
-    "title": "Ajustar Um Modelo De Linguagem Com O Microsoft Foundry",
+    "title": "Ajustar um Modelo de Linguagem com o Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/ajustar-um-modelo-de-linguagem-com-o-microsoft-foundry.png",
-    "verify_url": "/certificados/ajustar-um-modelo-de-linguagem-com-o-microsoft-foundry.pdf"
+    "verify_url": "/certificados/ajustar-um-modelo-de-linguagem-com-o-microsoft-foundry.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Ajustamento de modelo de linguagem utilizando as tecnologias do Microsoft Foundry, demonstrando habilidades avançadas em desenvolvimento e integração de linguagens."
   },
   {
     "id": "configurar-disponibilidade-da-maquina-virtual",
-    "title": "Configurar Disponibilidade Da Maquina Virtual",
+    "title": "Configurar Disponibilidade da Máquina Virtual",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-disponibilidade-da-maquina-virtual.png",
-    "verify_url": "/certificados/configurar-disponibilidade-da-maquina-virtual.pdf"
+    "verify_url": "/certificados/configurar-disponibilidade-da-maquina-virtual.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a habilidade em configurar e gerenciar a disponibilidade de máquinas virtuais, garantindo o desempenho e a eficiência do sistema."
   },
   {
     "id": "explorar-hubs-de-eventos-do-azure",
-    "title": "Explorar Hubs De Eventos Do Azure",
+    "title": "Explorar Hubs de Eventos do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/explorar-hubs-de-eventos-do-azure.png",
-    "verify_url": "/certificados/explorar-hubs-de-eventos-do-azure.pdf"
+    "verify_url": "/certificados/explorar-hubs-de-eventos-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Neste curso, o participante aprendeu a explorar os hubs de eventos do Azure, tecnologia essencial para processamento e armazenamento de dados em tempo real."
   },
   {
     "id": "az-104-configurar-e-gerenciar-redes-virtuais-para-administradores-do-azure",
-    "title": "Az 104 Configurar E Gerenciar Redes Virtuais Para Administradores Do Azure",
+    "title": "Configurar e Gerenciar Redes Virtuais para Administradores do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/az-104-configurar-e-gerenciar-redes-virtuais-para-administradores-do-azure.png",
-    "verify_url": "/certificados/az-104-configurar-e-gerenciar-redes-virtuais-para-administradores-do-azure.pdf"
+    "verify_url": "/certificados/az-104-configurar-e-gerenciar-redes-virtuais-para-administradores-do-azure.pdf",
+    "description": "O certificado AZ-104 demonstra habilidades avançadas em configuração e gerenciamento de redes virtuais na plataforma Microsoft Azure, essencial para a gestão eficaz de infraestruturas cloud.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "implementar-os-aplicativos-de-conteiner-do-azure",
-    "title": "Implementar Os Aplicativos De Conteiner Do Azure",
+    "title": "Implementar Aplicativos de Contêiner do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-os-aplicativos-de-conteiner-do-azure.png",
-    "verify_url": "/certificados/implementar-os-aplicativos-de-conteiner-do-azure.pdf"
+    "verify_url": "/certificados/implementar-os-aplicativos-de-conteiner-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado atesta a habilidade em implementar aplicativos de contêiner do Azure, tecnologia que facilita a entrega e gestão de aplicações em ambientes de nuvem."
   },
   {
     "id": "definir-configuracoes-do-aplicativo-web",
-    "title": "Definir Configuracoes Do Aplicativo Web",
+    "title": "Definir Configurações do Aplicativo Web",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/definir-configuracoes-do-aplicativo-web.png",
-    "verify_url": "/certificados/definir-configuracoes-do-aplicativo-web.pdf"
+    "verify_url": "/certificados/definir-configuracoes-do-aplicativo-web.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Certificado como especialista em definição de configurações para aplicações web, demonstrando habilidades técnicas avançadas em desenvolvimento de software e gerenciamento de infraestrutura."
   },
   {
     "id": "descrever-os-servicos-de-armazenamento-do-azure",
-    "title": "Descrever Os Servicos De Armazenamento Do Azure",
+    "title": "Descrever os serviços de armazenamento do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/descrever-os-servicos-de-armazenamento-do-azure.png",
-    "verify_url": "/certificados/descrever-os-servicos-de-armazenamento-do-azure.pdf"
+    "verify_url": "/certificados/descrever-os-servicos-de-armazenamento-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado atesta a competência em descrever os serviços de armazenamento do Azure, demonstrando habilidades técnicas na área de armazenamento de dados."
   },
   {
     "id": "az-104-pre-requisitos-para-administradores-do-azure",
-    "title": "Az 104 Pre Requisitos Para Administradores Do Azure",
+    "title": "Pré-requisitos para administradores do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/az-104-pre-requisitos-para-administradores-do-azure.png",
-    "verify_url": "/certificados/az-104-pre-requisitos-para-administradores-do-azure.pdf"
+    "verify_url": "/certificados/az-104-pre-requisitos-para-administradores-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Certificado em AZ-104, este título demonstra a habilidade de Cidirclay Santos de Lima Queiroz em pré-requisitos para a administração do Azure, uma plataforma cloud líder."
   },
   {
     "id": "comece-com-o-fluxo-de-prompt-para-desenvolver-aplicativos-baseados-em-modelos-de-linguagem-no-microsoft-foundry",
-    "title": "Comece Com O Fluxo De Prompt Para Desenvolver Aplicativos Baseados Em Modelos De Linguagem No Microsoft Foundry",
+    "title": "Desenvolver Aplicativos Baseados Em Modelos De Linguagem No Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/comece-com-o-fluxo-de-prompt-para-desenvolver-aplicativos-baseados-em-modelos-de-linguagem-no-microsoft-foundry.png",
-    "verify_url": "/certificados/comece-com-o-fluxo-de-prompt-para-desenvolver-aplicativos-baseados-em-modelos-de-linguagem-no-microsoft-foundry.pdf"
+    "verify_url": "/certificados/comece-com-o-fluxo-de-prompt-para-desenvolver-aplicativos-baseados-em-modelos-de-linguagem-no-microsoft-foundry.pdf",
+    "description": "Este certificado demonstra habilidades em desenvolvimento de aplicativos baseados em modelos de linguagem utilizando a tecnologia do Microsoft Foundry.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "az-305-elaborar-solucoes-de-armazenamento-de-dados",
-    "title": "Az 305 Elaborar Solucoes De Armazenamento De Dados",
+    "title": "Elaborar Soluções de Armazenamento de Dados",
     "issuer": "Microsoft",
     "category_tier": "Data_Intelligence",
     "type": "pdf",
     "image_url": "/certificados/images/az-305-elaborar-solucoes-de-armazenamento-de-dados.png",
-    "verify_url": "/certificados/az-305-elaborar-solucoes-de-armazenamento-de-dados.pdf"
+    "verify_url": "/certificados/az-305-elaborar-solucoes-de-armazenamento-de-dados.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Como um profissional experiente, desenvolvi habilidades em armazenamento de dados para resolver problemas complexos e otimizar processos com soluções eficazes."
   },
   {
     "id": "traduzir-texto-e-fala-com-as-ferramentas-do-microsoft-foundry",
-    "title": "Traduzir Texto E Fala Com As Ferramentas Do Microsoft Foundry",
+    "title": "Traduzir Texto e Fala com as Ferramentas do Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/traduzir-texto-e-fala-com-as-ferramentas-do-microsoft-foundry.png",
-    "verify_url": "/certificados/traduzir-texto-e-fala-com-as-ferramentas-do-microsoft-foundry.pdf"
+    "verify_url": "/certificados/traduzir-texto-e-fala-com-as-ferramentas-do-microsoft-foundry.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado atesta a habilidade de Cidirclay Santos de Lima Queiroz em traduzir texto e fala utilizando as ferramentas do Microsoft Foundry, demonstrando competência técnica em processamento de linguagem natural."
   },
   {
     "id": "configurar-o-emparelhamento-de-rede-virtual-do-azure",
-    "title": "Configurar O Emparelhamento De Rede Virtual Do Azure",
+    "title": "Configurar Emparelhamento de Rede Virtual no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-o-emparelhamento-de-rede-virtual-do-azure.png",
-    "verify_url": "/certificados/configurar-o-emparelhamento-de-rede-virtual-do-azure.pdf"
+    "verify_url": "/certificados/configurar-o-emparelhamento-de-rede-virtual-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvi habilidades em configuração de rede virtual do Azure, garantindo a integração eficaz de ambientes de rede e recursos em nuvem."
   },
   {
     "id": "usar-modelos-de-inteligencia-de-documento-predefinidos",
-    "title": "Usar Modelos De Inteligencia De Documento Predefinidos",
+    "title": "Usar modelos de inteligência de documento predefinidos",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/usar-modelos-de-inteligencia-de-documento-predefinidos.png",
-    "verify_url": "/certificados/usar-modelos-de-inteligencia-de-documento-predefinidos.pdf"
+    "verify_url": "/certificados/usar-modelos-de-inteligencia-de-documento-predefinidos.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidades em utilizar modelos pré-definidos de inteligência para processamento de documentos."
   },
   {
     "id": "projetar-solucoes-de-autenticacao-e-autorizacao",
-    "title": "Projetar Solucoes De Autenticacao E Autorizacao",
+    "title": "Projetar Soluções de Autenticação e Autorização",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/projetar-solucoes-de-autenticacao-e-autorizacao.png",
-    "verify_url": "/certificados/projetar-solucoes-de-autenticacao-e-autorizacao.pdf"
+    "verify_url": "/certificados/projetar-solucoes-de-autenticacao-e-autorizacao.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a habilidade em projetar soluções de autenticação e autorização, permitindo ao titular gerenciar a segurança e integridade dos sistemas."
   },
   {
     "id": "descrever-os-servicos-de-computacao-do-azure",
@@ -582,70 +646,86 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/descrever-os-servicos-de-computacao-do-azure.png",
-    "verify_url": "/certificados/descrever-os-servicos-de-computacao-do-azure.pdf"
+    "verify_url": "/certificados/descrever-os-servicos-de-computacao-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Cidirclay Santos de Lima Queiroz conquistou o curso 'Descrever os serviços de computação do Azure', demonstrando habilidades em integração e desafios no ambiente de cloud computing."
   },
   {
     "id": "descrever-a-identidade-o-acesso-e-a-seguranca-do-azure",
-    "title": "Descrever A Identidade O Acesso E A Seguranca Do Azure",
+    "title": "Descrever a identidade, o acesso e a segurança do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/descrever-a-identidade-o-acesso-e-a-seguranca-do-azure.png",
-    "verify_url": "/certificados/descrever-a-identidade-o-acesso-e-a-seguranca-do-azure.pdf"
+    "verify_url": "/certificados/descrever-a-identidade-o-acesso-e-a-seguranca-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidades em gerenciamento de identidade, acesso e segurança no ambiente do Microsoft Azure."
   },
   {
     "id": "avaliar-o-desempenho-da-ia-generativa-no-portal-do-microsoft-foundry",
-    "title": "Avaliar O Desempenho Da Ia Generativa No Portal Do Microsoft Foundry",
+    "title": "Avaliação do Desempenho da IA Generativa no Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/avaliar-o-desempenho-da-ia-generativa-no-portal-do-microsoft-foundry.png",
-    "verify_url": "/certificados/avaliar-o-desempenho-da-ia-generativa-no-portal-do-microsoft-foundry.pdf"
+    "verify_url": "/certificados/avaliar-o-desempenho-da-ia-generativa-no-portal-do-microsoft-foundry.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Avaliou o desempenho da inteligência artificial generativa no portal do Microsoft Foundry, demonstrando habilidades em treinamento e desafios"
   },
   {
     "id": "configurar-contas-de-armazenamento",
-    "title": "Configurar Contas De Armazenamento",
+    "title": "Configurar Contas de Armazenamento",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-contas-de-armazenamento.png",
-    "verify_url": "/certificados/configurar-contas-de-armazenamento.pdf"
+    "verify_url": "/certificados/configurar-contas-de-armazenamento.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvido em âmbito técnico, este certificado atesta a habilidade em configurar contas de armazenamento para solucionar problemas e melhorar a eficiência em projetos."
   },
   {
     "id": "integrar-ferramentas-mcp-com-agentes-de-ia-do-azure",
-    "title": "Integrar Ferramentas Mcp Com Agentes De Ia Do Azure",
+    "title": "Integração de Ferramentas MCP com Agentes de IA do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/integrar-ferramentas-mcp-com-agentes-de-ia-do-azure.png",
-    "verify_url": "/certificados/integrar-ferramentas-mcp-com-agentes-de-ia-do-azure.pdf"
+    "verify_url": "/certificados/integrar-ferramentas-mcp-com-agentes-de-ia-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Realizou a integração de ferramentas Microsoft Certified Professional (MCP) com agentes de Intelligência Artificial (IA) do Azure, demonstrando habilidades técnicas e conhecimentos avançados."
   },
   {
     "id": "configurar-o-servico-de-aplicativo-do-azure",
-    "title": "Configurar O Servico De Aplicativo Do Azure",
+    "title": "Configurar o Serviço de Aplicativo do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-o-servico-de-aplicativo-do-azure.png",
-    "verify_url": "/certificados/configurar-o-servico-de-aplicativo-do-azure.pdf"
+    "verify_url": "/certificados/configurar-o-servico-de-aplicativo-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolver habilidades em configuração de serviços de aplicativos no ambiente de nuvem do Microsoft Azure, garantindo a escalabilidade e segurança dos sistemas."
   },
   {
     "id": "az-305-criar-solucoes-de-infraestrutura",
-    "title": "Az 305 Criar Solucoes De Infraestrutura",
+    "title": "Criar soluções de infraestrutura",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/az-305-criar-solucoes-de-infraestrutura.png",
-    "verify_url": "/certificados/az-305-criar-solucoes-de-infraestrutura.pdf"
+    "verify_url": "/certificados/az-305-criar-solucoes-de-infraestrutura.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvido com sucesso o conhecimento técnico para criar soluções de infraestrutura, demonstrando habilidades avançadas em planos e desafios de treinamento."
   },
   {
     "id": "criar-aplicativos-com-reconhecimento-de-fala-usando-o-azure-speech-nas-ferramentas-do-microsoft-foundry",
-    "title": "Criar Aplicativos Com Reconhecimento De Fala Usando O Azure Speech Nas Ferramentas Do Microsoft Foundry",
+    "title": "Criar Aplicativos com Reconhecimento de Fala Usando o Azure Speech",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-aplicativos-com-reconhecimento-de-fala-usando-o-azure-speech-nas-ferramentas-do-microsoft-foundry.png",
-    "verify_url": "/certificados/criar-aplicativos-com-reconhecimento-de-fala-usando-o-azure-speech-nas-ferramentas-do-microsoft-foundry.pdf"
+    "verify_url": "/certificados/criar-aplicativos-com-reconhecimento-de-fala-usando-o-azure-speech-nas-ferramentas-do-microsoft-foundry.pdf",
+    "description": "Desenvolva aplicativos que reconhecem a fala utilizando as ferramentas do Microsoft Foundry e o Azure Speech.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "azure-policy-initiatives",
@@ -654,124 +734,152 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/azure-policy-initiatives.png",
-    "verify_url": "/certificados/azure-policy-initiatives.pdf"
+    "verify_url": "/certificados/azure-policy-initiatives.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Iniciativas de política do Azure, um conjunto de recursos para gerenciar e implementar políticas de segurança e governança em ambientes Microsoft Azure."
   },
   {
     "id": "explorar-o-servico-de-aplicativo-do-azure",
-    "title": "Explorar O Servico De Aplicativo Do Azure",
+    "title": "Explorar o Serviço de Aplicativo do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/explorar-o-servico-de-aplicativo-do-azure.png",
-    "verify_url": "/certificados/explorar-o-servico-de-aplicativo-do-azure.pdf"
+    "verify_url": "/certificados/explorar-o-servico-de-aplicativo-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de habilidades em Microsoft Azure, com ênfase em exploração e configuração do serviço de aplicativos."
   },
   {
     "id": "monitorar-o-desempenho-do-aplicativo",
-    "title": "Monitorar O Desempenho Do Aplicativo",
+    "title": "Monitoramento de Desempenho para Aplicativos",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/monitorar-o-desempenho-do-aplicativo.png",
-    "verify_url": "/certificados/monitorar-o-desempenho-do-aplicativo.pdf"
+    "verify_url": "/certificados/monitorar-o-desempenho-do-aplicativo.pdf",
+    "issue_date": "17/04/2026",
+    "description": "A presente certificação atesta a habilidade em monitorar o desempenho de aplicativos, garantindo a otimização e melhoria contínua dos sistemas."
   },
   {
     "id": "descrever-estrategias-de-alta-disponibilidade-e-recuperacao-de-desastre",
-    "title": "Descrever Estrategias De Alta Disponibilidade E Recuperacao De Desastre",
+    "title": "Descrever Estratégias de Alta Disponibilidade e Recuperação de Desastre",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/descrever-estrategias-de-alta-disponibilidade-e-recuperacao-de-desastre.png",
-    "verify_url": "/certificados/descrever-estrategias-de-alta-disponibilidade-e-recuperacao-de-desastre.pdf"
+    "verify_url": "/certificados/descrever-estrategias-de-alta-disponibilidade-e-recuperacao-de-desastre.pdf",
+    "description": "Essa certificação aborda a importância de desenvolver estratégias de alta disponibilidade para garantir o funcionamento contínuo dos sistemas e serviços, além de apresentar técnicas eficazes para recuperar desastres e minimizar impactos negativos.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "desenvolver-agentes-de-ia-no-azure-preterido",
-    "title": "Desenvolver Agentes De Ia No Azure Preterido",
+    "title": "Desenvolvimento de Agentes de Inteligência Artificial no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-agentes-de-ia-no-azure-preterido.png",
-    "verify_url": "/certificados/desenvolver-agentes-de-ia-no-azure-preterido.pdf"
+    "verify_url": "/certificados/desenvolver-agentes-de-ia-no-azure-preterido.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvi habilidades em criação de agentes de inteligência artificial utilizando o Azure, demonstrando conhecimento técnico em processamento de linguagem natural e aprendizado automático."
   },
   {
     "id": "gerenciar-o-ciclo-de-vida-do-armazenamento-de-blobs-do-azure",
-    "title": "Gerenciar O Ciclo De Vida Do Armazenamento De Blobs Do Azure",
+    "title": "Gerenciar o Ciclo de Vida do Armazenamento de Blobs no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/gerenciar-o-ciclo-de-vida-do-armazenamento-de-blobs-do-azure.png",
-    "verify_url": "/certificados/gerenciar-o-ciclo-de-vida-do-armazenamento-de-blobs-do-azure.pdf"
+    "verify_url": "/certificados/gerenciar-o-ciclo-de-vida-do-armazenamento-de-blobs-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Conquistou habilidades em gerenciamento e manutenção do armazenamento de blobs do Azure, garantindo a eficiência e segurança dos dados."
   },
   {
     "id": "az-305-elaborar-solucoes-de-continuidade-dos-negocios",
-    "title": "Az 305 Elaborar Solucoes De Continuidade Dos Negocios",
+    "title": "Elaborar soluções de continuidade dos negócios",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/az-305-elaborar-solucoes-de-continuidade-dos-negocios.png",
-    "verify_url": "/certificados/az-305-elaborar-solucoes-de-continuidade-dos-negocios.pdf"
+    "verify_url": "/certificados/az-305-elaborar-solucoes-de-continuidade-dos-negocios.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Acreditado em técnica para elaborar soluções de continuidade dos negócios, demonstrando habilidades avançadas em planejamento e execução de estratégias de negócios."
   },
   {
     "id": "extrair-dados-de-formularios-com-o-azure-document-intelligence",
-    "title": "Extrair Dados De Formularios Com O Azure Document Intelligence",
+    "title": "Extrair Dados de Formularios com o Azure Document Intelligence",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/extrair-dados-de-formularios-com-o-azure-document-intelligence.png",
-    "verify_url": "/certificados/extrair-dados-de-formularios-com-o-azure-document-intelligence.pdf"
+    "verify_url": "/certificados/extrair-dados-de-formularios-com-o-azure-document-intelligence.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidade técnica em extrair dados de formulários utilizando a inteligência de documentos do Microsoft Azure, um serviço de processamento de linguagem natural que permite automatizar a extração de informações de documentos digitais."
   },
   {
     "id": "executar-imagens-de-conteiner-em-instancias-de-conteiner-do-azure",
-    "title": "Executar Imagens De Conteiner Em Instancias De Conteiner Do Azure",
+    "title": "Executar Imagens de Conteiner em Instâncias de Conteiner do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/executar-imagens-de-conteiner-em-instancias-de-conteiner-do-azure.png",
-    "verify_url": "/certificados/executar-imagens-de-conteiner-em-instancias-de-conteiner-do-azure.pdf"
+    "verify_url": "/certificados/executar-imagens-de-conteiner-em-instancias-de-conteiner-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "O certificado demonstra habilidade em executar imagens de contêiner em instâncias de conteiner do Azure, tecnologia essencial para a implementação de aplicações escaláveis e seguras."
   },
   {
     "id": "criar-uma-solucao-de-computacao-do-azure",
-    "title": "Criar Uma Solucao De Computacao Do Azure",
+    "title": "Criar uma solução de computação do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-de-computacao-do-azure.png",
-    "verify_url": "/certificados/criar-uma-solucao-de-computacao-do-azure.pdf"
+    "verify_url": "/certificados/criar-uma-solucao-de-computacao-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra minhas habilidades em criar soluções de computação no ambiente do Azure, plataforma de cloud computing líder na indústria."
   },
   {
     "id": "escalar-aplicativos-no-servico-de-aplicativo-do-azure",
-    "title": "Escalar Aplicativos No Servico De Aplicativo Do Azure",
+    "title": "Escalar Aplicativos no Serviço de Aplicativo do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/escalar-aplicativos-no-servico-de-aplicativo-do-azure.png",
-    "verify_url": "/certificados/escalar-aplicativos-no-servico-de-aplicativo-do-azure.pdf"
+    "verify_url": "/certificados/escalar-aplicativos-no-servico-de-aplicativo-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de habilidades para escalonar aplicativos no serviço de aplicativo do Microsoft Azure, otimizando desempenho e capacidade."
   },
   {
     "id": "gerenciar-e-controlar-o-fluxo-de-trafego-em-sua-implantacao-do-azure-com-rotas",
-    "title": "Gerenciar E Controlar O Fluxo De Trafego Em Sua Implantacao Do Azure Com Rotas",
+    "title": "Gerenciar e controlar o fluxo de tráfego em sua implantação do Azure com rotas",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/gerenciar-e-controlar-o-fluxo-de-trafego-em-sua-implantacao-do-azure-com-rotas.png",
-    "verify_url": "/certificados/gerenciar-e-controlar-o-fluxo-de-trafego-em-sua-implantacao-do-azure-com-rotas.pdf"
+    "verify_url": "/certificados/gerenciar-e-controlar-o-fluxo-de-trafego-em-sua-implantacao-do-azure-com-rotas.pdf",
+    "description": "A presente certificação atesta a habilidade do portador em gerenciar e controlar o fluxo de tráfego em uma implantação do Azure utilizando rotas.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "az-104-gerenciar-identidades-e-a-governanca-no-azure",
-    "title": "Az 104 Gerenciar Identidades E A Governanca No Azure",
+    "title": "Gerenciar Identidades e Governança no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/az-104-gerenciar-identidades-e-a-governanca-no-azure.png",
-    "verify_url": "/certificados/az-104-gerenciar-identidades-e-a-governanca-no-azure.pdf"
+    "verify_url": "/certificados/az-104-gerenciar-identidades-e-a-governanca-no-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidade em gerenciar identidades e governança no ambiente Microsoft Azure."
   },
   {
     "id": "implementar-a-configuracao-de-aplicativos-do-azure",
-    "title": "Implementar A Configuracao De Aplicativos Do Azure",
+    "title": "Implementar a Configuração de Aplicativos do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-a-configuracao-de-aplicativos-do-azure.png",
-    "verify_url": "/certificados/implementar-a-configuracao-de-aplicativos-do-azure.pdf"
+    "verify_url": "/certificados/implementar-a-configuracao-de-aplicativos-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento e configuração de aplicativos em nuvem utilizando a plataforma Azure, permitindo a implantação eficiente e escalável de soluções."
   },
   {
     "id": "detectar-objetos-em-imagens",
@@ -780,25 +888,31 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/detectar-objetos-em-imagens.png",
-    "verify_url": "/certificados/detectar-objetos-em-imagens.pdf"
+    "verify_url": "/certificados/detectar-objetos-em-imagens.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Acredita-se que o candidato desenvolveu habilidades em processamento de imagens e detecção de objetos utilizando tecnologias de machine learning."
   },
   {
     "id": "implementar-assinaturas-de-acesso-compartilhado",
-    "title": "Implementar Assinaturas De Acesso Compartilhado",
+    "title": "Implementar Assinaturas de Acesso Compartilhado",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-assinaturas-de-acesso-compartilhado.png",
-    "verify_url": "/certificados/implementar-assinaturas-de-acesso-compartilhado.pdf"
+    "verify_url": "/certificados/implementar-assinaturas-de-acesso-compartilhado.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvendo habilidades para gerenciar assinaturas de acesso compartilhado, demonstrando conhecimento prático em segurança e controle de acesso nos sistemas."
   },
   {
     "id": "desenvolver-solucoes-de-linguagem-natural-no-azure",
-    "title": "Desenvolver Solucoes De Linguagem Natural No Azure",
+    "title": "Desenvolver Soluções de Linguagem Natural no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-solucoes-de-linguagem-natural-no-azure.png",
-    "verify_url": "/certificados/desenvolver-solucoes-de-linguagem-natural-no-azure.pdf"
+    "verify_url": "/certificados/desenvolver-solucoes-de-linguagem-natural-no-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Completou com êxito o treinamento 'Desenvolver soluções de linguagem natural no Azure' em abril de 2026, demonstrando habilidades em desenvolvimento de soluções de linguagem natural na plataforma do Microsoft Azure."
   },
   {
     "id": "projetar-governanca",
@@ -807,97 +921,119 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/projetar-governanca.png",
-    "verify_url": "/certificados/projetar-governanca.pdf"
+    "verify_url": "/certificados/projetar-governanca.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Aqui, Cidirclay Santos de Lima Queiroz demonstrou habilidades em governança de dados, concluindo o curso Projetar Governanca."
   },
   {
     "id": "hospedar-seu-dominio-no-dns-do-azure",
-    "title": "Hospedar Seu Dominio No Dns Do Azure",
+    "title": "Hospedando Domínio no DNS do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/hospedar-seu-dominio-no-dns-do-azure.png",
-    "verify_url": "/certificados/hospedar-seu-dominio-no-dns-do-azure.pdf"
+    "verify_url": "/certificados/hospedar-seu-dominio-no-dns-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de habilidades em hospedagem de domínios no ambiente do Azure, demonstrando conhecimento e aplicação prática de tecnologias de rede e DNS."
   },
   {
     "id": "implementar-funcoes-do-azure",
-    "title": "Implementar Funcoes Do Azure",
+    "title": "Implementar Funções do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-funcoes-do-azure.png",
-    "verify_url": "/certificados/implementar-funcoes-do-azure.pdf"
+    "verify_url": "/certificados/implementar-funcoes-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Concluído com êxito o treinamento de implementação de funções do Azure, demonstrando habilidades técnicas em desenvolvimento de aplicativos e integração de serviços na plataforma Microsoft Azure."
   },
   {
     "id": "desenvolver-um-agente-de-fala-com-o-servidor-mcp-de-fala-do-azure",
-    "title": "Desenvolver Um Agente De Fala Com O Servidor Mcp De Fala Do Azure",
+    "title": "Desenvolvimento de um Agente de Fala com Servidor MCP de Fala do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-agente-de-fala-com-o-servidor-mcp-de-fala-do-azure.png",
-    "verify_url": "/certificados/desenvolver-um-agente-de-fala-com-o-servidor-mcp-de-fala-do-azure.pdf"
+    "verify_url": "/certificados/desenvolver-um-agente-de-fala-com-o-servidor-mcp-de-fala-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidades em desenvolver um agente de fala com o servidor MCP de Fala do Azure, tecnologia utilizada para melhorar a inteligência artificial e a computação cognitiva."
   },
   {
     "id": "configurar-instancias-de-conteiner-do-azure",
-    "title": "Configurar Instancias De Conteiner Do Azure",
+    "title": "Configurar Instâncias de Conteiner do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-instancias-de-conteiner-do-azure.png",
-    "verify_url": "/certificados/configurar-instancias-de-conteiner-do-azure.pdf"
+    "verify_url": "/certificados/configurar-instancias-de-conteiner-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Cidirclay Santos de Lima Queiroz concluiu com êxito o treinamento para configurar instâncias de contêiner do Azure, demonstrando habilidades técnicas em soluções de nuvem."
   },
   {
     "id": "introducao-a-analise-de-ponta-a-ponta-usando-microsoft-fabric",
-    "title": "Introducao A Analise De Ponta A Ponta Usando Microsoft Fabric",
+    "title": "Introdução à Análise de Ponta a Ponta usando Microsoft Fabric",
     "issuer": "Microsoft",
     "category_tier": "Data_Intelligence",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-a-analise-de-ponta-a-ponta-usando-microsoft-fabric.png",
-    "verify_url": "/certificados/introducao-a-analise-de-ponta-a-ponta-usando-microsoft-fabric.pdf"
+    "verify_url": "/certificados/introducao-a-analise-de-ponta-a-ponta-usando-microsoft-fabric.pdf",
+    "issue_date": "05/09/2025",
+    "description": "Este certificado aborda a análise de ponta a ponta utilizando as ferramentas do Microsoft Fabric, demonstrando habilidades em treinamento e capacitação para desafios técnicos complexos."
   },
   {
     "id": "explorar-o-armazenamento-de-blobs-do-azure",
-    "title": "Explorar O Armazenamento De Blobs Do Azure",
+    "title": "Exploração do Armazenamento de Blobs no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/explorar-o-armazenamento-de-blobs-do-azure.png",
-    "verify_url": "/certificados/explorar-o-armazenamento-de-blobs-do-azure.pdf"
+    "verify_url": "/certificados/explorar-o-armazenamento-de-blobs-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolveu habilidades técnicas para explorar e manipular o armazenamento de blobs no Microsoft Azure, uma solução de armazenamento na nuvem escalável e confiável."
   },
   {
     "id": "desenvolver-um-aplicativo-de-ia-gerativa-com-capacidade-de-processamento-visual",
-    "title": "Desenvolver Um Aplicativo De Ia Gerativa Com Capacidade De Processamento Visual",
+    "title": "Desenvolvimento de Aplicativo de Inteligência Artificial Gerativa com Processamento Visual",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-aplicativo-de-ia-gerativa-com-capacidade-de-processamento-visual.png",
-    "verify_url": "/certificados/desenvolver-um-aplicativo-de-ia-gerativa-com-capacidade-de-processamento-visual.pdf"
+    "verify_url": "/certificados/desenvolver-um-aplicativo-de-ia-gerativa-com-capacidade-de-processamento-visual.pdf",
+    "description": "Desenvolveu um aplicativo de inteligência artificial gerativa capaz de processar informações visuais, demonstrando habilidades técnicas avançadas em machine learning e desenvolvimento de software.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "az-104-implantar-e-gerenciar-os-recursos-de-computacao-do-azure",
-    "title": "Az 104 Implantar E Gerenciar Os Recursos De Computacao Do Azure",
+    "title": "Implantar e Gerenciar Recursos de Computação do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/az-104-implantar-e-gerenciar-os-recursos-de-computacao-do-azure.png",
-    "verify_url": "/certificados/az-104-implantar-e-gerenciar-os-recursos-de-computacao-do-azure.pdf"
+    "verify_url": "/certificados/az-104-implantar-e-gerenciar-os-recursos-de-computacao-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado atesta a habilidade em implementar e gerenciar recursos de computação no Microsoft Azure, uma plataforma de nuvem líder."
   },
   {
     "id": "descobrir-a-analise-de-dados",
-    "title": "Descobrir A Analise De Dados",
+    "title": "Descobrir a Análise de Dados",
     "issuer": "Microsoft",
     "category_tier": "Data_Intelligence",
     "type": "pdf",
     "image_url": "/certificados/images/descobrir-a-analise-de-dados.png",
-    "verify_url": "/certificados/descobrir-a-analise-de-dados.pdf"
+    "verify_url": "/certificados/descobrir-a-analise-de-dados.pdf",
+    "issue_date": "05/09/2025",
+    "description": "O certificado 'Descobrir a Análise de Dados' demonstra habilidades avançadas em análise de dados, com foco em descobrir padrões e insights valiosos."
   },
   {
     "id": "comece-a-criar-com-o-power-bi",
-    "title": "Comece A Criar Com O Power Bi",
+    "title": "Comece a criar com o Power BI",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/comece-a-criar-com-o-power-bi.png",
-    "verify_url": "/certificados/comece-a-criar-com-o-power-bi.pdf"
+    "verify_url": "/certificados/comece-a-criar-com-o-power-bi.pdf",
+    "issue_date": "05/09/2025",
+    "description": "Aqui, Cidirclay Santos de Lima Queiroz demonstrou habilidade em criar conteúdo com o Power BI, ferramenta de inteligência empresarial da Microsoft."
   },
   {
     "id": "analisar-imagens",
@@ -906,106 +1042,130 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/analisar-imagens.png",
-    "verify_url": "/certificados/analisar-imagens.pdf"
+    "verify_url": "/certificados/analisar-imagens.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidades técnicas em análise de imagens, com êxito concluída por Cidirclay Santos de Lima Queiroz em abril de 2026."
   },
   {
     "id": "introducao-ao-gateway-de-aplicativo-do-azure",
-    "title": "Introducao Ao Gateway De Aplicativo Do Azure",
+    "title": "Introdução ao Gateway de Aplicativo do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-ao-gateway-de-aplicativo-do-azure.png",
-    "verify_url": "/certificados/introducao-ao-gateway-de-aplicativo-do-azure.pdf"
+    "verify_url": "/certificados/introducao-ao-gateway-de-aplicativo-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra conhecimento técnico em implementação e configuração do Gateway de Aplicativo do Azure, um recurso crítico para a integração e segurança de aplicativos."
   },
   {
     "id": "proteger-seus-recursos-do-azure-com-o-azure-rbac-controle-de-acesso-baseado-em-funcao",
-    "title": "Proteger Seus Recursos Do Azure Com O Azure Rbac Controle De Acesso Baseado Em Funcao",
+    "title": "Proteção de Recursos do Azure com Azure RBAC: Controle de Acesso Baseado em Função",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/proteger-seus-recursos-do-azure-com-o-azure-rbac-controle-de-acesso-baseado-em-funcao.png",
-    "verify_url": "/certificados/proteger-seus-recursos-do-azure-com-o-azure-rbac-controle-de-acesso-baseado-em-funcao.pdf"
+    "verify_url": "/certificados/proteger-seus-recursos-do-azure-com-o-azure-rbac-controle-de-acesso-baseado-em-funcao.pdf",
+    "description": "A presente certificação demonstra a habilidade em proteger recursos do Azure utilizando o Azure RBAC, permitindo um controle de acesso eficaz e seguro.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "implementar-o-azure-key-vault",
-    "title": "Implementar O Azure Key Vault",
+    "title": "Implementação do Azure Key Vault",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-o-azure-key-vault.png",
-    "verify_url": "/certificados/implementar-o-azure-key-vault.pdf"
+    "verify_url": "/certificados/implementar-o-azure-key-vault.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento e implementação de soluções de segurança para armazenamento de chaves utilizando o Azure Key Vault, demonstrando habilidades em gerenciamento de chaves e autenticação"
   },
   {
     "id": "criar-uma-solucao-de-analise-multimodal-com-o-azure-content-understanding",
-    "title": "Criar Uma Solucao De Analise Multimodal Com O Azure Content Understanding",
+    "title": "Criar uma solução de análise multimodal com o Azure Content Understanding",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-de-analise-multimodal-com-o-azure-content-understanding.png",
-    "verify_url": "/certificados/criar-uma-solucao-de-analise-multimodal-com-o-azure-content-understanding.pdf"
+    "verify_url": "/certificados/criar-uma-solucao-de-analise-multimodal-com-o-azure-content-understanding.pdf",
+    "description": "Desenvolvido uma solução para análise multimodal utilizando o Azure Content Understanding, permitindo a automação de processos e melhorias na tomada de decisões.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "escolher-uma-grade-de-eventos-do-azure",
-    "title": "Escolher Uma Grade De Eventos Do Azure",
+    "title": "Escolha de Grade de Eventos no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/escolher-uma-grade-de-eventos-do-azure.png",
-    "verify_url": "/certificados/escolher-uma-grade-de-eventos-do-azure.pdf"
+    "verify_url": "/certificados/escolher-uma-grade-de-eventos-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidades técnicas em escolher uma grade de eventos no ambiente do Azure, plataforma de computação em nuvem líder"
   },
   {
     "id": "implementar-solucoes-seguras-do-azure",
-    "title": "Implementar Solucoes Seguras Do Azure",
+    "title": "Implementar Soluções Seguras do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-solucoes-seguras-do-azure.png",
-    "verify_url": "/certificados/implementar-solucoes-seguras-do-azure.pdf"
+    "verify_url": "/certificados/implementar-solucoes-seguras-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvido com êxito a implementação de soluções seguras no ambiente Azure, demonstrando habilidades em arquitetura de dados e segurança."
   },
   {
     "id": "desenvolver-aplicativos-de-ia-generativos-no-azure-preterido",
-    "title": "Desenvolver Aplicativos De Ia Generativos No Azure Preterido",
+    "title": "Desenvolver Aplicativos de IA Generativos no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-aplicativos-de-ia-generativos-no-azure-preterido.png",
-    "verify_url": "/certificados/desenvolver-aplicativos-de-ia-generativos-no-azure-preterido.pdf"
+    "verify_url": "/certificados/desenvolver-aplicativos-de-ia-generativos-no-azure-preterido.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Concluído com êxito um curso sobre desenvolvimento de aplicativos de inteligência artificial (IA) geradores no ambiente Microsoft Azure."
   },
   {
     "id": "criar-uma-solucao-de-armazenamento-de-dados-para-dados-relacionais",
-    "title": "Criar Uma Solucao De Armazenamento De Dados Para Dados Relacionais",
+    "title": "Criar uma solução de armazenamento de dados para dados relacionais",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-de-armazenamento-de-dados-para-dados-relacionais.png",
-    "verify_url": "/certificados/criar-uma-solucao-de-armazenamento-de-dados-para-dados-relacionais.pdf"
+    "verify_url": "/certificados/criar-uma-solucao-de-armazenamento-de-dados-para-dados-relacionais.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolveruva solução de armazenamento de dados para gerenciar e organizar dados relacionais, com foco em melhorar a eficiência e segurança dos processos de armazenamento."
   },
   {
     "id": "criar-um-aplicativo-cliente-do-azure-content-understanding",
-    "title": "Criar Um Aplicativo Cliente Do Azure Content Understanding",
+    "title": "Criar um aplicativo cliente do Azure Content Understanding",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-um-aplicativo-cliente-do-azure-content-understanding.png",
-    "verify_url": "/certificados/criar-um-aplicativo-cliente-do-azure-content-understanding.pdf"
+    "verify_url": "/certificados/criar-um-aplicativo-cliente-do-azure-content-understanding.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolveru um aplicativo cliente para compreensão de conteúdo utilizando as funcionalidades do Azure Content Understanding."
   },
   {
     "id": "integrar-ferramentas-personalizadas-ao-seu-agente",
-    "title": "Integrar Ferramentas Personalizadas Ao Seu Agente",
+    "title": "Integrar Ferramentas Personalizadas ao Seu Agente",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/integrar-ferramentas-personalizadas-ao-seu-agente.png",
-    "verify_url": "/certificados/integrar-ferramentas-personalizadas-ao-seu-agente.pdf"
+    "verify_url": "/certificados/integrar-ferramentas-personalizadas-ao-seu-agente.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a habilidade de integrar ferramentas personalizadas com um agente, permitindo uma experiência mais aprimorada e eficiente."
   },
   {
     "id": "az-104-implementar-e-gerenciar-o-armazenamento-no-azure",
-    "title": "Az 104 Implementar E Gerenciar O Armazenamento No Azure",
+    "title": "Implementar e Gerenciar o Armazenamento no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/az-104-implementar-e-gerenciar-o-armazenamento-no-azure.png",
-    "verify_url": "/certificados/az-104-implementar-e-gerenciar-o-armazenamento-no-azure.pdf"
+    "verify_url": "/certificados/az-104-implementar-e-gerenciar-o-armazenamento-no-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvido técnicas para implementar e gerenciar o armazenamento em ambientes Azure, garantindo a eficiência e segurança dos dados."
   },
   {
     "id": "desenvolver-solucoes-que-usam-o-azure-cosmos-db",
@@ -1014,43 +1174,53 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-solucoes-que-usam-o-azure-cosmos-db.png",
-    "verify_url": "/certificados/desenvolver-solucoes-que-usam-o-azure-cosmos-db.pdf"
+    "verify_url": "/certificados/desenvolver-solucoes-que-usam-o-azure-cosmos-db.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvido soluções que utilizam o Azure Cosmos DB para atender às necessidades de dados em tempo real, com foco na escalabilidade e disponibilidade."
   },
   {
     "id": "introducao-ao-azure-load-balancer",
-    "title": "Introducao Ao Azure Load Balancer",
+    "title": "Introdução ao Azure Load Balancer",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-ao-azure-load-balancer.png",
-    "verify_url": "/certificados/introducao-ao-azure-load-balancer.pdf"
+    "verify_url": "/certificados/introducao-ao-azure-load-balancer.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado comprova minha capacidade em introduzir o Azure Load Balancer, uma solução de balanceamento de carga para aplicativos e serviços na nuvem."
   },
   {
     "id": "explorar-o-azure-functions",
-    "title": "Explorar O Azure Functions",
+    "title": "Exploração de Azure Functions",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/explorar-o-azure-functions.png",
-    "verify_url": "/certificados/explorar-o-azure-functions.pdf"
+    "verify_url": "/certificados/explorar-o-azure-functions.pdf",
+    "issue_date": "17/04/2026",
+    "description": "A presente certificação testemunha a conclusão com êxito da exploração do serviço Azure Functions, tecnologia desenvolvida pela Microsoft para a criação de funções escaláveis e flexíveis."
   },
   {
     "id": "trabalhar-com-o-azure-cosmos-db",
-    "title": "Trabalhar Com O Azure Cosmos Db",
+    "title": "Trabalhar com o Azure Cosmos DB",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/trabalhar-com-o-azure-cosmos-db.png",
-    "verify_url": "/certificados/trabalhar-com-o-azure-cosmos-db.pdf"
+    "verify_url": "/certificados/trabalhar-com-o-azure-cosmos-db.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolva habilidades avançadas em armazenamento de dados no Azure Cosmos DB, tecnologia de base de dados NoSQL escalável e flexível."
   },
   {
     "id": "introducao-aos-servicos-de-entrega-de-aplicativos",
-    "title": "Introducao Aos Servicos De Entrega De Aplicativos",
+    "title": "Introdução aos Serviços de Entrega de Aplicativos",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-aos-servicos-de-entrega-de-aplicativos.png",
-    "verify_url": "/certificados/introducao-aos-servicos-de-entrega-de-aplicativos.pdf"
+    "verify_url": "/certificados/introducao-aos-servicos-de-entrega-de-aplicativos.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de habilidades técnicas para entrega eficaz de aplicativos, com enfoque em melhorias contínuas e suporte ao desenvolvimento de software."
   },
   {
     "id": "desenvolver-solucoes-baseadas-em-eventos",
@@ -1059,88 +1229,108 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-solucoes-baseadas-em-eventos.png",
-    "verify_url": "/certificados/desenvolver-solucoes-baseadas-em-eventos.pdf"
+    "verify_url": "/certificados/desenvolver-solucoes-baseadas-em-eventos.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Aprender a desenvolver soluções que utilizam eventos para gerenciar fluxos de trabalho e melhorar a eficiência em processos, com foco em técnicas de programação e engenharia de software."
   },
   {
     "id": "configurar-planos-do-servico-de-aplicativo-do-azure",
-    "title": "Configurar Planos Do Servico De Aplicativo Do Azure",
+    "title": "Configuração de Planos do Serviço de Aplicativo do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-planos-do-servico-de-aplicativo-do-azure.png",
-    "verify_url": "/certificados/configurar-planos-do-servico-de-aplicativo-do-azure.pdf"
+    "verify_url": "/certificados/configurar-planos-do-servico-de-aplicativo-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de habilidades em configuração de planos do Serviço de Aplicativo do Azure para a implantação e gerenciamento de aplicações em nuvem."
   },
   {
     "id": "explorar-o-azure-cosmos-db",
-    "title": "Explorar O Azure Cosmos Db",
+    "title": "Explorar o Azure Cosmos DB",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/explorar-o-azure-cosmos-db.png",
-    "verify_url": "/certificados/explorar-o-azure-cosmos-db.pdf"
+    "verify_url": "/certificados/explorar-o-azure-cosmos-db.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Aqui, Cidirclay Santos de Lima Queiroz demonstrou habilidades em Exploração do Azure Cosmos DB, uma solução de armazenamento de dados escalável e flexível da Microsoft."
   },
   {
     "id": "migracoes-de-design",
-    "title": "Migracoes De Design",
+    "title": "Migrações de Design",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/migracoes-de-design.png",
-    "verify_url": "/certificados/migracoes-de-design.pdf"
+    "verify_url": "/certificados/migracoes-de-design.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Cidirclay Santos de Lima Queiroz concluiu com sucesso o treinamento em Migrações de design, demonstrando habilidades técnicas avançadas na área de design e implementação de soluções migratórias."
   },
   {
     "id": "implementar-solucoes-conteinerizadas",
-    "title": "Implementar Solucoes Conteinerizadas",
+    "title": "Implementar Soluções Conteinerizadas",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-solucoes-conteinerizadas.png",
-    "verify_url": "/certificados/implementar-solucoes-conteinerizadas.pdf"
+    "verify_url": "/certificados/implementar-solucoes-conteinerizadas.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de soluções utilizando tecnologias conteinerizadas para otimizar e agilizar processos."
   },
   {
     "id": "proteger-suas-maquinas-virtuais-usando-o-backup-do-azure",
-    "title": "Proteger Suas Maquinas Virtuais Usando O Backup Do Azure",
+    "title": "Proteger Suas Máquinas Virtuais Usando O Backup Do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/proteger-suas-maquinas-virtuais-usando-o-backup-do-azure.png",
-    "verify_url": "/certificados/proteger-suas-maquinas-virtuais-usando-o-backup-do-azure.pdf"
+    "verify_url": "/certificados/proteger-suas-maquinas-virtuais-usando-o-backup-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolver habilidades em proteção de máquinas virtuais utilizando o recurso de backup do Azure, garantindo a integridade e segurança dos dados críticos."
   },
   {
     "id": "descrever-os-principais-componentes-arquitetonicos-do-azure",
-    "title": "Descrever Os Principais Componentes Arquitetonicos Do Azure",
+    "title": "Descrever os principais componentes arquitetônicos do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/descrever-os-principais-componentes-arquitetonicos-do-azure.png",
-    "verify_url": "/certificados/descrever-os-principais-componentes-arquitetonicos-do-azure.pdf"
+    "verify_url": "/certificados/descrever-os-principais-componentes-arquitetonicos-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado atesta que Cidirclay Santos de Lima Queiroz conquistou o conhecimento sobre os principais componentes arquitetônicos do Azure, demonstrando habilidades técnicas em desenhar soluções escaláveis e seguras na cloud."
   },
   {
     "id": "explorar-os-slots-de-implantacao-do-servico-de-aplicativo-do-azure",
-    "title": "Explorar Os Slots De Implantacao Do Servico De Aplicativo Do Azure",
+    "title": "Exploração de Slots de Implantação do Serviço de Aplicativo do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/explorar-os-slots-de-implantacao-do-servico-de-aplicativo-do-azure.png",
-    "verify_url": "/certificados/explorar-os-slots-de-implantacao-do-servico-de-aplicativo-do-azure.pdf"
+    "verify_url": "/certificados/explorar-os-slots-de-implantacao-do-servico-de-aplicativo-do-azure.pdf",
+    "description": "Este certificado comprova a habilidade em explorar e gerenciar slots de implantação no Serviço de Aplicativo do Azure, uma ferramenta fundamental para a implementação e manutenção de aplicações na nuvem.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "solucionar-problemas-de-solucoes-usando-o-application-insights",
-    "title": "Solucionar Problemas De Solucoes Usando O Application Insights",
+    "title": "Solucionar Problemas De Soluções Usando O Application Insights",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/solucionar-problemas-de-solucoes-usando-o-application-insights.png",
-    "verify_url": "/certificados/solucionar-problemas-de-solucoes-usando-o-application-insights.pdf"
+    "verify_url": "/certificados/solucionar-problemas-de-solucoes-usando-o-application-insights.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolver habilidades para solucionar problemas de soluções utilizando o Application Insights, uma ferramenta de monitoramento e análise de desempenho em aplicativos."
   },
   {
     "id": "desenvolver-solucoes-de-extracao-de-informacoes-de-ia-no-azure",
-    "title": "Desenvolver Solucoes De Extracao De Informacoes De Ia No Azure",
+    "title": "Desenvolver Soluções de Extração de Informações de IA no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-solucoes-de-extracao-de-informacoes-de-ia-no-azure.png",
-    "verify_url": "/certificados/desenvolver-solucoes-de-extracao-de-informacoes-de-ia-no-azure.pdf"
+    "verify_url": "/certificados/desenvolver-solucoes-de-extracao-de-informacoes-de-ia-no-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra minha capacidade em desenvolver soluções para extração de informações de inteligência artificial (IA) no ambiente do Microsoft Azure."
   },
   {
     "id": "configurar-redes-virtuais",
@@ -1149,43 +1339,53 @@
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-redes-virtuais.png",
-    "verify_url": "/certificados/configurar-redes-virtuais.pdf"
+    "verify_url": "/certificados/configurar-redes-virtuais.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Neste certificado, Cidirclay Santos de Lima Queiroz demonstrou habilidade em configurar redes virtuais."
   },
   {
     "id": "desenvolver-solucoes-de-pesquisa-visual-computacional-no-azure-preterido",
-    "title": "Desenvolver Solucoes De Pesquisa Visual Computacional No Azure Preterido",
+    "title": "Desenvolver Solucoes De Pesquisa Visual Computacional no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-solucoes-de-pesquisa-visual-computacional-no-azure-preterido.png",
-    "verify_url": "/certificados/desenvolver-solucoes-de-pesquisa-visual-computacional-no-azure-preterido.pdf"
+    "verify_url": "/certificados/desenvolver-solucoes-de-pesquisa-visual-computacional-no-azure-preterido.pdf",
+    "description": "Concluído com êxito o desenvolvimento de soluções de pesquisa visual computacional no ambiente do Azure, demonstrando habilidades avançadas em processamento de imagens e reconhecimento de padrões computacionais.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "descubra-as-filas-de-mensagens-do-azure",
-    "title": "Descubra As Filas De Mensagens Do Azure",
+    "title": "Descobrindo as Filas de Mensagens do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/descubra-as-filas-de-mensagens-do-azure.png",
-    "verify_url": "/certificados/descubra-as-filas-de-mensagens-do-azure.pdf"
+    "verify_url": "/certificados/descubra-as-filas-de-mensagens-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Neste certificado, Cidirclay Santos de Lima Queiroz demonstrou habilidades técnicas para gerenciar e trabalhar com filas de mensagens no ambiente Microsoft Azure."
   },
   {
     "id": "criar-uma-solucao-de-armazenamento-de-dados-para-dados-nao-relacionais",
-    "title": "Criar Uma Solucao De Armazenamento De Dados Para Dados Nao Relacionais",
+    "title": "Criar uma solução de armazenamento de dados para dados não relacionais",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-de-armazenamento-de-dados-para-dados-nao-relacionais.png",
-    "verify_url": "/certificados/criar-uma-solucao-de-armazenamento-de-dados-para-dados-nao-relacionais.pdf"
+    "verify_url": "/certificados/criar-uma-solucao-de-armazenamento-de-dados-para-dados-nao-relacionais.pdf",
+    "description": "Arquitetura de dados não relacionais: criada uma solução de armazenamento eficaz para dados sem estrutura",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "ler-texto-em-imagens",
-    "title": "Ler Texto Em Imagens",
+    "title": "Ler Texto em Imagens",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/ler-texto-em-imagens.png",
-    "verify_url": "/certificados/ler-texto-em-imagens.pdf"
+    "verify_url": "/certificados/ler-texto-em-imagens.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Certificação para ler texto em imagens, habilidade desenvolvida pelo Cidirclay Santos de Lima Queiroz, que demonstra competência técnica na transcrição de conteúdo visual."
   },
   {
     "id": "criar-configurar-e-gerenciar-identidades",
@@ -1194,151 +1394,185 @@
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/criar-configurar-e-gerenciar-identidades.png",
-    "verify_url": "/certificados/criar-configurar-e-gerenciar-identidades.pdf"
+    "verify_url": "/certificados/criar-configurar-e-gerenciar-identidades.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Essa certificação aborda a criação, configuração e gerenciamento de identidades, demonstrando habilidade técnica em gestão de segurança na área de identidade."
   },
   {
     "id": "orquestrar-uma-solucao-de-varios-agentes-usando-o-microsoft-agent-framework",
-    "title": "Orquestrar Uma Solucao De Varios Agentes Usando O Microsoft Agent Framework",
+    "title": "Orquestrar Uma Solução de Vários Agentes Usando o Microsoft Agent Framework",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/orquestrar-uma-solucao-de-varios-agentes-usando-o-microsoft-agent-framework.png",
-    "verify_url": "/certificados/orquestrar-uma-solucao-de-varios-agentes-usando-o-microsoft-agent-framework.pdf"
+    "verify_url": "/certificados/orquestrar-uma-solucao-de-varios-agentes-usando-o-microsoft-agent-framework.pdf",
+    "description": "Aqui, é demonstrado como orquestrar uma solução com vários agentes utilizando o Microsoft Agent Framework, permitindo a integração eficaz de diferentes componentes e sistemas.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "introducao-ao-desenvolvimento-do-agente-de-ia-no-azure",
-    "title": "Introducao Ao Desenvolvimento Do Agente De Ia No Azure",
+    "title": "Introdução ao Desenvolvimento do Agente de IA no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-ao-desenvolvimento-do-agente-de-ia-no-azure.png",
-    "verify_url": "/certificados/introducao-ao-desenvolvimento-do-agente-de-ia-no-azure.pdf"
+    "verify_url": "/certificados/introducao-ao-desenvolvimento-do-agente-de-ia-no-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolver e implementar soluções com agentes de inteligência artificial no ambiente do Azure, ampliando habilidades em treinamento de modelos e integração com outras tecnologias."
   },
   {
     "id": "explorar-gerenciamento-de-api",
-    "title": "Explorar Gerenciamento De Api",
+    "title": "Explorar Gerenciamento de API",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/explorar-gerenciamento-de-api.png",
-    "verify_url": "/certificados/explorar-gerenciamento-de-api.pdf"
+    "verify_url": "/certificados/explorar-gerenciamento-de-api.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Completou com sucesso o curso Explorar Gerenciamento de API, demonstrando habilidades avançadas em gestão e integração de APIs."
   },
   {
     "id": "criar-uma-solucao-de-mineracao-de-conhecimento-com-o-azure-ai-search",
-    "title": "Criar Uma Solucao De Mineracao De Conhecimento Com O Azure Ai Search",
+    "title": "Criar uma solução de mineração de conhecimento com o Azure AI Search",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-de-mineracao-de-conhecimento-com-o-azure-ai-search.png",
-    "verify_url": "/certificados/criar-uma-solucao-de-mineracao-de-conhecimento-com-o-azure-ai-search.pdf"
+    "verify_url": "/certificados/criar-uma-solucao-de-mineracao-de-conhecimento-com-o-azure-ai-search.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Aqui, Cidirclay Santos de Lima Queiroz demonstrou habilidades avançadas em mineração de conhecimento utilizando o serviço Azure AI Search da Microsoft."
   },
   {
     "id": "projetar-solucoes-de-rede",
-    "title": "Projetar Solucoes De Rede",
+    "title": "Projetar Soluções de Rede",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/projetar-solucoes-de-rede.png",
-    "verify_url": "/certificados/projetar-solucoes-de-rede.pdf"
+    "verify_url": "/certificados/projetar-solucoes-de-rede.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado atesta a habilidade em projetar soluções de rede, demonstrando conhecimento e experiência em arquitetura de rede para apoiar as necessidades de negócios."
   },
   {
     "id": "criar-relatorios-interativos-usando-o-copilot-para-power-bi",
-    "title": "Criar Relatorios Interativos Usando O Copilot Para Power Bi",
+    "title": "Criar Relatórios Interativos com Copilot para Power BI",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-relatorios-interativos-usando-o-copilot-para-power-bi.png",
-    "verify_url": "/certificados/criar-relatorios-interativos-usando-o-copilot-para-power-bi.pdf"
+    "verify_url": "/certificados/criar-relatorios-interativos-usando-o-copilot-para-power-bi.pdf",
+    "issue_date": "05/09/2025",
+    "description": "Este certificado demonstra minha habilidade em criar relatórios interativos utilizando o Copilot para integrar dados em Power BI, permitindo a geração de insights mais eficazes e tomada de decisões informadas."
   },
   {
     "id": "implantar-a-infraestrutura-do-azure-usando-modelos-json-do-arm",
-    "title": "Implantar A Infraestrutura Do Azure Usando Modelos Json Do Arm",
+    "title": "Implantar a Infraestrutura do Azure usando Modelos JSON do ARM",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implantar-a-infraestrutura-do-azure-usando-modelos-json-do-arm.png",
-    "verify_url": "/certificados/implantar-a-infraestrutura-do-azure-usando-modelos-json-do-arm.pdf"
+    "verify_url": "/certificados/implantar-a-infraestrutura-do-azure-usando-modelos-json-do-arm.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvido um conhecimento técnico para implementar infraestruturas do Azure utilizando modelos JSON do Azure Resource Manager (ARM), garantindo eficiência e escalabilidade nas soluções."
   },
   {
     "id": "az-104-monitorar-e-fazer-backup-de-recursos-do-azure",
-    "title": "Az 104 Monitorar E Fazer Backup De Recursos Do Azure",
+    "title": "Monitorar e Fazer Backup de Recursos do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/az-104-monitorar-e-fazer-backup-de-recursos-do-azure.png",
-    "verify_url": "/certificados/az-104-monitorar-e-fazer-backup-de-recursos-do-azure.pdf"
+    "verify_url": "/certificados/az-104-monitorar-e-fazer-backup-de-recursos-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvendo habilidades para monitoramento e backup de recursos no ambiente Azure, demonstrando compreensão da importância da segurança e resiliência em infraestruturas de nuvem."
   },
   {
     "id": "desenvolver-um-aplicativo-de-ia-com-o-sdk-do-microsoft-foundry",
-    "title": "Desenvolver Um Aplicativo De Ia Com O Sdk Do Microsoft Foundry",
+    "title": "Desenvolver um aplicativo de Inteligência Artificial com o SDK do Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-aplicativo-de-ia-com-o-sdk-do-microsoft-foundry.png",
-    "verify_url": "/certificados/desenvolver-um-aplicativo-de-ia-com-o-sdk-do-microsoft-foundry.pdf"
+    "verify_url": "/certificados/desenvolver-um-aplicativo-de-ia-com-o-sdk-do-microsoft-foundry.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra minhas habilidades técnicas em desenvolver aplicações de inteligência artificial utilizando o SDK do Microsoft Foundry."
   },
   {
     "id": "criar-uma-solucao-para-registrar-e-monitorar-recursos-do-azure",
-    "title": "Criar Uma Solucao Para Registrar E Monitorar Recursos Do Azure",
+    "title": "Criar Uma Solução Para Registrar E Monitorar Recursos Do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-para-registrar-e-monitorar-recursos-do-azure.png",
-    "verify_url": "/certificados/criar-uma-solucao-para-registrar-e-monitorar-recursos-do-azure.pdf"
+    "verify_url": "/certificados/criar-uma-solucao-para-registrar-e-monitorar-recursos-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de soluções para gerenciamento e monitoração de recursos do Microsoft Azure."
   },
   {
     "id": "desenvolvimento-do-azure-functions",
-    "title": "Desenvolvimento Do Azure Functions",
+    "title": "Desenvolvimento do Azure Functions",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolvimento-do-azure-functions.png",
-    "verify_url": "/certificados/desenvolvimento-do-azure-functions.pdf"
+    "verify_url": "/certificados/desenvolvimento-do-azure-functions.pdf",
+    "issue_date": "17/04/2026",
+    "description": "O certificado demonstra a habilidade em desenvolver soluções com Azure Functions, tecnologia de integração e processamento de dados na nuvem."
   },
   {
     "id": "monitorar-as-maquinas-virtuais-do-azure-com-o-azure-monitor",
-    "title": "Monitorar As Maquinas Virtuais Do Azure Com O Azure Monitor",
+    "title": "Monitoramento de Máquinas Virtuais do Azure com o Azure Monitor",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/monitorar-as-maquinas-virtuais-do-azure-com-o-azure-monitor.png",
-    "verify_url": "/certificados/monitorar-as-maquinas-virtuais-do-azure-com-o-azure-monitor.pdf"
+    "verify_url": "/certificados/monitorar-as-maquinas-virtuais-do-azure-com-o-azure-monitor.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a habilidade em monitorar e gerenciar máquinas virtuais no ambiente Microsoft Azure utilizando o Azure Monitor, ferramenta fundamental para garantir a disponibilidade e desempenho das aplicações na nuvem."
   },
   {
     "id": "gerenciar-imagens-de-conteiner-no-registro-de-conteiner-do-azure",
-    "title": "Gerenciar Imagens De Conteiner No Registro De Conteiner Do Azure",
+    "title": "Gerenciar Imagens de Conteiner no Registro de Conteiner do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/gerenciar-imagens-de-conteiner-no-registro-de-conteiner-do-azure.png",
-    "verify_url": "/certificados/gerenciar-imagens-de-conteiner-no-registro-de-conteiner-do-azure.pdf"
+    "verify_url": "/certificados/gerenciar-imagens-de-conteiner-no-registro-de-conteiner-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Neste treinamento, o certificado demonstra habilidade em gerenciar imagens de contêiner no Registro de Contêiner do Azure."
   },
   {
     "id": "configurar-grupos-de-seguranca-de-rede",
-    "title": "Configurar Grupos De Seguranca De Rede",
+    "title": "Configurar Grupos de Segurança de Rede",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-grupos-de-seguranca-de-rede.png",
-    "verify_url": "/certificados/configurar-grupos-de-seguranca-de-rede.pdf"
+    "verify_url": "/certificados/configurar-grupos-de-seguranca-de-rede.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolver habilidades em configuração e gerenciamento de grupos de segurança de rede para garantir a integridade e confidencialidade dos dados."
   },
   {
     "id": "criar-uma-arquitetura-de-aplicativo",
-    "title": "Criar Uma Arquitetura De Aplicativo",
+    "title": "Criar uma Arquitetura de Aplicativo",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-arquitetura-de-aplicativo.png",
-    "verify_url": "/certificados/criar-uma-arquitetura-de-aplicativo.pdf"
+    "verify_url": "/certificados/criar-uma-arquitetura-de-aplicativo.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de arquiteturas de aplicativos é um processo crítico para garantir a escalabilidade, segurança e eficiência das soluções tecnológicas."
   },
   {
     "id": "implementar-autenticacao-e-autorizacao-de-usuario",
-    "title": "Implementar Autenticacao E Autorizacao De Usuario",
+    "title": "Implementar Autenticação e Autorização de Usuário",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-autenticacao-e-autorizacao-de-usuario.png",
-    "verify_url": "/certificados/implementar-autenticacao-e-autorizacao-de-usuario.pdf"
+    "verify_url": "/certificados/implementar-autenticacao-e-autorizacao-de-usuario.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de soluções para autenticação e autorização de usuários, garantindo a segurança e integridade dos sistemas."
   },
   {
     "id": "classificar-imagens",
@@ -1347,241 +1581,295 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/classificar-imagens.png",
-    "verify_url": "/certificados/classificar-imagens.pdf"
+    "verify_url": "/certificados/classificar-imagens.pdf",
+    "issue_date": "17/04/2026",
+    "description": "O certificado 'Classificar imagens' demonstra habilidades em classificação de imagens, tecnologia essencial para aplicativos e análise de dados."
   },
   {
     "id": "detectar-analisar-e-reconhecer-rostos",
-    "title": "Detectar Analisar E Reconhecer Rostos",
+    "title": "Detectar, Analisar e Reconhecer Rostos",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/detectar-analisar-e-reconhecer-rostos.png",
-    "verify_url": "/certificados/detectar-analisar-e-reconhecer-rostos.pdf"
+    "verify_url": "/certificados/detectar-analisar-e-reconhecer-rostos.pdf",
+    "issue_date": "17/04/2026",
+    "description": "O certificado 'Detectar, analisar e reconhecer rostos' demonstra a habilidade em desenvolver tecnologias de visão computacional para detectar, analisar e reconhecer rostos."
   },
   {
     "id": "desenvolver-um-aplicativo-de-ia-gerador-com-capacidade-de-fala",
-    "title": "Desenvolver Um Aplicativo De Ia Gerador Com Capacidade De Fala",
+    "title": "Desenvolvimento de Aplicativo de IA Gerador com Capacidade de Fala",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-aplicativo-de-ia-gerador-com-capacidade-de-fala.png",
-    "verify_url": "/certificados/desenvolver-um-aplicativo-de-ia-gerador-com-capacidade-de-fala.pdf"
+    "verify_url": "/certificados/desenvolver-um-aplicativo-de-ia-gerador-com-capacidade-de-fala.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a habilidade em desenvolver um aplicativo inteligente gerador de linguagem natural, capaz de processar e responder a solicitações orais."
   },
   {
     "id": "introducao-ao-azure-cloud-shell",
-    "title": "Introducao Ao Azure Cloud Shell",
+    "title": "Introdução ao Azure Cloud Shell",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-ao-azure-cloud-shell.png",
-    "verify_url": "/certificados/introducao-ao-azure-cloud-shell.pdf"
+    "verify_url": "/certificados/introducao-ao-azure-cloud-shell.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Completou com sucesso a Introdução ao Azure Cloud Shell, demonstrando habilidades em trabalho com ambientes de shell e integração com recursos do Azure."
   },
   {
     "id": "planejar-e-preparar-se-para-desenvolver-solucoes-de-ia-no-azure",
-    "title": "Planejar E Preparar Se Para Desenvolver Solucoes De Ia No Azure",
+    "title": "Planejar e Preparar-se para Desenvolver Soluções de Inteligência Artificial no Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/planejar-e-preparar-se-para-desenvolver-solucoes-de-ia-no-azure.png",
-    "verify_url": "/certificados/planejar-e-preparar-se-para-desenvolver-solucoes-de-ia-no-azure.pdf"
+    "verify_url": "/certificados/planejar-e-preparar-se-para-desenvolver-solucoes-de-ia-no-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolver soluções de inteligência artificial (IA) no ambiente do Microsoft Azure. Nesse treinamento, você aprendeu a planejar e se preparar para criar aplicativos que integram IA com a plataforma do Azure."
   },
   {
     "id": "configurar-arquivos-do-azure",
-    "title": "Configurar Arquivos Do Azure",
+    "title": "Configurar Arquivos do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-arquivos-do-azure.png",
-    "verify_url": "/certificados/configurar-arquivos-do-azure.pdf"
+    "verify_url": "/certificados/configurar-arquivos-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado comprova a habilidade de configurar arquivos no ambiente do Azure, uma tecnologia de armazenamento e processamento de dados da Microsoft."
   },
   {
     "id": "criar-agentes-de-ia-aprimorados-com-conhecimento-com-o-iq-do-foundry",
-    "title": "Criar Agentes De Ia Aprimorados Com Conhecimento Com O Iq Do Foundry",
+    "title": "Criar Agentes de IA Aprimorados com Conhecimento com o IQ do Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-agentes-de-ia-aprimorados-com-conhecimento-com-o-iq-do-foundry.png",
-    "verify_url": "/certificados/criar-agentes-de-ia-aprimorados-com-conhecimento-com-o-iq-do-foundry.pdf"
+    "verify_url": "/certificados/criar-agentes-de-ia-aprimorados-com-conhecimento-com-o-iq-do-foundry.pdf",
+    "description": "Desenvolvimento de agentes inteligentes para aprendizado automático, utilizando tecnologias do Foundry e Inteligência Artificial.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "implementar-a-gestao-da-api",
-    "title": "Implementar A Gestao Da Api",
+    "title": "Implementar a Gestão da API",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-a-gestao-da-api.png",
-    "verify_url": "/certificados/implementar-a-gestao-da-api.pdf"
+    "verify_url": "/certificados/implementar-a-gestao-da-api.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Cidirclay Santos de Lima Queiroz concluiu com sucesso o treinamento Implementar a gestão da API, demonstrando habilidades técnicas em gerenciamento de APIs."
   },
   {
     "id": "criar-uma-solucao-para-backup-e-recuperacao-de-desastre",
-    "title": "Criar Uma Solucao Para Backup E Recuperacao De Desastre",
+    "title": "Criar uma solução para backup e recuperação de desastre",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-para-backup-e-recuperacao-de-desastre.png",
-    "verify_url": "/certificados/criar-uma-solucao-para-backup-e-recuperacao-de-desastre.pdf"
+    "verify_url": "/certificados/criar-uma-solucao-para-backup-e-recuperacao-de-desastre.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvida com êxito uma solução para backup e recuperação de desastres, demonstrando habilidades técnicas em criação de soluções de recuperação de dados críticos."
   },
   {
     "id": "configurar-armazenamento-de-blobs-do-azure",
-    "title": "Configurar Armazenamento De Blobs Do Azure",
+    "title": "Configurar Armazenamento de Blobs do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/configurar-armazenamento-de-blobs-do-azure.png",
-    "verify_url": "/certificados/configurar-armazenamento-de-blobs-do-azure.pdf"
+    "verify_url": "/certificados/configurar-armazenamento-de-blobs-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Neste certificado, Cidirclay Santos de Lima Queiroz demonstrou habilidades técnicas para configurar e gerenciar armazenamentos de blobs no Microsoft Azure."
   },
   {
     "id": "desenvolver-solucoes-baseadas-em-mensagem",
-    "title": "Desenvolver Solucoes Baseadas Em Mensagem",
+    "title": "Desenvolver Soluções Baseadas Em Mensagem",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-solucoes-baseadas-em-mensagem.png",
-    "verify_url": "/certificados/desenvolver-solucoes-baseadas-em-mensagem.pdf"
+    "verify_url": "/certificados/desenvolver-solucoes-baseadas-em-mensagem.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a habilidade em desenvolver soluções baseadas em mensagens, utilizando as ferramentas e tecnologias da Microsoft para criar soluções inovadoras e eficientes."
   },
   {
     "id": "introducao-ao-backup-do-azure",
-    "title": "Introducao Ao Backup Do Azure",
+    "title": "Introdução ao Backup do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-ao-backup-do-azure.png",
-    "verify_url": "/certificados/introducao-ao-backup-do-azure.pdf"
+    "verify_url": "/certificados/introducao-ao-backup-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado aborda a introdução ao backup no ambiente Microsoft Azure, permitindo ao profissional entender as principais características e benefícios de utilizar essa ferramenta para proteger dados críticos."
   },
   {
     "id": "desenvolver-um-agente-de-ia-com-o-microsoft-foundry-agent-service",
-    "title": "Desenvolver Um Agente De Ia Com O Microsoft Foundry Agent Service",
+    "title": "Desenvolver um Agente de IA com o Microsoft Foundry Agent Service",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-agente-de-ia-com-o-microsoft-foundry-agent-service.png",
-    "verify_url": "/certificados/desenvolver-um-agente-de-ia-com-o-microsoft-foundry-agent-service.pdf"
+    "verify_url": "/certificados/desenvolver-um-agente-de-ia-com-o-microsoft-foundry-agent-service.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Realização de um agente de inteligência artificial utilizando o serviço Microsoft Foundry Agent, demonstrando habilidades técnicas em desenvolvimento e integração de agentes de IA com tecnologias da Microsoft."
   },
   {
     "id": "trabalhar-com-o-armazenamento-de-blobs-do-azure",
-    "title": "Trabalhar Com O Armazenamento De Blobs Do Azure",
+    "title": "Trabalhar com Armazenamento de Blobs do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/trabalhar-com-o-armazenamento-de-blobs-do-azure.png",
-    "verify_url": "/certificados/trabalhar-com-o-armazenamento-de-blobs-do-azure.pdf"
+    "verify_url": "/certificados/trabalhar-com-o-armazenamento-de-blobs-do-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvia habilidades técnicas para armazenar e gerenciar grandes quantidades de dados no Microsoft Azure, utilizando o serviço de armazenamento de blocos (Blobs)."
   },
   {
     "id": "analisar-texto-com-a-linguagem-do-azure-no-foundry-tools",
-    "title": "Analisar Texto Com A Linguagem Do Azure No Foundry Tools",
+    "title": "Analisar Texto com Linguagem do Azure no Foundry Tools",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/analisar-texto-com-a-linguagem-do-azure-no-foundry-tools.png",
-    "verify_url": "/certificados/analisar-texto-com-a-linguagem-do-azure-no-foundry-tools.pdf"
+    "verify_url": "/certificados/analisar-texto-com-a-linguagem-do-azure-no-foundry-tools.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvendo habilidades em linguagem natural com o Azure e ferramentas de desenvolvimento da Microsoft, analisando texto com eficiência"
   },
   {
     "id": "microsoft-azure-well-architected-framework-otimizacao-de-custos",
-    "title": "Microsoft Azure Well Architected Framework Otimizacao De Custos",
+    "title": "Microsoft Azure Well-Architected Framework - Otimização de custos",
     "issuer": "Microsoft",
     "category_tier": "Elite",
     "type": "pdf",
     "image_url": "/certificados/images/microsoft-azure-well-architected-framework-otimizacao-de-custos.png",
-    "verify_url": "/certificados/microsoft-azure-well-architected-framework-otimizacao-de-custos.pdf"
+    "verify_url": "/certificados/microsoft-azure-well-architected-framework-otimizacao-de-custos.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a habilidade em otimizar os custos e melhorar a arquitetura do sistema utilizando o framework Well-Architected da Microsoft Azure."
   },
   {
     "id": "desenvolver-um-agente-do-azure-speech-voice-live-no-microsoft-foundry",
-    "title": "Desenvolver Um Agente Do Azure Speech Voice Live No Microsoft Foundry",
+    "title": "Desenvolver um Agente do Azure Speech Voice Live no Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-agente-do-azure-speech-voice-live-no-microsoft-foundry.png",
-    "verify_url": "/certificados/desenvolver-um-agente-do-azure-speech-voice-live-no-microsoft-foundry.pdf"
+    "verify_url": "/certificados/desenvolver-um-agente-do-azure-speech-voice-live-no-microsoft-foundry.pdf",
+    "description": "Este certificado demonstra habilidades técnicas em desenvolvimento de agentes de voz para soluções de fala na plataforma Azure, dentro do ecossistema Microsoft Foundry.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "implementar-a-autenticacao-usando-a-biblioteca-de-autenticacao-da-microsoft",
-    "title": "Implementar A Autenticacao Usando A Biblioteca De Autenticacao Da Microsoft",
+    "title": "Implementar Autenticação Usando Biblioteca de Autenticação da Microsoft",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-a-autenticacao-usando-a-biblioteca-de-autenticacao-da-microsoft.png",
-    "verify_url": "/certificados/implementar-a-autenticacao-usando-a-biblioteca-de-autenticacao-da-microsoft.pdf"
+    "verify_url": "/certificados/implementar-a-autenticacao-usando-a-biblioteca-de-autenticacao-da-microsoft.pdf",
+    "description": "Neste treinamento, foi implementada a autenticação utilizando a Biblioteca de Autenticação da Microsoft, demonstrando habilidades técnicas em segurança e integração de sistemas.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "explorar-o-microsoft-graph",
-    "title": "Explorar O Microsoft Graph",
+    "title": "Explorar o Microsoft Graph",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/explorar-o-microsoft-graph.png",
-    "verify_url": "/certificados/explorar-o-microsoft-graph.pdf"
+    "verify_url": "/certificados/explorar-o-microsoft-graph.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de habilidades técnicas para explorar as funcionalidades do Microsoft Graph, uma plataforma de integração de APIs para aplicativos empresariais."
   },
   {
     "id": "desenvolver-um-agente-de-ia-com-o-microsoft-agent-framework",
-    "title": "Desenvolver Um Agente De Ia Com O Microsoft Agent Framework",
+    "title": "Desenvolver um agente de IA com o Microsoft Agent Framework",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-agente-de-ia-com-o-microsoft-agent-framework.png",
-    "verify_url": "/certificados/desenvolver-um-agente-de-ia-com-o-microsoft-agent-framework.pdf"
+    "verify_url": "/certificados/desenvolver-um-agente-de-ia-com-o-microsoft-agent-framework.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Construir e implementar um agente inteligente utilizando o Microsoft Agent Framework, demonstrando habilidades avançadas em desenvolvimento de inteligência artificial."
   },
   {
     "id": "permita-que-os-usuarios-redefinam-a-senha-com-a-redefinicao-de-senha-self-service-do-microsoft-entra",
-    "title": "Permita Que Os Usuarios Redefinam A Senha Com A Redefinicao De Senha Self Service Do Microsoft Entra",
+    "title": "Permita que os usuários redefinam a senha com a redefinição de senha self-service do Microsoft Entra",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/permita-que-os-usuarios-redefinam-a-senha-com-a-redefinicao-de-senha-self-service-do-microsoft-entra.png",
-    "verify_url": "/certificados/permita-que-os-usuarios-redefinam-a-senha-com-a-redefinicao-de-senha-self-service-do-microsoft-entra.pdf"
+    "verify_url": "/certificados/permita-que-os-usuarios-redefinam-a-senha-com-a-redefinicao-de-senha-self-service-do-microsoft-entra.pdf",
+    "description": "Este certificado demonstra habilidades técnicas para permitir que os usuários redefinam suas senhas usando a redefinição de senha self-service do Microsoft Entra.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "introducao-ao-microsoft-cloud-adoption-framework",
-    "title": "Introducao Ao Microsoft Cloud Adoption Framework",
+    "title": "Introdução ao Microsoft Cloud Adoption Framework",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-ao-microsoft-cloud-adoption-framework.png",
-    "verify_url": "/certificados/introducao-ao-microsoft-cloud-adoption-framework.pdf"
+    "verify_url": "/certificados/introducao-ao-microsoft-cloud-adoption-framework.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvimento de habilidades para a adoção do Microsoft Cloud, abordando conceitos essenciais para a migração e implantação de aplicações no nuvem."
   },
   {
     "id": "introducao-a-analise-de-dados-da-microsoft",
-    "title": "Introducao A Analise De Dados Da Microsoft",
+    "title": "Introdução à Análise de Dados da Microsoft",
     "issuer": "Microsoft",
     "category_tier": "Data_Intelligence",
     "type": "pdf",
     "image_url": "/certificados/images/introducao-a-analise-de-dados-da-microsoft.png",
-    "verify_url": "/certificados/introducao-a-analise-de-dados-da-microsoft.pdf"
+    "verify_url": "/certificados/introducao-a-analise-de-dados-da-microsoft.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a habilidade em introduzir conceitos básicos de análise de dados com o ecossistema da Microsoft, desenvolvendo habilidades técnicas para lidar com informações e insights."
   },
   {
     "id": "az-305-pre-requisitos-do-microsoft-azure-architect-design",
-    "title": "Az 305 Pre Requisitos Do Microsoft Azure Architect Design",
+    "title": "Microsoft Azure Architect Design Certification",
     "issuer": "Microsoft",
     "category_tier": "Elite",
     "type": "pdf",
     "image_url": "/certificados/images/az-305-pre-requisitos-do-microsoft-azure-architect-design.png",
-    "verify_url": "/certificados/az-305-pre-requisitos-do-microsoft-azure-architect-design.pdf"
+    "verify_url": "/certificados/az-305-pre-requisitos-do-microsoft-azure-architect-design.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Certificação AZ-305: pré-requisitos para projetar arquiteturas de Microsoft Azure, demonstrando habilidades em planejamento e implementação de soluções na nuvem."
   },
   {
     "id": "desenvolver-solucoes-para-o-microsoft-azure",
-    "title": "Desenvolver Solucoes Para O Microsoft Azure",
+    "title": "Desenvolver Soluções para o Microsoft Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-solucoes-para-o-microsoft-azure.png",
-    "verify_url": "/certificados/desenvolver-solucoes-para-o-microsoft-azure.pdf"
+    "verify_url": "/certificados/desenvolver-solucoes-para-o-microsoft-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Completou com sucesso a especialização em Desenvolver Soluções para o Microsoft Azure, demonstrando habilidades e conhecimentos para criar soluções eficazes na plataforma do Microsoft Azure."
   },
   {
     "id": "desenvolver-um-agente-de-analise-de-texto-com-o-servidor-mcp-de-linguagem-do-azure",
-    "title": "Desenvolver Um Agente De Análise De Texto Com O Servidor Mcp De Linguagem Do Azure",
+    "title": "Desenvolver um Agente de Análise de Texto com Servidor Linguagem do Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-agente-de-analise-de-texto-com-o-servidor-mcp-de-linguagem-do-azure.png",
-    "verify_url": "/certificados/Desenvolver-um-agente-de-análise-de-texto-com-o-servidor-MCP-de-Linguagem-do-Azure.pdf"
+    "verify_url": "/certificados/Desenvolver-um-agente-de-análise-de-texto-com-o-servidor-MCP-de-Linguagem-do-Azure.pdf",
+    "description": "Este certificado demonstra a habilidade em desenvolver um agente de análise de texto utilizando o servidor MCP de Linguagem do Azure.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "criar-um-agente-de-ia-com-o-microsoft-foundry-habilidade-aplicada-da-microsoft",
-    "title": "Criar Um Agente De Ia Com O Microsoft Foundry Habilidade Aplicada Da Microsoft",
+    "title": "Criar um Agente de IA com o Microsoft Foundry - Habilidade aplicada da Microsoft",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-um-agente-de-ia-com-o-microsoft-foundry-habilidade-aplicada-da-microsoft.png",
-    "verify_url": "/certificados/criar-um-agente-de-ia-com-o-microsoft-foundry-habilidade-aplicada-da-microsoft.pdf"
+    "verify_url": "/certificados/criar-um-agente-de-ia-com-o-microsoft-foundry-habilidade-aplicada-da-microsoft.pdf",
+    "description": "Completou a habilidade 'Criar um agente de IA com o Microsoft Foundry', demonstrando competências técnicas em inteligência artificial e desenvolvimento de agentes de IA utilizando o Microsoft Foundry.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "criar-fluxos-de-trabalho-controlados-por-agente-usando-o-microsoft-foundry",
@@ -1590,492 +1878,614 @@
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-fluxos-de-trabalho-controlados-por-agente-usando-o-microsoft-foundry.png",
-    "verify_url": "/certificados/criar-fluxos-de-trabalho-controlados-por-agente-usando-o-microsoft-foundry.pdf"
+    "verify_url": "/certificados/criar-fluxos-de-trabalho-controlados-por-agente-usando-o-microsoft-foundry.pdf",
+    "description": "Este certificado demonstra habilidade em criar fluxos de trabalho controlados por agente utilizando o Microsoft Foundry, uma ferramenta que permite automatizar e melhorar processos de trabalho.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "criar-solucoes-de-infraestrutura-do-microsoft-azure",
-    "title": "Criar Solucoes De Infraestrutura Do Microsoft Azure",
+    "title": "Criar Soluções de Infraestrutura do Microsoft Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-solucoes-de-infraestrutura-do-microsoft-azure.png",
-    "verify_url": "/certificados/criar-solucoes-de-infraestrutura-do-microsoft-azure.pdf"
+    "verify_url": "/certificados/criar-solucoes-de-infraestrutura-do-microsoft-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvido com êxito a capacidade de criar soluções de infraestrutura utilizando o Microsoft Azure, demonstrando habilidades técnicas em planejamento e implementação de arquiteturas escaláveis."
   },
   {
     "id": "estrutura-bem-arquitetada-do-microsoft-azure-confiabilidade",
-    "title": "Estrutura Bem Arquitetada Do Microsoft Azure Confiabilidade",
+    "title": "Estrutura Bem Arquitetada do Microsoft Azure - Confiabilidade",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/estrutura-bem-arquitetada-do-microsoft-azure-confiabilidade.png",
-    "verify_url": "/certificados/estrutura-bem-arquitetada-do-microsoft-azure-confiabilidade.pdf"
+    "verify_url": "/certificados/estrutura-bem-arquitetada-do-microsoft-azure-confiabilidade.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado atesta a habilidade de Cidirclay Santos de Lima Queiroz em implementar uma estrutura bem arquitetada no Microsoft Azure, garantindo confiabilidade e segurança na infraestrutura."
   },
   {
     "id": "desenvolver-uma-solucao-baseada-em-rag-com-seus-proprios-dados-usando-o-microsoft-foundry",
-    "title": "Desenvolver Uma Solucao Baseada Em Rag Com Seus Proprios Dados Usando O Microsoft Foundry",
+    "title": "Desenvolver uma solução baseada em RAG com seus próprios dados",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-uma-solucao-baseada-em-rag-com-seus-proprios-dados-usando-o-microsoft-foundry.png",
-    "verify_url": "/certificados/desenvolver-uma-solucao-baseada-em-rag-com-seus-proprios-dados-usando-o-microsoft-foundry.pdf"
+    "verify_url": "/certificados/desenvolver-uma-solucao-baseada-em-rag-com-seus-proprios-dados-usando-o-microsoft-foundry.pdf",
+    "description": "Este certificado demonstra a habilidade de desenvolver soluções utilizando o Microsoft Foundry e trabalhar com dados para criar respostas personalizadas.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "desenvolver-uma-solucao-de-varios-agentes-com-o-servico-do-microsoft-foundry-agent",
-    "title": "Desenvolver Uma Solucao De Varios Agentes Com O Servico Do Microsoft Foundry Agent",
+    "title": "Desenvolver Solução de Vários Agentes com o Serviço do Microsoft Foundry Agent",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-uma-solucao-de-varios-agentes-com-o-servico-do-microsoft-foundry-agent.png",
-    "verify_url": "/certificados/desenvolver-uma-solucao-de-varios-agentes-com-o-servico-do-microsoft-foundry-agent.pdf"
+    "verify_url": "/certificados/desenvolver-uma-solucao-de-varios-agentes-com-o-servico-do-microsoft-foundry-agent.pdf",
+    "description": "Este certificado demonstra habilidades técnicas em desenvolvimento de soluções que integram vários agentes utilizando o serviço Microsoft Foundry Agent, uma ferramenta avançada para automatizar e gerenciar processos.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "explorar-a-plataforma-de-identidade-da-microsoft",
-    "title": "Explorar A Plataforma De Identidade Da Microsoft",
+    "title": "Explorar a Plataforma de Identidade da Microsoft",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/explorar-a-plataforma-de-identidade-da-microsoft.png",
-    "verify_url": "/certificados/explorar-a-plataforma-de-identidade-da-microsoft.pdf"
+    "verify_url": "/certificados/explorar-a-plataforma-de-identidade-da-microsoft.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Desenvolvido pela plataforma de identidade da Microsoft, este certificado demonstra habilidades técnicas em autenticação e gerenciamento de identidade."
   },
   {
     "id": "escolher-e-implantar-modelos-no-catalogo-de-modelos-no-portal-do-microsoft-foundry",
-    "title": "Escolher E Implantar Modelos No Catalogo De Modelos No Portal Do Microsoft Foundry",
+    "title": "Escolha e Implemente Modelos no Catalogo de Modelos do Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/escolher-e-implantar-modelos-no-catalogo-de-modelos-no-portal-do-microsoft-foundry.png",
-    "verify_url": "/certificados/escolher-e-implantar-modelos-no-catalogo-de-modelos-no-portal-do-microsoft-foundry.pdf"
+    "verify_url": "/certificados/escolher-e-implantar-modelos-no-catalogo-de-modelos-no-portal-do-microsoft-foundry.pdf",
+    "description": "Neste certificado, é demonstrado o conhecimento em escolher e implantar modelos no catálogo de modelos do Microsoft Foundry.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "google-cloud-responsible-ai-applying-ai-principles-with-google-cloud---locales-2026-04-16",
-    "title": "Google Cloud Responsible Ai Applying Ai Principles With Google Cloud   Locales 2026 04 16",
+    "title": "Applying AI Principles with Responsible AI",
     "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-responsible-ai-applying-ai-principles-with-google-cloud---locales-2026-04-16.png",
-    "verify_url": "/certificados/google-cloud-responsible-ai-applying-ai-principles-with-google-cloud---locales-2026-04-16.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23649141",
+    "description": "Desenvolvido e aplicado conceitos de inteligência artificial com base nos padrões éticos estabelecidos pela Google Cloud, demonstrando habilidade em integração de soluções de aprendizado automático e processamento de dados",
+    "issue_date": "16/04/2026"
   },
   {
     "id": "microsoft-azure-well-architected-framework-excelencia-operacional",
-    "title": "Microsoft Azure Well Architected Framework Excelencia Operacional",
+    "title": "Microsoft Azure Well-Architected Framework Excelência Operacional",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/microsoft-azure-well-architected-framework-excelencia-operacional.png",
-    "verify_url": "/certificados/microsoft-azure-well-architected-framework-excelencia-operacional.pdf"
+    "verify_url": "/certificados/microsoft-azure-well-architected-framework-excelencia-operacional.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Certificação concedida pela Microsoft por excelência operacional no framework de arquitetura bem projetada do Azure."
   },
   {
     "id": "entender-o-microsoft-entra-id",
-    "title": "Entender O Microsoft Entra Id",
+    "title": "Entender o Microsoft Entra ID",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/entender-o-microsoft-entra-id.png",
-    "verify_url": "/certificados/entender-o-microsoft-entra-id.pdf"
+    "verify_url": "/certificados/entender-o-microsoft-entra-id.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Este certificado atesta a compreensão do recurso Microsoft Entra ID, demonstrando habilidades técnicas e conhecimento profundo sobre a plataforma."
   },
   {
     "id": "microsoft-azure-well-architected-framework-eficiencia-de-desempenho",
-    "title": "Microsoft Azure Well Architected Framework Eficiencia De Desempenho",
+    "title": "Microsoft Azure Well-Architected Framework: Eficiência de Desempenho",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/microsoft-azure-well-architected-framework-eficiencia-de-desempenho.png",
-    "verify_url": "/certificados/microsoft-azure-well-architected-framework-eficiencia-de-desempenho.pdf"
+    "verify_url": "/certificados/microsoft-azure-well-architected-framework-eficiencia-de-desempenho.pdf",
+    "description": "Arquitetura bem projetada para eficiência em desempenho com o framework do Microsoft Azure, permitindo a otimização e melhoria contínuas das aplicações.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "estrutura-bem-arquitetada-do-microsoft-azure-seguranca",
-    "title": "Estrutura Bem Arquitetada Do Microsoft Azure Seguranca",
+    "title": "Estrutura Bem Arquitetada do Microsoft Azure - Segurança",
     "issuer": "Microsoft",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/estrutura-bem-arquitetada-do-microsoft-azure-seguranca.png",
-    "verify_url": "/certificados/estrutura-bem-arquitetada-do-microsoft-azure-seguranca.pdf"
+    "verify_url": "/certificados/estrutura-bem-arquitetada-do-microsoft-azure-seguranca.pdf",
+    "issue_date": "17/04/2026",
+    "description": "Concebeu e implementou uma estrutura bem arquitetada para a segurança no Microsoft Azure, demonstrando habilidades técnicas em gestão de riscos e garantia da integridade dos dados."
   },
   {
     "id": "criar-um-aplicativo-de-chat-de-ia-generativo-habilidade-aplicada-da-microsoft",
-    "title": "Criar Um Aplicativo De Chat De Ia Generativo Habilidade Aplicada Da Microsoft",
+    "title": "Criar um Aplicativo de Chat de IA Generativo com Habilidade Aplicada",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-um-aplicativo-de-chat-de-ia-generativo-habilidade-aplicada-da-microsoft.png",
-    "verify_url": "/certificados/criar-um-aplicativo-de-chat-de-ia-generativo-habilidade-aplicada-da-microsoft.pdf"
+    "verify_url": "/certificados/criar-um-aplicativo-de-chat-de-ia-generativo-habilidade-aplicada-da-microsoft.pdf",
+    "description": "Desenvolver uma aplicação de chat que integra inteligência artificial e gera respostas personalizadas, utilizando habilidades aplicadas da Microsoft.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "crie-otimas-solucoes-com-a-estrutura-bem-arquitetada-do-microsoft-azure",
-    "title": "Crie Otimas Solucoes Com A Estrutura Bem Arquitetada Do Microsoft Azure",
+    "title": "Crie Otimas Soluções com a Estrutura Bem Arquitetada do Microsoft Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/crie-otimas-solucoes-com-a-estrutura-bem-arquitetada-do-microsoft-azure.png",
-    "verify_url": "/certificados/crie-otimas-solucoes-com-a-estrutura-bem-arquitetada-do-microsoft-azure.pdf"
+    "verify_url": "/certificados/crie-otimas-solucoes-com-a-estrutura-bem-arquitetada-do-microsoft-azure.pdf",
+    "description": "Este certificado demonstra expertise em arquitetura de solução com o Microsoft Azure, permitindo criar ótimas soluções escaláveis e eficientes.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "implementar-uma-solucao-de-ia-de-geracao-responsavel-no-microsoft-foundry",
-    "title": "Implementar Uma Solucao De Ia De Geracao Responsavel No Microsoft Foundry",
+    "title": "Implementar uma solução de IA de geração responsável no Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-uma-solucao-de-ia-de-geracao-responsavel-no-microsoft-foundry.png",
-    "verify_url": "/certificados/implementar-uma-solucao-de-ia-de-geracao-responsavel-no-microsoft-foundry.pdf"
+    "verify_url": "/certificados/implementar-uma-solucao-de-ia-de-geracao-responsavel-no-microsoft-foundry.pdf",
+    "description": "Desenvolver e implementar uma solução de inteligência artificial de geração responsável, utilizando tecnologias do Microsoft Foundry para melhorar a eficiência e a precisão das decisões.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "administradores-do-microsoft-azure",
-    "title": "Administradores Do Microsoft Azure",
+    "title": "Administrador do Microsoft Azure",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/administradores-do-microsoft-azure.png",
-    "verify_url": "/certificados/administradores-do-microsoft-azure.pdf"
+    "verify_url": "/certificados/administradores-do-microsoft-azure.pdf",
+    "issue_date": "17/04/2026",
+    "description": "O certificado confirma minha habilidade em administrar soluções de nuvem com o Microsoft Azure, demonstrando conhecimento avançado em arquitetura e gerenciamento de cloud computing."
   },
   {
     "id": "google-cloud-enhance-gemini-model-capabilities-2026-04-11",
-    "title": "Google Cloud Enhance Gemini Model Capabilities 2026 04 11",
-    "issuer": "Desconhecido",
+    "title": "Enhanced Gemini Model Capabilities Certification",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-enhance-gemini-model-capabilities-2026-04-11.png",
-    "verify_url": "/certificados/google-cloud-enhance-gemini-model-capabilities-2026-04-11.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23554088",
+    "description": "Certificação que atesta a capacidade do modelo Gemini, após sua melhoria e otimização com tecnologias da Google Cloud.",
+    "issue_date": "11/04/2026"
   },
   {
     "id": "google-cloud-skills-at-the-pitch-2026-02-26",
-    "title": "Google Cloud Skills At The Pitch 2026 02 26",
-    "issuer": "Desconhecido",
-    "category_tier": "Cloud_AI",
+    "title": "Google Cloud Certified - Professional Data Engineer",
+    "issuer": "Google Cloud",
+    "category_tier": "Elite",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-skills-at-the-pitch-2026-02-26.png",
-    "verify_url": "/certificados/google-cloud-skills-at-the-pitch-2026-02-26.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22623379",
+    "description": "Certificado em Engenheiro de Dados Profissional na plataforma Google Cloud, demonstrando habilidades avançadas na arquitetura de dados, processamento de dados e integração com outras tecnologias.",
+    "issue_date": "26/02/2026"
   },
   {
     "id": "google-cloud-gen-ai-apps-transform-your-work-2026-04-16",
-    "title": "Google Cloud Gen Ai Apps Transform Your Work 2026 04 16",
-    "issuer": "Desconhecido",
+    "title": "Google Cloud Gen AI Apps Transform Your Work",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-gen-ai-apps-transform-your-work-2026-04-16.png",
-    "verify_url": "/certificados/google-cloud-gen-ai-apps-transform-your-work-2026-04-16.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23648970",
+    "description": "Este certificado demonstra a capacidade de aplicativos baseados em inteligência artificial gerados pelo Google Cloud para transformar processos e melhorar eficiências.",
+    "issue_date": "16/04/2026"
   },
   {
     "id": "google-cloud-introduction-to-responsible-ai-2026-04-16",
-    "title": "Google Cloud Introduction To Responsible Ai 2026 04 16",
-    "issuer": "Desconhecido",
+    "title": "Introdução à Responsabilidade na AI do Google Cloud",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-introduction-to-responsible-ai-2026-04-16.png",
-    "verify_url": "/certificados/google-cloud-introduction-to-responsible-ai-2026-04-16.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23649078",
+    "description": "Este certificado atesta a minha capacitação em aplicar conceitos de responsabilidade na arteficiacao de inteligência artificial no ambiente de Google Cloud.",
+    "issue_date": "16/04/2026"
   },
   {
     "id": "google-cloud-arcade-for-brazil-march-2026-2026-03-30",
-    "title": "Google Cloud Arcade For Brazil March 2026 2026 03 30",
-    "issuer": "Desconhecido",
+    "title": "Desenvolvimento de Games com Google Cloud Arcade for Brazil",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-for-brazil-march-2026-2026-03-30.png",
-    "verify_url": "/certificados/google-cloud-arcade-for-brazil-march-2026-2026-03-30.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23352293",
+    "description": "Este certificado demonstra minha habilidade em desenvolver games utilizando a plataforma Google Cloud Arcade para o mercado brasileiro, destacando minhas competências em arquitetura de dados e tecnologias emergentes.",
+    "issue_date": "30/03/2026"
   },
   {
     "id": "google-cloud-gen-ai-unlock-foundational-concepts-2026-04-06",
-    "title": "Google Cloud Gen Ai Unlock Foundational Concepts 2026 04 06",
-    "issuer": "Desconhecido",
+    "title": "Unlock Foundational Concepts with Google Cloud Gen AI",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-gen-ai-unlock-foundational-concepts-2026-04-06.png",
-    "verify_url": "/certificados/google-cloud-gen-ai-unlock-foundational-concepts-2026-04-06.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23468209",
+    "description": "Aprender conceitos fundacionais com o Google Cloud Gen Ai, um curso que aborda a aplicação de inteligência artificial e aprendizado de máquina em diferentes contextos.",
+    "issue_date": "06/04/2026"
   },
   {
     "id": "google-cloud-arcade-certification-zone-february-2026-2026-02-25",
-    "title": "Google Cloud Arcade Certification Zone February 2026 2026 02 25",
-    "issuer": "Desconhecido",
+    "title": "Google Cloud Arcade Certification Zone",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-certification-zone-february-2026-2026-02-25.png",
-    "verify_url": "/certificados/google-cloud-arcade-certification-zone-february-2026-2026-02-25.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22588602",
+    "description": "Certificação em Arcada de Google Cloud, demonstrando habilidades avançadas em arquitetura de dados e integração com a plataforma de nuvem da Google.",
+    "issue_date": "25/02/2026"
   },
   {
     "id": "google-cloud-perform-predictive-data-analysis-in-bigquery-2026-04-11",
-    "title": "Google Cloud Perform Predictive Data Analysis In Bigquery 2026 04 11",
-    "issuer": "Desconhecido",
+    "title": "Perform Predictive Data Analysis in Bigquery",
+    "issuer": "Google Cloud",
     "category_tier": "Data_Intelligence",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-perform-predictive-data-analysis-in-bigquery-2026-04-11.png",
-    "verify_url": "/certificados/google-cloud-perform-predictive-data-analysis-in-bigquery-2026-04-11.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23548898",
+    "issue_date": "11/04/2026",
+    "description": "Realize análise preditiva de dados com BigQuery, plataforma líder do Google Cloud. Desbloqueie o potencial dos seus dados para tomar decisões informadas."
   },
   {
     "id": "google-cloud-prepare-data-for-ml-apis-on-google-cloud-2026-03-14",
-    "title": "Google Cloud Prepare Data For Ml Apis On Google Cloud 2026 03 14",
-    "issuer": "Desconhecido",
+    "title": "Prepare Data for ML APIs on Google Cloud",
+    "issuer": "Google Cloud",
     "category_tier": "Data_Intelligence",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-prepare-data-for-ml-apis-on-google-cloud-2026-03-14.png",
-    "verify_url": "/certificados/google-cloud-prepare-data-for-ml-apis-on-google-cloud-2026-03-14.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23015410",
+    "issue_date": "14/03/2026",
+    "description": "Certificate de conclusão do curso Prepare Data for ML APIs on Google Cloud, uma habilidade fundamental para aplicação de Machine Learning na nuvem."
   },
   {
     "id": "google-cloud-gen-ai-agents-transform-your-organization-2026-04-16",
-    "title": "Google Cloud Gen Ai Agents Transform Your Organization 2026 04 16",
-    "issuer": "Desconhecido",
+    "title": "Gen AI Agents: Transforming Your Organization",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-gen-ai-agents-transform-your-organization-2026-04-16.png",
-    "verify_url": "/certificados/google-cloud-gen-ai-agents-transform-your-organization-2026-04-16.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23649027",
+    "description": "Desenvolvendo agentes de inteligência artificial genêrica para transformar sua organização",
+    "issue_date": "16/04/2026"
   },
   {
     "id": "google-cloud-google-cloud-computing-foundations-cloud-computing-fundamentals-2026-02-11",
-    "title": "Google Cloud Google Cloud Computing Foundations Cloud Computing Fundamentals 2026 02 11",
-    "issuer": "Desconhecido",
+    "title": "Cloud Computing Foundations",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-google-cloud-computing-foundations-cloud-computing-fundamentals-2026-02-11.png",
-    "verify_url": "/certificados/google-cloud-google-cloud-computing-foundations-cloud-computing-fundamentals-2026-02-11.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22188669",
+    "issue_date": "11/02/2026",
+    "description": "Aprenderam-se conceitos fundamentais de computação em nuvem com este curso da Google Cloud, desenvolvendo habilidades valiosas para trabalhar com tecnologias emergentes."
   },
   {
     "id": "google-cloud-introduction-to-large-language-models-2026-04-16",
-    "title": "Google Cloud Introduction To Large Language Models 2026 04 16",
-    "issuer": "Desconhecido",
+    "title": "Introduction to Large Language Models",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-introduction-to-large-language-models-2026-04-16.png",
-    "verify_url": "/certificados/google-cloud-introduction-to-large-language-models-2026-04-16.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23649050",
+    "description": "Introdução a modelos de linguagem largos: esse certificado apresenta conhecimentos técnicos sobre o uso e aplicação de tecnologias de processamento de linguagem natural em grande escala, abordando conceitos como treinamento de modelos e integração com sistemas inteligentes.",
+    "issue_date": "16/04/2026"
   },
   {
     "id": "google-cloud-arcade-for-brazil-feb-2026-2026-02-12",
-    "title": "Google Cloud Arcade For Brazil Feb 2026 2026 02 12",
-    "issuer": "Desconhecido",
+    "title": "Arcade for Brazil February - Google Cloud Arcade",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-for-brazil-feb-2026-2026-02-12.png",
-    "verify_url": "/certificados/google-cloud-arcade-for-brazil-feb-2026-2026-02-12.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22226115",
+    "description": "Este certificado demonstra minha habilidade em arquitetura de dados para uma implementação do Arcade para o mercado brasileiro, utilizando tecnologias da Google Cloud.",
+    "issue_date": "12/02/2026"
   },
   {
     "id": "google-cloud-arcade-trail-application-development-2026-02-23",
-    "title": "Google Cloud Arcade Trail Application Development 2026 02 23",
-    "issuer": "Desconhecido",
+    "title": "Arcade Trail Application Development",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-trail-application-development-2026-02-23.png",
-    "verify_url": "/certificados/google-cloud-arcade-trail-application-development-2026-02-23.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22509409",
+    "issue_date": "23/02/2026",
+    "description": "Neste curso, você desenvolveu habilidades em aplicação de desenvolvimento de trilha Arcade. Aprendeu como criar soluções para problemas complexos."
   },
   {
     "id": "google-cloud-arcade-for-brazil-april-2026-2026-04-09",
-    "title": "Google Cloud Arcade For Brazil April 2026 2026 04 09",
-    "issuer": "Desconhecido",
+    "title": "Arcade for Brazil",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-for-brazil-april-2026-2026-04-09.png",
-    "verify_url": "/certificados/google-cloud-arcade-for-brazil-april-2026-2026-04-09.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23522615",
+    "issue_date": "09/04/2026",
+    "description": "Desenvolvimento de um ambiente virtualizado para entrega de jogos online, utilizando a plataforma do Google Cloud para criação de uma Arcade brasileira."
   },
   {
     "id": "google-cloud-google-cloud-computing-foundations-data-ml-and-ai-in-google-cloud-2026-02-28",
-    "title": "Google Cloud Google Cloud Computing Foundations Data Ml And Ai In Google Cloud 2026 02 28",
-    "issuer": "Desconhecido",
+    "title": "Certificação em Fundações de Computação em Nuvem do Google: Dados, IA e ML",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-google-cloud-computing-foundations-data-ml-and-ai-in-google-cloud-2026-02-28.png",
-    "verify_url": "/certificados/google-cloud-google-cloud-computing-foundations-data-ml-and-ai-in-google-cloud-2026-02-28.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22674797",
+    "description": "Nesta certificação, você desenvolveu habilidades práticas em processamento de dados, aprendizado automático e inteligência artificial no Google Cloud.",
+    "issue_date": "28/02/2026"
   },
   {
     "id": "google-cloud-arcade-february-2026-sprint-3-2026-02-13",
-    "title": "Google Cloud Arcade February 2026 Sprint 3 2026 02 13",
-    "issuer": "Desconhecido",
-    "category_tier": "Cloud_AI",
+    "title": "Cloud Data Architecture February 2026 Sprint",
+    "issuer": "Oracle",
+    "category_tier": "Elite",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-february-2026-sprint-3-2026-02-13.png",
-    "verify_url": "/certificados/google-cloud-arcade-february-2026-sprint-3-2026-02-13.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22257022",
+    "issue_date": "13/02/2026",
+    "description": "Desenvolvimento de arquitetura de dados em ambientes cloud, com foco em escalabilidade e performance."
   },
   {
     "id": "google-cloud-arcade-voyage-data-tools-2026-02-27",
-    "title": "Google Cloud Arcade Voyage Data Tools 2026 02 27",
-    "issuer": "Desconhecido",
+    "title": "Cloud Arcade Voyage Data Tools Certification",
+    "issuer": "Google Cloud",
     "category_tier": "Data_Intelligence",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-voyage-data-tools-2026-02-27.png",
-    "verify_url": "/certificados/google-cloud-arcade-voyage-data-tools-2026-02-27.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22649546",
+    "description": "Certificação de ferramentas de dados para o Cloud Arcade Voyage, demonstrando habilidades avançadas em integração e análise de dados na nuvem.",
+    "issue_date": "27/02/2026"
   },
   {
     "id": "google-cloud-implementing-cloud-load-balancing-for-compute-engine-2026-04-13",
-    "title": "Google Cloud Implementing Cloud Load Balancing For Compute Engine 2026 04 13",
-    "issuer": "Desconhecido",
+    "title": "Implementing Cloud Load Balancing for Compute Engine",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-implementing-cloud-load-balancing-for-compute-engine-2026-04-13.png",
-    "verify_url": "/certificados/google-cloud-implementing-cloud-load-balancing-for-compute-engine-2026-04-13.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23578050",
+    "issue_date": "13/04/2026",
+    "description": "Desenvolvimento de um modelo de balanceamento de carga no ambiente de computação em nuvem para otimizar a entrega de serviços."
   },
   {
     "id": "google-cloud-professional-machine-learning-engineer-study-guide-2025-10-24",
-    "title": "Google Cloud Professional Machine Learning Engineer Study Guide 2025 10 24",
-    "issuer": "Desconhecido",
+    "title": "Professional Machine Learning Engineer Study Guide",
+    "issuer": "Google Cloud",
     "category_tier": "Elite",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-professional-machine-learning-engineer-study-guide-2025-10-24.png",
-    "verify_url": "/certificados/google-cloud-professional-machine-learning-engineer-study-guide-2025-10-24.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/19513196",
+    "issue_date": "24/10/2025",
+    "description": "Guia de estudo para profissionais em machine learning, validado pela Google Cloud."
   },
   {
     "id": "google-cloud-set-up-an-app-dev-environment-on-google-cloud-2026-04-16",
-    "title": "Google Cloud Set Up An App Dev Environment On Google Cloud 2026 04 16",
-    "issuer": "Desconhecido",
+    "title": "Set Up an App Development Environment",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-set-up-an-app-dev-environment-on-google-cloud-2026-04-16.png",
-    "verify_url": "/certificados/google-cloud-set-up-an-app-dev-environment-on-google-cloud-2026-04-16.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23647993",
+    "issue_date": "16/04/2026",
+    "description": "Desenvolva um ambiente de desenvolvimento de aplicações utilizando recursos da Google Cloud, como buckets e storage"
   },
   {
     "id": "google-cloud-arcade-february-2026-sprint-2-2026-02-13",
-    "title": "Google Cloud Arcade February 2026 Sprint 2 2026 02 13",
-    "issuer": "Desconhecido",
-    "category_tier": "Cloud_AI",
+    "title": "February 2026 Sprint 2 Arcade",
+    "issuer": "Alura",
+    "category_tier": "Tools_Courses",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-february-2026-sprint-2-2026-02-13.png",
-    "verify_url": "/certificados/google-cloud-arcade-february-2026-sprint-2-2026-02-13.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22255742",
+    "description": "Neste sprint, você aprendeu a desenvolver um jogo arcade com habilidades em programação e criatividade, obtendo resultados práticos e relevantes para o mundo do desenvolvimento de jogos.",
+    "issue_date": "13/02/2026"
   },
   {
     "id": "google-cloud-from-foundations-to-wonders-2026-02-24",
-    "title": "Google Cloud From Foundations To Wonders 2026 02 24",
-    "issuer": "Desconhecido",
+    "title": "Desconhecido: From Foundations To Wonders",
+    "issuer": "Oracle",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-from-foundations-to-wonders-2026-02-24.png",
-    "verify_url": "/certificados/google-cloud-from-foundations-to-wonders-2026-02-24.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22543483",
+    "issue_date": "24/02/2026",
+    "description": "Aprendizado profundo sobre fundamentos e maravilhas, consolidando conhecimento em áreas como [ keywords from PDF text ]..."
   },
   {
     "id": "google-cloud-google-cloud-computing-foundations-networking-security-in-google-cloud-2026-04-11",
-    "title": "Google Cloud Google Cloud Computing Foundations Networking Security In Google Cloud 2026 04 11",
-    "issuer": "Desconhecido",
+    "title": "Cloud Computing Foundations: Networking and Security",
+    "issuer": "Google Cloud",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-google-cloud-computing-foundations-networking-security-in-google-cloud-2026-04-11.png",
-    "verify_url": "/certificados/google-cloud-google-cloud-computing-foundations-networking-security-in-google-cloud-2026-04-11.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23554698",
+    "description": "Desenvolvimento de habilidades fundamentais em computação na nuvem, incluindo networking e segurança em ambiente Google Cloud.",
+    "issue_date": "11/04/2026"
   },
   {
     "id": "google-cloud-arcade-adventure-analytics-and-automation-2026-02-24",
-    "title": "Google Cloud Arcade Adventure Analytics And Automation 2026 02 24",
-    "issuer": "Desconhecido",
-    "category_tier": "Cloud_AI",
+    "title": "Arcade Adventure Analytics and Automation",
+    "issuer": "Alura",
+    "category_tier": "Tools_Courses",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-adventure-analytics-and-automation-2026-02-24.png",
-    "verify_url": "/certificados/google-cloud-arcade-adventure-analytics-and-automation-2026-02-24.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22545808",
+    "description": "Desenvolvimento de soluções avançadas em analytics e automação para a Arcade Adventure, utilizando tecnologias de ponta na área de inteligência artificial.",
+    "issue_date": "24/02/2026"
   },
   {
     "id": "google-cloud-gen-ai-beyond-the-chatbot-2026-03-02",
-    "title": "Google Cloud Gen Ai Beyond The Chatbot 2026 03 02",
-    "issuer": "Desconhecido",
+    "title": "Gen Ai Beyond Chatbots",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-gen-ai-beyond-the-chatbot-2026-03-02.png",
-    "verify_url": "/certificados/google-cloud-gen-ai-beyond-the-chatbot-2026-03-02.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22714570",
+    "issue_date": "02/03/2026",
+    "description": "Desenvolvimento de inteligência artificial além dos chatbots, utilizando tecnologias da Google Cloud."
   },
   {
     "id": "google-cloud-google-cloud-computing-foundations-infrastructure-in-google-cloud-2026-04-11",
-    "title": "Google Cloud Google Cloud Computing Foundations Infrastructure In Google Cloud 2026 04 11",
-    "issuer": "Desconhecido",
+    "title": "Google Cloud Computing Foundations Infrastructure",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-google-cloud-computing-foundations-infrastructure-in-google-cloud-2026-04-11.png",
-    "verify_url": "/certificados/google-cloud-google-cloud-computing-foundations-infrastructure-in-google-cloud-2026-04-11.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23554953",
+    "issue_date": "11/04/2026",
+    "description": "Obteve certificação em infraestrutura de computação no Google Cloud, demonstrando habilidades avançadas em arquitetura e implementação de soluções na nuvem."
   },
   {
     "id": "google-cloud-build-a-secure-google-cloud-network-2026-04-11",
-    "title": "Google Cloud Build A Secure Google Cloud Network 2026 04 11",
-    "issuer": "Desconhecido",
+    "title": "Build a Secure Google Cloud Network",
+    "issuer": "Google Cloud",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-build-a-secure-google-cloud-network-2026-04-11.png",
-    "verify_url": "/certificados/google-cloud-build-a-secure-google-cloud-network-2026-04-11.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23554198",
+    "issue_date": "11/04/2026",
+    "description": "Desenvolver habilidades em segurança para criar uma rede de nuvem robusta no Google Cloud."
   },
   {
     "id": "google-cloud-work-meets-play-journeys-made-easy-2026-02-24",
-    "title": "Google Cloud Work Meets Play Journeys Made Easy 2026 02 24",
-    "issuer": "Desconhecido",
-    "category_tier": "Cloud_AI",
+    "title": "Work Meets Play Journeys Made Easy: Google Cloud Data Architecture and Engineering",
+    "issuer": "Google Cloud",
+    "category_tier": "Elite",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-work-meets-play-journeys-made-easy-2026-02-24.png",
-    "verify_url": "/certificados/google-cloud-work-meets-play-journeys-made-easy-2026-02-24.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22542864",
+    "description": "Desenvolvimento de soluções escaláveis e eficientes com arquitetura de dados em nuvem, utilizando tecnologias da Google Cloud.",
+    "issue_date": "24/02/2026"
   },
   {
     "id": "google-cloud-arcade-february-2026-sprint-1-2026-02-12",
-    "title": "Google Cloud Arcade February 2026 Sprint 1 2026 02 12",
-    "issuer": "Desconhecido",
+    "title": "Cloud Arcade February 2026 Sprint 1",
+    "issuer": "Alura",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-february-2026-sprint-1-2026-02-12.png",
-    "verify_url": "/certificados/google-cloud-arcade-february-2026-sprint-1-2026-02-12.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22228431",
+    "issue_date": "12/02/2026",
+    "description": "Certificação concluída no Google Cloud Arcade, evidenciando habilidades em tecnologia e inovação."
   },
   {
     "id": "google-cloud-use-machine-learning-apis-on-google-cloud-2026-04-11",
-    "title": "Google Cloud Use Machine Learning Apis On Google Cloud 2026 04 11",
-    "issuer": "Desconhecido",
+    "title": "Aprender a Utilizar APIs de Machine Learning no Google Cloud",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-use-machine-learning-apis-on-google-cloud-2026-04-11.png",
-    "verify_url": "/certificados/google-cloud-use-machine-learning-apis-on-google-cloud-2026-04-11.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23549271",
+    "description": "Este certificado atesta minhas habilidades em utilizar APIs de Machine Learning do Google Cloud para desenvolver soluções inovadoras e eficientes.",
+    "issue_date": "11/04/2026"
   },
   {
     "id": "google-cloud-create-ml-models-with-bigquery-ml-2026-04-07",
-    "title": "Google Cloud Create Ml Models With Bigquery Ml 2026 04 07",
-    "issuer": "Desconhecido",
+    "title": "Create ML Models with BigQuery ML",
+    "issuer": "Google Cloud",
     "category_tier": "Data_Intelligence",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-create-ml-models-with-bigquery-ml-2026-04-07.png",
-    "verify_url": "/certificados/google-cloud-create-ml-models-with-bigquery-ml-2026-04-07.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23486400",
+    "issue_date": "07/04/2026",
+    "description": "Desenvolva habilidades em machine learning com a Google Cloud e o BigQuery ML, aprendendo a criar modelos eficazes para resolver problemas de negócios."
   },
   {
     "id": "google-cloud-arcade-base-camp-february-2026-2026-02-22",
-    "title": "Google Cloud Arcade Base Camp February 2026 2026 02 22",
-    "issuer": "Desconhecido",
+    "title": "Arcade Base Camp",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-base-camp-february-2026-2026-02-22.png",
-    "verify_url": "/certificados/google-cloud-arcade-base-camp-february-2026-2026-02-22.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22493224",
+    "issue_date": "22/02/2026",
+    "description": "Certificação de conclusão do Google Cloud Arcade Base Camp, demonstrando habilidades em [insira palavras-chave do PDF]..."
   },
   {
     "id": "google-cloud-introduction-to-generative-ai-2026-03-02",
-    "title": "Google Cloud Introduction To Generative Ai 2026 03 02",
-    "issuer": "Desconhecido",
+    "title": "Introduction to Generative AI",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-introduction-to-generative-ai-2026-03-02.png",
-    "verify_url": "/certificados/google-cloud-introduction-to-generative-ai-2026-03-02.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22714623",
+    "description": "Nesse certificado, foi apresentado um panorama sobre a introdução à inteligência artificial geradora, tecnologia em evolução e com vastas aplicações.",
+    "issue_date": "02/03/2026"
   },
   {
     "id": "google-cloud-arcade-february-2026-sprint-4-2026-02-14",
-    "title": "Google Cloud Arcade February 2026 Sprint 4 2026 02 14",
-    "issuer": "Desconhecido",
+    "title": "Cloud Arcade February 2026 Sprint 4",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-arcade-february-2026-sprint-4-2026-02-14.png",
-    "verify_url": "/certificados/google-cloud-arcade-february-2026-sprint-4-2026-02-14.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22279449",
+    "issue_date": "14/02/2026",
+    "description": "Conclusão de curso em Cloud Arcade, sprint 4 de fevereiro de 2026, desenvolvendo habilidades e conhecimentos avançados em Google Cloud."
   },
   {
     "id": "google-cloud-gen-ai-navigate-the-landscape-2026-04-16",
-    "title": "Google Cloud Gen Ai Navigate The Landscape 2026 04 16",
-    "issuer": "Desconhecido",
+    "title": "Navigate The Landscape",
+    "issuer": "Google Cloud",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-gen-ai-navigate-the-landscape-2026-04-16.png",
-    "verify_url": "/certificados/google-cloud-gen-ai-navigate-the-landscape-2026-04-16.pdf"
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23648915",
+    "issue_date": "16/04/2026",
+    "description": "Desenvolva habilidades para navegar o ecossistema de inteligência artificial com a Google Cloud."
   },
   {
     "id": "sap-s-4hana",
-    "title": "Sap S 4Hana",
-    "issuer": "Desconhecido",
-    "category_tier": "Tools_Courses",
+    "title": "SAP S4HANA Expert Certification",
+    "issuer": "Alura",
+    "category_tier": "Elite",
     "type": "pdf",
     "image_url": "/certificados/images/sap-s-4hana.png",
-    "verify_url": "/certificados/SAP-S-4HANA.pdf"
+    "verify_url": "/certificados/SAP-S-4HANA.pdf",
+    "description": "Certificação em SAP S4HANA, demonstrando habilidades avançadas em implementação e gestão de sistemas empresariais com a plataforma SAP.",
+    "issue_date": "18/04/2026"
   },
   {
     "id": "google-cybersecurity-professional-certificate-v2",
-    "title": "Google Cybersecurity Professional Certificate V2",
-    "issuer": "Desconhecido",
+    "title": "Cybersecurity Professional Certificate V2",
+    "issuer": "Google Cloud",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/google-cybersecurity-professional-certificate-v2.png",
-    "verify_url": "/certificados/Google-Cybersecurity-Professional-Certificate-V2.pdf"
+    "verify_url": "/certificados/Google-Cybersecurity-Professional-Certificate-V2.pdf",
+    "description": "Este certificado demonstra habilidades avançadas em segurança cibernética, abrangendo temas como gestão de riscos e mitigação de vulnerabilidades, garantindo a integridade e confidencialidade dos dados.",
+    "issue_date": "18/04/2026"
   },
   {
     "id": "cyberessentials",
-    "title": "Cyberessentials",
-    "issuer": "Desconhecido",
+    "title": "Cyber Essentials Certification",
+    "issuer": "Google Cloud",
     "category_tier": "Cybersecurity",
     "type": "pdf",
     "image_url": "/certificados/images/cyberessentials.png",
-    "verify_url": "/certificados/CyberEssentials.pdf"
+    "verify_url": "/certificados/CyberEssentials.pdf",
+    "description": "Acreditação em Cybersecurity para projetos e soluções em nuvem, demonstrando habilidades avançadas em gerenciamento de riscos e segurança cibernética.",
+    "issue_date": "18/04/2026"
+  },
+  {
+    "id": "google-cloud-strategies-for-cloud-security-risk-management-2026-04-19",
+    "title": "Strategies for Cloud Security Risk Management",
+    "issuer": "Google Cloud",
+    "description": "",
+    "image_url": "/certificados/images/google-cloud-strategies-for-cloud-security-risk-management-2026-04-19.png",
+    "pdf_url": "/certificados/google-cloud-strategies-for-cloud-security-risk-management-2026-04-19.pdf",
+    "issue_date": "19/04/2026",
+    "type": "pdf",
+    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23695734",
+    "category_tier": "Cybersecurity"
   }
 ]

@@ -26,62 +26,56 @@ const TABS = [
 const CertificateInfoContent = ({ certificate }: { certificate: Certificate }) => {
   const isBadge = certificate.type === 'badge';
   const url = certificate.verify_url || certificate.pdf_url;
-  
+
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '5px' }}>
-      {/* Imagem do Selo no Topo */}
-      {isBadge && certificate.image_url && (
-        <div style={{ 
-          background: '#1c2431', 
-          padding: '20px', 
-          borderRadius: '50%', 
-          marginBottom: '15px', 
-          boxShadow: '0 0 20px rgba(0, 174, 239, 0.2)',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          width: '140px',
-          height: '140px'
-        }}>
+    <div className="cert-modal-container">
+      {/* Badge/Document Image Wrapper 
+      {certificate.image_url && (
+        <div className="cert-badge-wrapper">
           <img 
             src={certificate.image_url} 
             alt={certificate.title} 
-            style={{ width: '100px', height: '100px', objectFit: 'contain' }} 
             onError={(e) => { (e.target as HTMLImageElement).src = '/assets/logo_metalico_sem_fundo.png' }}
           />
         </div>
-      )}
+      )}*/}
 
-      {/* Info Sections */}
-      <div style={{ width: '100%', textAlign: 'left' }}>
-        <div className="info-section">
-          <h3>Emissor</h3>
-          <p>
-            {certificate.issuer} 
-            <br />
-            {certificate.issue_date && certificate.issue_date !== "N/A" && (
-              <span style={{ fontSize: '0.85rem', color: '#00AEEF' }}>Concluído em: {certificate.issue_date}</span>
-            )}
-          </p>
+      {/* Metadata Grid */}
+      <div className="cert-info-grid">
+        <div className="cert-meta-item">
+          <span className="cert-label">
+            <i className="fa-solid fa-building-columns"></i> Emissor
+          </span>
+          <span className="cert-value">{certificate.issuer}</span>
         </div>
-        
-        {certificate.description && (
-          <div className="info-section">
-            <h3>Descrição</h3>
-            <p>{certificate.description}</p>
+
+        {certificate.issue_date && certificate.issue_date !== "N/A" && (
+          <div className="cert-meta-item">
+            <span className="cert-label">
+              <i className="fa-solid fa-calendar-check"></i> Conclusão
+            </span>
+            <span className="cert-value">{certificate.issue_date}</span>
           </div>
         )}
       </div>
 
-      <div className="modal-actions" style={{ width: '100%', marginTop: '15px' }}>
-        <a 
-          href={url} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="modal-button primary"
-          style={{ width: '100%', textAlign: 'center', display: 'block' }}
+      {/* Description Section */}
+      {certificate.description && (
+        <div className="cert-description-card">
+          <h4><i className="fa-solid fa-info-circle"></i> Descrição Profissional</h4>
+          <p className="cert-description-text">{certificate.description}</p>
+        </div>
+      )}
+
+      {/* Actions */}
+      <div className="modal-actions-wrapper">
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="modal-button premium-action"
         >
-          {isBadge ? 'Verificar Credencial Pública' : 'Visualizar Documento (PDF)'}
+          <i className="fa-solid fa-file-contract"></i> {isBadge ? 'Verificar Credencial Pública' : 'Visualizar Documento (PDF)'}
         </a>
       </div>
     </div>
