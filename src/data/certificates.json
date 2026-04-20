@@ -2477,15 +2477,12 @@
     "issue_date": "18/04/2026"
   },
   {
-    "id": "google-cloud-strategies-for-cloud-security-risk-management-2026-04-19",
-    "title": "Estratégias para Gestão de Riscos de Segurança do Nuvem",
-    "issuer": "Google Cloud",
-    "description": "Desenvolvimento de estratégias para gerenciar riscos de segurança em ambientes de nuvem.",
-    "image_url": "/certificados/images/google-cloud-strategies-for-cloud-security-risk-management-2026-04-19.png",
-    "pdf_url": "/certificados/google-cloud-strategies-for-cloud-security-risk-management-2026-04-19.pdf",
-    "issue_date": "2026-04-19",
+    "id": "google-cloud-strategies-for-cloud-security-risk-management-2026-04-19-",
+    "title": "Google Cloud Strategies For Cloud Security Risk Management 2026 04 19 ",
+    "issuer": "Desconhecido",
+    "category_tier": "Cybersecurity",
     "type": "pdf",
-    "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23695734",
-    "category_tier": "Cybersecurity"
+    "image_url": "/certificados/images/google-cloud-strategies-for-cloud-security-risk-management-2026-04-19-.png",
+    "verify_url": "/certificados/google-cloud-strategies-for-cloud-security-risk-management-2026-04-19_.pdf"
   }
 ]
