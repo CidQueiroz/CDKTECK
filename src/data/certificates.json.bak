@@ -27,10 +27,10 @@
     "id": "oracle-cloud-infrastructure-2025-certified-multicloud-architect-professional",
     "title": "Oracle Cloud Infrastructure Certified Multicloud Architect Professional",
     "issuer": "Oracle",
-    "description": "Arquitetura de Infraestrutura da Nuvem Certificada pelo Oracle, demonstrando habilidades avançadas em arquitetura e implementação de soluções multicloud.",
+    "description": "Este certificado testemunha minha habilidade em projetar e implementar soluções de cloud computing escaláveis, flexíveis e seguras, utilizando a infraestrutura do Oracle Cloud.",
     "image_url": "/certificados/images/oracle-cloud-infrastructure-2025-certified-multicloud-architect-professional.png",
     "pdf_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional.pdf",
-    "issue_date": "2025-10-24",
+    "issue_date": "24/10/2025",
     "type": "pdf",
     "verify_url": "/certificados/Oracle Cloud Infrastructure 2025 Certified Multicloud Architect Professional.pdf",
     "category_tier": "Elite"
@@ -421,14 +421,14 @@
   },
   {
     "id": "desenvolver-agentes-de-ia-com-a-extensao-microsoft-foundry-no-visual-studio-code",
-    "title": "Desenvolvimento de Agentes de Inteligência Artificial com a Extensão Microsoft Foundry no Visual Studio Code",
+    "title": "Desenvolvimento de Agentes de Intellligência Artificial com a Extensão Microsoft Foundry no Visual Studio Code",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-agentes-de-ia-com-a-extensao-microsoft-foundry-no-visual-studio-code.png",
     "verify_url": "/certificados/desenvolver-agentes-de-ia-com-a-extensao-microsoft-foundry-no-visual-studio-code.pdf",
-    "description": "Desenvolveu agentes de IA com a extensão Microsoft Foundry no Visual Studio Code, demonstrando habilidades técnicas em inteligência artificial e ferramentas de desenvolvimento.",
-    "issue_date": "2026-04-17"
+    "description": "Este certificado atesta o meu conhecimento em desenvolver agentes de inteligência artificial utilizando a extensão Microsoft Foundry no ambiente do Visual Studio Code.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "analisar-video",
@@ -439,7 +439,7 @@
     "image_url": "/certificados/images/analisar-video.png",
     "verify_url": "/certificados/analisar-video.pdf",
     "issue_date": "17/04/2026",
-    "description": "Este certificado demonstra a competência de Cyrd Queiroz em analisar vídeos com êxito, habilidade desenvolvida após conclusão do treinamento."
+    "description": "Este certificado demonstra a competência de Cidirclay Santos de Lima Queiroz em analisar vídeos com êxito, habilidade desenvolvida após conclusão do treinamento."
   },
   {
     "id": "configurar-a-seguranca-do-armazenamento-do-microsoft-azure",
@@ -526,8 +526,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/az-104-configurar-e-gerenciar-redes-virtuais-para-administradores-do-azure.png",
     "verify_url": "/certificados/az-104-configurar-e-gerenciar-redes-virtuais-para-administradores-do-azure.pdf",
-    "description": "Este certificado demonstra habilidades em configuração e gerenciamento de redes virtuais no ambiente do Microsoft Azure.",
-    "issue_date": "2026-04-17"
+    "description": "O certificado AZ-104 demonstra habilidades avançadas em configuração e gerenciamento de redes virtuais na plataforma Microsoft Azure, essencial para a gestão eficaz de infraestruturas cloud.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "implementar-os-aplicativos-de-conteiner-do-azure",
@@ -571,7 +571,7 @@
     "image_url": "/certificados/images/az-104-pre-requisitos-para-administradores-do-azure.png",
     "verify_url": "/certificados/az-104-pre-requisitos-para-administradores-do-azure.pdf",
     "issue_date": "17/04/2026",
-    "description": "Certificado em AZ-104, este título demonstra a habilidade de Cyrd Queiroz em pré-requisitos para a administração do Azure, uma plataforma cloud líder."
+    "description": "Certificado em AZ-104, este título demonstra a habilidade de Cidirclay Santos de Lima Queiroz em pré-requisitos para a administração do Azure, uma plataforma cloud líder."
   },
   {
     "id": "comece-com-o-fluxo-de-prompt-para-desenvolver-aplicativos-baseados-em-modelos-de-linguagem-no-microsoft-foundry",
@@ -581,8 +581,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/comece-com-o-fluxo-de-prompt-para-desenvolver-aplicativos-baseados-em-modelos-de-linguagem-no-microsoft-foundry.png",
     "verify_url": "/certificados/comece-com-o-fluxo-de-prompt-para-desenvolver-aplicativos-baseados-em-modelos-de-linguagem-no-microsoft-foundry.pdf",
-    "description": "Este certificado demonstra minha habilidade em desenvolver aplicativos baseados em modelos de linguagem no Microsoft Foundry.",
-    "issue_date": "2026-04-17"
+    "description": "Este certificado demonstra habilidades em desenvolvimento de aplicativos baseados em modelos de linguagem utilizando a tecnologia do Microsoft Foundry.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "az-305-elaborar-solucoes-de-armazenamento-de-dados",
@@ -604,7 +604,7 @@
     "image_url": "/certificados/images/traduzir-texto-e-fala-com-as-ferramentas-do-microsoft-foundry.png",
     "verify_url": "/certificados/traduzir-texto-e-fala-com-as-ferramentas-do-microsoft-foundry.pdf",
     "issue_date": "17/04/2026",
-    "description": "Este certificado atesta a habilidade de Cyrd Queiroz em traduzir texto e fala utilizando as ferramentas do Microsoft Foundry, demonstrando competência técnica em processamento de linguagem natural."
+    "description": "Este certificado atesta a habilidade de Cidirclay Santos de Lima Queiroz em traduzir texto e fala utilizando as ferramentas do Microsoft Foundry, demonstrando competência técnica em processamento de linguagem natural."
   },
   {
     "id": "configurar-o-emparelhamento-de-rede-virtual-do-azure",
@@ -648,7 +648,7 @@
     "image_url": "/certificados/images/descrever-os-servicos-de-computacao-do-azure.png",
     "verify_url": "/certificados/descrever-os-servicos-de-computacao-do-azure.pdf",
     "issue_date": "17/04/2026",
-    "description": "Cyrd Queiroz conquistou o curso 'Descrever os serviços de computação do Azure', demonstrando habilidades em integração e desafios no ambiente de cloud computing."
+    "description": "Cidirclay Santos de Lima Queiroz conquistou o curso 'Descrever os serviços de computação do Azure', demonstrando habilidades em integração e desafios no ambiente de cloud computing."
   },
   {
     "id": "descrever-a-identidade-o-acesso-e-a-seguranca-do-azure",
@@ -718,14 +718,14 @@
   },
   {
     "id": "criar-aplicativos-com-reconhecimento-de-fala-usando-o-azure-speech-nas-ferramentas-do-microsoft-foundry",
-    "title": "Criar Aplicativos com Reconhecimento de Fala usando o Azure Speech nas Ferramentas do Microsoft Foundry",
+    "title": "Criar Aplicativos com Reconhecimento de Fala Usando o Azure Speech",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-aplicativos-com-reconhecimento-de-fala-usando-o-azure-speech-nas-ferramentas-do-microsoft-foundry.png",
     "verify_url": "/certificados/criar-aplicativos-com-reconhecimento-de-fala-usando-o-azure-speech-nas-ferramentas-do-microsoft-foundry.pdf",
-    "description": "Desenvolver habilidades em reconhecimento de fala e criar aplicativos que utilizem a tecnologia de reconhecimento de fala Azure Speech, dentro das ferramentas do Microsoft Foundry.",
-    "issue_date": "2026-04-17"
+    "description": "Desenvolva aplicativos que reconhecem a fala utilizando as ferramentas do Microsoft Foundry e o Azure Speech.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "azure-policy-initiatives",
@@ -768,8 +768,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/descrever-estrategias-de-alta-disponibilidade-e-recuperacao-de-desastre.png",
     "verify_url": "/certificados/descrever-estrategias-de-alta-disponibilidade-e-recuperacao-de-desastre.pdf",
-    "description": "Desenvolvi estratégias para garantir alta disponibilidade e recuperação rápida em casos de desastre, demonstrando habilidades técnicas em engenharia de dados.",
-    "issue_date": "2026-04-17"
+    "description": "Essa certificação aborda a importância de desenvolver estratégias de alta disponibilidade para garantir o funcionamento contínuo dos sistemas e serviços, além de apresentar técnicas eficazes para recuperar desastres e minimizar impactos negativos.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "desenvolver-agentes-de-ia-no-azure-preterido",
@@ -850,14 +850,14 @@
   },
   {
     "id": "gerenciar-e-controlar-o-fluxo-de-trafego-em-sua-implantacao-do-azure-com-rotas",
-    "title": "Gerenciar e controlar o fluxo de tráfego em implantações do Azure com rotas",
+    "title": "Gerenciar e controlar o fluxo de tráfego em sua implantação do Azure com rotas",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/gerenciar-e-controlar-o-fluxo-de-trafego-em-sua-implantacao-do-azure-com-rotas.png",
     "verify_url": "/certificados/gerenciar-e-controlar-o-fluxo-de-trafego-em-sua-implantacao-do-azure-com-rotas.pdf",
-    "description": "Desenvolver habilidades para gerenciar e controlar o fluxo de tráfego em implantações do Azure utilizando rotas.",
-    "issue_date": "2026-04-17"
+    "description": "A presente certificação atesta a habilidade do portador em gerenciar e controlar o fluxo de tráfego em uma implantação do Azure utilizando rotas.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "az-104-gerenciar-identidades-e-a-governanca-no-azure",
@@ -923,7 +923,7 @@
     "image_url": "/certificados/images/projetar-governanca.png",
     "verify_url": "/certificados/projetar-governanca.pdf",
     "issue_date": "17/04/2026",
-    "description": "Aqui, Cyrd Queiroz demonstrou habilidades em governança de dados, concluindo o curso Projetar Governanca."
+    "description": "Aqui, Cidirclay Santos de Lima Queiroz demonstrou habilidades em governança de dados, concluindo o curso Projetar Governanca."
   },
   {
     "id": "hospedar-seu-dominio-no-dns-do-azure",
@@ -955,8 +955,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-agente-de-fala-com-o-servidor-mcp-de-fala-do-azure.png",
     "verify_url": "/certificados/desenvolver-um-agente-de-fala-com-o-servidor-mcp-de-fala-do-azure.pdf",
-    "issue_date": "2026-04-17",
-    "description": "Concebeu e desenvolveu um agente de fala com o servidor MCP de Fala do Azure, demonstrando habilidades em tecnologias de inteligência artificial e processamento de linguagem natural."
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra habilidades em desenvolver um agente de fala com o servidor MCP de Fala do Azure, tecnologia utilizada para melhorar a inteligência artificial e a computação cognitiva."
   },
   {
     "id": "configurar-instancias-de-conteiner-do-azure",
@@ -967,7 +967,7 @@
     "image_url": "/certificados/images/configurar-instancias-de-conteiner-do-azure.png",
     "verify_url": "/certificados/configurar-instancias-de-conteiner-do-azure.pdf",
     "issue_date": "17/04/2026",
-    "description": "Cyrd Queiroz concluiu com êxito o treinamento para configurar instâncias de contêiner do Azure, demonstrando habilidades técnicas em soluções de nuvem."
+    "description": "Cidirclay Santos de Lima Queiroz concluiu com êxito o treinamento para configurar instâncias de contêiner do Azure, demonstrando habilidades técnicas em soluções de nuvem."
   },
   {
     "id": "introducao-a-analise-de-ponta-a-ponta-usando-microsoft-fabric",
@@ -999,8 +999,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-aplicativo-de-ia-gerativa-com-capacidade-de-processamento-visual.png",
     "verify_url": "/certificados/desenvolver-um-aplicativo-de-ia-gerativa-com-capacidade-de-processamento-visual.pdf",
-    "description": "Concluído o desenvolvimento de um aplicativo de IA gerativa com capacidade de processamento visual, demonstrando habilidades avançadas em inteligência artificial e visão computacional.",
-    "issue_date": "2026-04-17"
+    "description": "Desenvolveu um aplicativo de inteligência artificial gerativa capaz de processar informações visuais, demonstrando habilidades técnicas avançadas em machine learning e desenvolvimento de software.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "az-104-implantar-e-gerenciar-os-recursos-de-computacao-do-azure",
@@ -1033,7 +1033,7 @@
     "image_url": "/certificados/images/comece-a-criar-com-o-power-bi.png",
     "verify_url": "/certificados/comece-a-criar-com-o-power-bi.pdf",
     "issue_date": "05/09/2025",
-    "description": "Aqui, Cyrd Queiroz demonstrou habilidade em criar conteúdo com o Power BI, ferramenta de inteligência empresarial da Microsoft."
+    "description": "Aqui, Cidirclay Santos de Lima Queiroz demonstrou habilidade em criar conteúdo com o Power BI, ferramenta de inteligência empresarial da Microsoft."
   },
   {
     "id": "analisar-imagens",
@@ -1044,7 +1044,7 @@
     "image_url": "/certificados/images/analisar-imagens.png",
     "verify_url": "/certificados/analisar-imagens.pdf",
     "issue_date": "17/04/2026",
-    "description": "Este certificado demonstra habilidades técnicas em análise de imagens, com êxito concluída por Cyrd Queiroz em abril de 2026."
+    "description": "Este certificado demonstra habilidades técnicas em análise de imagens, com êxito concluída por Cidirclay Santos de Lima Queiroz em abril de 2026."
   },
   {
     "id": "introducao-ao-gateway-de-aplicativo-do-azure",
@@ -1065,8 +1065,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/proteger-seus-recursos-do-azure-com-o-azure-rbac-controle-de-acesso-baseado-em-funcao.png",
     "verify_url": "/certificados/proteger-seus-recursos-do-azure-com-o-azure-rbac-controle-de-acesso-baseado-em-funcao.pdf",
-    "description": "Implementação eficaz da proteção de recursos no ambiente do Azure utilizando o mecanismo de controle de acesso baseado em função (Azure RBAC).",
-    "issue_date": "2026-04-17"
+    "description": "A presente certificação demonstra a habilidade em proteger recursos do Azure utilizando o Azure RBAC, permitindo um controle de acesso eficaz e seguro.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "implementar-o-azure-key-vault",
@@ -1087,8 +1087,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-de-analise-multimodal-com-o-azure-content-understanding.png",
     "verify_url": "/certificados/criar-uma-solucao-de-analise-multimodal-com-o-azure-content-understanding.pdf",
-    "description": "Desenvolvi uma solução de análise multimodal utilizando o Azure Content Understanding, possibilitando a compreensão e interpretação de conteúdo em diferentes formatos.",
-    "issue_date": "2026-04-17"
+    "description": "Desenvolvido uma solução para análise multimodal utilizando o Azure Content Understanding, permitindo a automação de processos e melhorias na tomada de decisões.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "escolher-uma-grade-de-eventos-do-azure",
@@ -1131,8 +1131,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-de-armazenamento-de-dados-para-dados-relacionais.png",
     "verify_url": "/certificados/criar-uma-solucao-de-armazenamento-de-dados-para-dados-relacionais.pdf",
-    "issue_date": "2026-04-17",
-    "description": "Desenvolver uma estrutura de armazenamento eficiente para dados relacionais, utilizando tecnologias específicas da Microsoft."
+    "issue_date": "17/04/2026",
+    "description": "Desenvolveruva solução de armazenamento de dados para gerenciar e organizar dados relacionais, com foco em melhorar a eficiência e segurança dos processos de armazenamento."
   },
   {
     "id": "criar-um-aplicativo-cliente-do-azure-content-understanding",
@@ -1253,7 +1253,7 @@
     "image_url": "/certificados/images/explorar-o-azure-cosmos-db.png",
     "verify_url": "/certificados/explorar-o-azure-cosmos-db.pdf",
     "issue_date": "17/04/2026",
-    "description": "Aqui, Cyrd Queiroz demonstrou habilidades em Exploração do Azure Cosmos DB, uma solução de armazenamento de dados escalável e flexível da Microsoft."
+    "description": "Aqui, Cidirclay Santos de Lima Queiroz demonstrou habilidades em Exploração do Azure Cosmos DB, uma solução de armazenamento de dados escalável e flexível da Microsoft."
   },
   {
     "id": "migracoes-de-design",
@@ -1264,7 +1264,7 @@
     "image_url": "/certificados/images/migracoes-de-design.png",
     "verify_url": "/certificados/migracoes-de-design.pdf",
     "issue_date": "17/04/2026",
-    "description": "Cyrd Queiroz concluiu com sucesso o treinamento em Migrações de design, demonstrando habilidades técnicas avançadas na área de design e implementação de soluções migratórias."
+    "description": "Cidirclay Santos de Lima Queiroz concluiu com sucesso o treinamento em Migrações de design, demonstrando habilidades técnicas avançadas na área de design e implementação de soluções migratórias."
   },
   {
     "id": "implementar-solucoes-conteinerizadas",
@@ -1297,7 +1297,7 @@
     "image_url": "/certificados/images/descrever-os-principais-componentes-arquitetonicos-do-azure.png",
     "verify_url": "/certificados/descrever-os-principais-componentes-arquitetonicos-do-azure.pdf",
     "issue_date": "17/04/2026",
-    "description": "Este certificado atesta que Cyrd Queiroz conquistou o conhecimento sobre os principais componentes arquitetônicos do Azure, demonstrando habilidades técnicas em desenhar soluções escaláveis e seguras na cloud."
+    "description": "Este certificado atesta que Cidirclay Santos de Lima Queiroz conquistou o conhecimento sobre os principais componentes arquitetônicos do Azure, demonstrando habilidades técnicas em desenhar soluções escaláveis e seguras na cloud."
   },
   {
     "id": "explorar-os-slots-de-implantacao-do-servico-de-aplicativo-do-azure",
@@ -1307,8 +1307,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/explorar-os-slots-de-implantacao-do-servico-de-aplicativo-do-azure.png",
     "verify_url": "/certificados/explorar-os-slots-de-implantacao-do-servico-de-aplicativo-do-azure.pdf",
-    "description": "Desenvolvendo habilidades em Exploração de Slots de Implantação do Serviço de Aplicativo do Azure para a gestão eficaz de aplicações no Microsoft Azure.",
-    "issue_date": "2026-04-17"
+    "description": "Este certificado comprova a habilidade em explorar e gerenciar slots de implantação no Serviço de Aplicativo do Azure, uma ferramenta fundamental para a implementação e manutenção de aplicações na nuvem.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "solucionar-problemas-de-solucoes-usando-o-application-insights",
@@ -1341,7 +1341,7 @@
     "image_url": "/certificados/images/configurar-redes-virtuais.png",
     "verify_url": "/certificados/configurar-redes-virtuais.pdf",
     "issue_date": "17/04/2026",
-    "description": "Neste certificado, Cyrd Queiroz demonstrou habilidade em configurar redes virtuais."
+    "description": "Neste certificado, Cidirclay Santos de Lima Queiroz demonstrou habilidade em configurar redes virtuais."
   },
   {
     "id": "desenvolver-solucoes-de-pesquisa-visual-computacional-no-azure-preterido",
@@ -1363,7 +1363,7 @@
     "image_url": "/certificados/images/descubra-as-filas-de-mensagens-do-azure.png",
     "verify_url": "/certificados/descubra-as-filas-de-mensagens-do-azure.pdf",
     "issue_date": "17/04/2026",
-    "description": "Neste certificado, Cyrd Queiroz demonstrou habilidades técnicas para gerenciar e trabalhar com filas de mensagens no ambiente Microsoft Azure."
+    "description": "Neste certificado, Cidirclay Santos de Lima Queiroz demonstrou habilidades técnicas para gerenciar e trabalhar com filas de mensagens no ambiente Microsoft Azure."
   },
   {
     "id": "criar-uma-solucao-de-armazenamento-de-dados-para-dados-nao-relacionais",
@@ -1373,8 +1373,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-de-armazenamento-de-dados-para-dados-nao-relacionais.png",
     "verify_url": "/certificados/criar-uma-solucao-de-armazenamento-de-dados-para-dados-nao-relacionais.pdf",
-    "description": "Desenvolveru e implementou uma solução eficaz para armazenamento de dados não relacionais, demonstrando habilidades em gestão de projetos complexos.",
-    "issue_date": "2026-04-17"
+    "description": "Arquitetura de dados não relacionais: criada uma solução de armazenamento eficaz para dados sem estrutura",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "ler-texto-em-imagens",
@@ -1385,7 +1385,7 @@
     "image_url": "/certificados/images/ler-texto-em-imagens.png",
     "verify_url": "/certificados/ler-texto-em-imagens.pdf",
     "issue_date": "17/04/2026",
-    "description": "Certificação para ler texto em imagens, habilidade desenvolvida pelo Cyrd Queiroz, que demonstra competência técnica na transcrição de conteúdo visual."
+    "description": "Certificação para ler texto em imagens, habilidade desenvolvida pelo Cidirclay Santos de Lima Queiroz, que demonstra competência técnica na transcrição de conteúdo visual."
   },
   {
     "id": "criar-configurar-e-gerenciar-identidades",
@@ -1400,14 +1400,14 @@
   },
   {
     "id": "orquestrar-uma-solucao-de-varios-agentes-usando-o-microsoft-agent-framework",
-    "title": "Orquestrar uma Solução de Vários Agentes Usando o Microsoft Agent Framework",
+    "title": "Orquestrar Uma Solução de Vários Agentes Usando o Microsoft Agent Framework",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/orquestrar-uma-solucao-de-varios-agentes-usando-o-microsoft-agent-framework.png",
     "verify_url": "/certificados/orquestrar-uma-solucao-de-varios-agentes-usando-o-microsoft-agent-framework.pdf",
-    "description": "Desenvolveu habilidades em orquestração de agentes para solucionar problemas complexos utilizando o Microsoft Agent Framework.",
-    "issue_date": "2026-04-17"
+    "description": "Aqui, é demonstrado como orquestrar uma solução com vários agentes utilizando o Microsoft Agent Framework, permitindo a integração eficaz de diferentes componentes e sistemas.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "introducao-ao-desenvolvimento-do-agente-de-ia-no-azure",
@@ -1439,8 +1439,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/criar-uma-solucao-de-mineracao-de-conhecimento-com-o-azure-ai-search.png",
     "verify_url": "/certificados/criar-uma-solucao-de-mineracao-de-conhecimento-com-o-azure-ai-search.pdf",
-    "issue_date": "2026-04-17",
-    "description": "Desenvolvido uma solução para mineração de conhecimento utilizando o serviço Azure AI Search, demonstrando habilidades em processamento de linguagem natural e gerenciamento de dados."
+    "issue_date": "17/04/2026",
+    "description": "Aqui, Cidirclay Santos de Lima Queiroz demonstrou habilidades avançadas em mineração de conhecimento utilizando o serviço Azure AI Search da Microsoft."
   },
   {
     "id": "projetar-solucoes-de-rede",
@@ -1494,8 +1494,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-aplicativo-de-ia-com-o-sdk-do-microsoft-foundry.png",
     "verify_url": "/certificados/desenvolver-um-aplicativo-de-ia-com-o-sdk-do-microsoft-foundry.pdf",
-    "issue_date": "2026-04-17",
-    "description": "Desenvolvi um aplicativo de IA utilizando o SDK do Microsoft Foundry, demonstrando habilidades em Inteligência Artificial e desenvolvimento de aplicações com tecnologia da Microsoft."
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra minhas habilidades técnicas em desenvolver aplicações de inteligência artificial utilizando o SDK do Microsoft Foundry."
   },
   {
     "id": "criar-uma-solucao-para-registrar-e-monitorar-recursos-do-azure",
@@ -1604,8 +1604,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-aplicativo-de-ia-gerador-com-capacidade-de-fala.png",
     "verify_url": "/certificados/desenvolver-um-aplicativo-de-ia-gerador-com-capacidade-de-fala.pdf",
-    "issue_date": "2026-04-17",
-    "description": "Desenvolvendo um aplicativo de Inteligência Artificial (IA) gerador com capacidade de fala, demonstrando habilidades em criação de soluções inovadoras com inteligência artificial."
+    "issue_date": "17/04/2026",
+    "description": "Este certificado demonstra a habilidade em desenvolver um aplicativo inteligente gerador de linguagem natural, capaz de processar e responder a solicitações orais."
   },
   {
     "id": "introducao-ao-azure-cloud-shell",
@@ -1626,8 +1626,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/planejar-e-preparar-se-para-desenvolver-solucoes-de-ia-no-azure.png",
     "verify_url": "/certificados/planejar-e-preparar-se-para-desenvolver-solucoes-de-ia-no-azure.pdf",
-    "issue_date": "2026-04-17",
-    "description": "Desenvolvimento de soluções de inteligência artificial com o Azure, abordando a planejamento e preparação necessárias para implementar essas soluções."
+    "issue_date": "17/04/2026",
+    "description": "Desenvolver soluções de inteligência artificial (IA) no ambiente do Microsoft Azure. Nesse treinamento, você aprendeu a planejar e se preparar para criar aplicativos que integram IA com a plataforma do Azure."
   },
   {
     "id": "configurar-arquivos-do-azure",
@@ -1648,8 +1648,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/criar-agentes-de-ia-aprimorados-com-conhecimento-com-o-iq-do-foundry.png",
     "verify_url": "/certificados/criar-agentes-de-ia-aprimorados-com-conhecimento-com-o-iq-do-foundry.pdf",
-    "description": "Desenvolver habilidades em agentes de inteligência artificial aprimorados com conhecimento utilizando o IQ do Foundry, plataforma de treinamento e aprendizado.",
-    "issue_date": "2026-04-17"
+    "description": "Desenvolvimento de agentes inteligentes para aprendizado automático, utilizando tecnologias do Foundry e Inteligência Artificial.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "implementar-a-gestao-da-api",
@@ -1660,7 +1660,7 @@
     "image_url": "/certificados/images/implementar-a-gestao-da-api.png",
     "verify_url": "/certificados/implementar-a-gestao-da-api.pdf",
     "issue_date": "17/04/2026",
-    "description": "Cyrd Queiroz concluiu com sucesso o treinamento Implementar a gestão da API, demonstrando habilidades técnicas em gerenciamento de APIs."
+    "description": "Cidirclay Santos de Lima Queiroz concluiu com sucesso o treinamento Implementar a gestão da API, demonstrando habilidades técnicas em gerenciamento de APIs."
   },
   {
     "id": "criar-uma-solucao-para-backup-e-recuperacao-de-desastre",
@@ -1682,7 +1682,7 @@
     "image_url": "/certificados/images/configurar-armazenamento-de-blobs-do-azure.png",
     "verify_url": "/certificados/configurar-armazenamento-de-blobs-do-azure.pdf",
     "issue_date": "17/04/2026",
-    "description": "Neste certificado, Cyrd Queiroz demonstrou habilidades técnicas para configurar e gerenciar armazenamentos de blobs no Microsoft Azure."
+    "description": "Neste certificado, Cidirclay Santos de Lima Queiroz demonstrou habilidades técnicas para configurar e gerenciar armazenamentos de blobs no Microsoft Azure."
   },
   {
     "id": "desenvolver-solucoes-baseadas-em-mensagem",
@@ -1758,8 +1758,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-agente-do-azure-speech-voice-live-no-microsoft-foundry.png",
     "verify_url": "/certificados/desenvolver-um-agente-do-azure-speech-voice-live-no-microsoft-foundry.pdf",
-    "description": "Desenvolvido um agente do Azure Speech Voice Live no Microsoft Foundry, demonstrando habilidades em tecnologia de linguagem natural.",
-    "issue_date": "2026-04-17"
+    "description": "Este certificado demonstra habilidades técnicas em desenvolvimento de agentes de voz para soluções de fala na plataforma Azure, dentro do ecossistema Microsoft Foundry.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "implementar-a-autenticacao-usando-a-biblioteca-de-autenticacao-da-microsoft",
@@ -1769,8 +1769,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/implementar-a-autenticacao-usando-a-biblioteca-de-autenticacao-da-microsoft.png",
     "verify_url": "/certificados/implementar-a-autenticacao-usando-a-biblioteca-de-autenticacao-da-microsoft.pdf",
-    "description": "Realizou a implementação da autenticação utilizando a Biblioteca de Autenticação da Microsoft, demonstrando habilidades técnicas e conhecimentos sobre segurança de informações.",
-    "issue_date": "2026-04-17"
+    "description": "Neste treinamento, foi implementada a autenticação utilizando a Biblioteca de Autenticação da Microsoft, demonstrando habilidades técnicas em segurança e integração de sistemas.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "explorar-o-microsoft-graph",
@@ -1802,8 +1802,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/permita-que-os-usuarios-redefinam-a-senha-com-a-redefinicao-de-senha-self-service-do-microsoft-entra.png",
     "verify_url": "/certificados/permita-que-os-usuarios-redefinam-a-senha-com-a-redefinicao-de-senha-self-service-do-microsoft-entra.pdf",
-    "description": "Reforçando a segurança de autenticação com a implementação da redefinição de senha self-service no Microsoft Entra.",
-    "issue_date": "2026-04-17"
+    "description": "Este certificado demonstra habilidades técnicas para permitir que os usuários redefinam suas senhas usando a redefinição de senha self-service do Microsoft Entra.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "introducao-ao-microsoft-cloud-adoption-framework",
@@ -1857,8 +1857,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-um-agente-de-analise-de-texto-com-o-servidor-mcp-de-linguagem-do-azure.png",
     "verify_url": "/certificados/Desenvolver-um-agente-de-análise-de-texto-com-o-servidor-MCP-de-Linguagem-do-Azure.pdf",
-    "description": "Desenvolvimento de um agente de análise de texto utilizando o servidor Linguagem do Azure para processamento de linguagem natural.",
-    "issue_date": "2026-04-17"
+    "description": "Este certificado demonstra a habilidade em desenvolver um agente de análise de texto utilizando o servidor MCP de Linguagem do Azure.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "criar-um-agente-de-ia-com-o-microsoft-foundry-habilidade-aplicada-da-microsoft",
@@ -1868,19 +1868,19 @@
     "type": "pdf",
     "image_url": "/certificados/images/criar-um-agente-de-ia-com-o-microsoft-foundry-habilidade-aplicada-da-microsoft.png",
     "verify_url": "/certificados/criar-um-agente-de-ia-com-o-microsoft-foundry-habilidade-aplicada-da-microsoft.pdf",
-    "description": "Desenvolvido uma habilidade em Criar um agente de IA com o Microsoft Foundry, demonstrando conhecimento e experiência na criação de inteligência artificial.",
-    "issue_date": "2026-04-17"
+    "description": "Completou a habilidade 'Criar um agente de IA com o Microsoft Foundry', demonstrando competências técnicas em inteligência artificial e desenvolvimento de agentes de IA utilizando o Microsoft Foundry.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "criar-fluxos-de-trabalho-controlados-por-agente-usando-o-microsoft-foundry",
-    "title": "Criar Fluxos de Trabalho Controlados por Agente utilizando o Microsoft Foundry",
+    "title": "Criar Fluxos De Trabalho Controlados Por Agente Usando O Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/criar-fluxos-de-trabalho-controlados-por-agente-usando-o-microsoft-foundry.png",
     "verify_url": "/certificados/criar-fluxos-de-trabalho-controlados-por-agente-usando-o-microsoft-foundry.pdf",
-    "description": "Este certificado demonstra habilidades em criar fluxos de trabalho controlados por agente utilizando a ferramenta Microsoft Foundry, desenvolvida para automatizar processos e melhorar eficiência.",
-    "issue_date": "2026-04-17"
+    "description": "Este certificado demonstra habilidade em criar fluxos de trabalho controlados por agente utilizando o Microsoft Foundry, uma ferramenta que permite automatizar e melhorar processos de trabalho.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "criar-solucoes-de-infraestrutura-do-microsoft-azure",
@@ -1902,7 +1902,7 @@
     "image_url": "/certificados/images/estrutura-bem-arquitetada-do-microsoft-azure-confiabilidade.png",
     "verify_url": "/certificados/estrutura-bem-arquitetada-do-microsoft-azure-confiabilidade.pdf",
     "issue_date": "17/04/2026",
-    "description": "Este certificado atesta a habilidade de Cyrd Queiroz em implementar uma estrutura bem arquitetada no Microsoft Azure, garantindo confiabilidade e segurança na infraestrutura."
+    "description": "Este certificado atesta a habilidade de Cidirclay Santos de Lima Queiroz em implementar uma estrutura bem arquitetada no Microsoft Azure, garantindo confiabilidade e segurança na infraestrutura."
   },
   {
     "id": "desenvolver-uma-solucao-baseada-em-rag-com-seus-proprios-dados-usando-o-microsoft-foundry",
@@ -1923,8 +1923,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/desenvolver-uma-solucao-de-varios-agentes-com-o-servico-do-microsoft-foundry-agent.png",
     "verify_url": "/certificados/desenvolver-uma-solucao-de-varios-agentes-com-o-servico-do-microsoft-foundry-agent.pdf",
-    "description": "Desenvolvi uma solução para gerenciamento de vários agentes utilizando o Serviço do Microsoft Foundry Agent.",
-    "issue_date": "2026-04-17"
+    "description": "Este certificado demonstra habilidades técnicas em desenvolvimento de soluções que integram vários agentes utilizando o serviço Microsoft Foundry Agent, uma ferramenta avançada para automatizar e gerenciar processos.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "explorar-a-plataforma-de-identidade-da-microsoft",
@@ -1945,8 +1945,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/escolher-e-implantar-modelos-no-catalogo-de-modelos-no-portal-do-microsoft-foundry.png",
     "verify_url": "/certificados/escolher-e-implantar-modelos-no-catalogo-de-modelos-no-portal-do-microsoft-foundry.pdf",
-    "description": "Desenvolvimento de habilidades técnicas para escolher e implementar modelos no catálogo de modelos do Microsoft Foundry.",
-    "issue_date": "2026-04-17"
+    "description": "Neste certificado, é demonstrado o conhecimento em escolher e implantar modelos no catálogo de modelos do Microsoft Foundry.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "google-cloud-responsible-ai-applying-ai-principles-with-google-cloud---locales-2026-04-16",
@@ -1989,8 +1989,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/microsoft-azure-well-architected-framework-eficiencia-de-desempenho.png",
     "verify_url": "/certificados/microsoft-azure-well-architected-framework-eficiencia-de-desempenho.pdf",
-    "description": "Arquitetura eficiente para Microsoft Azure, otimizando o desempenho da aplicação e melhorando a escalabilidade.",
-    "issue_date": "2026-04-17"
+    "description": "Arquitetura bem projetada para eficiência em desempenho com o framework do Microsoft Azure, permitindo a otimização e melhoria contínuas das aplicações.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "estrutura-bem-arquitetada-do-microsoft-azure-seguranca",
@@ -2027,14 +2027,14 @@
   },
   {
     "id": "implementar-uma-solucao-de-ia-de-geracao-responsavel-no-microsoft-foundry",
-    "title": "Implementação de Inteligência Artificial Responsável no Microsoft Foundry",
+    "title": "Implementar uma solução de IA de geração responsável no Microsoft Foundry",
     "issuer": "Microsoft",
     "category_tier": "Cloud_AI",
     "type": "pdf",
     "image_url": "/certificados/images/implementar-uma-solucao-de-ia-de-geracao-responsavel-no-microsoft-foundry.png",
     "verify_url": "/certificados/implementar-uma-solucao-de-ia-de-geracao-responsavel-no-microsoft-foundry.pdf",
-    "description": "Desenvolvi e implementei uma solução de inteligência artificial de geração responsável no Microsoft Foundry, demonstrando habilidades em integração de tecnologias e soluções de IA para problemas complexos.",
-    "issue_date": "2026-04-17"
+    "description": "Desenvolver e implementar uma solução de inteligência artificial de geração responsável, utilizando tecnologias do Microsoft Foundry para melhorar a eficiência e a precisão das decisões.",
+    "issue_date": "17/04/2026"
   },
   {
     "id": "administradores-do-microsoft-azure",
@@ -2220,8 +2220,8 @@
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-google-cloud-computing-foundations-data-ml-and-ai-in-google-cloud-2026-02-28.png",
     "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22674797",
-    "description": "Aprender a projetar e implementar soluções de computação em nuvem com foco em dados, inteligência artificial e machine learning utilizando a plataforma do Google Cloud.",
-    "issue_date": "2026-02-28"
+    "description": "Nesta certificação, você desenvolveu habilidades práticas em processamento de dados, aprendizado automático e inteligência artificial no Google Cloud.",
+    "issue_date": "28/02/2026"
   },
   {
     "id": "google-cloud-arcade-february-2026-sprint-3-2026-02-13",
@@ -2357,14 +2357,14 @@
   },
   {
     "id": "google-cloud-work-meets-play-journeys-made-easy-2026-02-24",
-    "title": "Google Cloud Certified - Data Architecture",
-    "issuer": "Meta Title",
+    "title": "Work Meets Play Journeys Made Easy: Google Cloud Data Architecture and Engineering",
+    "issuer": "Google Cloud",
     "category_tier": "Elite",
     "type": "pdf",
     "image_url": "/certificados/images/google-cloud-work-meets-play-journeys-made-easy-2026-02-24.png",
     "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/22542864",
-    "description": "Desenvolvi uma arquitetura de dados para jornadas Work Meets Play, utilizando habilidades em engenharia de dados do Google Cloud.",
-    "issue_date": "2026-02-24"
+    "description": "Desenvolvimento de soluções escaláveis e eficientes com arquitetura de dados em nuvem, utilizando tecnologias da Google Cloud.",
+    "issue_date": "24/02/2026"
   },
   {
     "id": "google-cloud-arcade-february-2026-sprint-1-2026-02-12",
@@ -2478,12 +2478,12 @@
   },
   {
     "id": "google-cloud-strategies-for-cloud-security-risk-management-2026-04-19",
-    "title": "Estratégias para Gestão de Riscos de Segurança do Nuvem",
+    "title": "Strategies for Cloud Security Risk Management",
     "issuer": "Google Cloud",
-    "description": "Desenvolvimento de estratégias para gerenciar riscos de segurança em ambientes de nuvem.",
+    "description": "",
     "image_url": "/certificados/images/google-cloud-strategies-for-cloud-security-risk-management-2026-04-19.png",
     "pdf_url": "/certificados/google-cloud-strategies-for-cloud-security-risk-management-2026-04-19.pdf",
-    "issue_date": "2026-04-19",
+    "issue_date": "19/04/2026",
     "type": "pdf",
     "verify_url": "https://www.skills.google/public_profiles/3173b2da-2150-4c06-b953-7b2c0222f450/badges/23695734",
     "category_tier": "Cybersecurity"
