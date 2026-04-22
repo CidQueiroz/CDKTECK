@@ -17,10 +17,11 @@ interface Certificate {
 }
 
 const TABS = [
-  { id: 'Elite', label: '🏆 THE UNICORN LAYER', desc: 'Elite & Architectures' },
-  { id: 'Cloud_AI', label: '☁️ CLOUD & AI', desc: 'Google, Oracle, AWS, MS' },
-  { id: 'Cybersecurity', label: '🛡️ CYBERSECURITY', desc: 'Defesa & Segurança' },
-  { id: 'Tools_Courses', label: '🛠️ FERRAMENTAS & CURSOS', desc: 'Skills Complementares' }
+  { id: 'Elite', label: '🏆 THE UNICORN LAYER', desc: 'ELITE & ARCHITECTURES' },
+  { id: 'Cloud_AI', label: '☁️', title: 'CLOUD & AI', desc: 'GOOGLE, ORACLE, AWS, MS' },
+  { id: 'Data_Intelligence', label: '📊 DATA INTELLIGENCE', desc: 'ENGENHARIA & ANÁLISE' },
+  { id: 'Cybersecurity', label: '🛡️ CYBERSECURITY', desc: 'DEFESA & SEGURANÇA' },
+  { id: 'Tools_Courses', label: '🛠️ FERRAMENTAS & CURSOS', desc: 'SKILLS COMPLEMENTARES' },
 ];
 
 const CertificateInfoContent = ({ certificate }: { certificate: Certificate }) => {
