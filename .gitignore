@@ -125,3 +125,4 @@ scripts/gcp_badge_detail.html
 
 scripts/sanitize-certificates.js
 scripts/convert-dates.js
+data/certificates.json.bak

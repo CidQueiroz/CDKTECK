@@ -16,12 +16,13 @@ interface Certificate {
   issue_date?: string;
 }
 
+// 1. Dicionário Refatorado (Clean Data)
 const TABS = [
-  { id: 'Elite', label: '🏆 THE UNICORN LAYER', desc: 'ELITE & ARCHITECTURES' },
-  { id: 'Cloud_AI', label: '☁️', title: 'CLOUD & AI', desc: 'GOOGLE, ORACLE, AWS, MS' },
-  { id: 'Data_Intelligence', label: '📊 DATA INTELLIGENCE', desc: 'ENGENHARIA & ANÁLISE' },
-  { id: 'Cybersecurity', label: '🛡️ CYBERSECURITY', desc: 'DEFESA & SEGURANÇA' },
-  { id: 'Tools_Courses', label: '🛠️ FERRAMENTAS & CURSOS', desc: 'SKILLS COMPLEMENTARES' },
+  { id: 'Elite', icon: '🏆', label: 'THE UNICORN LAYER', desc: 'ELITE & ARCHITECTURES' },
+  { id: 'Cloud_AI', icon: '☁️', label: 'CLOUD & AI', desc: 'GOOGLE, ORACLE, AWS, MS' },
+  { id: 'Data_Intelligence', icon: '📊', label: 'DATA INTELLIGENCE', desc: 'ENGENHARIA & ANÁLISE' },
+  { id: 'Cybersecurity', icon: '🛡️', label: 'CYBERSECURITY', desc: 'DEFESA & SEGURANÇA' },
+  { id: 'Tools_Courses', icon: '🛠️', label: 'FERRAMENTAS & CURSOS', desc: 'SKILLS COMPLEMENTARES' },
 ];
 
 const CertificateInfoContent = ({ certificate }: { certificate: Certificate }) => {
@@ -87,6 +88,24 @@ export default function CertificadosPage() {
   const { showModal } = useModal();
   const [activeTab, setActiveTab] = useState<string>('Elite');
 
+  // 1. MÁGICA DOS DADOS: Conta quantos certificados existem em cada categoria
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+
+    // Inicia os contadores no zero
+    TABS.forEach(tab => { counts[tab.id] = 0; });
+
+    // Varre o JSON e soma
+    (certificatesData as Certificate[]).forEach(cert => {
+      const tier = cert.category_tier || 'Tools_Courses'; // Padrão que você definiu
+      if (counts[tier] !== undefined) {
+        counts[tier]++;
+      }
+    });
+
+    return counts;
+  }, []);
+
   const filteredCerts = useMemo(() => {
     return (certificatesData as Certificate[]).filter(
       (cert) => (cert.category_tier || 'Tools_Courses') === activeTab
@@ -99,13 +118,16 @@ export default function CertificadosPage() {
 
   return (
     <div className="portfolio-page">
-      <PageHeader
-        title="Certificações & Badges"
-        description="Comprovação de Expertise Técnica e Desenvolvimento Contínuo"
-      />
 
-      {/* Conteúdo envolto em container soberano para alinhamento com PageHeader */}
+      {/* 1. MUDANÇA: PageHeader movido para dentro do container soberano 
+             Isso garante que o título, botões e cards fiquem milimetricamente alinhados na mesma margem. */}
       <div className="sovereign-layout-container">
+
+        <PageHeader
+          title="Certificações & Badges"
+          description="Comprovação de Expertise Técnica e Desenvolvimento Contínuo"
+        />
+
         <div className="sovereign-tabs-grid">
           {TABS.map((tab) => (
             <button
@@ -113,7 +135,16 @@ export default function CertificadosPage() {
               onClick={() => setActiveTab(tab.id)}
               className={`sovereign-tab-button ${activeTab === tab.id ? 'active' : ''}`}
             >
+              {/* LINHA 1: Ícone e Badge (separados nas pontas) */}
+              <div className="tab-row-top">
+                <span className="tab-emoji">{tab.icon}</span>
+                <span className="tab-badge">{categoryCounts[tab.id]}</span>
+              </div>
+
+              {/* LINHA 2: Título Principal */}
               <span className="sovereign-tab-label">{tab.label}</span>
+
+              {/* LINHA 3: Descrição Subtítulo */}
               <span className="sovereign-tab-desc">{tab.desc}</span>
             </button>
           ))}
@@ -130,7 +161,7 @@ export default function CertificadosPage() {
               />
             ))
           ) : (
-            <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '40px', color: '#A9B2C3', border: '1px dashed #3D4855', borderRadius: '12px' }}>
+            <div className="empty-category-state">
               <p>Nenhuma credencial classificada nesta categoria no momento.</p>
             </div>
           )}
