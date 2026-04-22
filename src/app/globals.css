@@ -5,9 +5,17 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
   /* Sincronizado com o padding padrão do pacote */
   box-sizing: border-box;
+}
+
+/* Override para o PageHeader do pacote cdkteck-ui alinhar perfeitamente */
+.page-header {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
 }
 
 /* ======================================================= */
@@ -18,8 +26,8 @@
   gap: 15px;
   width: 100%;
   margin: 0 0 40px 0;
-  /* Remove qualquer margem que estava empurrando pro meio */
-  padding: 0;
+  /* Remove qualquer margem ou padding que desalinhava os cards */
+  padding: 0 !important;
   box-sizing: border-box;
 }
 
@@ -196,7 +204,8 @@
   gap: 25px;
   grid-auto-rows: 1fr;
   width: 100%;
-  padding: 10px;
+  /* Removido o padding de 10px para alinhar com o PageHeader e Tabs */
+  padding: 0 !important;
 }
 
 /* ======================================================= */
